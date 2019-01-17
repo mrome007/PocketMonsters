@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public bool Moving { get; private set; }
+
     [SerializeField]
     private float speed = 0.2f;
 
@@ -13,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerRigidBody2d;
     private MovementDirection currentDirection;
     private bool movingThroughGap;
-
+    
     private enum MovementDirection
     {
         UP,
@@ -60,6 +62,8 @@ public class PlayerMovement : MonoBehaviour
             v = -1f;
             currentDirection = MovementDirection.DOWN;
         }
+
+        Moving = h != 0f || v != 0f;
 
         movementVector.x = h;
         movementVector.y = v;

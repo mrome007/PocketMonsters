@@ -52,6 +52,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Gap.cs" />
+     <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\MonsterEncounter.cs" />
+     <Compile Include="Assets\Scripts\MonsterEncounterInfo.cs" />
+     <Compile Include="Assets\Scripts\MonsterStatus.cs" />
+     <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
