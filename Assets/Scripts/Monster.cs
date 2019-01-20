@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
+    public short MonsterNumber;
+    public string MonsterName;
+
     public enum MonsterType
     {
         NONE,

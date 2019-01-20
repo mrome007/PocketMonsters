@@ -55,7 +55,6 @@
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\MonsterBattleMatchup.cs" />
      <Compile Include="Assets\Scripts\MonsterEncounter.cs" />
-     <Compile Include="Assets\Scripts\MonsterEncounterInfo.cs" />
      <Compile Include="Assets\Scripts\MonsterStatus.cs" />
      <Compile Include="Assets\Scripts\PlayerMonster.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />
