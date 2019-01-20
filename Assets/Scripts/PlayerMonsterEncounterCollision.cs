@@ -4,16 +4,8 @@ using UnityEngine;
 
 public class PlayerMonsterEncounterCollision : MonoBehaviour
 {
-    private PlayerMovement playerMovement;
-    private Collider2D playerCollider;
     private float encounterTimer = 0f;
     private float maximumEncounterTime = 12f;
-
-    private void Awake()
-    {
-        playerMovement = GetComponent<PlayerMovement>();
-        playerCollider = GetComponent<Collider2D>();
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
