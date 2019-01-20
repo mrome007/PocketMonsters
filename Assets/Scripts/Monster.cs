@@ -7,6 +7,7 @@ public class Monster : MonoBehaviour
 {
     public enum MonsterType
     {
+        NONE,
         NORMAL,
         FIGHTING,
         FLYING,
@@ -36,12 +37,6 @@ public class Monster : MonoBehaviour
     public short BaseDefense;
     public short BaseSpecial;
     public short BaseSpeed;
-
-    public short EVHP;
-    public short EVAttack;
-    public short EVDefense;
-    public short EVSpecial;
-    public short EVSpeed;
 
     private void Awake()
     {
