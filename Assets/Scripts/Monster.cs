@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    public Sprite MonsterSprite;
+    public Sprite MonsterFrontSprite;
+    public Sprite MonsterBackSprite;
     public Monster Evolution;
 
     public short MonsterNumber;

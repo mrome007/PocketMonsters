@@ -153,7 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300042, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300042, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 22
   MonsterName: Fearow
@@ -204,7 +205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300180, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300180, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 91
   MonsterName: Cloyster
@@ -255,7 +257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300068, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300068, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 531351375}
   MonsterNumber: 35
   MonsterName: Clefairy
@@ -306,7 +309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300130, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300130, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1192533843}
   MonsterNumber: 66
   MonsterName: Machop
@@ -357,7 +361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300020, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300020, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 592432501}
   MonsterNumber: 11
   MonsterName: Metapod
@@ -408,7 +413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300074, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300074, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 38
   MonsterName: Ninetales
@@ -459,7 +465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300094, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300094, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1922844787}
   MonsterNumber: 48
   MonsterName: Venonat
@@ -510,7 +517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300114, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300114, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 645915662}
   MonsterNumber: 58
   MonsterName: Growlithe
@@ -561,7 +569,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300150, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300150, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 76
   MonsterName: Golem
@@ -612,7 +621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300058, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300058, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1938506467}
   MonsterNumber: 30
   MonsterName: Nidorina
@@ -663,7 +673,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300014, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300014, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 617002956}
   MonsterNumber: 8
   MonsterName: Wartortle
@@ -714,7 +725,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300026, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300026, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1013099998}
   MonsterNumber: 14
   MonsterName: Kakuna
@@ -831,7 +843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300188, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300188, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 95
   MonsterName: Onix
@@ -948,7 +961,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300100, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300100, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 51
   MonsterName: Dugtrio
@@ -999,7 +1013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300098, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300098, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 222092113}
   MonsterNumber: 50
   MonsterName: Diglett
@@ -1050,7 +1065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300110, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300110, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1312722680}
   MonsterNumber: 56
   MonsterName: Mankey
@@ -1167,7 +1183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300182, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300182, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1698073681}
   MonsterNumber: 92
   MonsterName: Gastly
@@ -1218,7 +1235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300048, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300048, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 761959479}
   MonsterNumber: 25
   MonsterName: Pikachu
@@ -1269,7 +1287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300138, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300138, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1425042041}
   MonsterNumber: 70
   MonsterName: Weepinbell
@@ -1386,7 +1405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300008, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300008, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 581814785}
   MonsterNumber: 5
   MonsterName: Charmeleon
@@ -1437,7 +1457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300038, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300038, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 20
   MonsterName: Raticate
@@ -1488,7 +1509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300066, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300066, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 34
   MonsterName: Nidoking
@@ -1612,7 +1634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300164, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300164, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 83
   MonsterName: Farfetch'd
@@ -1663,7 +1686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300152, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300152, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1566584899}
   MonsterNumber: 77
   MonsterName: Ponyta
@@ -1714,7 +1738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300192, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300192, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 97
   MonsterName: Hypno
@@ -1838,7 +1863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300040, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300040, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 24483168}
   MonsterNumber: 21
   MonsterName: Spearow
@@ -1889,7 +1915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300190, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300190, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 512022075}
   MonsterNumber: 96
   MonsterName: Drowzee
@@ -1940,7 +1967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300070, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300070, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 36
   MonsterName: Clefable
@@ -1991,7 +2019,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300090, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300090, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 664141194}
   MonsterNumber: 46
   MonsterName: Paras
@@ -2042,7 +2071,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300156, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300156, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1963423515}
   MonsterNumber: 79
   MonsterName: Slowpoke
@@ -2159,7 +2189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300024, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300024, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 185022066}
   MonsterNumber: 13
   MonsterName: Weedle
@@ -2210,7 +2241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300174, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300174, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1652066998}
   MonsterNumber: 88
   MonsterName: Grimer
@@ -2261,7 +2293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300010, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300010, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 6
   MonsterName: Charmeleon
@@ -2312,7 +2345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300022, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300022, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 12
   MonsterName: Butterfree
@@ -2412,7 +2446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300016, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300016, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 9
   MonsterName: Blastoise
@@ -2529,7 +2564,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300116, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300116, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 59
   MonsterName: Arcanine
@@ -2580,7 +2616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300092, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300092, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 47
   MonsterName: Parasect
@@ -2631,7 +2668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300170, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300170, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 889671885}
   MonsterNumber: 86
   MonsterName: Seel
@@ -2682,7 +2720,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300072, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300072, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 122832602}
   MonsterNumber: 37
   MonsterName: Vulpix
@@ -2733,7 +2772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300134, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300134, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 68
   MonsterName: Machamp
@@ -2784,7 +2824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300084, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300084, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 2024898006}
   MonsterNumber: 43
   MonsterName: Oddish
@@ -2835,7 +2876,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300124, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300124, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1540275756}
   MonsterNumber: 63
   MonsterName: Abra
@@ -2886,7 +2928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300050, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300050, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 26
   MonsterName: Raichu
@@ -2937,7 +2980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300046, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300046, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 24
   MonsterName: Arbok
@@ -2988,7 +3032,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300128, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300128, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 65
   MonsterName: Alakazam
@@ -3039,7 +3084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300032, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300032, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1295881831}
   MonsterNumber: 17
   MonsterName: Pidgeotto
@@ -3090,7 +3136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300036, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300036, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 411764077}
   MonsterNumber: 19
   MonsterName: Rattata
@@ -3141,7 +3188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300062, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300062, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1531691365}
   MonsterNumber: 32
   MonsterName: Nidoran-M
@@ -3192,7 +3240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300122, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300122, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 62
   MonsterName: Poliwrath
@@ -3243,7 +3292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300172, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300172, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 87
   MonsterName: Dewgong
@@ -3294,7 +3344,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300198, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300198, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1903352543}
   MonsterNumber: 100
   MonsterName: Voltorb
@@ -3345,7 +3396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300162, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300162, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 82
   MonsterName: Magneton
@@ -3396,7 +3448,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300054, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300054, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 28
   MonsterName: Sandslash
@@ -3447,7 +3500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300104, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300104, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 53
   MonsterName: Persian
@@ -3498,7 +3552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300028, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300028, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 15
   MonsterName: Beedrill
@@ -3549,7 +3604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300178, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300178, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 49021352}
   MonsterNumber: 90
   MonsterName: Shellder
@@ -3666,7 +3722,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300088, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300088, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 45
   MonsterName: Vileplume
@@ -3717,7 +3774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300136, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300136, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 366935570}
   MonsterNumber: 69
   MonsterName: Bellsprout
@@ -3768,7 +3826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300102, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300102, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 962449146}
   MonsterNumber: 52
   MonsterName: Meowth
@@ -3885,7 +3944,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300168, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300168, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 85
   MonsterName: Dodrio
@@ -3936,7 +3996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300076, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300076, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1378701945}
   MonsterNumber: 39
   MonsterName: Jigglypuff
@@ -3987,7 +4048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300132, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300132, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 730112909}
   MonsterNumber: 67
   MonsterName: Machoke
@@ -4038,7 +4100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300030, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300030, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 831565092}
   MonsterNumber: 16
   MonsterName: Pidgey
@@ -4089,7 +4152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300118, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300118, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1604291394}
   MonsterNumber: 60
   MonsterName: Poliwag
@@ -4140,7 +4204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300012, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300012, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 169478637}
   MonsterNumber: 7
   MonsterName: Squirtle
@@ -4191,7 +4256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300056, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300056, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 168565221}
   MonsterNumber: 29
   MonsterName: Nidoran-F
@@ -4242,7 +4308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300002, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300002, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1563782782}
   MonsterNumber: 2
   MonsterName: IvySaur
@@ -4293,7 +4360,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300144, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300144, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 73
   MonsterName: Tentacruel
@@ -4344,7 +4412,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300018, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300018, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 95725493}
   MonsterNumber: 10
   MonsterName: Caterpie
@@ -4395,7 +4464,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300034, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300034, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 18
   MonsterName: Pidgeot
@@ -4446,7 +4516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300106, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300106, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 2066298202}
   MonsterNumber: 54
   MonsterName: Psyduck
@@ -4497,7 +4568,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300112, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300112, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 57
   MonsterName: Primeape
@@ -4548,7 +4620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300146, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300146, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1402033613}
   MonsterNumber: 74
   MonsterName: Geodude
@@ -4599,7 +4672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300080, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300080, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1829089966}
   MonsterNumber: 41
   MonsterName: Zubat
@@ -5068,7 +5142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300078, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300078, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 40
   MonsterName: Wigglytuff
@@ -5119,7 +5194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300006, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300006, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 385762837}
   MonsterNumber: 4
   MonsterName: Charmander
@@ -5245,7 +5321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300148, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300148, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 166438542}
   MonsterNumber: 75
   MonsterName: Graveler
@@ -5296,7 +5373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300044, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300044, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 799015370}
   MonsterNumber: 23
   MonsterName: Ekans
@@ -5385,7 +5463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300140, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300140, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 71
   MonsterName: Victreebel
@@ -5502,7 +5581,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300196, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300196, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 99
   MonsterName: Kingler
@@ -5619,7 +5699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300064, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300064, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 438530902}
   MonsterNumber: 33
   MonsterName: Nidorino
@@ -5670,7 +5751,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300126, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300126, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 816999133}
   MonsterNumber: 64
   MonsterName: Kadabra
@@ -5721,7 +5803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300004, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300004, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 3
   MonsterName: Venusaur
@@ -5772,7 +5855,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300154, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300154, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 78
   MonsterName: Rapidash
@@ -5823,7 +5907,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 0}
+  MonsterBackSprite: {fileID: 0}
   Evolution: {fileID: 0}
   MonsterNumber: 0
   MonsterName: Missing No.
@@ -5874,7 +5959,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300120, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300120, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 886781096}
   MonsterNumber: 61
   MonsterName: Poliwhirl
@@ -5925,7 +6011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300176, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300176, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 89
   MonsterName: Muk
@@ -5976,7 +6063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300160, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300160, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 930178375}
   MonsterNumber: 81
   MonsterName: Magnemite
@@ -6027,7 +6115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300184, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300184, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1740213736}
   MonsterNumber: 93
   MonsterName: Haunter
@@ -6078,7 +6167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300186, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300186, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 94
   MonsterName: Gengar
@@ -6129,7 +6219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300082, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300082, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 42
   MonsterName: Golbat
@@ -6180,7 +6271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300166, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300166, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1163037253}
   MonsterNumber: 84
   MonsterName: Doduo
@@ -6231,7 +6323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300200, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300200, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 101
   MonsterName: Electrode
@@ -6282,7 +6375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300096, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300096, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 49
   MonsterName: Venomoth
@@ -6333,7 +6427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300060, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300060, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 31
   MonsterName: Nidoqueen
@@ -6384,7 +6479,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300194, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300194, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1485840747}
   MonsterNumber: 98
   MonsterName: Krabby
@@ -6435,7 +6531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300158, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300158, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 80
   MonsterName: Slowbro
@@ -6486,7 +6583,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300000, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300000, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1279905431}
   MonsterNumber: 1
   MonsterName: Bulbasaur
@@ -6537,7 +6635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300142, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300142, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1287440414}
   MonsterNumber: 72
   MonsterName: Tentacool
@@ -6588,7 +6687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300086, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300086, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 1058415612}
   MonsterNumber: 44
   MonsterName: Gloom
@@ -6741,7 +6841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300052, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300052, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 940562589}
   MonsterNumber: 27
   MonsterName: Sandshrew
@@ -6792,7 +6893,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterSprite: {fileID: 0}
+  MonsterFrontSprite: {fileID: 21300108, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300108, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   Evolution: {fileID: 0}
   MonsterNumber: 55
   MonsterName: Golduck
@@ -6811,6 +6913,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2134839338}
+  - component: {fileID: 2134839339}
   m_Layer: 0
   m_Name: Monsters
   m_TagString: Untagged
@@ -6933,3 +7036,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2134839339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134839337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f0bd568bf2e94bd4a2a512a6fa34e65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FrontMonsterSprites: {fileID: 2800000, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  BackMonsterSprites: {fileID: 2800000, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
