@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
+    public Sprite MonsterSprite;
+    public Monster Evolution;
+
     public short MonsterNumber;
     public string MonsterName;
 
@@ -27,7 +30,8 @@ public class Monster : MonoBehaviour
         ICE,
         DRAGON,
         DARK,
-        FAIRY
+        FAIRY,
+        GHOST
     }
 
     public MonsterType PrimaryType;
