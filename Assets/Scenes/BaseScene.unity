@@ -425,6 +425,110 @@ MonoBehaviour:
   BaseDefense: 75
   BaseSpecial: 100
   BaseSpeed: 100
+--- !u!1 &127157898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 127157899}
+  - component: {fileID: 127157900}
+  m_Layer: 0
+  m_Name: Koffing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &127157899
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 127157898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 109
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &127157900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 127157898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300216, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300216, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 2047183082}
+  MonsterNumber: 109
+  MonsterName: Koffing
+  PrimaryType: 4
+  SecondaryType: 0
+  BaseHP: 40
+  BaseAttack: 65
+  BaseDefense: 95
+  BaseSpecial: 60
+  BaseSpeed: 35
+--- !u!1 &132439378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 132439379}
+  - component: {fileID: 132439380}
+  m_Layer: 0
+  m_Name: Jynx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &132439379
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 132439378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 124
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &132439380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 132439378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300246, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300246, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 124
+  MonsterName: Jynx
+  PrimaryType: 14
+  SecondaryType: 13
+  BaseHP: 65
+  BaseAttack: 50
+  BaseDefense: 35
+  BaseSpecial: 115
+  BaseSpeed: 95
 --- !u!1 &148338866
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +959,58 @@ MonoBehaviour:
   BaseDefense: 160
   BaseSpecial: 45
   BaseSpeed: 70
+--- !u!1 &207675430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 207675431}
+  - component: {fileID: 207675432}
+  m_Layer: 0
+  m_Name: Mewtwo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &207675431
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207675430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 150
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &207675432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207675430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300298, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300298, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 150
+  MonsterName: Mewtwo
+  PrimaryType: 13
+  SecondaryType: 0
+  BaseHP: 106
+  BaseAttack: 110
+  BaseDefense: 90
+  BaseSpecial: 154
+  BaseSpeed: 130
 --- !u!1 &213846392
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +1077,58 @@ Transform:
   m_Father: {fileID: 1405297954}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &219400098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 219400099}
+  - component: {fileID: 219400100}
+  m_Layer: 0
+  m_Name: Vaporeon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &219400099
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219400098}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 134
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &219400100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219400098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300266, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300266, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 134
+  MonsterName: Vaporeon
+  PrimaryType: 10
+  SecondaryType: 0
+  BaseHP: 130
+  BaseAttack: 65
+  BaseDefense: 60
+  BaseSpecial: 110
+  BaseSpeed: 65
 --- !u!1 &222092111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1455,110 @@ MonoBehaviour:
   BaseDefense: 40
   BaseSpecial: 50
   BaseSpeed: 90
+--- !u!1 &289219807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 289219808}
+  - component: {fileID: 289219809}
+  m_Layer: 0
+  m_Name: Electabuzz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &289219808
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 289219807}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 125
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &289219809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 289219807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300248, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300248, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 125
+  MonsterName: Electabuzz
+  PrimaryType: 12
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 83
+  BaseDefense: 57
+  BaseSpecial: 95
+  BaseSpeed: 105
+--- !u!1 &348468416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 348468417}
+  - component: {fileID: 348468418}
+  m_Layer: 0
+  m_Name: Starmie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &348468417
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 348468416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 121
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &348468418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 348468416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300240, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300240, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 121
+  MonsterName: Starmie
+  PrimaryType: 10
+  SecondaryType: 13
+  BaseHP: 60
+  BaseAttack: 75
+  BaseDefense: 85
+  BaseSpecial: 100
+  BaseSpeed: 115
 --- !u!1 &366935568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1611,110 @@ MonoBehaviour:
   BaseDefense: 50
   BaseSpecial: 85
   BaseSpeed: 55
+--- !u!1 &367723379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 367723380}
+  - component: {fileID: 367723381}
+  m_Layer: 0
+  m_Name: Flareon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367723380
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367723379}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 136
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &367723381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367723379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300270, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300270, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 136
+  MonsterName: Flareon
+  PrimaryType: 9
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 130
+  BaseDefense: 60
+  BaseSpecial: 110
+  BaseSpeed: 65
+--- !u!1 &376159885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 376159886}
+  - component: {fileID: 376159887}
+  m_Layer: 0
+  m_Name: Mew
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &376159886
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 376159885}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 151
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &376159887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 376159885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300300, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300300, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 151
+  MonsterName: Mew
+  PrimaryType: 13
+  SecondaryType: 0
+  BaseHP: 100
+  BaseAttack: 100
+  BaseDefense: 100
+  BaseSpecial: 100
+  BaseSpeed: 100
 --- !u!1 &379989209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,6 +2010,58 @@ Transform:
   m_Father: {fileID: 2033576508}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &457525816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 457525817}
+  - component: {fileID: 457525818}
+  m_Layer: 0
+  m_Name: Dratini
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457525817
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457525816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 147
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &457525818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457525816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300292, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300292, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 631968431}
+  MonsterNumber: 147
+  MonsterName: Dratini
+  PrimaryType: 15
+  SecondaryType: 0
+  BaseHP: 41
+  BaseAttack: 64
+  BaseDefense: 45
+  BaseSpecial: 50
+  BaseSpeed: 50
 --- !u!1 &461110132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,6 +2499,58 @@ MonoBehaviour:
   BaseDefense: 55
   BaseSpecial: 55
   BaseSpeed: 25
+--- !u!1 &545576866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 545576867}
+  - component: {fileID: 545576868}
+  m_Layer: 0
+  m_Name: Marowak
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &545576867
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 545576866}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 105
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &545576868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 545576866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300208, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300208, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 105
+  MonsterName: Marowak
+  PrimaryType: 5
+  SecondaryType: 0
+  BaseHP: 60
+  BaseAttack: 80
+  BaseDefense: 110
+  BaseSpecial: 80
+  BaseSpeed: 45
 --- !u!1 &559373307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,6 +2721,58 @@ MonoBehaviour:
   BaseDefense: 30
   BaseSpecial: 20
   BaseSpeed: 50
+--- !u!1 &574715272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 574715273}
+  - component: {fileID: 574715274}
+  m_Layer: 0
+  m_Name: Seaking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &574715273
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574715272}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 119
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &574715274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574715272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300236, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300236, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 119
+  MonsterName: Seaking
+  PrimaryType: 10
+  SecondaryType: 0
+  BaseHP: 80
+  BaseAttack: 92
+  BaseDefense: 65
+  BaseSpecial: 80
+  BaseSpeed: 68
 --- !u!1 &578972361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2253,6 +2825,58 @@ MonoBehaviour:
   BaseDefense: 50
   BaseSpecial: 50
   BaseSpeed: 25
+--- !u!1 &579920736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 579920737}
+  - component: {fileID: 579920738}
+  m_Layer: 0
+  m_Name: Ditto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &579920737
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 579920736}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 132
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &579920738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 579920736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300262, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300262, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 132
+  MonsterName: Ditto
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 48
+  BaseAttack: 48
+  BaseDefense: 48
+  BaseSpecial: 48
+  BaseSpeed: 48
 --- !u!1 &581814783
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,6 +3148,110 @@ Transform:
   m_Father: {fileID: 1405297954}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &631968429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 631968430}
+  - component: {fileID: 631968431}
+  m_Layer: 0
+  m_Name: Dragonair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &631968430
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631968429}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 148
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &631968431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631968429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300294, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300294, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 1686428172}
+  MonsterNumber: 148
+  MonsterName: Dragonair
+  PrimaryType: 15
+  SecondaryType: 0
+  BaseHP: 61
+  BaseAttack: 84
+  BaseDefense: 65
+  BaseSpecial: 70
+  BaseSpeed: 70
+--- !u!1 &640374011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 640374012}
+  - component: {fileID: 640374013}
+  m_Layer: 0
+  m_Name: Exeggutor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640374012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 640374011}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 103
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &640374013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 640374011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300204, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300204, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 103
+  MonsterName: Exeggutor
+  PrimaryType: 11
+  SecondaryType: 13
+  BaseHP: 95
+  BaseAttack: 95
+  BaseDefense: 85
+  BaseSpecial: 125
+  BaseSpeed: 55
 --- !u!1 &645915660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,6 +3356,58 @@ MonoBehaviour:
   BaseDefense: 80
   BaseSpecial: 80
   BaseSpeed: 30
+--- !u!1 &666586639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 666586640}
+  - component: {fileID: 666586641}
+  m_Layer: 0
+  m_Name: Moltres
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &666586640
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 666586639}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 146
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &666586641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 666586639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300290, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300290, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 146
+  MonsterName: Moltres
+  PrimaryType: 9
+  SecondaryType: 3
+  BaseHP: 90
+  BaseAttack: 100
+  BaseDefense: 90
+  BaseSpecial: 125
+  BaseSpeed: 90
 --- !u!1 &681567882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2680,6 +3460,58 @@ MonoBehaviour:
   BaseDefense: 55
   BaseSpecial: 70
   BaseSpeed: 45
+--- !u!1 &707171068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 707171069}
+  - component: {fileID: 707171070}
+  m_Layer: 0
+  m_Name: Lapras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &707171069
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707171068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 131
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &707171070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707171068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300260, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300260, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 131
+  MonsterName: Lapras
+  PrimaryType: 10
+  SecondaryType: 14
+  BaseHP: 130
+  BaseAttack: 85
+  BaseDefense: 80
+  BaseSpecial: 95
+  BaseSpeed: 60
 --- !u!1 &727705361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2836,6 +3668,58 @@ MonoBehaviour:
   BaseDefense: 55
   BaseSpecial: 75
   BaseSpeed: 30
+--- !u!1 &749823702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 749823703}
+  - component: {fileID: 749823704}
+  m_Layer: 0
+  m_Name: Rhydon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &749823703
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749823702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 112
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &749823704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749823702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300222, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300222, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 112
+  MonsterName: Rhydon
+  PrimaryType: 5
+  SecondaryType: 6
+  BaseHP: 105
+  BaseAttack: 130
+  BaseDefense: 120
+  BaseSpecial: 45
+  BaseSpeed: 40
 --- !u!1 &760659481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2888,6 +3772,58 @@ MonoBehaviour:
   BaseDefense: 15
   BaseSpecial: 105
   BaseSpeed: 90
+--- !u!1 &761029803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 761029804}
+  - component: {fileID: 761029805}
+  m_Layer: 0
+  m_Name: Kabutops
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &761029804
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761029803}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 141
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &761029805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761029803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300280, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300280, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 141
+  MonsterName: Kabutops
+  PrimaryType: 6
+  SecondaryType: 10
+  BaseHP: 60
+  BaseAttack: 115
+  BaseDefense: 105
+  BaseSpecial: 70
+  BaseSpeed: 80
 --- !u!1 &761959477
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,6 +4032,58 @@ MonoBehaviour:
   BaseDefense: 55
   BaseSpecial: 50
   BaseSpeed: 71
+--- !u!1 &840627499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 840627500}
+  - component: {fileID: 840627501}
+  m_Layer: 0
+  m_Name: Exeggcute
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &840627500
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 840627499}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 102
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &840627501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 840627499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300202, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300202, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 640374013}
+  MonsterNumber: 102
+  MonsterName: Exeggcute
+  PrimaryType: 11
+  SecondaryType: 13
+  BaseHP: 60
+  BaseAttack: 40
+  BaseDefense: 80
+  BaseSpecial: 60
+  BaseSpeed: 40
 --- !u!1 &848140382
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,6 +4396,58 @@ MonoBehaviour:
   BaseDefense: 95
   BaseSpecial: 120
   BaseSpeed: 70
+--- !u!1 &934423384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 934423385}
+  - component: {fileID: 934423386}
+  m_Layer: 0
+  m_Name: Chansey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &934423385
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934423384}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 113
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &934423386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934423384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300224, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300224, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 113
+  MonsterName: Chansey
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 250
+  BaseAttack: 5
+  BaseDefense: 5
+  BaseSpecial: 105
+  BaseSpeed: 50
 --- !u!1 &940562587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,6 +4552,110 @@ MonoBehaviour:
   BaseDefense: 60
   BaseSpecial: 65
   BaseSpeed: 115
+--- !u!1 &1009292863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1009292864}
+  - component: {fileID: 1009292865}
+  m_Layer: 0
+  m_Name: Lickitung
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1009292864
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009292863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 108
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1009292865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009292863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300214, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300214, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 108
+  MonsterName: Lickitung
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 90
+  BaseAttack: 55
+  BaseDefense: 75
+  BaseSpecial: 75
+  BaseSpeed: 30
+--- !u!1 &1012515827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1012515828}
+  - component: {fileID: 1012515829}
+  m_Layer: 0
+  m_Name: Scyther
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1012515828
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012515827}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 123
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1012515829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012515827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300244, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300244, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 123
+  MonsterName: Scyther
+  PrimaryType: 7
+  SecondaryType: 3
+  BaseHP: 70
+  BaseAttack: 110
+  BaseDefense: 80
+  BaseSpecial: 80
+  BaseSpeed: 105
 --- !u!1 &1013099996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3734,6 +4878,58 @@ MonoBehaviour:
   BaseDefense: 85
   BaseSpecial: 110
   BaseSpeed: 50
+--- !u!1 &1060602600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1060602601}
+  - component: {fileID: 1060602602}
+  m_Layer: 0
+  m_Name: Porygon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1060602601
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1060602600}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 137
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1060602602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1060602600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300272, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300272, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 137
+  MonsterName: Porygon
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 60
+  BaseDefense: 70
+  BaseSpecial: 85
+  BaseSpeed: 40
 --- !u!1 &1066538723
 GameObject:
   m_ObjectHideFlags: 0
@@ -4112,6 +5308,58 @@ MonoBehaviour:
   BaseDefense: 40
   BaseSpecial: 35
   BaseSpeed: 56
+--- !u!1 &1242470995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1242470996}
+  - component: {fileID: 1242470997}
+  m_Layer: 0
+  m_Name: Jolteon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1242470996
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242470995}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 135
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1242470997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242470995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300268, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300268, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 135
+  MonsterName: Jolteon
+  PrimaryType: 12
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 65
+  BaseDefense: 60
+  BaseSpecial: 110
+  BaseSpeed: 130
 --- !u!1 &1248763488
 GameObject:
   m_ObjectHideFlags: 0
@@ -4528,6 +5776,58 @@ MonoBehaviour:
   BaseDefense: 48
   BaseSpecial: 65
   BaseSpeed: 55
+--- !u!1 &1311811846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1311811847}
+  - component: {fileID: 1311811848}
+  m_Layer: 0
+  m_Name: Goldeen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1311811847
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311811846}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 118
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1311811848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311811846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300234, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300234, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 574715274}
+  MonsterNumber: 118
+  MonsterName: Goldeen
+  PrimaryType: 10
+  SecondaryType: 0
+  BaseHP: 45
+  BaseAttack: 67
+  BaseDefense: 60
+  BaseSpecial: 50
+  BaseSpeed: 63
 --- !u!1 &1312722678
 GameObject:
   m_ObjectHideFlags: 0
@@ -5423,6 +6723,110 @@ Transform:
   m_Father: {fileID: 1387301307}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1409204269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1409204270}
+  - component: {fileID: 1409204271}
+  m_Layer: 0
+  m_Name: Rhyhorn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409204270
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1409204269}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 111
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409204271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1409204269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300220, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300220, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 749823704}
+  MonsterNumber: 111
+  MonsterName: Rhyhorn
+  PrimaryType: 5
+  SecondaryType: 6
+  BaseHP: 80
+  BaseAttack: 85
+  BaseDefense: 95
+  BaseSpecial: 30
+  BaseSpeed: 25
+--- !u!1 &1410426018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1410426019}
+  - component: {fileID: 1410426020}
+  m_Layer: 0
+  m_Name: Hitmonlee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1410426019
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1410426018}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 106
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1410426020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1410426018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300210, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300210, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 106
+  MonsterName: Hitmonlee
+  PrimaryType: 2
+  SecondaryType: 0
+  BaseHP: 50
+  BaseAttack: 120
+  BaseDefense: 53
+  BaseSpecial: 110
+  BaseSpeed: 76
 --- !u!1 &1425042039
 GameObject:
   m_ObjectHideFlags: 0
@@ -5475,6 +6879,58 @@ MonoBehaviour:
   BaseDefense: 65
   BaseSpecial: 100
   BaseSpeed: 70
+--- !u!1 &1427749901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1427749902}
+  - component: {fileID: 1427749903}
+  m_Layer: 0
+  m_Name: Mr.Mime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427749902
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427749901}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 122
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1427749903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427749901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300242, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300242, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 122
+  MonsterName: Mr.Mime
+  PrimaryType: 13
+  SecondaryType: 17
+  BaseHP: 40
+  BaseAttack: 45
+  BaseDefense: 65
+  BaseSpecial: 120
+  BaseSpeed: 90
 --- !u!1 &1446362365
 GameObject:
   m_ObjectHideFlags: 0
@@ -5541,6 +6997,58 @@ Transform:
   m_Father: {fileID: 1405297954}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1454221435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1454221436}
+  - component: {fileID: 1454221437}
+  m_Layer: 0
+  m_Name: Staryu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1454221436
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1454221435}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 120
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1454221437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1454221435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300238, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300238, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 348468418}
+  MonsterNumber: 120
+  MonsterName: Staryu
+  PrimaryType: 10
+  SecondaryType: 0
+  BaseHP: 30
+  BaseAttack: 45
+  BaseDefense: 55
+  BaseSpecial: 70
+  BaseSpeed: 85
 --- !u!1 &1485840745
 GameObject:
   m_ObjectHideFlags: 0
@@ -5593,6 +7101,58 @@ MonoBehaviour:
   BaseDefense: 115
   BaseSpecial: 50
   BaseSpeed: 75
+--- !u!1 &1499491100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1499491101}
+  - component: {fileID: 1499491102}
+  m_Layer: 0
+  m_Name: Eevee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1499491101
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1499491100}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 133
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499491102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1499491100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300264, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300264, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 133
+  MonsterName: Eevee
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 55
+  BaseAttack: 55
+  BaseDefense: 50
+  BaseSpecial: 65
+  BaseSpeed: 55
 --- !u!1 &1518742511
 GameObject:
   m_ObjectHideFlags: 0
@@ -5919,6 +7479,58 @@ MonoBehaviour:
   BaseDefense: 0
   BaseSpecial: 0
   BaseSpeed: 0
+--- !u!1 &1593683633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1593683634}
+  - component: {fileID: 1593683635}
+  m_Layer: 0
+  m_Name: Zapdos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593683634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593683633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 145
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1593683635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593683633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300288, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300288, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 145
+  MonsterName: Zapdos
+  PrimaryType: 12
+  SecondaryType: 3
+  BaseHP: 90
+  BaseAttack: 90
+  BaseDefense: 85
+  BaseSpecial: 125
+  BaseSpeed: 100
 --- !u!1 &1604291392
 GameObject:
   m_ObjectHideFlags: 0
@@ -6075,6 +7687,110 @@ MonoBehaviour:
   BaseDefense: 70
   BaseSpecial: 95
   BaseSpeed: 45
+--- !u!1 &1686428170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1686428171}
+  - component: {fileID: 1686428172}
+  m_Layer: 0
+  m_Name: Dragonite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1686428171
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1686428170}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 149
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1686428172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1686428170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300296, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300296, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 149
+  MonsterName: Dragonite
+  PrimaryType: 15
+  SecondaryType: 3
+  BaseHP: 91
+  BaseAttack: 134
+  BaseDefense: 95
+  BaseSpecial: 100
+  BaseSpeed: 80
+--- !u!1 &1691469042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1691469043}
+  - component: {fileID: 1691469044}
+  m_Layer: 0
+  m_Name: Cubone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1691469043
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1691469042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 104
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1691469044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1691469042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300206, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300206, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 545576868}
+  MonsterNumber: 104
+  MonsterName: Cubone
+  PrimaryType: 5
+  SecondaryType: 0
+  BaseHP: 50
+  BaseAttack: 50
+  BaseDefense: 95
+  BaseSpecial: 50
+  BaseSpeed: 35
 --- !u!1 &1698073679
 GameObject:
   m_ObjectHideFlags: 0
@@ -6179,6 +7895,266 @@ MonoBehaviour:
   BaseDefense: 60
   BaseSpecial: 130
   BaseSpeed: 110
+--- !u!1 &1740506021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1740506022}
+  - component: {fileID: 1740506023}
+  m_Layer: 0
+  m_Name: Horsea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1740506022
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1740506021}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 116
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1740506023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1740506021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300230, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300230, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 1903717545}
+  MonsterNumber: 116
+  MonsterName: Horsea
+  PrimaryType: 10
+  SecondaryType: 0
+  BaseHP: 30
+  BaseAttack: 40
+  BaseDefense: 70
+  BaseSpecial: 70
+  BaseSpeed: 60
+--- !u!1 &1768848351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1768848352}
+  - component: {fileID: 1768848353}
+  m_Layer: 0
+  m_Name: Articuno
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768848352
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768848351}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 144
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1768848353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768848351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300286, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300286, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 144
+  MonsterName: Articuno
+  PrimaryType: 14
+  SecondaryType: 3
+  BaseHP: 90
+  BaseAttack: 85
+  BaseDefense: 100
+  BaseSpecial: 125
+  BaseSpeed: 85
+--- !u!1 &1780858474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1780858475}
+  - component: {fileID: 1780858476}
+  m_Layer: 0
+  m_Name: Snorlax
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1780858475
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1780858474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 143
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1780858476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1780858474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300284, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300284, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 143
+  MonsterName: Snorlax
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 160
+  BaseAttack: 110
+  BaseDefense: 65
+  BaseSpecial: 110
+  BaseSpeed: 30
+--- !u!1 &1804901490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1804901491}
+  - component: {fileID: 1804901492}
+  m_Layer: 0
+  m_Name: Magikarp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1804901491
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804901490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 129
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1804901492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804901490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300256, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300256, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 1964083134}
+  MonsterNumber: 129
+  MonsterName: Magikarp
+  PrimaryType: 10
+  SecondaryType: 0
+  BaseHP: 20
+  BaseAttack: 10
+  BaseDefense: 55
+  BaseSpecial: 20
+  BaseSpeed: 80
+--- !u!1 &1820497472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1820497473}
+  - component: {fileID: 1820497474}
+  m_Layer: 0
+  m_Name: Pinsir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1820497473
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820497472}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 127
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1820497474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820497472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300252, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300252, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 127
+  MonsterName: Pinsir
+  PrimaryType: 7
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 125
+  BaseDefense: 100
+  BaseSpecial: 70
+  BaseSpeed: 85
 --- !u!1 &1829089964
 GameObject:
   m_ObjectHideFlags: 0
@@ -6231,6 +8207,58 @@ MonoBehaviour:
   BaseDefense: 70
   BaseSpecial: 75
   BaseSpeed: 90
+--- !u!1 &1833677321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1833677322}
+  - component: {fileID: 1833677323}
+  m_Layer: 0
+  m_Name: Tauros
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1833677322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1833677321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 128
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1833677323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1833677321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300254, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300254, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 128
+  MonsterName: Tauros
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 75
+  BaseAttack: 100
+  BaseDefense: 95
+  BaseSpecial: 70
+  BaseSpeed: 110
 --- !u!1 &1863046034
 GameObject:
   m_ObjectHideFlags: 0
@@ -6335,6 +8363,110 @@ MonoBehaviour:
   BaseDefense: 70
   BaseSpecial: 80
   BaseSpeed: 150
+--- !u!1 &1903717543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1903717544}
+  - component: {fileID: 1903717545}
+  m_Layer: 0
+  m_Name: Seadra
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1903717544
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1903717543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 117
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1903717545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1903717543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300232, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300232, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 117
+  MonsterName: Seadra
+  PrimaryType: 10
+  SecondaryType: 0
+  BaseHP: 55
+  BaseAttack: 65
+  BaseDefense: 95
+  BaseSpecial: 95
+  BaseSpeed: 85
+--- !u!1 &1913316073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1913316074}
+  - component: {fileID: 1913316075}
+  m_Layer: 0
+  m_Name: Kangaskhan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1913316074
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1913316073}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 115
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913316075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1913316073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300228, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300228, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 115
+  MonsterName: Kangaskhan
+  PrimaryType: 1
+  SecondaryType: 0
+  BaseHP: 105
+  BaseAttack: 95
+  BaseDefense: 80
+  BaseSpecial: 80
+  BaseSpeed: 90
 --- !u!1 &1922844785
 GameObject:
   m_ObjectHideFlags: 0
@@ -6543,6 +8675,162 @@ MonoBehaviour:
   BaseDefense: 110
   BaseSpecial: 100
   BaseSpeed: 30
+--- !u!1 &1964083132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1964083133}
+  - component: {fileID: 1964083134}
+  m_Layer: 0
+  m_Name: Gyarados
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1964083133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964083132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 130
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964083134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964083132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300258, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300258, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 130
+  MonsterName: Gyarados
+  PrimaryType: 10
+  SecondaryType: 3
+  BaseHP: 95
+  BaseAttack: 125
+  BaseDefense: 79
+  BaseSpecial: 100
+  BaseSpeed: 81
+--- !u!1 &1971529264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1971529265}
+  - component: {fileID: 1971529266}
+  m_Layer: 0
+  m_Name: Tangela
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1971529265
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971529264}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 114
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971529266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971529264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300226, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300226, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 114
+  MonsterName: Tangela
+  PrimaryType: 11
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 55
+  BaseDefense: 115
+  BaseSpecial: 100
+  BaseSpeed: 60
+--- !u!1 &1987298454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1987298455}
+  - component: {fileID: 1987298456}
+  m_Layer: 0
+  m_Name: Aerodactyl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987298455
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987298454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 142
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1987298456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987298454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300282, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300282, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 142
+  MonsterName: Aerodactyl
+  PrimaryType: 6
+  SecondaryType: 3
+  BaseHP: 80
+  BaseAttack: 105
+  BaseDefense: 65
+  BaseSpecial: 75
+  BaseSpeed: 130
 --- !u!1 &2002465787
 GameObject:
   m_ObjectHideFlags: 0
@@ -6595,6 +8883,58 @@ MonoBehaviour:
   BaseDefense: 49
   BaseSpecial: 65
   BaseSpeed: 45
+--- !u!1 &2020702756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2020702757}
+  - component: {fileID: 2020702758}
+  m_Layer: 0
+  m_Name: Magmar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020702757
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020702756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 126
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020702758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020702756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300250, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300250, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 126
+  MonsterName: Magmar
+  PrimaryType: 9
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 95
+  BaseDefense: 57
+  BaseSpecial: 100
+  BaseSpeed: 93
 --- !u!1 &2021850787
 GameObject:
   m_ObjectHideFlags: 0
@@ -6801,6 +9141,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 959fe0c8d0cdee942ab8f1ea4129c3f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2038466200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2038466201}
+  - component: {fileID: 2038466202}
+  m_Layer: 0
+  m_Name: Kabuto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2038466201
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2038466200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 140
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2038466202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2038466200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300278, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300278, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 761029805}
+  MonsterNumber: 140
+  MonsterName: Kabuto
+  PrimaryType: 6
+  SecondaryType: 10
+  BaseHP: 30
+  BaseAttack: 80
+  BaseDefense: 90
+  BaseSpecial: 55
+  BaseSpeed: 55
 --- !u!1 &2040952388
 GameObject:
   m_ObjectHideFlags: 0
@@ -6853,6 +9245,162 @@ MonoBehaviour:
   BaseDefense: 85
   BaseSpecial: 30
   BaseSpeed: 40
+--- !u!1 &2047183080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2047183081}
+  - component: {fileID: 2047183082}
+  m_Layer: 0
+  m_Name: Weezing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2047183081
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2047183080}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 110
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2047183082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2047183080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300218, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300218, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 110
+  MonsterName: Weezing
+  PrimaryType: 4
+  SecondaryType: 0
+  BaseHP: 65
+  BaseAttack: 90
+  BaseDefense: 120
+  BaseSpecial: 85
+  BaseSpeed: 60
+--- !u!1 &2048460227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2048460228}
+  - component: {fileID: 2048460229}
+  m_Layer: 0
+  m_Name: Omastar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2048460228
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2048460227}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 139
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2048460229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2048460227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300276, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300276, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 139
+  MonsterName: Omastar
+  PrimaryType: 6
+  SecondaryType: 10
+  BaseHP: 70
+  BaseAttack: 60
+  BaseDefense: 125
+  BaseSpecial: 115
+  BaseSpeed: 55
+--- !u!1 &2061696556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2061696557}
+  - component: {fileID: 2061696558}
+  m_Layer: 0
+  m_Name: Omanyte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2061696557
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2061696556}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 138
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2061696558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2061696556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300274, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300274, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 2048460229}
+  MonsterNumber: 138
+  MonsterName: Omanyte
+  PrimaryType: 6
+  SecondaryType: 10
+  BaseHP: 35
+  BaseAttack: 40
+  BaseDefense: 100
+  BaseSpecial: 90
+  BaseSpeed: 35
 --- !u!1 &2066298200
 GameObject:
   m_ObjectHideFlags: 0
@@ -7033,6 +9581,56 @@ Transform:
   - {fileID: 1485840746}
   - {fileID: 911634588}
   - {fileID: 1903352542}
+  - {fileID: 840627500}
+  - {fileID: 640374012}
+  - {fileID: 1691469043}
+  - {fileID: 545576867}
+  - {fileID: 1410426019}
+  - {fileID: 2138176463}
+  - {fileID: 1009292864}
+  - {fileID: 127157899}
+  - {fileID: 2047183081}
+  - {fileID: 1409204270}
+  - {fileID: 749823703}
+  - {fileID: 934423385}
+  - {fileID: 1971529265}
+  - {fileID: 1913316074}
+  - {fileID: 1740506022}
+  - {fileID: 1903717544}
+  - {fileID: 1311811847}
+  - {fileID: 574715273}
+  - {fileID: 1454221436}
+  - {fileID: 348468417}
+  - {fileID: 1427749902}
+  - {fileID: 1012515828}
+  - {fileID: 132439379}
+  - {fileID: 289219808}
+  - {fileID: 2020702757}
+  - {fileID: 1820497473}
+  - {fileID: 1833677322}
+  - {fileID: 1804901491}
+  - {fileID: 1964083133}
+  - {fileID: 707171069}
+  - {fileID: 579920737}
+  - {fileID: 1499491101}
+  - {fileID: 219400099}
+  - {fileID: 1242470996}
+  - {fileID: 367723380}
+  - {fileID: 1060602601}
+  - {fileID: 2061696557}
+  - {fileID: 2048460228}
+  - {fileID: 2038466201}
+  - {fileID: 761029804}
+  - {fileID: 1987298455}
+  - {fileID: 1780858475}
+  - {fileID: 1768848352}
+  - {fileID: 1593683634}
+  - {fileID: 666586640}
+  - {fileID: 457525817}
+  - {fileID: 631968430}
+  - {fileID: 1686428171}
+  - {fileID: 207675431}
+  - {fileID: 376159886}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7049,3 +9647,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FrontMonsterSprites: {fileID: 2800000, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
   BackMonsterSprites: {fileID: 2800000, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+--- !u!1 &2138176462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2138176463}
+  - component: {fileID: 2138176464}
+  m_Layer: 0
+  m_Name: Hitmonchan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2138176463
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2138176462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2134839338}
+  m_RootOrder: 107
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138176464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2138176462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e76e512829f4418dcbe2bea4679e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterFrontSprite: {fileID: 21300212, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
+  MonsterBackSprite: {fileID: 21300212, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  Evolution: {fileID: 0}
+  MonsterNumber: 107
+  MonsterName: Hitmonchan
+  PrimaryType: 2
+  SecondaryType: 0
+  BaseHP: 50
+  BaseAttack: 105
+  BaseDefense: 79
+  BaseSpecial: 110
+  BaseSpeed: 76

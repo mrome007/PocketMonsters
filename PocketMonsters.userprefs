@@ -9,8 +9,8 @@
       <File FileName="Assets/Scripts/MonsterBattleMatchup.cs" Line="31" Column="87" />
       <File FileName="Assets/Scripts/PlayerMonster.cs" Line="5" Column="34" />
       <File FileName="Assets/Scripts/MonsterEncounter.cs" Line="14" Column="18" />
-      <File FileName="Assets/Scripts/MonsterSprites.cs" Line="6" Column="45" />
-      <File FileName="Assets/Scripts/Editor/MonsterSpritesEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterSprites.cs" Line="9" Column="41" />
+      <File FileName="Assets/Scripts/Editor/MonsterSpritesEditor.cs" Line="48" Column="73" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
