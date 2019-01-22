@@ -12,29 +12,6 @@ public class Monster : MonoBehaviour
     public short MonsterNumber;
     public string MonsterName;
 
-    public enum MonsterType
-    {
-        NONE,
-        NORMAL,
-        FIGHTING,
-        FLYING,
-        POISON,
-        GROUND,
-        ROCK,
-        BUG,
-        STEEL,
-        FIRE,
-        WATER,
-        GRASS,
-        ELECTRIC,
-        PSYCHIC,
-        ICE,
-        DRAGON,
-        DARK,
-        FAIRY,
-        GHOST
-    }
-
     public MonsterType PrimaryType;
     public MonsterType SecondaryType;
 
@@ -60,4 +37,27 @@ public class Monster : MonoBehaviour
         BaseStatTotal += BaseSpecial;
         BaseStatTotal += BaseSpeed;
     }
+}
+
+public enum MonsterType
+{
+    NONE,
+    NORMAL,
+    FIGHTING,
+    FLYING,
+    POISON,
+    GROUND,
+    ROCK,
+    BUG,
+    STEEL,
+    FIRE,
+    WATER,
+    GRASS,
+    ELECTRIC,
+    PSYCHIC,
+    ICE,
+    DRAGON,
+    DARK,
+    FAIRY,
+    GHOST
 }

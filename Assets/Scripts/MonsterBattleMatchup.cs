@@ -30,4 +30,38 @@ public static class MonsterBattleMatchup
         new short[]{ 1, -1, 1, 2, 1, 1, -1, 1, 2, 1, 1, 1, 1, 1, 1, 0, -1, 1 }, //FAIRY
         new short[]{ 0, 0, 1, -1, 1, 1, -1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1 }, //GHOST
     };
+
+    public static short GetTypeMatchupDamage(short damage, MonsterType attackType, MonsterType primaryTargetType, 
+        MonsterType secondaryTargetType = MonsterType.NONE)
+    {
+        var firstMultiplier = monsterMatchup[(int)primaryTargetType][(int)attackType];
+        damage = ModifyDamage(damage, firstMultiplier);
+        if(secondaryTargetType != MonsterType.NONE)
+        {
+            var secondMultiplier = monsterMatchup[(int)secondaryTargetType][(int)attackType];
+            damage = ModifyDamage(damage, secondMultiplier);
+        }
+        return damage;
+    }
+
+    private static short ModifyDamage(short damage, short multiplier)
+    {
+        short one = (short)1;
+        switch(multiplier)
+        {
+            case -1:
+                damage = (short)(damage >> one);
+                break;
+            case 0:
+                damage = 0;
+                break;
+            case 2:
+                damage = (short)(damage << one);
+                break;
+            default:
+                break;
+        }
+
+        return damage;
+    }
 }
