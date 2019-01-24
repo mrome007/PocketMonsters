@@ -9462,6 +9462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2134839338}
   - component: {fileID: 2134839339}
+  - component: {fileID: 2134839340}
   m_Layer: 0
   m_Name: Monsters
   m_TagString: Untagged
@@ -9647,6 +9648,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FrontMonsterSprites: {fileID: 2800000, guid: dec6cf5c036d79349a5b1b928b148454, type: 3}
   BackMonsterSprites: {fileID: 2800000, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+--- !u!114 &2134839340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134839337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db35463a9c0c412185679b9b9796f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2138176462
 GameObject:
   m_ObjectHideFlags: 0

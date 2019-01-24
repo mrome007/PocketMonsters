@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Gap.cs" />
+     <Compile Include="Assets\Scripts\HeavyMonsters.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\MonsterBattleMatchup.cs" />
      <Compile Include="Assets\Scripts\MonsterEncounter.cs" />
