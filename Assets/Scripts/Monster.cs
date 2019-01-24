@@ -30,7 +30,7 @@ public class Monster : MonoBehaviour
 
     private void InitializeBaseTotal()
     {
-        BaseStatTotal = (short)0;
+        BaseStatTotal = 0;
         BaseStatTotal += BaseHP;
         BaseStatTotal += BaseAttack;
         BaseStatTotal += BaseDefense;
