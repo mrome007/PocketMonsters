@@ -267,7 +267,7 @@ MonoBehaviour:
   BaseHP: 70
   BaseAttack: 45
   BaseDefense: 48
-  BaseSpecial: 65
+  BaseSpecial: 60
   BaseSpeed: 35
 --- !u!1 &78301223
 GameObject:
@@ -601,7 +601,7 @@ MonoBehaviour:
   BaseHP: 65
   BaseAttack: 50
   BaseDefense: 35
-  BaseSpecial: 115
+  BaseSpecial: 95
   BaseSpeed: 95
 --- !u!1 &148338866
 GameObject:
@@ -653,7 +653,7 @@ MonoBehaviour:
   BaseHP: 60
   BaseAttack: 55
   BaseDefense: 50
-  BaseSpecial: 55
+  BaseSpecial: 40
   BaseSpeed: 45
 --- !u!1 &165364792
 GameObject:
@@ -705,7 +705,7 @@ MonoBehaviour:
   BaseHP: 55
   BaseAttack: 70
   BaseDefense: 45
-  BaseSpecial: 70
+  BaseSpecial: 50
   BaseSpeed: 60
 --- !u!1 &166438540
 GameObject:
@@ -755,9 +755,9 @@ MonoBehaviour:
   PrimaryType: 6
   SecondaryType: 5
   BaseHP: 80
-  BaseAttack: 120
+  BaseAttack: 110
   BaseDefense: 130
-  BaseSpecial: 65
+  BaseSpecial: 55
   BaseSpeed: 45
 --- !u!1 &168565219
 GameObject:
@@ -861,7 +861,7 @@ MonoBehaviour:
   BaseHP: 59
   BaseAttack: 63
   BaseDefense: 80
-  BaseSpecial: 80
+  BaseSpecial: 65
   BaseSpeed: 58
 --- !u!1 &185022064
 GameObject:
@@ -1105,7 +1105,7 @@ MonoBehaviour:
   BaseHP: 35
   BaseAttack: 45
   BaseDefense: 160
-  BaseSpecial: 45
+  BaseSpecial: 30
   BaseSpeed: 70
 --- !u!1 &201842350
 GameObject:
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   PrimaryType: 5
   SecondaryType: 0
   BaseHP: 35
-  BaseAttack: 100
+  BaseAttack: 80
   BaseDefense: 50
   BaseSpecial: 70
   BaseSpeed: 120
@@ -1564,7 +1564,7 @@ MonoBehaviour:
   BaseHP: 40
   BaseAttack: 80
   BaseDefense: 35
-  BaseSpecial: 45
+  BaseSpecial: 35
   BaseSpeed: 70
 --- !u!1 &270302434
 GameObject:
@@ -1807,7 +1807,7 @@ MonoBehaviour:
   SecondaryType: 0
   BaseHP: 35
   BaseAttack: 55
-  BaseDefense: 40
+  BaseDefense: 30
   BaseSpecial: 50
   BaseSpeed: 90
 --- !u!1 &289219807
@@ -1860,7 +1860,7 @@ MonoBehaviour:
   BaseHP: 65
   BaseAttack: 83
   BaseDefense: 57
-  BaseSpecial: 95
+  BaseSpecial: 85
   BaseSpeed: 105
 --- !u!1 &334771538
 GameObject:
@@ -2320,7 +2320,7 @@ MonoBehaviour:
   BaseHP: 58
   BaseAttack: 64
   BaseDefense: 58
-  BaseSpecial: 80
+  BaseSpecial: 65
   BaseSpeed: 80
 --- !u!1 &411764075
 GameObject:
@@ -2372,7 +2372,7 @@ MonoBehaviour:
   BaseHP: 55
   BaseAttack: 81
   BaseDefense: 60
-  BaseSpecial: 70
+  BaseSpecial: 50
   BaseSpeed: 97
 --- !u!1 &438530900
 GameObject:
@@ -2422,9 +2422,9 @@ MonoBehaviour:
   PrimaryType: 4
   SecondaryType: 5
   BaseHP: 81
-  BaseAttack: 102
+  BaseAttack: 92
   BaseDefense: 77
-  BaseSpecial: 85
+  BaseSpecial: 75
   BaseSpeed: 85
 --- !u!1 &450517727
 GameObject:
@@ -2808,9 +2808,9 @@ MonoBehaviour:
   PrimaryType: 1
   SecondaryType: 3
   BaseHP: 52
-  BaseAttack: 90
+  BaseAttack: 65
   BaseDefense: 55
-  BaseSpecial: 62
+  BaseSpecial: 58
   BaseSpeed: 60
 --- !u!1 &476070393
 GameObject:
@@ -3086,7 +3086,7 @@ MonoBehaviour:
   BaseAttack: 60
   BaseDefense: 30
   BaseSpecial: 31
-  BaseSpeed: 77
+  BaseSpeed: 70
 --- !u!1 &530485002
 GameObject:
   m_ObjectHideFlags: 0
@@ -3187,9 +3187,9 @@ MonoBehaviour:
   PrimaryType: 17
   SecondaryType: 0
   BaseHP: 95
-  BaseAttack: 79
+  BaseAttack: 70
   BaseDefense: 73
-  BaseSpecial: 95
+  BaseSpecial: 85
   BaseSpeed: 60
 --- !u!1 &542273440
 GameObject:
@@ -3293,7 +3293,7 @@ MonoBehaviour:
   BaseHP: 60
   BaseAttack: 80
   BaseDefense: 110
-  BaseSpecial: 80
+  BaseSpecial: 50
   BaseSpeed: 45
 --- !u!1 &559373307
 GameObject:
@@ -3567,7 +3567,7 @@ MonoBehaviour:
   BaseHP: 80
   BaseAttack: 80
   BaseDefense: 50
-  BaseSpecial: 50
+  BaseSpecial: 40
   BaseSpeed: 25
 --- !u!1 &579920736
 GameObject:
@@ -3671,7 +3671,7 @@ MonoBehaviour:
   BaseHP: 78
   BaseAttack: 84
   BaseDefense: 78
-  BaseSpecial: 109
+  BaseSpecial: 85
   BaseSpeed: 100
 --- !u!1 &592432499
 GameObject:
@@ -3723,7 +3723,7 @@ MonoBehaviour:
   BaseHP: 60
   BaseAttack: 45
   BaseDefense: 50
-  BaseSpecial: 90
+  BaseSpecial: 80
   BaseSpeed: 70
 --- !u!1 &594208699
 GameObject:
@@ -3946,7 +3946,7 @@ MonoBehaviour:
   BaseHP: 79
   BaseAttack: 83
   BaseDefense: 100
-  BaseSpecial: 105
+  BaseSpecial: 85
   BaseSpeed: 78
 --- !u!1 &617173981
 GameObject:
@@ -4242,7 +4242,7 @@ MonoBehaviour:
   BaseHP: 90
   BaseAttack: 110
   BaseDefense: 80
-  BaseSpecial: 100
+  BaseSpecial: 80
   BaseSpeed: 95
 --- !u!1 &664141192
 GameObject:
@@ -4554,7 +4554,7 @@ MonoBehaviour:
   BaseHP: 90
   BaseAttack: 130
   BaseDefense: 80
-  BaseSpecial: 85
+  BaseSpecial: 65
   BaseSpeed: 55
 --- !u!1 &740390726
 GameObject:
@@ -4815,7 +4815,7 @@ MonoBehaviour:
   BaseAttack: 90
   BaseDefense: 55
   BaseSpecial: 90
-  BaseSpeed: 110
+  BaseSpeed: 100
 --- !u!1 &799015368
 GameObject:
   m_ObjectHideFlags: 0
@@ -4864,10 +4864,10 @@ MonoBehaviour:
   PrimaryType: 4
   SecondaryType: 0
   BaseHP: 60
-  BaseAttack: 95
+  BaseAttack: 85
   BaseDefense: 69
-  BaseSpecial: 50
-  BaseSpeed: 90
+  BaseSpecial: 65
+  BaseSpeed: 80
 --- !u!1 &816999131
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,7 +5142,7 @@ MonoBehaviour:
   BaseHP: 30
   BaseAttack: 56
   BaseDefense: 35
-  BaseSpecial: 35
+  BaseSpecial: 25
   BaseSpeed: 72
 --- !u!1 &850147623
 GameObject:
@@ -5244,9 +5244,9 @@ MonoBehaviour:
   PrimaryType: 10
   SecondaryType: 2
   BaseHP: 90
-  BaseAttack: 95
+  BaseAttack: 85
   BaseDefense: 95
-  BaseSpecial: 90
+  BaseSpecial: 70
   BaseSpeed: 70
 --- !u!1 &889671883
 GameObject:
@@ -5720,7 +5720,7 @@ MonoBehaviour:
   BaseHP: 90
   BaseAttack: 55
   BaseDefense: 75
-  BaseSpecial: 75
+  BaseSpecial: 60
   BaseSpeed: 30
 --- !u!1 &1012515827
 GameObject:
@@ -5772,7 +5772,7 @@ MonoBehaviour:
   BaseHP: 70
   BaseAttack: 110
   BaseDefense: 80
-  BaseSpecial: 80
+  BaseSpecial: 55
   BaseSpeed: 105
 --- !u!1 &1013099996
 GameObject:
@@ -5822,9 +5822,9 @@ MonoBehaviour:
   PrimaryType: 7
   SecondaryType: 4
   BaseHP: 65
-  BaseAttack: 90
+  BaseAttack: 80
   BaseDefense: 40
-  BaseSpecial: 80
+  BaseSpecial: 45
   BaseSpeed: 75
 --- !u!1 &1030695310
 GameObject:
@@ -6035,7 +6035,7 @@ MonoBehaviour:
   BaseHP: 75
   BaseAttack: 80
   BaseDefense: 85
-  BaseSpecial: 110
+  BaseSpecial: 100
   BaseSpeed: 50
 --- !u!1 &1060602600
 GameObject:
@@ -6087,7 +6087,7 @@ MonoBehaviour:
   BaseHP: 65
   BaseAttack: 60
   BaseDefense: 70
-  BaseSpecial: 85
+  BaseSpecial: 75
   BaseSpeed: 40
 --- !u!1 &1066538723
 GameObject:
@@ -6388,7 +6388,7 @@ MonoBehaviour:
   BaseAttack: 110
   BaseDefense: 70
   BaseSpecial: 60
-  BaseSpeed: 110
+  BaseSpeed: 100
 --- !u!1 &1174028435
 GameObject:
   m_ObjectHideFlags: 0
@@ -6439,7 +6439,7 @@ MonoBehaviour:
   BaseHP: 115
   BaseAttack: 45
   BaseDefense: 20
-  BaseSpecial: 45
+  BaseSpecial: 25
   BaseSpeed: 20
 --- !u!1 &1190442279
 GameObject:
@@ -6602,7 +6602,7 @@ MonoBehaviour:
   BaseHP: 80
   BaseAttack: 100
   BaseDefense: 70
-  BaseSpecial: 60
+  BaseSpecial: 50
   BaseSpeed: 45
 --- !u!1 &1220898211
 GameObject:
@@ -6884,7 +6884,7 @@ MonoBehaviour:
   BaseHP: 44
   BaseAttack: 48
   BaseDefense: 65
-  BaseSpecial: 64
+  BaseSpecial: 50
   BaseSpeed: 43
 --- !u!1 &1258556264
 GameObject:
@@ -7256,7 +7256,7 @@ MonoBehaviour:
   BaseAttack: 80
   BaseDefense: 75
   BaseSpecial: 70
-  BaseSpeed: 101
+  BaseSpeed: 91
 --- !u!1 &1296904528
 GameObject:
   m_ObjectHideFlags: 0
@@ -7307,7 +7307,7 @@ MonoBehaviour:
   BaseHP: 50
   BaseAttack: 52
   BaseDefense: 48
-  BaseSpecial: 65
+  BaseSpecial: 50
   BaseSpeed: 55
 --- !u!1 &1311811846
 GameObject:
@@ -7411,7 +7411,7 @@ MonoBehaviour:
   BaseHP: 65
   BaseAttack: 105
   BaseDefense: 60
-  BaseSpecial: 70
+  BaseSpecial: 60
   BaseSpeed: 95
 --- !u!1 &1351123256
 GameObject:
@@ -8059,7 +8059,7 @@ MonoBehaviour:
   BaseHP: 140
   BaseAttack: 70
   BaseDefense: 45
-  BaseSpecial: 85
+  BaseSpecial: 50
   BaseSpeed: 45
 --- !u!1 &1380131396
 GameObject:
@@ -8185,7 +8185,7 @@ MonoBehaviour:
   BaseHP: 39
   BaseAttack: 52
   BaseDefense: 43
-  BaseSpecial: 60
+  BaseSpecial: 50
   BaseSpeed: 65
 --- !u!1 &1387301305
 GameObject:
@@ -8364,7 +8364,7 @@ MonoBehaviour:
   BaseHP: 35
   BaseAttack: 60
   BaseDefense: 44
-  BaseSpecial: 54
+  BaseSpecial: 40
   BaseSpeed: 55
 --- !u!1 &1405297953
 GameObject:
@@ -8506,8 +8506,8 @@ MonoBehaviour:
   BaseHP: 50
   BaseAttack: 120
   BaseDefense: 53
-  BaseSpecial: 110
-  BaseSpeed: 76
+  BaseSpecial: 35
+  BaseSpeed: 87
 --- !u!1 &1425042039
 GameObject:
   m_ObjectHideFlags: 0
@@ -8610,7 +8610,7 @@ MonoBehaviour:
   BaseHP: 40
   BaseAttack: 45
   BaseDefense: 65
-  BaseSpecial: 120
+  BaseSpecial: 100
   BaseSpeed: 90
 --- !u!1 &1446362365
 GameObject:
@@ -9893,7 +9893,7 @@ MonoBehaviour:
   BaseHP: 105
   BaseAttack: 105
   BaseDefense: 75
-  BaseSpecial: 100
+  BaseSpecial: 65
   BaseSpeed: 50
 --- !u!1 &1652801067
 GameObject:
@@ -10049,7 +10049,7 @@ MonoBehaviour:
   BaseHP: 50
   BaseAttack: 50
   BaseDefense: 95
-  BaseSpecial: 50
+  BaseSpecial: 40
   BaseSpeed: 35
 --- !u!1 &1692332301
 GameObject:
@@ -10718,7 +10718,7 @@ MonoBehaviour:
   BaseHP: 160
   BaseAttack: 110
   BaseDefense: 65
-  BaseSpecial: 110
+  BaseSpecial: 65
   BaseSpeed: 30
 --- !u!1 &1804901490
 GameObject:
@@ -10884,7 +10884,7 @@ MonoBehaviour:
   BaseHP: 65
   BaseAttack: 125
   BaseDefense: 100
-  BaseSpecial: 70
+  BaseSpecial: 55
   BaseSpeed: 85
 --- !u!1 &1825828295
 GameObject:
@@ -11346,7 +11346,7 @@ MonoBehaviour:
   BaseAttack: 50
   BaseDefense: 70
   BaseSpecial: 80
-  BaseSpeed: 150
+  BaseSpeed: 140
 --- !u!1 &1903717543
 GameObject:
   m_ObjectHideFlags: 0
@@ -11449,7 +11449,7 @@ MonoBehaviour:
   BaseHP: 105
   BaseAttack: 95
   BaseDefense: 80
-  BaseSpecial: 80
+  BaseSpecial: 40
   BaseSpeed: 90
 --- !u!1 &1922844785
 GameObject:
@@ -11551,9 +11551,9 @@ MonoBehaviour:
   PrimaryType: 4
   SecondaryType: 5
   BaseHP: 90
-  BaseAttack: 92
+  BaseAttack: 82
   BaseDefense: 87
-  BaseSpecial: 85
+  BaseSpecial: 75
   BaseSpeed: 76
 --- !u!1 &1952568335
 GameObject:
@@ -11657,7 +11657,7 @@ MonoBehaviour:
   BaseHP: 95
   BaseAttack: 75
   BaseDefense: 110
-  BaseSpecial: 100
+  BaseSpecial: 80
   BaseSpeed: 30
 --- !u!1 &1964083132
 GameObject:
@@ -11848,7 +11848,7 @@ MonoBehaviour:
   BaseHP: 80
   BaseAttack: 105
   BaseDefense: 65
-  BaseSpecial: 75
+  BaseSpecial: 60
   BaseSpeed: 130
 --- !u!1 &2002465787
 GameObject:
@@ -11952,7 +11952,7 @@ MonoBehaviour:
   BaseHP: 65
   BaseAttack: 95
   BaseDefense: 57
-  BaseSpecial: 100
+  BaseSpecial: 85
   BaseSpeed: 93
 --- !u!1 &2021850787
 GameObject:
@@ -12288,7 +12288,7 @@ MonoBehaviour:
   BaseHP: 30
   BaseAttack: 80
   BaseDefense: 90
-  BaseSpecial: 55
+  BaseSpecial: 45
   BaseSpeed: 55
 --- !u!1 &2040952388
 GameObject:
@@ -12696,7 +12696,7 @@ MonoBehaviour:
   BaseHP: 80
   BaseAttack: 82
   BaseDefense: 78
-  BaseSpecial: 95
+  BaseSpecial: 80
   BaseSpeed: 85
 --- !u!1 &2092575120
 GameObject:
@@ -13027,5 +13027,5 @@ MonoBehaviour:
   BaseHP: 50
   BaseAttack: 105
   BaseDefense: 79
-  BaseSpecial: 110
+  BaseSpecial: 35
   BaseSpeed: 76
