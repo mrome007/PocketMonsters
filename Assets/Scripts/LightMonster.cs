@@ -8,8 +8,10 @@ public class LightMonster
 {
     [SerializeField]
     private short level;
+
     [SerializeField]
     private short currentHitPoints;
+
     [SerializeField]
     private short hitPointsEV;
     [SerializeField]
@@ -20,23 +22,45 @@ public class LightMonster
     private short specialEV;
     [SerializeField]
     private short speedEV;
+
+    [SerializeField]
+    private short hitPointsIV;
+    [SerializeField]
+    private short attackIV;
+    [SerializeField]
+    private short defenseIV;
+    [SerializeField]
+    private short specialIV;
+    [SerializeField]
+    private short speedIV;
+
     [SerializeField]
     private Monster heavyMonster;
 
-    public LightMonster(Monster hvy, short level = 1, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0)
+    public LightMonster(Monster hvy, short lvl = 1, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0,
+        short hpIV = 15, short atkIV = 15, short defIV = 15, short splIV = 15, short speIV = 15)
     {
-        Initialize(level, hvy, hpEV, atkEV, defEV, splEV, speEV);
+        Initialize(hvy, lvl, hpEV, atkEV, defEV, splEV, speEV, hpIV, atkIV, defIV, splIV, speIV);
     }
 
-    public void Initialize(short lvl, Monster hvy, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0)
+    public void Initialize(Monster hvy, short lvl = 1, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0,
+        short hpIV = 15, short atkIV = 15, short defIV = 15, short splIV = 15, short speIV = 15)
     {
         level = lvl;
+
         heavyMonster = hvy;
+
         hitPointsEV = hpEV;
         attackEV = atkEV;
         defenseEV = defEV;
         specialEV = splEV;
         speedEV = speEV;
+
+        hitPointsIV = hpIV;
+        attackIV = atkIV;
+        defenseIV = defIV;
+        specialIV = splIV;
+        speedIV = speIV;
 
         currentHitPoints = HPStat;
     }
@@ -76,8 +100,8 @@ public class LightMonster
     {
         get
         {
-            short statTotal = heavyMonster.BaseStatTotal;
-            statTotal += heavyMonster.BaseHP;
+            short statTotal = heavyMonster.BaseHP;
+            statTotal += hitPointsIV;
             statTotal *= (short)2;
 
             short evCalculation = (short)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * hitPointsEV)) / 4f);
@@ -95,7 +119,7 @@ public class LightMonster
     {
         get
         {
-            return GetStat(heavyMonster.BaseStatTotal, heavyMonster.BaseAttack, attackEV);
+            return GetStat(heavyMonster.BaseAttack, attackIV, attackEV);
         }
     }
 
@@ -103,7 +127,7 @@ public class LightMonster
     {
         get
         {
-            return GetStat(heavyMonster.BaseStatTotal, heavyMonster.BaseDefense, defenseEV);
+            return GetStat(heavyMonster.BaseDefense, defenseIV, defenseEV);
         }
     }
 
@@ -111,7 +135,7 @@ public class LightMonster
     {
         get
         {
-            return GetStat(heavyMonster.BaseStatTotal, heavyMonster.BaseSpecial, specialEV);
+            return GetStat(heavyMonster.BaseSpecial, specialIV, specialEV);
         }
     }
 
@@ -119,7 +143,7 @@ public class LightMonster
     {
         get
         {
-            return GetStat(heavyMonster.BaseStatTotal, heavyMonster.BaseSpeed, speedEV);
+            return GetStat(heavyMonster.BaseSpeed, speedIV, speedEV);
         }
     }
 }
