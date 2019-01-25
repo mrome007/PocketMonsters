@@ -4,8 +4,29 @@ using UnityEngine;
 
 public class PlayerMonsterEncounterCollision : MonoBehaviour
 {
+    [SerializeField]
+    private BattleSequence battleSequence;
+    [SerializeField]
+    private PocketMonstersStateManager stateManager;
+
     private float encounterTimer = 0f;
     private float maximumEncounterTime = 12f;
+    private Collider2D playerCollider;
+
+    private void Awake()
+    {
+        playerCollider = GetComponent<Collider2D>();
+        if(playerCollider == null)
+        {
+            Debug.LogError("No Collider");
+            return;
+        }
+    }
+
+    private void HandleBattleEnd(object sender, System.EventArgs e)
+    {
+        EndBattleSequence();   
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,6 +47,7 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
             {
                 //TODO: Stop movement somehow and disable collider.
                 Debug.Log("LOAD BATTLE SEQUENCE HERE!");
+                StartBattleSequence();
             }
         }
     }
@@ -37,5 +59,22 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
         {
             encounterTimer = 0f;
         }
+    }
+
+    private void StartBattleSequence()
+    {
+        Debug.Log("Starting Battle Sequence.");
+        battleSequence.BattleEnd += HandleBattleEnd;
+        playerCollider.enabled = false;
+        stateManager.ShowState(PocketMonsterState.BATTLE);
+        battleSequence.StartBattleSequence();
+    }
+
+    private void EndBattleSequence()
+    {
+        Debug.Log("Ending Battle Sequence.");
+        battleSequence.BattleEnd -= HandleBattleEnd;
+        playerCollider.enabled = true;
+        stateManager.ShowState(PocketMonsterState.OVERWORLD);
     }
 }

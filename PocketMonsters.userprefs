@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterBattleMatchup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LightMonster.cs">
     <Files>
-      <File FileName="Assets/Scripts/Monster.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster.cs" Line="33" Column="25" />
+      <File FileName="Assets/Scripts/Gap.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MonsterBattleMatchup.cs" Line="68" Column="1" />
+      <File FileName="Assets/Scripts/HeavyMonsters.cs" Line="16" Column="20" />
+      <File FileName="Assets/Scripts/Editor/MonsterSpritesEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LightMonster.cs" Line="26" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

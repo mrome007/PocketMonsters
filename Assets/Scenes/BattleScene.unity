@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 8
+  serializedVersion: 9
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,6 +39,7 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -54,11 +55,10 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 9
+    serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
-    m_TextureWidth: 1024
-    m_TextureHeight: 1024
+    m_AtlasSize: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -142,6 +142,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -218,7 +219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14934951, y: 10.000001}
+  m_AnchoredPosition: {x: -0.14935303, y: 10}
   m_SizeDelta: {x: -29.7, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &331613699
@@ -440,7 +441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14934951, y: 10.000001}
+  m_AnchoredPosition: {x: -0.14935303, y: 10}
   m_SizeDelta: {x: -29.7, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423299359
@@ -588,7 +589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14990288, y: 24.999998}
+  m_AnchoredPosition: {x: -0.14990234, y: 24.999998}
   m_SizeDelta: {x: -29.701, y: -70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &433236236
@@ -662,7 +663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14990288, y: 24.999998}
+  m_AnchoredPosition: {x: -0.14990234, y: 24.999998}
   m_SizeDelta: {x: -29.701, y: -70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456201839
@@ -752,9 +753,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 400, y: 360}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -940,6 +941,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1267,7 +1269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14934951, y: 10.000001}
+  m_AnchoredPosition: {x: -0.14935303, y: 10}
   m_SizeDelta: {x: -29.7, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849424877
@@ -1797,7 +1799,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14990288, y: 24.999998}
+  m_AnchoredPosition: {x: -0.14990234, y: 24.999998}
   m_SizeDelta: {x: -29.701, y: -70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382681669
@@ -1945,7 +1947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14990288, y: 24.999998}
+  m_AnchoredPosition: {x: -0.14990234, y: 24.999998}
   m_SizeDelta: {x: -29.701, y: -70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491892045
@@ -2735,6 +2737,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1767562010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2745,7 +2748,6 @@ GameObject:
   - component: {fileID: 1767562014}
   - component: {fileID: 1767562013}
   - component: {fileID: 1767562012}
-  - component: {fileID: 1767562011}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: Untagged
@@ -2753,13 +2755,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1767562011
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1767562010}
-  m_Enabled: 1
 --- !u!124 &1767562012
 Behaviour:
   m_ObjectHideFlags: 0
@@ -2848,7 +2843,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.14934951, y: 10.000001}
+  m_AnchoredPosition: {x: -0.14935303, y: 10}
   m_SizeDelta: {x: -29.7, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1770481689

@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BattleSequence.cs" />
      <Compile Include="Assets\Scripts\Gap.cs" />
      <Compile Include="Assets\Scripts\HeavyMonsters.cs" />
      <Compile Include="Assets\Scripts\LightMonster.cs" />
@@ -61,6 +62,8 @@
      <Compile Include="Assets\Scripts\PlayerMonster.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PocketMonstersStateManager.cs" />
+     <Compile Include="Assets\Scripts\PocketMonsterStateRoot.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
