@@ -8,6 +8,10 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
     private BattleSequence battleSequence;
     [SerializeField]
     private PocketMonstersStateManager stateManager;
+    [SerializeField]
+    private PocketMonsterParty playerParty;
+    [SerializeField]
+    private PocketMonsterParty enemyParty;
 
     private float encounterTimer = 0f;
     private float maximumEncounterTime = 12f;
@@ -47,6 +51,9 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
             {
                 //TODO: Stop movement somehow and disable collider.
                 Debug.Log("LOAD BATTLE SEQUENCE HERE!");
+                var monsterFromEncounter = encounter.GetMonsterFromEncounter();
+                var monster = new LightMonster(HeavyMonsters.GetHeavyReference(monsterFromEncounter.x), (short)monsterFromEncounter.y);
+                enemyParty.AddMonster(monster);
                 StartBattleSequence();
             }
         }
@@ -67,7 +74,7 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
         battleSequence.BattleEnd += HandleBattleEnd;
         playerCollider.enabled = false;
         stateManager.ShowState(PocketMonsterState.BATTLE);
-        battleSequence.StartBattleSequence();
+        battleSequence.StartBattleSequence(playerParty, enemyParty);
     }
 
     private void EndBattleSequence()

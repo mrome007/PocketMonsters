@@ -62,6 +62,8 @@
      <Compile Include="Assets\Scripts\PlayerMonster.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerPocketMonsterParty.cs" />
+     <Compile Include="Assets\Scripts\PocketMonsterParty.cs" />
      <Compile Include="Assets\Scripts\PocketMonstersStateManager.cs" />
      <Compile Include="Assets\Scripts\PocketMonsterStateRoot.cs" />
  <Reference Include="UnityEngine.UI">

@@ -1,17 +1,32 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightMonster : MonoBehaviour
+[Serializable]
+public class LightMonster
 {
+    [SerializeField]
     private short level;
-    private Monster heavyMonster;
+    [SerializeField]
     private short currentHitPoints;
+    [SerializeField]
     private short hitPointsEV;
+    [SerializeField]
     private short attackEV;
+    [SerializeField]
     private short defenseEV;
+    [SerializeField]
     private short specialEV;
+    [SerializeField]
     private short speedEV;
+    [SerializeField]
+    private Monster heavyMonster;
+
+    public LightMonster(Monster hvy, short level = 1, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0)
+    {
+        Initialize(level, hvy, hpEV, atkEV, defEV, splEV, speEV);
+    }
 
     public void Initialize(short lvl, Monster hvy, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0)
     {
@@ -39,6 +54,22 @@ public class LightMonster : MonoBehaviour
         statTotal += (short)5;
 
         return statTotal;
+    }
+
+    public Sprite Back
+    {
+        get
+        {
+            return heavyMonster.MonsterBackSprite;   
+        }
+    }
+
+    public Sprite Front
+    {
+        get
+        {
+            return heavyMonster.MonsterFrontSprite;
+        }
     }
 
     public short HPStat

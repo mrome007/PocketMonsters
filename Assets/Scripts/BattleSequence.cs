@@ -8,10 +8,17 @@ public class BattleSequence : MonoBehaviour
     public event EventHandler BattleStart;
     public event EventHandler BattleEnd;
 
-    public void StartBattleSequence()
+    [SerializeField]
+    private SpriteRenderer playerSpriteRenderer;
+    [SerializeField]
+    private SpriteRenderer enemySpriteRenderer;
+
+    public void StartBattleSequence(PocketMonsterParty player = null, PocketMonsterParty enemy = null)
     {
         PostBattleStart();
 
+        playerSpriteRenderer.sprite = player.GetCurrentMonster().Back;
+        enemySpriteRenderer.sprite = enemy.GetCurrentMonster().Front;
         //Temporary
         Invoke("EndBattleSequence", 5f);
     }
