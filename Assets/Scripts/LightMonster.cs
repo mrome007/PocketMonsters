@@ -11,6 +11,8 @@ public class LightMonster
 
     [SerializeField]
     private ushort currentHitPoints;
+    [SerializeField]
+    private ushort currentExpPoints;
 
     [SerializeField]
     private ushort hitPointsEV;
@@ -63,19 +65,20 @@ public class LightMonster
         speedIV = speIV;
 
         currentHitPoints = HPStat;
+        currentExpPoints = 0;
     }
 
     private ushort GetStat(ushort baseTotal, ushort iv, ushort ev)
     {
-        ushort statTotal = baseTotal;
+        var statTotal = baseTotal;
         statTotal += iv;
-        statTotal *= (ushort)2;
+        statTotal *= 2;
 
-        ushort evCalculation = (ushort)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * ev)) / 4f);
+        var evCalculation = (ushort)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * ev)) / 4f);
         statTotal += evCalculation;
-        statTotal *= (ushort)level;
-        statTotal /= (ushort)100;
-        statTotal += (ushort)5;
+        statTotal *= level;
+        statTotal /= 100;
+        statTotal += 5;
 
         return statTotal;
     }
@@ -100,16 +103,16 @@ public class LightMonster
     {
         get
         {
-            ushort statTotal = heavyMonster.BaseHP;
+            var statTotal = heavyMonster.BaseHP;
             statTotal += hitPointsIV;
-            statTotal *= (ushort)2;
+            statTotal *= 2;
 
-            ushort evCalculation = (ushort)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * hitPointsEV)) / 4f);
+            var evCalculation = (ushort)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * hitPointsEV)) / 4f);
             statTotal += evCalculation;
-            statTotal *= (ushort)level;
-            statTotal /= (ushort)100;
+            statTotal *= level;
+            statTotal /= 100;
             statTotal += level;
-            statTotal += (ushort)10;
+            statTotal += 10;
 
             return statTotal;
         }
@@ -145,5 +148,63 @@ public class LightMonster
         {
             return GetStat(heavyMonster.BaseSpeed, speedIV, speedEV);
         }
+    }
+
+    public ushort ToNextLevel
+    {
+        get
+        {
+            var nextLevel = level;
+            nextLevel += 1;
+            var toNext = CalculateExperience(heavyMonster.ExperienceGroup, nextLevel);
+            toNext -= CalculateExperience(heavyMonster.ExperienceGroup, level);
+            return toNext;
+        }
+    }
+
+    private ushort CalculateExperience(MonsterExpGroup expGroup, ushort lvl)
+    {
+        ushort exp = 0;
+        switch(expGroup)
+        {
+            case MonsterExpGroup.FAST:
+                exp = 4;
+                exp *= lvl;
+                exp *= lvl;
+                exp *= lvl;
+                exp /= 5;
+                break;
+            case MonsterExpGroup.MEDIUMFAST:
+                exp = lvl;
+                exp *= lvl;
+                exp *= lvl;
+                break;
+            case MonsterExpGroup.MEDIUMSLOW:
+                exp = 6;
+                exp *= lvl;
+                exp *= lvl;
+                exp *= lvl;
+                exp /= 5;
+                ushort square = 15;
+                square *= lvl;
+                square *= lvl;
+                ushort one = 100;
+                one *= lvl;
+                exp -= square;
+                exp += one;
+                exp -= 140;
+                break;
+            case MonsterExpGroup.SLOW:
+                exp = 5;
+                exp *= lvl;
+                exp *= lvl;
+                exp *= lvl;
+                exp /= 4;
+                break;
+            default:
+                break;
+        }
+
+        return exp;
     }
 }

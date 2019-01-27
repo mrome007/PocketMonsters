@@ -23,6 +23,8 @@ public class Monster : MonoBehaviour
     public ushort BaseSpecial;
     public ushort BaseSpeed;
 
+    public MonsterExpGroup ExperienceGroup;
+
     private void Awake()
     {
         InitializeBaseTotal();
@@ -60,4 +62,13 @@ public enum MonsterType
     DARK,
     FAIRY,
     GHOST
+}
+
+public enum MonsterExpGroup
+{
+    NONE,
+    FAST,
+    MEDIUMFAST,
+    MEDIUMSLOW,
+    SLOW
 }
