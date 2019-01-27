@@ -34,8 +34,8 @@ public class MonsterEncounter : MonoBehaviour
 [Serializable]
 public class MonsterEncounterInfo
 {
-    public short MonsterIndex;
-    public short MinLevelRange;
-    public short MaxLevelRange;
-    public short EncounterPercentage;
+    public ushort MonsterIndex;
+    public ushort MinLevelRange;
+    public ushort MaxLevelRange;
+    public ushort EncounterPercentage;
 }
