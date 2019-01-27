@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerMonster : Monster
 {
-    public short EVHP;
-    public short EVAttack;
-    public short EVDefense;
-    public short EVSpecial;
-    public short EVSpeed;
+    public ushort EVHP;
+    public ushort EVAttack;
+    public ushort EVDefense;
+    public ushort EVSpecial;
+    public ushort EVSpeed;
 }

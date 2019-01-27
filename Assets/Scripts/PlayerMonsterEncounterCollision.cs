@@ -52,7 +52,7 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
                 //TODO: Stop movement somehow and disable collider.
                 Debug.Log("LOAD BATTLE SEQUENCE HERE!");
                 var monsterFromEncounter = encounter.GetMonsterFromEncounter();
-                var monster = new LightMonster(HeavyMonsters.GetHeavyReference(monsterFromEncounter.x), (short)monsterFromEncounter.y);
+                var monster = new LightMonster(HeavyMonsters.GetHeavyReference(monsterFromEncounter.x), (ushort)monsterFromEncounter.y);
                 enemyParty.AddMonster(monster);
                 StartBattleSequence();
             }

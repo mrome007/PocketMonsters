@@ -7,44 +7,44 @@ using UnityEngine;
 public class LightMonster
 {
     [SerializeField]
-    private short level;
+    private ushort level;
 
     [SerializeField]
-    private short currentHitPoints;
+    private ushort currentHitPoints;
 
     [SerializeField]
-    private short hitPointsEV;
+    private ushort hitPointsEV;
     [SerializeField]
-    private short attackEV;
+    private ushort attackEV;
     [SerializeField]
-    private short defenseEV;
+    private ushort defenseEV;
     [SerializeField]
-    private short specialEV;
+    private ushort specialEV;
     [SerializeField]
-    private short speedEV;
+    private ushort speedEV;
 
     [SerializeField]
-    private short hitPointsIV;
+    private ushort hitPointsIV;
     [SerializeField]
-    private short attackIV;
+    private ushort attackIV;
     [SerializeField]
-    private short defenseIV;
+    private ushort defenseIV;
     [SerializeField]
-    private short specialIV;
+    private ushort specialIV;
     [SerializeField]
-    private short speedIV;
+    private ushort speedIV;
 
     [SerializeField]
     private Monster heavyMonster;
 
-    public LightMonster(Monster hvy, short lvl = 1, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0,
-        short hpIV = 15, short atkIV = 15, short defIV = 15, short splIV = 15, short speIV = 15)
+    public LightMonster(Monster hvy, ushort lvl = 1, ushort hpEV = 0, ushort atkEV = 0, ushort defEV = 0, ushort splEV = 0, ushort speEV = 0,
+        ushort hpIV = 15, ushort atkIV = 15, ushort defIV = 15, ushort splIV = 15, ushort speIV = 15)
     {
         Initialize(hvy, lvl, hpEV, atkEV, defEV, splEV, speEV, hpIV, atkIV, defIV, splIV, speIV);
     }
 
-    public void Initialize(Monster hvy, short lvl = 1, short hpEV = 0, short atkEV = 0, short defEV = 0, short splEV = 0, short speEV = 0,
-        short hpIV = 15, short atkIV = 15, short defIV = 15, short splIV = 15, short speIV = 15)
+    public void Initialize(Monster hvy, ushort lvl = 1, ushort hpEV = 0, ushort atkEV = 0, ushort defEV = 0, ushort splEV = 0, ushort speEV = 0,
+        ushort hpIV = 15, ushort atkIV = 15, ushort defIV = 15, ushort splIV = 15, ushort speIV = 15)
     {
         level = lvl;
 
@@ -65,17 +65,17 @@ public class LightMonster
         currentHitPoints = HPStat;
     }
 
-    private short GetStat(short baseTotal, short iv, short ev)
+    private ushort GetStat(ushort baseTotal, ushort iv, ushort ev)
     {
-        short statTotal = baseTotal;
+        ushort statTotal = baseTotal;
         statTotal += iv;
-        statTotal *= (short)2;
+        statTotal *= (ushort)2;
 
-        short evCalculation = (short)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * ev)) / 4f);
+        ushort evCalculation = (ushort)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * ev)) / 4f);
         statTotal += evCalculation;
-        statTotal *= (short)level;
-        statTotal /= (short)100;
-        statTotal += (short)5;
+        statTotal *= (ushort)level;
+        statTotal /= (ushort)100;
+        statTotal += (ushort)5;
 
         return statTotal;
     }
@@ -96,26 +96,26 @@ public class LightMonster
         }
     }
 
-    public short HPStat
+    public ushort HPStat
     {
         get
         {
-            short statTotal = heavyMonster.BaseHP;
+            ushort statTotal = heavyMonster.BaseHP;
             statTotal += hitPointsIV;
-            statTotal *= (short)2;
+            statTotal *= (ushort)2;
 
-            short evCalculation = (short)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * hitPointsEV)) / 4f);
+            ushort evCalculation = (ushort)Mathf.FloorToInt(Mathf.CeilToInt(Mathf.Sqrt(1f * hitPointsEV)) / 4f);
             statTotal += evCalculation;
-            statTotal *= (short)level;
-            statTotal /= (short)100;
+            statTotal *= (ushort)level;
+            statTotal /= (ushort)100;
             statTotal += level;
-            statTotal += (short)10;
+            statTotal += (ushort)10;
 
             return statTotal;
         }
     }
 
-    public short AttackStat
+    public ushort AttackStat
     {
         get
         {
@@ -123,7 +123,7 @@ public class LightMonster
         }
     }
 
-    public short DefenseStat
+    public ushort DefenseStat
     {
         get
         {
@@ -131,7 +131,7 @@ public class LightMonster
         }
     }
 
-    public short SpecialStat
+    public ushort SpecialStat
     {
         get
         {
@@ -139,7 +139,7 @@ public class LightMonster
         }
     }
 
-    public short SpeedState
+    public ushort SpeedState
     {
         get
         {

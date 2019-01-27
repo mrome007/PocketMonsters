@@ -4,34 +4,34 @@ using UnityEngine;
 
 public static class MonsterBattleMatchup
 {
-    //Will use short values since the damage multipliers will either be 0, 1/2x, or 2x
+    //Will use ushort values since the damage multipliers will either be 0, 1/2x, or 2x
     //This will either result in clear(AND with 0), 1/2x(shift right by 1), 2x(shift left by 1).
     //0 represents clear, 1 represents 1, -1 represents 1/2, 2 represents 2
-    //Only using short for now since its easier to read at the start of this game. will eventually
+    //Only using ushort for now since its easier to read at the start of this game. will eventually
     //hopefully move on to using byte since that's the real data type pokemon uses.
-    private static short[][] monsterMatchup = new short[][] 
+    private static sbyte[][] monsterMatchup = new sbyte[][] 
     { 
-        new short[]{ 1, 2, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, //NORMAL
-        new short[]{ 1, 1, 2, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 2, 1, 1, -1, 2 }, //FIGHT
-        new short[]{ 1, -1, 1, 1, 0, 2, -1, 1, 1, 1, 1, -1, 2, 1, 2, 1, 1, 1 }, //FLYING
-        new short[]{ 1, -1, 1, -1, 2, 1, -1, 1, 1, 1, 1, -1, 1, 2, 1, 1, 1, -1 }, //POISON
-        new short[]{ 1, 1, 1, -1, 1, -1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 1, 1, 1 }, //GROUND
-        new short[]{ -1, 2, -1, -1, 2, 1, 1, 1, 2, -1, 2, 2, 1, 1, 1, 1, 1, 1 }, //ROCK
-        new short[]{ 1, -1, 2, 1, -1, 2, 1, 1, 1, 2, 1, -1, 1, 1, 1, 1, 1, 1 }, //BUG
-        new short[]{ -1, 2, -1, 0, 2, -1, -1, 1, -1, 2, 1, -1, 1, -1, -1, -1, 1, -1 }, //STEEL
-        new short[]{ 1, 1, 1, 1, 2, 2, -1, 1, -1, -1, 2, -1, 1, 1, -1, 1, 1, -1 }, //FIRE
-        new short[]{ 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, 2, 2, 1, -1, 1, 1, 1 }, //WATER
-        new short[]{ 1, 1, 2, 2, -1, 1, 2, 1, 1, 2, -1, -1, -1, 1, 2, 1, 1, 1 }, //GRASS
-        new short[]{ 1, 1, -1, 1, 2, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, 1, 1 }, //ELECTRIC
-        new short[]{ 1, -1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, -1, 1, 1, 2, 1 }, //PSYCHIC
-        new short[]{ 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 1, 1, 1, -1, 1, 1, 1 }, //ICE
-        new short[]{ 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, 1, 2, 2, 1, 2 }, //DRAGON
-        new short[]{ 1, 2, 1, 1, 1, 1, 2, -1, 1, 1, 1, 1, 1, 0, 1, 1, -1, 2 }, //DARK
-        new short[]{ 1, -1, 1, 2, 1, 1, -1, 1, 2, 1, 1, 1, 1, 1, 1, 0, -1, 1 }, //FAIRY
-        new short[]{ 0, 0, 1, -1, 1, 1, -1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1 }, //GHOST
+        new sbyte[]{ 1, 2, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, //NORMAL
+        new sbyte[]{ 1, 1, 2, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 2, 1, 1, -1, 2 }, //FIGHT
+        new sbyte[]{ 1, -1, 1, 1, 0, 2, -1, 1, 1, 1, 1, -1, 2, 1, 2, 1, 1, 1 }, //FLYING
+        new sbyte[]{ 1, -1, 1, -1, 2, 1, -1, 1, 1, 1, 1, -1, 1, 2, 1, 1, 1, -1 }, //POISON
+        new sbyte[]{ 1, 1, 1, -1, 1, -1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 1, 1, 1 }, //GROUND
+        new sbyte[]{ -1, 2, -1, -1, 2, 1, 1, 1, 2, -1, 2, 2, 1, 1, 1, 1, 1, 1 }, //ROCK
+        new sbyte[]{ 1, -1, 2, 1, -1, 2, 1, 1, 1, 2, 1, -1, 1, 1, 1, 1, 1, 1 }, //BUG
+        new sbyte[]{ -1, 2, -1, 0, 2, -1, -1, 1, -1, 2, 1, -1, 1, -1, -1, -1, 1, -1 }, //STEEL
+        new sbyte[]{ 1, 1, 1, 1, 2, 2, -1, 1, -1, -1, 2, -1, 1, 1, -1, 1, 1, -1 }, //FIRE
+        new sbyte[]{ 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, 2, 2, 1, -1, 1, 1, 1 }, //WATER
+        new sbyte[]{ 1, 1, 2, 2, -1, 1, 2, 1, 1, 2, -1, -1, -1, 1, 2, 1, 1, 1 }, //GRASS
+        new sbyte[]{ 1, 1, -1, 1, 2, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, 1, 1 }, //ELECTRIC
+        new sbyte[]{ 1, -1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, -1, 1, 1, 2, 1 }, //PSYCHIC
+        new sbyte[]{ 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 1, 1, 1, -1, 1, 1, 1 }, //ICE
+        new sbyte[]{ 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, 1, 2, 2, 1, 2 }, //DRAGON
+        new sbyte[]{ 1, 2, 1, 1, 1, 1, 2, -1, 1, 1, 1, 1, 1, 0, 1, 1, -1, 2 }, //DARK
+        new sbyte[]{ 1, -1, 1, 2, 1, 1, -1, 1, 2, 1, 1, 1, 1, 1, 1, 0, -1, 1 }, //FAIRY
+        new sbyte[]{ 0, 0, 1, -1, 1, 1, -1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1 }, //GHOST
     };
 
-    public static short GetTypeMatchupDamage(short damage, MonsterType attackType, MonsterType primaryTargetType, 
+    public static ushort GetTypeMatchupDamage(ushort damage, MonsterType attackType, MonsterType primaryTargetType, 
         MonsterType secondaryTargetType = MonsterType.NONE)
     {
         var firstMultiplier = monsterMatchup[(int)primaryTargetType][(int)attackType];
@@ -44,19 +44,19 @@ public static class MonsterBattleMatchup
         return damage;
     }
 
-    private static short ModifyDamage(short damage, short multiplier)
+    private static ushort ModifyDamage(ushort damage, sbyte multiplier)
     {
-        short one = (short)1;
+        ushort one = 1;
         switch(multiplier)
         {
             case -1:
-                damage = (short)(damage >> one);
+                damage = (ushort)(damage >> one);
                 break;
             case 0:
                 damage = 0;
                 break;
             case 2:
-                damage = (short)(damage << one);
+                damage = (ushort)(damage << one);
                 break;
             default:
                 break;

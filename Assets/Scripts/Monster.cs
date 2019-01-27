@@ -9,19 +9,19 @@ public class Monster : MonoBehaviour
     public Sprite MonsterBackSprite;
     public Monster Evolution;
 
-    public short MonsterNumber;
+    public ushort MonsterNumber;
     public string MonsterName;
 
     public MonsterType PrimaryType;
     public MonsterType SecondaryType;
 
-    public short BaseStatTotal { get; private set; }
+    public ushort BaseStatTotal { get; private set; }
 
-    public short BaseHP;
-    public short BaseAttack;
-    public short BaseDefense;
-    public short BaseSpecial;
-    public short BaseSpeed;
+    public ushort BaseHP;
+    public ushort BaseAttack;
+    public ushort BaseDefense;
+    public ushort BaseSpecial;
+    public ushort BaseSpeed;
 
     private void Awake()
     {
