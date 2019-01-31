@@ -12,6 +12,8 @@ public class BattleSequence : MonoBehaviour
     private SpriteRenderer playerSpriteRenderer;
     [SerializeField]
     private SpriteRenderer enemySpriteRenderer;
+    [SerializeField]
+    private BattleMenu battleMenu;
 
     public void StartBattleSequence(PocketMonsterParty player = null, PocketMonsterParty enemy = null)
     {
@@ -19,12 +21,14 @@ public class BattleSequence : MonoBehaviour
 
         playerSpriteRenderer.sprite = player.GetCurrentMonster().Back;
         enemySpriteRenderer.sprite = enemy.GetCurrentMonster().Front;
+        battleMenu.ShowMenuOption(BattleMenuOptions.MAIN, true);
         //Temporary
         Invoke("EndBattleSequence", 5f);
     }
 
     public void EndBattleSequence()
     {
+        battleMenu.ShowMenuOptions(false);
         PostBattleEnd();
     }
 

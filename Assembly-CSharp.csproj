@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BattleMenu.cs" />
      <Compile Include="Assets\Scripts\BattleSequence.cs" />
      <Compile Include="Assets\Scripts\Gap.cs" />
      <Compile Include="Assets\Scripts\HeavyMonsters.cs" />
