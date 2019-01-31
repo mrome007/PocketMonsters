@@ -19,8 +19,8 @@ public class BattleSequence : MonoBehaviour
     {
         PostBattleStart();
 
-        playerSpriteRenderer.sprite = player.GetCurrentMonster().Back;
-        enemySpriteRenderer.sprite = enemy.GetCurrentMonster().Front;
+        playerSpriteRenderer.sprite = player.First.Back;
+        enemySpriteRenderer.sprite = enemy.First.Front;
         battleMenu.ShowMenuOption(BattleMenuOptions.MAIN, true);
         //Temporary
         Invoke("EndBattleSequence", 5f);
