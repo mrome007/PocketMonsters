@@ -23,7 +23,7 @@ public class BattleSequence : MonoBehaviour
         enemySpriteRenderer.sprite = enemy.First.Front;
         battleMenu.ShowMenuOption(BattleMenuOptions.MAIN, true);
         //Temporary
-        Invoke("EndBattleSequence", 5f);
+        Invoke("EndBattleSequence", 10f);
     }
 
     public void EndBattleSequence()
