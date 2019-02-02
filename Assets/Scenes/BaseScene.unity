@@ -2000,7 +2000,27 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 45
   ExperienceGroup: 2
-  MovesByLevelUp: []
+  MovesByLevelUp:
+  - LevelLearned: 1
+    Move: {fileID: 1697010622}
+  - LevelLearned: 1
+    Move: {fileID: 1961675514}
+  - LevelLearned: 11
+    Move: {fileID: 1608677829}
+  - LevelLearned: 19
+    Move: {fileID: 873730186}
+  - LevelLearned: 22
+    Move: {fileID: 209804861}
+  - LevelLearned: 27
+    Move: {fileID: 190264193}
+  - LevelLearned: 30
+    Move: {fileID: 1912826967}
+  - LevelLearned: 35
+    Move: {fileID: 1212653023}
+  - LevelLearned: 38
+    Move: {fileID: 920043625}
+  - LevelLearned: 43
+    Move: {fileID: 1237598887}
 --- !u!1 &156089698
 GameObject:
   m_ObjectHideFlags: 0
@@ -8862,7 +8882,19 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 25
   ExperienceGroup: 2
-  MovesByLevelUp: []
+  MovesByLevelUp:
+  - LevelLearned: 1
+    Move: {fileID: 1177180208}
+  - LevelLearned: 13
+    Move: {fileID: 1912826967}
+  - LevelLearned: 20
+    Move: {fileID: 190264193}
+  - LevelLearned: 27
+    Move: {fileID: 146935017}
+  - LevelLearned: 34
+    Move: {fileID: 1799873799}
+  - LevelLearned: 41
+    Move: {fileID: 754178621}
 --- !u!1 &544306061
 GameObject:
   m_ObjectHideFlags: 0
@@ -11058,7 +11090,23 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 30
   ExperienceGroup: 2
-  MovesByLevelUp: []
+  MovesByLevelUp:
+  - LevelLearned: 1
+    Move: {fileID: 190264193}
+  - LevelLearned: 1
+    Move: {fileID: 1177180208}
+  - LevelLearned: 1
+    Move: {fileID: 1912826967}
+  - LevelLearned: 13
+    Move: {fileID: 1912826967}
+  - LevelLearned: 20
+    Move: {fileID: 190264193}
+  - LevelLearned: 30
+    Move: {fileID: 146935017}
+  - LevelLearned: 39
+    Move: {fileID: 1799873799}
+  - LevelLearned: 48
+    Move: {fileID: 754178621}
 --- !u!1 &666586639
 GameObject:
   m_ObjectHideFlags: 0
@@ -31802,7 +31850,27 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 90
   ExperienceGroup: 2
-  MovesByLevelUp: []
+  MovesByLevelUp:
+  - LevelLearned: 1
+    Move: {fileID: 873730186}
+  - LevelLearned: 1
+    Move: {fileID: 1697010622}
+  - LevelLearned: 1
+    Move: {fileID: 1608677829}
+  - LevelLearned: 1
+    Move: {fileID: 1961675514}
+  - LevelLearned: 22
+    Move: {fileID: 209804861}
+  - LevelLearned: 27
+    Move: {fileID: 190264193}
+  - LevelLearned: 30
+    Move: {fileID: 1912826967}
+  - LevelLearned: 38
+    Move: {fileID: 1212653023}
+  - LevelLearned: 43
+    Move: {fileID: 920043625}
+  - LevelLearned: 50
+    Move: {fileID: 1237598887}
 --- !u!1 &1928280640
 GameObject:
   m_ObjectHideFlags: 0
