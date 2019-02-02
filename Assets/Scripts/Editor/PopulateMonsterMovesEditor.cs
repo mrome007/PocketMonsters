@@ -55,6 +55,7 @@ public class PopulateMonsterMovesEditor : Editor
         foreach(XmlNode pokemon in pokemonList)
         {
             var monster = populateMonsterMoves.Monsters.GetMonster(pokemonIndex);
+            pokemonIndex++;
             if(monster.MovesByLevelUp.Count != 0)
             {
                 continue;
@@ -71,7 +72,6 @@ public class PopulateMonsterMovesEditor : Editor
                     monster.MovesByLevelUp.Add(new LearnedMove(monsterMove, lvlLearned));
                 }
             }
-            pokemonIndex++;
         }
 
         return result;
