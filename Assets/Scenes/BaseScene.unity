@@ -332,6 +332,7 @@ MonoBehaviour:
   BaseSpecial: 61
   BaseSpeed: 100
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &32165646
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +551,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 70
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &49379041
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +781,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 35
   ExperienceGroup: 1
+  MovesByLevelUp: []
 --- !u!1 &66929106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1083,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 35
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &87131513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,6 +1426,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 30
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &103132705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,6 +1526,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 100
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &127157898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,6 +1580,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 35
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &132439378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1634,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 95
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &136690977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,6 +1954,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 45
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &156089698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,6 +2397,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 60
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &166438540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2451,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 45
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &168565219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2494,6 +2505,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 56
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &169478635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,6 +2559,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 58
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &178505970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2728,6 +2741,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 35
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &186763850
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,6 +3061,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 70
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &201842350
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3248,7 @@ MonoBehaviour:
   BaseSpecial: 154
   BaseSpeed: 130
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &209804859
 GameObject:
   m_ObjectHideFlags: 0
@@ -3606,6 +3622,7 @@ MonoBehaviour:
   BaseSpecial: 110
   BaseSpeed: 65
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &220744066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,6 +3768,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 120
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &235314236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,6 +3822,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 95
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &238244054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4058,6 +4077,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 70
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &260047429
 GameObject:
   m_ObjectHideFlags: 0
@@ -4343,6 +4363,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 80
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &282806633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,6 +4417,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 90
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &289219807
 GameObject:
   m_ObjectHideFlags: 0
@@ -4449,6 +4471,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 105
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &291774982
 GameObject:
   m_ObjectHideFlags: 0
@@ -5501,6 +5524,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 115
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &351844571
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,6 +5948,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 55
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &367723379
 GameObject:
   m_ObjectHideFlags: 0
@@ -5977,6 +6002,7 @@ MonoBehaviour:
   BaseSpecial: 110
   BaseSpeed: 65
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &369662247
 GameObject:
   m_ObjectHideFlags: 0
@@ -6150,6 +6176,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 100
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &379989209
 GameObject:
   m_ObjectHideFlags: 0
@@ -6337,6 +6364,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 80
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &388788318
 GameObject:
   m_ObjectHideFlags: 0
@@ -6564,6 +6592,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 97
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &415431987
 GameObject:
   m_ObjectHideFlags: 0
@@ -6777,6 +6806,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 85
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &440318588
 GameObject:
   m_ObjectHideFlags: 0
@@ -7288,6 +7318,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 50
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &457618278
 GameObject:
   m_ObjectHideFlags: 0
@@ -7545,6 +7576,7 @@ MonoBehaviour:
   BaseSpecial: 58
   BaseSpeed: 60
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &474140818
 GameObject:
   m_ObjectHideFlags: 0
@@ -7682,6 +7714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476070394}
   - component: {fileID: 476070395}
+  - component: {fileID: 476070396}
   m_Layer: 0
   m_Name: PocketMonsters
   m_TagString: Untagged
@@ -7720,6 +7753,20 @@ MonoBehaviour:
   states:
   - {fileID: 1825828297}
   - {fileID: 358720420}
+--- !u!114 &476070396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 476070393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7cb4ed21eb34ec58964c725db00630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterMovesFile: {fileID: 4900000, guid: 5a3e17606310b48c5b75feb3b2b129d4, type: 3}
+  Monsters: {fileID: 2134839341}
+  MonsterMoves: {fileID: 1914060092}
 --- !u!1 &498729004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7773,6 +7820,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 90
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &501848954
 GameObject:
   m_ObjectHideFlags: 0
@@ -8191,6 +8239,7 @@ MonoBehaviour:
   BaseSpecial: 115
   BaseSpeed: 67
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -8317,6 +8366,7 @@ MonoBehaviour:
   BaseSpecial: 31
   BaseSpeed: 70
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &527957065
 GameObject:
   m_ObjectHideFlags: 0
@@ -8484,6 +8534,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 42
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &531351373
 GameObject:
   m_ObjectHideFlags: 0
@@ -8537,6 +8588,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 60
   ExperienceGroup: 1
+  MovesByLevelUp: []
 --- !u!1 &536241164
 GameObject:
   m_ObjectHideFlags: 0
@@ -8636,6 +8688,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 25
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &544306061
 GameObject:
   m_ObjectHideFlags: 0
@@ -8817,6 +8870,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 45
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &551549574
 GameObject:
   m_ObjectHideFlags: 0
@@ -8904,6 +8958,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 15
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &559399308
 GameObject:
   m_ObjectHideFlags: 0
@@ -9165,6 +9220,7 @@ MonoBehaviour:
   BaseSpecial: 20
   BaseSpeed: 50
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &570285600
 GameObject:
   m_ObjectHideFlags: 0
@@ -9276,6 +9332,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 68
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &578972361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9329,6 +9386,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 25
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &579920736
 GameObject:
   m_ObjectHideFlags: 0
@@ -9382,6 +9440,7 @@ MonoBehaviour:
   BaseSpecial: 48
   BaseSpeed: 48
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &581814783
 GameObject:
   m_ObjectHideFlags: 0
@@ -9435,6 +9494,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 100
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &585619456
 GameObject:
   m_ObjectHideFlags: 0
@@ -9562,6 +9622,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 70
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &594208699
 GameObject:
   m_ObjectHideFlags: 0
@@ -10062,6 +10123,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 78
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &617173981
 GameObject:
   m_ObjectHideFlags: 0
@@ -10474,6 +10536,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 70
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &640374011
 GameObject:
   m_ObjectHideFlags: 0
@@ -10527,6 +10590,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 55
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &645097662
 GameObject:
   m_ObjectHideFlags: 0
@@ -10626,6 +10690,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 95
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &660252095
 GameObject:
   m_ObjectHideFlags: 0
@@ -10753,6 +10818,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 30
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &666586639
 GameObject:
   m_ObjectHideFlags: 0
@@ -10806,6 +10872,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 90
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &675865572
 GameObject:
   m_ObjectHideFlags: 0
@@ -10997,6 +11064,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 45
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &700481677
 GameObject:
   m_ObjectHideFlags: 0
@@ -11096,6 +11164,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 60
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &712767920
 GameObject:
   m_ObjectHideFlags: 0
@@ -11369,6 +11438,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 65
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &730112907
 GameObject:
   m_ObjectHideFlags: 0
@@ -11422,6 +11492,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 55
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &739173356
 GameObject:
   m_ObjectHideFlags: 0
@@ -11521,6 +11592,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 30
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &743306744
 GameObject:
   m_ObjectHideFlags: 0
@@ -11830,6 +11902,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 40
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &754178619
 GameObject:
   m_ObjectHideFlags: 0
@@ -12021,6 +12094,7 @@ MonoBehaviour:
   BaseSpecial: 105
   BaseSpeed: 90
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &761029803
 GameObject:
   m_ObjectHideFlags: 0
@@ -12074,6 +12148,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 80
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &761959477
 GameObject:
   m_ObjectHideFlags: 0
@@ -12127,6 +12202,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 100
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &763379944
 GameObject:
   m_ObjectHideFlags: 0
@@ -12620,6 +12696,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 80
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &801463682
 GameObject:
   m_ObjectHideFlags: 0
@@ -12885,6 +12962,7 @@ MonoBehaviour:
   BaseSpecial: 135
   BaseSpeed: 120
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &822511646
 GameObject:
   m_ObjectHideFlags: 0
@@ -13216,6 +13294,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 71
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &838823109
 GameObject:
   m_ObjectHideFlags: 0
@@ -13343,6 +13422,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 40
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &847465239
 GameObject:
   m_ObjectHideFlags: 0
@@ -13442,6 +13522,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 72
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &850147623
 GameObject:
   m_ObjectHideFlags: 0
@@ -13495,6 +13576,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 50
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &851269689
 GameObject:
   m_ObjectHideFlags: 0
@@ -13888,6 +13970,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 70
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &889671883
 GameObject:
   m_ObjectHideFlags: 0
@@ -13941,6 +14024,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 70
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &897697661
 GameObject:
   m_ObjectHideFlags: 0
@@ -14169,6 +14253,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 100
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &920043623
 GameObject:
   m_ObjectHideFlags: 0
@@ -14336,6 +14421,7 @@ MonoBehaviour:
   BaseSpecial: 120
   BaseSpeed: 70
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &931567866
 GameObject:
   m_ObjectHideFlags: 0
@@ -14425,6 +14511,7 @@ MonoBehaviour:
   BaseSpecial: 105
   BaseSpeed: 50
   ExperienceGroup: 1
+  MovesByLevelUp: []
 --- !u!1 &940562587
 GameObject:
   m_ObjectHideFlags: 0
@@ -14478,6 +14565,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 65
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &945673460
 GameObject:
   m_ObjectHideFlags: 0
@@ -14741,6 +14829,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 115
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &966615814
 GameObject:
   m_ObjectHideFlags: 0
@@ -15482,6 +15571,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 30
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1011628310
 GameObject:
   m_ObjectHideFlags: 0
@@ -15747,6 +15837,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 105
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1013099996
 GameObject:
   m_ObjectHideFlags: 0
@@ -15800,6 +15891,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 75
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1029047239
 GameObject:
   m_ObjectHideFlags: 0
@@ -15899,6 +15991,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 40
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1039271190
 GameObject:
   m_ObjectHideFlags: 0
@@ -16551,6 +16644,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 50
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1060055485
 GameObject:
   m_ObjectHideFlags: 0
@@ -16650,6 +16744,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 40
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1063340572
 GameObject:
   m_ObjectHideFlags: 0
@@ -16777,6 +16872,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 40
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1067746615
 GameObject:
   m_ObjectHideFlags: 0
@@ -16871,6 +16967,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 90
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1068255010
 GameObject:
   m_ObjectHideFlags: 0
@@ -17922,6 +18019,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 100
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1171363890
 GameObject:
   m_ObjectHideFlags: 0
@@ -18009,6 +18107,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 20
   ExperienceGroup: 1
+  MovesByLevelUp: []
 --- !u!1 &1175351931
 GameObject:
   m_ObjectHideFlags: 0
@@ -18467,6 +18566,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 45
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1199468682
 GameObject:
   m_ObjectHideFlags: 0
@@ -19090,6 +19190,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 56
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1242015423
 GameObject:
   m_ObjectHideFlags: 0
@@ -19189,6 +19290,7 @@ MonoBehaviour:
   BaseSpecial: 110
   BaseSpeed: 130
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1243638720
 GameObject:
   m_ObjectHideFlags: 0
@@ -19370,6 +19472,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 90
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1250323282
 GameObject:
   m_ObjectHideFlags: 0
@@ -19423,6 +19526,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 43
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1258556264
 GameObject:
   m_ObjectHideFlags: 0
@@ -19587,6 +19691,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 41
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1268985347
 GameObject:
   m_ObjectHideFlags: 0
@@ -19934,6 +20039,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 60
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1280791957
 GameObject:
   m_ObjectHideFlags: 0
@@ -20115,6 +20221,7 @@ MonoBehaviour:
   BaseSpecial: 120
   BaseSpeed: 100
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1292177282
 GameObject:
   m_ObjectHideFlags: 0
@@ -20214,6 +20321,7 @@ MonoBehaviour:
   BaseSpecial: 20
   BaseSpeed: 45
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1295881829
 GameObject:
   m_ObjectHideFlags: 0
@@ -20267,6 +20375,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 91
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1296904528
 GameObject:
   m_ObjectHideFlags: 0
@@ -20320,6 +20429,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 55
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1302551036
 GameObject:
   m_ObjectHideFlags: 0
@@ -20455,6 +20565,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 63
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1312722678
 GameObject:
   m_ObjectHideFlags: 0
@@ -20508,6 +20619,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 95
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1316624410
 GameObject:
   m_ObjectHideFlags: 0
@@ -20905,6 +21017,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 20
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1351881080
 GameObject:
   m_ObjectHideFlags: 0
@@ -20958,6 +21071,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 55
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1353363805
 GameObject:
   m_ObjectHideFlags: 0
@@ -21869,6 +21983,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 45
   ExperienceGroup: 1
+  MovesByLevelUp: []
 --- !u!1 &1380131396
 GameObject:
   m_ObjectHideFlags: 0
@@ -22070,6 +22185,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 65
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1387301305
 GameObject:
   m_ObjectHideFlags: 0
@@ -22418,6 +22534,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 35
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1404258910
 GameObject:
   m_ObjectHideFlags: 0
@@ -22471,6 +22588,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 55
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1404933148
 GameObject:
   m_ObjectHideFlags: 0
@@ -22636,6 +22754,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 25
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1410426018
 GameObject:
   m_ObjectHideFlags: 0
@@ -22689,6 +22808,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 87
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1411623168
 GameObject:
   m_ObjectHideFlags: 0
@@ -23027,6 +23147,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 70
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1427749901
 GameObject:
   m_ObjectHideFlags: 0
@@ -23080,6 +23201,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 90
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1429849809
 GameObject:
   m_ObjectHideFlags: 0
@@ -23630,6 +23752,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 85
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1455405296
 GameObject:
   m_ObjectHideFlags: 0
@@ -23857,6 +23980,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 75
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1486364712
 GameObject:
   m_ObjectHideFlags: 0
@@ -24374,6 +24498,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 55
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1503950362
 GameObject:
   m_ObjectHideFlags: 0
@@ -24834,6 +24959,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 65
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1540275754
 GameObject:
   m_ObjectHideFlags: 0
@@ -24887,6 +25013,7 @@ MonoBehaviour:
   BaseSpecial: 120
   BaseSpeed: 105
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1546005238
 GameObject:
   m_ObjectHideFlags: 0
@@ -25220,6 +25347,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 80
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1566584897
 GameObject:
   m_ObjectHideFlags: 0
@@ -25273,6 +25401,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 105
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1579337555
 GameObject:
   m_ObjectHideFlags: 0
@@ -25454,6 +25583,7 @@ MonoBehaviour:
   BaseSpecial: 0
   BaseSpeed: 0
   ExperienceGroup: 0
+  MovesByLevelUp: []
 --- !u!1 &1582358062
 GameObject:
   m_ObjectHideFlags: 0
@@ -25584,6 +25714,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 100
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1596364335
 GameObject:
   m_ObjectHideFlags: 0
@@ -25757,6 +25888,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 90
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1604770073
 GameObject:
   m_ObjectHideFlags: 0
@@ -26490,6 +26622,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 50
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1652801067
 GameObject:
   m_ObjectHideFlags: 0
@@ -26543,6 +26676,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 45
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1659672922
 GameObject:
   m_ObjectHideFlags: 0
@@ -26688,6 +26822,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 80
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1688950854
 GameObject:
   m_ObjectHideFlags: 0
@@ -26777,6 +26912,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 35
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1692332301
 GameObject:
   m_ObjectHideFlags: 0
@@ -27082,6 +27218,7 @@ MonoBehaviour:
   BaseSpecial: 115
   BaseSpeed: 95
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1711672666
 GameObject:
   m_ObjectHideFlags: 0
@@ -27385,6 +27522,7 @@ MonoBehaviour:
   BaseSpecial: 130
   BaseSpeed: 110
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1740422720
 GameObject:
   m_ObjectHideFlags: 0
@@ -27512,6 +27650,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 60
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1742011056
 GameObject:
   m_ObjectHideFlags: 0
@@ -28463,6 +28602,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 85
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1772673134
 GameObject:
   m_ObjectHideFlags: 0
@@ -28682,6 +28822,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 30
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1783644530
 GameObject:
   m_ObjectHideFlags: 0
@@ -29107,6 +29248,7 @@ MonoBehaviour:
   BaseSpecial: 20
   BaseSpeed: 80
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1806034185
 GameObject:
   m_ObjectHideFlags: 0
@@ -29268,6 +29410,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 85
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1825828295
 GameObject:
   m_ObjectHideFlags: 0
@@ -29440,6 +29583,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 90
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1833677321
 GameObject:
   m_ObjectHideFlags: 0
@@ -29493,6 +29637,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 110
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1839933520
 GameObject:
   m_ObjectHideFlags: 0
@@ -29940,6 +30085,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 75
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1864014750
 GameObject:
   m_ObjectHideFlags: 0
@@ -30467,6 +30613,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 140
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1903717543
 GameObject:
   m_ObjectHideFlags: 0
@@ -30520,6 +30667,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 85
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1905102220
 GameObject:
   m_ObjectHideFlags: 0
@@ -30793,6 +30941,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 90
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1914060090
 GameObject:
   m_ObjectHideFlags: 0
@@ -30801,6 +30950,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1914060091}
+  - component: {fileID: 1914060092}
   m_Layer: 0
   m_Name: MonsterMoves
   m_TagString: Untagged
@@ -30986,6 +31136,17 @@ Transform:
   m_Father: {fileID: 476070394}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1914060092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914060090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35db48246df544277b85c56be75de7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1922844785
 GameObject:
   m_ObjectHideFlags: 0
@@ -31039,6 +31200,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 90
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1928280640
 GameObject:
   m_ObjectHideFlags: 0
@@ -31332,6 +31494,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 76
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &1952034274
 GameObject:
   m_ObjectHideFlags: 0
@@ -31515,6 +31678,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 50
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1957278245
 GameObject:
   m_ObjectHideFlags: 0
@@ -31688,6 +31852,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 30
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1964083132
 GameObject:
   m_ObjectHideFlags: 0
@@ -31741,6 +31906,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 81
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1967017247
 GameObject:
   m_ObjectHideFlags: 0
@@ -31840,6 +32006,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 60
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &1973063278
 GameObject:
   m_ObjectHideFlags: 0
@@ -32180,6 +32347,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 130
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &1989451925
 GameObject:
   m_ObjectHideFlags: 0
@@ -32603,6 +32771,25 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 45
   ExperienceGroup: 3
+  MovesByLevelUp:
+  - LevelLearned: 1
+    Move: {fileID: 1961675514}
+  - LevelLearned: 7
+    Move: {fileID: 1604770075}
+  - LevelLearned: 13
+    Move: {fileID: 1851131921}
+  - LevelLearned: 13
+    Move: {fileID: 1851131921}
+  - LevelLearned: 20
+    Move: {fileID: 209804861}
+  - LevelLearned: 27
+    Move: {fileID: 847465241}
+  - LevelLearned: 34
+    Move: {fileID: 754178621}
+  - LevelLearned: 41
+    Move: {fileID: 920043625}
+  - LevelLearned: 48
+    Move: {fileID: 1389829887}
 --- !u!1 &2015994344
 GameObject:
   m_ObjectHideFlags: 0
@@ -33032,6 +33219,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 93
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2021850787
 GameObject:
   m_ObjectHideFlags: 0
@@ -33085,6 +33273,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 70
   ExperienceGroup: 4
+  MovesByLevelUp: []
 --- !u!1 &2024898004
 GameObject:
   m_ObjectHideFlags: 0
@@ -33138,6 +33327,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 40
   ExperienceGroup: 3
+  MovesByLevelUp: []
 --- !u!1 &2033576507
 GameObject:
   m_ObjectHideFlags: 0
@@ -33452,6 +33642,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 55
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2040952388
 GameObject:
   m_ObjectHideFlags: 0
@@ -33505,6 +33696,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 40
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2047162555
 GameObject:
   m_ObjectHideFlags: 0
@@ -33632,6 +33824,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 60
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2048460227
 GameObject:
   m_ObjectHideFlags: 0
@@ -33685,6 +33878,7 @@ MonoBehaviour:
   BaseSpecial: 115
   BaseSpeed: 55
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2053605735
 GameObject:
   m_ObjectHideFlags: 0
@@ -33784,6 +33978,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 35
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2066250434
 GameObject:
   m_ObjectHideFlags: 0
@@ -33911,6 +34106,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 85
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2067858486
 GameObject:
   m_ObjectHideFlags: 0
@@ -34821,6 +35017,7 @@ GameObject:
   - component: {fileID: 2134839338}
   - component: {fileID: 2134839339}
   - component: {fileID: 2134839340}
+  - component: {fileID: 2134839341}
   m_Layer: 0
   m_Name: Monsters
   m_TagString: Untagged
@@ -35017,6 +35214,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0db35463a9c0c412185679b9b9796f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2134839341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134839337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1ca719ca4e14e239ffb37774885294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2137933600
 GameObject:
   m_ObjectHideFlags: 0
@@ -35116,6 +35324,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 76
   ExperienceGroup: 2
+  MovesByLevelUp: []
 --- !u!1 &2144129592
 GameObject:
   m_ObjectHideFlags: 0

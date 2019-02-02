@@ -25,6 +25,8 @@ public class Monster : MonoBehaviour
 
     public MonsterExpGroup ExperienceGroup;
 
+    public List<LearnedMove> MovesByLevelUp;
+
     private void Awake()
     {
         InitializeBaseTotal();
@@ -71,4 +73,17 @@ public enum MonsterExpGroup
     MEDIUMFAST,
     MEDIUMSLOW,
     SLOW
+}
+
+[Serializable]
+public class LearnedMove
+{
+    public short LevelLearned;
+    public MonsterMove Move;
+
+    public LearnedMove(MonsterMove mv, short lvl)
+    {
+        Move = mv;
+        LevelLearned = lvl;
+    }
 }

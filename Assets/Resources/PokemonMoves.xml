@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<PokemonMoves>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Growl</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tackle</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>7</Learned>
+            <Move>Leech Seed</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>13</Learned>
+            <Move>Vine Whip</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>13</Learned>
+            <Move>Vine Whip</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>20</Learned>
+            <Move>Poison Powder</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>27</Learned>
+            <Move>Razor Leaf</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>34</Learned>
+            <Move>Growth</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>41</Learned>
+            <Move>Sleep Powder</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>48</Learned>
+            <Move>Solar Beam</Move>
+        </PokemonMove>
+    </Pokemon>
+</PokemonMoves>

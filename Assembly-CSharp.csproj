@@ -59,7 +59,9 @@
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\MonsterBattleMatchup.cs" />
      <Compile Include="Assets\Scripts\MonsterEncounter.cs" />
+     <Compile Include="Assets\Scripts\MonsterFetch.cs" />
      <Compile Include="Assets\Scripts\MonsterMove.cs" />
+     <Compile Include="Assets\Scripts\MonsterMoveFetch.cs" />
      <Compile Include="Assets\Scripts\MonsterSprites.cs" />
      <Compile Include="Assets\Scripts\PlayerMonster.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />
@@ -68,6 +70,8 @@
      <Compile Include="Assets\Scripts\PocketMonsterParty.cs" />
      <Compile Include="Assets\Scripts\PocketMonstersStateManager.cs" />
      <Compile Include="Assets\Scripts\PocketMonsterStateRoot.cs" />
+     <Compile Include="Assets\Scripts\PopulateMonsterMoves.cs" />
+     <None Include="Assets\Resources\PokemonMoves.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
