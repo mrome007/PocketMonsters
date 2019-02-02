@@ -57,7 +57,7 @@ public class PopulateMonsterMovesEditor : Editor
             var monster = populateMonsterMoves.Monsters.GetMonster(pokemonIndex);
             if(monster.MovesByLevelUp.Count != 0)
             {
-                break;
+                continue;
             }
 
             foreach(XmlNode moves in pokemon.ChildNodes)
