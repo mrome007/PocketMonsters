@@ -19,10 +19,6 @@
             <Move>Vine Whip</Move>
         </PokemonMove>
         <PokemonMove>
-            <Learned>13</Learned>
-            <Move>Vine Whip</Move>
-        </PokemonMove>
-        <PokemonMove>
             <Learned>20</Learned>
             <Move>Poison Powder</Move>
         </PokemonMove>
@@ -43,4 +39,312 @@
             <Move>Solar Beam</Move>
         </PokemonMove>
     </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Growl</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tackle</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>7</Learned>
+            <Move>Leech Seed</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>13</Learned>
+            <Move>Vine Whip</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>22</Learned>
+            <Move>Poison Powder</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>30</Learned>
+            <Move>Razor Leaf</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>38</Learned>
+            <Move>Growth</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>46</Learned>
+            <Move>Sleep Powder</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>54</Learned>
+            <Move>Solar Beam</Move>
+        </PokemonMove>
+    </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Growl</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tackle</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>7</Learned>
+            <Move>Leech Seed</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>13</Learned>
+            <Move>Vine Whip</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>22</Learned>
+            <Move>Poison Powder</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>30</Learned>
+            <Move>Razor Leaf</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>43</Learned>
+            <Move>Growth</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>55</Learned>
+            <Move>Sleep Powder</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>65</Learned>
+            <Move>Solar Beam</Move>
+        </PokemonMove>
+    </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Growl</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Scratch</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>9</Learned>
+            <Move>Ember</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>15</Learned>
+            <Move>Leer</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>22</Learned>
+            <Move>Rage</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>30</Learned>
+            <Move>Slash</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>38</Learned>
+            <Move>Flamethrower</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>46</Learned>
+            <Move>Fire Spin</Move>
+        </PokemonMove>
+    </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Growl</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Scratch</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>9</Learned>
+            <Move>Ember</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>15</Learned>
+            <Move>Leer</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>24</Learned>
+            <Move>Rage</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>33</Learned>
+            <Move>Slash</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>42</Learned>
+            <Move>Flamethrower</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>56</Learned>
+            <Move>Fire Spin</Move>
+        </PokemonMove>
+    </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Growl</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Scratch</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>9</Learned>
+            <Move>Ember</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>15</Learned>
+            <Move>Leer</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>24</Learned>
+            <Move>Rage</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>36</Learned>
+            <Move>Slash</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>46</Learned>
+            <Move>Flamethrower</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>55</Learned>
+            <Move>Fire Spin</Move>
+        </PokemonMove>
+    </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tackle</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tail Whip</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>8</Learned>
+            <Move>Bubble</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>15</Learned>
+            <Move>Water Gun</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>22</Learned>
+            <Move>Bite</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>28</Learned>
+            <Move>Withdraw</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>35</Learned>
+            <Move>Skull Bash</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>42</Learned>
+            <Move>Hydro Pump</Move>
+        </PokemonMove>
+    </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tackle</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tail Whip</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>8</Learned>
+            <Move>Bubble</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>15</Learned>
+            <Move>Water Gun</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>24</Learned>
+            <Move>Bite</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>31</Learned>
+            <Move>Withdraw</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>39</Learned>
+            <Move>Skull Bash</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>47</Learned>
+            <Move>Hydro Pump</Move>
+        </PokemonMove>
+    </Pokemon>
+    <Pokemon>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tackle</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>1</Learned>
+            <Move>Tail Whip</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>8</Learned>
+            <Move>Bubble</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>15</Learned>
+            <Move>Water Gun</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>24</Learned>
+            <Move>Bite</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>31</Learned>
+            <Move>Withdraw</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>42</Learned>
+            <Move>Skull Bash</Move>
+        </PokemonMove>
+        <PokemonMove>
+            <Learned>52</Learned>
+            <Move>Hydro Pump</Move>
+        </PokemonMove>
+    </Pokemon>
 </PokemonMoves>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
