@@ -20,13 +20,21 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
     }
 
-    public void AddMonster(LightMonster monster)
+    public void AddMonster(LightMonster monster, bool wild = true)
     {
         if(party == null)
         {
             party = new List<LightMonster>();
         }
 
+        if(wild)
+        {
+            if(party.Count > 0)
+            {
+                party[0] = monster;
+                return;
+            }
+        }
         party.Add(monster);
     }
 

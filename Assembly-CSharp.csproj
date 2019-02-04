@@ -58,13 +58,17 @@
      <Compile Include="Assets\Scripts\LightMonster.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\MonsterBattleMatchup.cs" />
+     <Compile Include="Assets\Scripts\MonsterBattleScreenStatus.cs" />
      <Compile Include="Assets\Scripts\MonsterEncounter.cs" />
      <Compile Include="Assets\Scripts\MonsterFetch.cs" />
      <Compile Include="Assets\Scripts\MonsterMove.cs" />
      <Compile Include="Assets\Scripts\MonsterMoveFetch.cs" />
      <Compile Include="Assets\Scripts\MonsterSprites.cs" />
      <Compile Include="Assets\Scripts\PlayerMonster.cs" />
+     <Compile Include="Assets\Scripts\PlayerMonsterBattleScreenStatus.cs" />
+     <Compile Include="Assets\Scripts\PlayerMonsterDetailedStatus.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />
+     <Compile Include="Assets\Scripts\PlayerMonsterPKMNScreenStatus.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerPocketMonsterParty.cs" />
      <Compile Include="Assets\Scripts\PocketMonsterParty.cs" />

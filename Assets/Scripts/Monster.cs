@@ -24,6 +24,7 @@ public class Monster : MonoBehaviour
     public ushort BaseSpeed;
 
     public MonsterExpGroup ExperienceGroup;
+    public BodyType BodyType;
 
     public List<LearnedMove> MovesByLevelUp;
 
@@ -73,6 +74,20 @@ public enum MonsterExpGroup
     MEDIUMFAST,
     MEDIUMSLOW,
     SLOW
+}
+
+//This'll just be guess work since I couldn't find any rules online
+//regarding this.
+public enum BodyType
+{
+    BIPEDAL,
+    FLYING,
+    WATER,
+    FAIRY,
+    GRASS,
+    BUG,
+    DRAGON,
+    QUADRUPED
 }
 
 [Serializable]

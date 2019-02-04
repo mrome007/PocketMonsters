@@ -332,6 +332,7 @@ MonoBehaviour:
   BaseSpecial: 61
   BaseSpeed: 100
   ExperienceGroup: 2
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 415431989}
@@ -355,6 +356,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 32165647}
+  - component: {fileID: 32165648}
   m_Layer: 8
   m_Name: Monster4
   m_TagString: Untagged
@@ -384,6 +386,32 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -157}
   m_SizeDelta: {x: 100, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &32165648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32165646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 0}
+  monsterName: {fileID: 1411623170}
+  levelNumber: {fileID: 505402832}
+  hpSlider: {fileID: 1724856855}
+  currentHP: {fileID: 1779946459}
+  monsterHP: {fileID: 1957278247}
+  pkmnScreenIcons:
+  - {fileID: 1243638720}
+  - {fileID: 66929106}
+  - {fileID: 358172549}
+  - {fileID: 178505970}
+  - {fileID: 1487021779}
+  - {fileID: 293660234}
+  - {fileID: 1186675672}
+  - {fileID: 1268985347}
 --- !u!1 &33673340
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +615,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 70
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -833,6 +862,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 35
   ExperienceGroup: 1
+  BodyType: 3
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1359339081}
@@ -1245,6 +1275,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 35
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 136690979}
@@ -1622,6 +1653,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 30
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 675865574}
@@ -1726,6 +1758,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 100
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -1794,6 +1827,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 35
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 54916533}
@@ -1862,6 +1896,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 95
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1839933522}
@@ -2220,6 +2255,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 45
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1697010622}
@@ -2719,6 +2755,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 60
   ExperienceGroup: 4
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1292177284}
@@ -2787,6 +2824,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 45
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 292942360}
@@ -2857,6 +2895,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 56
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1177180208}
@@ -2927,6 +2966,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 58
   ExperienceGroup: 3
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -3149,6 +3189,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 35
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 675865574}
@@ -3547,6 +3588,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 70
   ExperienceGroup: 2
+  BodyType: 6
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1242015425}
@@ -3748,6 +3790,7 @@ MonoBehaviour:
   BaseSpecial: 154
   BaseSpeed: 130
   ExperienceGroup: 4
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 873730186}
@@ -4220,6 +4263,7 @@ MonoBehaviour:
   BaseSpecial: 110
   BaseSpeed: 65
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 291774984}
@@ -4396,6 +4440,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 120
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 297168228}
@@ -4462,6 +4507,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 95
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1177180208}
@@ -4859,6 +4905,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 70
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 415431989}
@@ -5305,6 +5352,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 80
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1967017249}
@@ -5369,6 +5417,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 90
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1049667275}
@@ -5443,6 +5492,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 105
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 415431989}
@@ -6758,6 +6808,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 115
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -7294,6 +7345,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 55
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 754178621}
@@ -7368,6 +7420,7 @@ MonoBehaviour:
   BaseSpecial: 110
   BaseSpeed: 65
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -7644,6 +7697,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 100
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1359339081}
@@ -7842,6 +7896,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 80
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -8324,6 +8379,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 97
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1619184637}
@@ -8588,6 +8644,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 85
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 24126717}
@@ -9114,6 +9171,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 50
   ExperienceGroup: 4
+  BodyType: 6
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 415431989}
@@ -9386,6 +9444,7 @@ MonoBehaviour:
   BaseSpecial: 58
   BaseSpeed: 60
   ExperienceGroup: 2
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1562017288}
@@ -9701,6 +9760,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 90
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -10174,6 +10234,7 @@ MonoBehaviour:
   BaseSpecial: 115
   BaseSpeed: 67
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 873730186}
@@ -10389,6 +10450,7 @@ MonoBehaviour:
   BaseSpecial: 31
   BaseSpeed: 70
   ExperienceGroup: 2
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1562017288}
@@ -10569,6 +10631,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 42
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 221265173}
@@ -10639,6 +10702,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 60
   ExperienceGroup: 1
+  BodyType: 3
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1673132633}
@@ -10753,6 +10817,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 25
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1177180208}
@@ -10969,6 +11034,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 45
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 621491675}
@@ -11149,6 +11215,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 15
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 873730186}
@@ -11423,6 +11490,7 @@ MonoBehaviour:
   BaseSpecial: 20
   BaseSpeed: 50
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 300634586}
@@ -11539,6 +11607,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 68
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1562017288}
@@ -11611,6 +11680,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 25
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1697010622}
@@ -11681,6 +11751,7 @@ MonoBehaviour:
   BaseSpecial: 48
   BaseSpeed: 48
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 864297071}
@@ -11737,6 +11808,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 100
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -11883,6 +11955,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 70
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1510564800}
@@ -12408,6 +12481,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 78
   ExperienceGroup: 3
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -12841,6 +12915,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 70
   ExperienceGroup: 4
+  BodyType: 6
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 2137933602}
@@ -12911,6 +12986,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 55
   ExperienceGroup: 4
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1008865374}
@@ -13133,6 +13209,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 95
   ExperienceGroup: 4
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1292177284}
@@ -13359,6 +13436,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 30
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 190264193}
@@ -13429,6 +13507,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 90
   ExperienceGroup: 4
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1039661388}
@@ -13631,6 +13710,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 45
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 714386937}
@@ -13815,6 +13895,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 60
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1864014752}
@@ -14125,6 +14206,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 65
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -14193,6 +14275,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 55
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 136690979}
@@ -14309,6 +14392,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 30
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1620865668}
@@ -14677,6 +14761,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 40
   ExperienceGroup: 4
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 24126717}
@@ -14883,6 +14968,7 @@ MonoBehaviour:
   BaseSpecial: 105
   BaseSpeed: 90
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 103132707}
@@ -14939,6 +15025,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 80
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1620865668}
@@ -15007,6 +15094,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 100
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1049667275}
@@ -15521,6 +15609,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 80
   ExperienceGroup: 2
+  BodyType: 6
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 415431989}
@@ -15803,6 +15892,7 @@ MonoBehaviour:
   BaseSpecial: 135
   BaseSpeed: 120
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 157369083}
@@ -16247,6 +16337,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 71
   ExperienceGroup: 3
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1928280642}
@@ -16391,6 +16482,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 40
   ExperienceGroup: 4
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1008865374}
@@ -16507,6 +16599,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 72
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -16573,6 +16666,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 50
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 415431989}
@@ -17005,6 +17099,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 70
   ExperienceGroup: 3
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -17077,6 +17172,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 70
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 801463684}
@@ -17144,6 +17240,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 904137157}
+  - component: {fileID: 904137158}
   m_Layer: 8
   m_Name: Monster2
   m_TagString: Untagged
@@ -17173,6 +17270,32 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -63}
   m_SizeDelta: {x: 100, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &904137158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 904137156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 0}
+  monsterName: {fileID: 585619458}
+  levelNumber: {fileID: 2083702551}
+  hpSlider: {fileID: 49379043}
+  currentHP: {fileID: 1430401983}
+  monsterHP: {fileID: 1499150544}
+  pkmnScreenIcons:
+  - {fileID: 2018423037}
+  - {fileID: 1989451925}
+  - {fileID: 994108062}
+  - {fileID: 2019633759}
+  - {fileID: 344152800}
+  - {fileID: 137929791}
+  - {fileID: 743306744}
+  - {fileID: 724104387}
 --- !u!1 &904775526
 GameObject:
   m_ObjectHideFlags: 0
@@ -17318,6 +17441,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 100
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1242015425}
@@ -17574,6 +17698,7 @@ MonoBehaviour:
   BaseSpecial: 120
   BaseSpeed: 70
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1357500728}
@@ -17682,6 +17807,7 @@ MonoBehaviour:
   BaseSpecial: 105
   BaseSpeed: 50
   ExperienceGroup: 1
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1359339081}
@@ -17752,6 +17878,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 65
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1096826189}
@@ -17983,6 +18110,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 954894030}
+  - component: {fileID: 954894031}
   m_Layer: 8
   m_Name: Monster6
   m_TagString: Untagged
@@ -18012,6 +18140,32 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -251}
   m_SizeDelta: {x: 100, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &954894031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 954894029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 0}
+  monsterName: {fileID: 1384928707}
+  levelNumber: {fileID: 1134808468}
+  hpSlider: {fileID: 1952034276}
+  currentHP: {fileID: 983033845}
+  monsterHP: {fileID: 360727678}
+  pkmnScreenIcons:
+  - {fileID: 1905102220}
+  - {fileID: 2067858486}
+  - {fileID: 1391235173}
+  - {fileID: 1762843257}
+  - {fileID: 474140818}
+  - {fileID: 743484036}
+  - {fileID: 1011937964}
+  - {fileID: 1795413199}
 --- !u!1 &962449144
 GameObject:
   m_ObjectHideFlags: 0
@@ -18065,6 +18219,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 115
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1292177284}
@@ -18919,6 +19074,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 30
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1608677829}
@@ -19221,6 +19377,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 105
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1619184637}
@@ -19291,6 +19448,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 75
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 300634586}
@@ -19411,6 +19569,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 40
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -19697,7 +19856,7 @@ GameObject:
   - component: {fileID: 1045683825}
   - component: {fileID: 1045683824}
   m_Layer: 0
-  m_Name: EnemyParty
+  m_Name: EnemyWildEncounterParty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20187,6 +20346,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 50
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1620865668}
@@ -20375,6 +20535,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 40
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1819582766}
@@ -20517,6 +20678,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 40
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 754178621}
@@ -20630,6 +20792,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 90
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1177180208}
@@ -20769,6 +20932,47 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
+--- !u!1 &1086164868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1086164870}
+  - component: {fileID: 1086164869}
+  m_Layer: 0
+  m_Name: EnemyTrainerParty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1086164869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1086164868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31fe7b8aa0a249b8a0897ef7be5300d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  party: []
+--- !u!4 &1086164870
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1086164868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1090058501
 GameObject:
   m_ObjectHideFlags: 0
@@ -21910,6 +22114,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 100
   ExperienceGroup: 2
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1694143119}
@@ -22086,6 +22291,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 20
   ExperienceGroup: 1
+  BodyType: 3
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1306451526}
@@ -22581,6 +22787,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 45
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 136690979}
@@ -23243,6 +23450,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 56
   ExperienceGroup: 3
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1928280642}
@@ -23395,6 +23603,7 @@ MonoBehaviour:
   BaseSpecial: 110
   BaseSpeed: 130
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1619184637}
@@ -23629,6 +23838,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 90
   ExperienceGroup: 3
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -23697,6 +23907,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 43
   ExperienceGroup: 3
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -23878,6 +24089,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 41
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -24262,6 +24474,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 60
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1604770075}
@@ -24484,6 +24697,7 @@ MonoBehaviour:
   BaseSpecial: 120
   BaseSpeed: 100
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 388788320}
@@ -24606,6 +24820,7 @@ MonoBehaviour:
   BaseSpecial: 20
   BaseSpeed: 45
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1510564800}
@@ -24664,6 +24879,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 91
   ExperienceGroup: 3
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1928280642}
@@ -24736,6 +24952,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 55
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1177180208}
@@ -24884,6 +25101,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 63
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1562017288}
@@ -24954,6 +25172,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 95
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 136690979}
@@ -25165,6 +25384,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1343134608}
+  - component: {fileID: 1343134609}
   m_Layer: 8
   m_Name: EnemyPokemon
   m_TagString: Untagged
@@ -25195,6 +25415,21 @@ RectTransform:
   m_AnchoredPosition: {x: -120, y: 149.4}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1343134609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1343134607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3468b5e4ca8ff403ebccb954a89ec597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 982514640}
+  monsterName: {fileID: 1985422007}
+  levelNumber: {fileID: 1050185846}
+  hpSlider: {fileID: 457618280}
 --- !u!1 &1344427295
 GameObject:
   m_ObjectHideFlags: 0
@@ -25398,6 +25633,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 20
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -25466,6 +25702,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 55
   ExperienceGroup: 2
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 190264193}
@@ -25528,6 +25765,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1356187614}
+  - component: {fileID: 1356187615}
   m_Layer: 8
   m_Name: Monster1
   m_TagString: Untagged
@@ -25557,6 +25795,32 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -16}
   m_SizeDelta: {x: 100, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1356187615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1356187613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 0}
+  monsterName: {fileID: 1981355}
+  levelNumber: {fileID: 159315705}
+  hpSlider: {fileID: 1011628312}
+  currentHP: {fileID: 2019212590}
+  monsterHP: {fileID: 1093679504}
+  pkmnScreenIcons:
+  - {fileID: 1991093448}
+  - {fileID: 1622597959}
+  - {fileID: 1886743004}
+  - {fileID: 851269689}
+  - {fileID: 1764750405}
+  - {fileID: 2130560464}
+  - {fileID: 1344427295}
+  - {fileID: 407400481}
 --- !u!1 &1357500726
 GameObject:
   m_ObjectHideFlags: 0
@@ -26390,6 +26654,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 45
   ExperienceGroup: 1
+  BodyType: 3
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1306451526}
@@ -26606,6 +26871,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 65
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1177180208}
@@ -26991,6 +27257,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 35
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 292942360}
@@ -27061,6 +27328,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 55
   ExperienceGroup: 2
+  BodyType: 6
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 415431989}
@@ -27241,6 +27509,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 25
   ExperienceGroup: 4
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1694143119}
@@ -27315,6 +27584,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 87
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1546005240}
@@ -27458,6 +27728,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1411980394}
+  - component: {fileID: 1411980395}
   m_Layer: 8
   m_Name: Monster3
   m_TagString: Untagged
@@ -27487,6 +27758,32 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -110}
   m_SizeDelta: {x: 100, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1411980395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1411980393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 0}
+  monsterName: {fileID: 1711672668}
+  levelNumber: {fileID: 1760619826}
+  hpSlider: {fileID: 164393525}
+  currentHP: {fileID: 1601704770}
+  monsterHP: {fileID: 788253869}
+  pkmnScreenIcons:
+  - {fileID: 509487013}
+  - {fileID: 300362379}
+  - {fileID: 501848954}
+  - {fileID: 1429849809}
+  - {fileID: 1413181883}
+  - {fileID: 33673340}
+  - {fileID: 1579337555}
+  - {fileID: 212973123}
 --- !u!1 &1413181883
 GameObject:
   m_ObjectHideFlags: 0
@@ -27690,6 +27987,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 70
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 754178621}
@@ -27764,6 +28062,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 90
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1060055487}
@@ -28351,6 +28650,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 85
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -28652,6 +28952,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 75
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -29208,6 +29509,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 55
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -29757,6 +30059,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 65
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 24126717}
@@ -29829,6 +30132,7 @@ MonoBehaviour:
   BaseSpecial: 120
   BaseSpeed: 105
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 157369083}
@@ -30179,6 +30483,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 80
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 7
     Move: {fileID: 1604770075}
@@ -30253,6 +30558,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 105
   ExperienceGroup: 2
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -30473,6 +30779,7 @@ MonoBehaviour:
   BaseSpecial: 0
   BaseSpeed: 0
   ExperienceGroup: 0
+  BodyType: 0
   MovesByLevelUp: []
 --- !u!1 &1582358062
 GameObject:
@@ -30559,6 +30866,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1593218550}
+  - component: {fileID: 1593218551}
   m_Layer: 8
   m_Name: StatsMenu
   m_TagString: Untagged
@@ -30586,6 +30894,33 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1593218551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593218549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7eff40336164b26811b562b06857c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 315842440}
+  monsterName: {fileID: 555844484}
+  levelNumber: {fileID: 2063808367}
+  hpSlider: {fileID: 651732797}
+  currentHP: {fileID: 1120127784}
+  monsterHP: {fileID: 1716336805}
+  attackStat: {fileID: 82617243}
+  defenseStat: {fileID: 822322526}
+  speedStat: {fileID: 1818529627}
+  specialStat: {fileID: 195182992}
+  type1: {fileID: 351193600}
+  type2: {fileID: 1512136730}
+  idNumber: {fileID: 265015139}
+  ot: {fileID: 1090058503}
+  monsterNumber: {fileID: 1626839694}
+  status: {fileID: 1057567389}
 --- !u!1 &1593683633
 GameObject:
   m_ObjectHideFlags: 0
@@ -30639,6 +30974,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 100
   ExperienceGroup: 4
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1494198181}
@@ -30823,6 +31159,7 @@ MonoBehaviour:
   BaseSpecial: 50
   BaseSpeed: 90
   ExperienceGroup: 3
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -31967,6 +32304,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 50
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1697010622}
@@ -32039,6 +32377,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 45
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -32234,6 +32573,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 80
   ExperienceGroup: 4
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 759996029}
@@ -32378,6 +32718,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 35
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 10
     Move: {fileID: 621491675}
@@ -32700,6 +33041,7 @@ MonoBehaviour:
   BaseSpecial: 115
   BaseSpeed: 95
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1967017249}
@@ -33088,6 +33430,7 @@ MonoBehaviour:
   BaseSpecial: 130
   BaseSpeed: 110
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1967017249}
@@ -33226,6 +33569,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 60
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -34272,6 +34616,7 @@ MonoBehaviour:
   BaseSpecial: 125
   BaseSpeed: 85
   ExperienceGroup: 4
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1367528767}
@@ -34502,6 +34847,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 30
   ExperienceGroup: 4
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 457922223}
@@ -34964,6 +35310,7 @@ MonoBehaviour:
   BaseSpecial: 20
   BaseSpeed: 80
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1455405298}
@@ -35204,6 +35551,7 @@ MonoBehaviour:
   BaseSpecial: 55
   BaseSpeed: 85
   ExperienceGroup: 4
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1952109830}
@@ -35395,6 +35743,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 90
   ExperienceGroup: 2
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1292177284}
@@ -35465,6 +35814,7 @@ MonoBehaviour:
   BaseSpecial: 70
   BaseSpeed: 110
   ExperienceGroup: 4
+  BodyType: 7
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -35986,6 +36336,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 75
   ExperienceGroup: 2
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1562017288}
@@ -36548,6 +36899,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 140
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1242015425}
@@ -36618,6 +36970,7 @@ MonoBehaviour:
   BaseSpecial: 95
   BaseSpeed: 85
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -36928,6 +37281,7 @@ MonoBehaviour:
   BaseSpecial: 40
   BaseSpeed: 90
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 536241166}
@@ -37201,6 +37555,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 90
   ExperienceGroup: 2
+  BodyType: 5
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 873730186}
@@ -37396,6 +37751,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1936158176}
+  - component: {fileID: 1936158177}
   m_Layer: 8
   m_Name: PlayerPokemon
   m_TagString: Untagged
@@ -37426,6 +37782,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -10}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1936158177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1936158175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30de02085a31c4fa7808662942140f31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 2092575122}
+  monsterName: {fileID: 2146733363}
+  levelNumber: {fileID: 1697031777}
+  hpSlider: {fileID: 1842337850}
+  currentHP: {fileID: 1747479530}
+  monsterHP: {fileID: 838823111}
 --- !u!1 &1938331761
 GameObject:
   m_ObjectHideFlags: 0
@@ -37515,6 +37888,7 @@ MonoBehaviour:
   BaseSpecial: 75
   BaseSpeed: 76
   ExperienceGroup: 3
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1366841469}
@@ -37711,6 +38085,7 @@ MonoBehaviour:
   BaseSpecial: 25
   BaseSpeed: 50
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1742011058}
@@ -37897,6 +38272,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 30
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 873730186}
@@ -37969,6 +38345,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 81
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -38157,6 +38534,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 60
   ExperienceGroup: 2
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 911205093}
@@ -38516,6 +38894,7 @@ MonoBehaviour:
   BaseSpecial: 60
   BaseSpeed: 130
   ExperienceGroup: 4
+  BodyType: 1
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 759996029}
@@ -38996,6 +39375,7 @@ MonoBehaviour:
   BaseSpecial: 65
   BaseSpeed: 45
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1961675514}
@@ -39486,6 +39866,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 93
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 69237606}
@@ -39554,6 +39935,7 @@ MonoBehaviour:
   BaseSpecial: 100
   BaseSpeed: 70
   ExperienceGroup: 4
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 388788320}
@@ -39626,6 +40008,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 40
   ExperienceGroup: 3
+  BodyType: 4
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1620865668}
@@ -39957,6 +40340,7 @@ MonoBehaviour:
   BaseSpecial: 45
   BaseSpeed: 55
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 675865574}
@@ -40023,6 +40407,7 @@ MonoBehaviour:
   BaseSpecial: 30
   BaseSpeed: 40
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1177180208}
@@ -40237,6 +40622,7 @@ MonoBehaviour:
   BaseSpecial: 85
   BaseSpeed: 60
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1113712987}
@@ -40307,6 +40693,7 @@ MonoBehaviour:
   BaseSpecial: 115
   BaseSpeed: 55
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 24126717}
@@ -40490,6 +40877,7 @@ MonoBehaviour:
   BaseSpecial: 90
   BaseSpeed: 35
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1864014752}
@@ -40704,6 +41092,7 @@ MonoBehaviour:
   BaseSpecial: 80
   BaseSpeed: 85
   ExperienceGroup: 2
+  BodyType: 2
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 1697010622}
@@ -41646,6 +42035,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2119565074}
+  - component: {fileID: 2119565075}
   m_Layer: 8
   m_Name: Monster5
   m_TagString: Untagged
@@ -41675,6 +42065,32 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -204}
   m_SizeDelta: {x: 100, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2119565075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2119565073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleScreenImage: {fileID: 0}
+  monsterName: {fileID: 327478626}
+  levelNumber: {fileID: 1274627412}
+  hpSlider: {fileID: 440318590}
+  currentHP: {fileID: 1404933150}
+  monsterHP: {fileID: 773072351}
+  pkmnScreenIcons:
+  - {fileID: 1280791957}
+  - {fileID: 1456918410}
+  - {fileID: 544306061}
+  - {fileID: 2144129592}
+  - {fileID: 826637262}
+  - {fileID: 94271984}
+  - {fileID: 1224924176}
+  - {fileID: 2089179190}
 --- !u!1 &2124840358
 GameObject:
   m_ObjectHideFlags: 0
@@ -42354,6 +42770,7 @@ MonoBehaviour:
   BaseSpecial: 35
   BaseSpeed: 76
   ExperienceGroup: 2
+  BodyType: 0
   MovesByLevelUp:
   - LevelLearned: 1
     Move: {fileID: 759996029}
