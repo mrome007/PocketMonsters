@@ -34,5 +34,6 @@ public enum BattleMenuOptions
     TEXT,
     MOVE,
     ITEM,
-    PKMN
+    PKMN,
+    STATS,
 }
