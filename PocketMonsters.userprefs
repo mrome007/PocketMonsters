@@ -1,15 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMonsterDetailedStatus.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BattleMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/Monster.cs" Line="27" Column="30" />
-      <File FileName="Assets/Scripts/BattleSequence.cs" Line="18" Column="29" />
-      <File FileName="Assets/Scripts/PlayerMonsterEncounterCollision.cs" Line="56" Column="34" />
-      <File FileName="Assets/Scripts/PocketMonsterParty.cs" Line="35" Column="24" />
+      <File FileName="Assets/Scripts/BattleStates/BattleState.cs" Line="14" Column="28" />
+      <File FileName="Assets/Scripts/Monster.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleSequence.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMonsterEncounterCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PocketMonsterParty.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MonsterBattleScreenStatus.cs" Line="15" Column="31" />
-      <File FileName="Assets/Scripts/PlayerMonsterBattleScreenStatus.cs" Line="7" Column="2" />
-      <File FileName="Assets/Scripts/PlayerMonsterPKMNScreenStatus.cs" Line="8" Column="46" />
+      <File FileName="Assets/Scripts/PlayerMonsterBattleScreenStatus.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMonsterPKMNScreenStatus.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerMonsterDetailedStatus.cs" Line="30" Column="25" />
+      <File FileName="Assets/Scripts/BattleMenu.cs" Line="38" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

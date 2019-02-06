@@ -7,6 +7,12 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
     [SerializeField]
     private List<LightMonster> party;
 
+    public int NumberOfMonsters { get { return party == null ? 0 : party.Count;  } }
+    private bool wildEncounter;
+    public bool WildEncounter { get { return wildEncounter; } }
+    private PartyTrainer partyTrainer;
+    public PartyTrainer PartyTrainer { get { return partyTrainer; } }
+
     public LightMonster First
     {
         get
@@ -20,8 +26,10 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
     }
 
-    public void AddMonster(LightMonster monster, bool wild = true)
+    public void AddMonster(LightMonster monster, bool wild = true, PartyTrainer trainer = PartyTrainer.NONE)
     {
+        wildEncounter = wild;
+        partyTrainer = trainer;
         if(party == null)
         {
             party = new List<LightMonster>();
@@ -51,4 +59,12 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
     }
 
     #endregion
+}
+
+public enum PartyTrainer
+{
+    NONE,
+    RED,
+    BLUE,
+    YELLOW
 }
