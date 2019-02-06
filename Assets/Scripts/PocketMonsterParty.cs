@@ -60,11 +60,3 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
 
     #endregion
 }
-
-public enum PartyTrainer
-{
-    NONE,
-    RED,
-    BLUE,
-    YELLOW
-}

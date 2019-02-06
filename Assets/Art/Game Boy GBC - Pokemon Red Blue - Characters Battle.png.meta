@@ -1,0 +1,912 @@
+fileFormatVersion: 2
+guid: 2c4019591b26e42c98c032261d0d98e1
+timeCreated: 1549423157
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Boy GBC - Pokemon Red Blue - Characters Battle_0
+    21300002: Game Boy GBC - Pokemon Red Blue - Characters Battle_1
+    21300004: Game Boy GBC - Pokemon Red Blue - Characters Battle_2
+    21300006: Game Boy GBC - Pokemon Red Blue - Characters Battle_3
+    21300008: Game Boy GBC - Pokemon Red Blue - Characters Battle_4
+    21300010: Game Boy GBC - Pokemon Red Blue - Characters Battle_5
+    21300012: Game Boy GBC - Pokemon Red Blue - Characters Battle_6
+    21300014: Game Boy GBC - Pokemon Red Blue - Characters Battle_7
+    21300016: Game Boy GBC - Pokemon Red Blue - Characters Battle_8
+    21300018: Game Boy GBC - Pokemon Red Blue - Characters Battle_9
+    21300020: Game Boy GBC - Pokemon Red Blue - Characters Battle_10
+    21300022: Game Boy GBC - Pokemon Red Blue - Characters Battle_11
+    21300024: Game Boy GBC - Pokemon Red Blue - Characters Battle_12
+    21300026: Game Boy GBC - Pokemon Red Blue - Characters Battle_13
+    21300028: Game Boy GBC - Pokemon Red Blue - Characters Battle_14
+    21300030: Game Boy GBC - Pokemon Red Blue - Characters Battle_15
+    21300032: Game Boy GBC - Pokemon Red Blue - Characters Battle_16
+    21300034: Game Boy GBC - Pokemon Red Blue - Characters Battle_17
+    21300036: Game Boy GBC - Pokemon Red Blue - Characters Battle_18
+    21300038: Game Boy GBC - Pokemon Red Blue - Characters Battle_19
+    21300040: Game Boy GBC - Pokemon Red Blue - Characters Battle_20
+    21300042: Game Boy GBC - Pokemon Red Blue - Characters Battle_21
+    21300044: Game Boy GBC - Pokemon Red Blue - Characters Battle_22
+    21300046: Game Boy GBC - Pokemon Red Blue - Characters Battle_23
+    21300048: Game Boy GBC - Pokemon Red Blue - Characters Battle_24
+    21300050: Game Boy GBC - Pokemon Red Blue - Characters Battle_25
+    21300052: Game Boy GBC - Pokemon Red Blue - Characters Battle_26
+    21300054: Game Boy GBC - Pokemon Red Blue - Characters Battle_27
+    21300056: Game Boy GBC - Pokemon Red Blue - Characters Battle_28
+    21300058: Game Boy GBC - Pokemon Red Blue - Characters Battle_29
+    21300060: Game Boy GBC - Pokemon Red Blue - Characters Battle_30
+    21300062: Game Boy GBC - Pokemon Red Blue - Characters Battle_31
+    21300064: Game Boy GBC - Pokemon Red Blue - Characters Battle_32
+    21300066: Game Boy GBC - Pokemon Red Blue - Characters Battle_33
+    21300068: Game Boy GBC - Pokemon Red Blue - Characters Battle_34
+    21300070: Game Boy GBC - Pokemon Red Blue - Characters Battle_35
+    21300072: Game Boy GBC - Pokemon Red Blue - Characters Battle_36
+    21300074: Game Boy GBC - Pokemon Red Blue - Characters Battle_37
+    21300076: Game Boy GBC - Pokemon Red Blue - Characters Battle_38
+    21300078: Game Boy GBC - Pokemon Red Blue - Characters Battle_39
+    21300080: Game Boy GBC - Pokemon Red Blue - Characters Battle_40
+    21300082: Game Boy GBC - Pokemon Red Blue - Characters Battle_41
+    21300084: Game Boy GBC - Pokemon Red Blue - Characters Battle_42
+    21300086: Game Boy GBC - Pokemon Red Blue - Characters Battle_43
+    21300088: Game Boy GBC - Pokemon Red Blue - Characters Battle_44
+    21300090: Game Boy GBC - Pokemon Red Blue - Characters Battle_45
+    21300092: Game Boy GBC - Pokemon Red Blue - Characters Battle_46
+    21300094: Game Boy GBC - Pokemon Red Blue - Characters Battle_47
+    21300096: Game Boy GBC - Pokemon Red Blue - Characters Battle_48
+    21300098: Game Boy GBC - Pokemon Red Blue - Characters Battle_49
+    21300100: Game Boy GBC - Pokemon Red Blue - Characters Battle_50
+    21300102: Game Boy GBC - Pokemon Red Blue - Characters Battle_51
+    21300104: Game Boy GBC - Pokemon Red Blue - Characters Battle_52
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 328
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 328
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 328
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 328
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 328
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 328
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 328
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 328
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 264
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 264
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 264
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 264
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 264
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 264
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_14
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 272
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 264
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_16
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 264
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 264
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_18
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 264
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_19
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 266
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 200
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 200
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 200
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 200
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 200
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_25
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 200
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_26
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 200
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 136
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 136
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 136
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 136
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 136
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_32
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 136
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_33
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 136
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 72
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 72
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 72
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 108
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_40
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 72
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_41
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 72
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 72
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_43
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 72
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_44
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 98
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_45
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_46
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 8
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_47
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 8
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_48
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 8
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_50
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 8
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_51
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 8
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Game Boy GBC - Pokemon Red Blue - Characters Battle_52
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 8
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
