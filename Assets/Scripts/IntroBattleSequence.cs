@@ -14,23 +14,30 @@ public class IntroBattleSequence : MonoBehaviour
 
     public Action IntroBattleEnded;
 
-    private PocketMonsterParty player;
-    private PocketMonsterParty enemy;
-
     public void StartIntro(PocketMonsterParty player, PocketMonsterParty enemy)
     {
-        this.player = player;
-        this.enemy = enemy;
         introBattleAnimation.IntroAnimationEnded += HandleIntroAnimationEnded;
-        introBattleAnimation.PlayIntro();
+        introBattleAnimation.PlayIntro(enemy);
         playerMonsterBalls.gameObject.SetActive(false);
         enemyMonsterBalls.gameObject.SetActive(false);
+        playerMonsterBalls.ShowMonsterBalls(player);
+        enemyMonsterBalls.ShowMonsterBalls(enemy);
     }
 
     private void HandleIntroAnimationEnded()
     {
         introBattleAnimation.IntroAnimationEnded -= HandleIntroAnimationEnded;
         playerMonsterBalls.gameObject.SetActive(true);
-        enemyMonsterBalls.gameObject.SetActive(!enemy.WildEncounter);
+        enemyMonsterBalls.gameObject.SetActive(true);
+
+        PostIntroBattleEnded();
+    }
+
+    private void PostIntroBattleEnded()
+    {
+        if(IntroBattleEnded != null)
+        {
+            IntroBattleEnded.Invoke();
+        }
     }
 }

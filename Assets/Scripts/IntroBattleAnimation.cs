@@ -7,6 +7,11 @@ public class IntroBattleAnimation : MonoBehaviour
 {
     public Action IntroAnimationEnded;
 
+    [SerializeField]
+    private SpriteRenderer enemySpriteRenderer;
+    [SerializeField]
+    private BattleScreenIntroEnemyImage enemyImage;
+
     private Animator introBattleAnimator;
 
     private void Awake()
@@ -14,8 +19,9 @@ public class IntroBattleAnimation : MonoBehaviour
         introBattleAnimator = GetComponent<Animator>();
     }
 
-    public void PlayIntro()
+    public void PlayIntro(PocketMonsterParty enemy)
     {
+        enemySpriteRenderer.sprite = enemyImage.GetEnemySprite(enemy);
         introBattleAnimator.Play("Play", -1, 0f);
     }
 

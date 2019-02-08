@@ -9,21 +9,15 @@ public class BattleSequence : MonoBehaviour
     public event EventHandler BattleEnd;
 
     [SerializeField]
-    private SpriteRenderer playerSpriteRenderer;
-    [SerializeField]
-    private SpriteRenderer enemySpriteRenderer;
-    [SerializeField]
     private BattleMenu battleMenu;
+    [SerializeField]
+    private BattleState initialState;
 
     public void StartBattleSequence(PocketMonsterParty player = null, PocketMonsterParty enemy = null)
     {
         PostBattleStart();
 
-        playerSpriteRenderer.sprite = player.First.Back;
-        enemySpriteRenderer.sprite = enemy.First.Front;
-        battleMenu.ShowMenuOption(BattleMenuOptions.MAIN, true);
-        //Temporary
-        Invoke("EndBattleSequence", 10f);
+        initialState.EnterState(player, enemy);
     }
 
     public void EndBattleSequence()
