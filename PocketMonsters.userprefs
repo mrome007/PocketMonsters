@@ -1,23 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BattleScreenIntroEnemyImage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BattleScreenMonsterBalls.cs">
     <Files>
-      <File FileName="Assets/Scripts/PocketMonsterParty.cs" Line="62" Column="2" />
+      <File FileName="Assets/Scripts/Gap.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/BattleStates/BattleState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Monster.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BattleSequence.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMonsterEncounterCollision.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterBattleScreenStatus.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMonsterBattleScreenStatus.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMonsterPKMNScreenStatus.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMonsterDetailedStatus.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BattleMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Trainers.cs" Line="51" Column="41" />
-      <File FileName="Assets/Scripts/BattleScreenIntroEnemyImage.cs" Line="18" Column="20" />
+      <File FileName="Assets/Scripts/IntroBattleSequence.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/IntroBattleAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleStates/IntroBattleState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PocketMonsterParty.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleScreenIntroEnemyImage.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleScreenMonsterBalls.cs" Line="23" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/BattleScreenMonsterBalls.cs" line="16" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -83,6 +83,14 @@ public class LightMonster
         return statTotal;
     }
 
+    public string MonsterName
+    {
+        get
+        {
+            return heavyMonster.MonsterName;
+        }
+    }
+
     public Sprite Back
     {
         get

@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\BattleSequence.cs" />
      <Compile Include="Assets\Scripts\BattleStates\BattleState.cs" />
      <Compile Include="Assets\Scripts\BattleStates\IntroBattleState.cs" />
+     <Compile Include="Assets\Scripts\BattleTextBox.cs" />
      <Compile Include="Assets\Scripts\Gap.cs" />
      <Compile Include="Assets\Scripts\HeavyMonsters.cs" />
      <Compile Include="Assets\Scripts\IntroBattleAnimation.cs" />

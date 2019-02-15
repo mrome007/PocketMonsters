@@ -8,6 +8,8 @@ public class IntroBattleState : BattleState
     private IntroBattleSequence introBattleSequence;
     [SerializeField]
     private BattleMenu battleMenu;
+    [SerializeField]
+    private BattleTextBox textBox;
 
     public override void EnterState(PocketMonsterParty player, PocketMonsterParty enemy)
     {
@@ -15,22 +17,31 @@ public class IntroBattleState : BattleState
 
         introBattleSequence.StartIntro(player, enemy);
         battleMenu.ShowMenuOption(BattleMenuOptions.TEXT, true);
+        textBox.PopulateText(BattleTextType.WILDENCOUNTER, enemy.First.MonsterName);
     }
 
     protected override void RegisterEvents()
     {
         base.RegisterEvents();
         introBattleSequence.IntroBattleEnded += HandleIntroBattleEnded;
+        textBox.TextActionComplete += HandleTextActionComplete;
     }
 
     protected override void UnRegisterEvents()
     {
         base.UnRegisterEvents();
         introBattleSequence.IntroBattleEnded -= HandleIntroBattleEnded;
+        textBox.TextActionComplete -= HandleTextActionComplete;
     }
 
     private void HandleIntroBattleEnded()
     {
+        textBox.ShowText();
+    }
+
+    private void HandleTextActionComplete()
+    {
+        textBox.HideText();
         ExitState();
     }
 }

@@ -24,10 +24,7 @@ public class BattleState : MonoBehaviour
     {
         UnRegisterEvents();
 
-        if(nextState != null)
-        {
-            nextState.EnterState(this.player, this.enemy);
-        }
+        nextState.EnterState(this.player, this.enemy);
     }
     
     protected virtual void RegisterEvents()
