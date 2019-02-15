@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class BattleTextBox : MonoBehaviour, IPointerDownHandler
+public class BattleTextBox : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public Action TextActionComplete;
     
@@ -15,6 +15,16 @@ public class BattleTextBox : MonoBehaviour, IPointerDownHandler
 
     [SerializeField]
     private Text textBoxText;
+
+    [SerializeField]
+    private float textFastFillSpeed;
+    [SerializeField]
+    private float textNormalFillSpeed;
+
+    private float textFillSpeed;
+    private bool textFillActive;
+    private float textFillTimer;
+    private float textFillTime = 0.25f;
 
     private Dictionary<BattleTextType, string> battleTexts = new Dictionary<BattleTextType, string>()
     {
@@ -41,10 +51,30 @@ public class BattleTextBox : MonoBehaviour, IPointerDownHandler
         TextDone = false;
         textContainer.Length = 0;
         touchIconObject.SetActive(true);
-        textContainer.Append(textFormat);
         textBoxText.gameObject.SetActive(true);
-        textBoxText.text = textContainer.ToString();
+        textFillSpeed = textNormalFillSpeed;
+        StartCoroutine(FillCharacters());
+    }
+
+    private IEnumerator FillCharacters()
+    {
+        textFillActive = true;
+        var currentIndex = 0;
+        textFillTimer = textFillTime;
+        while(textContainer.Length < textFormat.Length)
+        {
+            yield return null;
+            if(textFillTimer < 0f)
+            {
+                textContainer.Append(textFormat[currentIndex]);
+                textBoxText.text = textContainer.ToString();
+                currentIndex++;
+                textFillTimer = textFillTime;
+            }
+            textFillTimer -= textFillSpeed * Time.deltaTime;
+        }
         TextDone = true;
+        textFillActive = false;
     }
 
     public void HideText()
@@ -58,11 +88,21 @@ public class BattleTextBox : MonoBehaviour, IPointerDownHandler
     {
         if(TextDone)
         {
+            TextDone = false;
             PostTextActionComplete();
         }
-        else
+
+        if(textFillActive)
         {
-            HideText();
+            textFillSpeed = textFastFillSpeed;
+        }
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if(textFillActive)
+        {
+            textFillSpeed = textNormalFillSpeed;
         }
     }
 
