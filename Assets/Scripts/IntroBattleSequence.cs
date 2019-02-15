@@ -17,7 +17,7 @@ public class IntroBattleSequence : MonoBehaviour
     public void StartIntro(PocketMonsterParty player, PocketMonsterParty enemy)
     {
         introBattleAnimation.IntroAnimationEnded += HandleIntroAnimationEnded;
-        introBattleAnimation.PlayIntro(enemy);
+        introBattleAnimation.PlayIntro(player, enemy);
         playerMonsterBalls.gameObject.SetActive(false);
         enemyMonsterBalls.gameObject.SetActive(false);
         playerMonsterBalls.ShowMonsterBalls(player);

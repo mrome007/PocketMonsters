@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class IntroBattleAnimation : MonoBehaviour
 {
+    [SerializeField]
+    private BattleScreenImageAnimation enemyAnimation;
+    [SerializeField]
+    private BattleScreenImageAnimation trainerAnimation;
+    
     public Action IntroAnimationEnded;
     private Animator introBattleAnimator;
 
@@ -13,14 +18,17 @@ public class IntroBattleAnimation : MonoBehaviour
         introBattleAnimator = GetComponent<Animator>();
     }
 
-    public void PlayIntro(PocketMonsterParty enemy)
+    public void PlayIntro(PocketMonsterParty player, PocketMonsterParty enemy)
     {
         introBattleAnimator.Play("Play", -1, 0f);
+        enemyAnimation.PlayToView(enemy);
+        trainerAnimation.PlayToView(player);
     }
 
     public void StopIntro()
     {
         introBattleAnimator.Play("Idle", -1, 0f);
+
     }
 
     private void PostIntroAnimationEnd()
