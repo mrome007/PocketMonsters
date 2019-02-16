@@ -5,18 +5,18 @@ using UnityEngine;
 public class EnemyBattleScreenImageAnimation : BattleScreenImageAnimation
 {
     private SpriteRenderer enemySpriteRenderer;
-    private BattleScreenIntroEnemyImage enemyImage;
+    private BattleScreenEnemyImage enemyImage;
 
     protected override void Awake()
     {
         base.Awake();
         enemySpriteRenderer = GetComponent<SpriteRenderer>();
-        enemyImage = GetComponent<BattleScreenIntroEnemyImage>();
+        enemyImage = GetComponent<BattleScreenEnemyImage>();
     }
 
     public override void PlayToView(PocketMonsterParty party)
     {
-        enemySpriteRenderer.sprite = enemyImage.GetEnemySprite(party);
+        enemySpriteRenderer.sprite = enemyImage.GetScreenImage(party);
         base.PlayToView(party);
     }
 }

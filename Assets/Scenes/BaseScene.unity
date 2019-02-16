@@ -3992,9 +3992,9 @@ RectTransform:
   m_Father: {fileID: 1076753754}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &201842352
@@ -7827,7 +7827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &358720418
 Transform:
   m_ObjectHideFlags: 0
@@ -17138,7 +17138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 807560001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae5424a9aeca71a49a40e5f69fcabc04, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c2d9673fc46e46938a66fa07386158b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyTrainerSprites:
@@ -20313,7 +20313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &991876448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24585,9 +24585,9 @@ RectTransform:
   m_Father: {fileID: 570285601}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1190442281
@@ -25887,9 +25887,9 @@ RectTransform:
   m_Father: {fileID: 570285601}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258556266
@@ -37098,9 +37098,9 @@ RectTransform:
   m_Father: {fileID: 1076753754}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767034380
@@ -44611,6 +44611,8 @@ GameObject:
   - component: {fileID: 2088979943}
   - component: {fileID: 2088979944}
   - component: {fileID: 2088979945}
+  - component: {fileID: 2088979947}
+  - component: {fileID: 2088979946}
   m_Layer: 8
   m_Name: PlayerMonster
   m_TagString: Untagged
@@ -44625,8 +44627,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2088979942}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -198.5, y: -310.575, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -200.4375, y: -310.65, z: 0}
+  m_LocalScale: {x: 1.75, y: 1.75, z: 1}
   m_Children: []
   m_Father: {fileID: 710982235}
   m_RootOrder: 2
@@ -44665,7 +44667,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300048, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
+  m_Sprite: {fileID: 21300010, guid: 2fb7ae195c4d92047a428296aa579b6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -44686,6 +44688,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eed8bb3674e24bd28ec0a8df26cbd53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2088979946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088979942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3db3b28e013334ab59bf85a81975ce2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2088979947
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088979942}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80536880ddc594171a71576d980c404d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2089179190
 GameObject:
   m_ObjectHideFlags: 0
