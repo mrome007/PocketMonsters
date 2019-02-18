@@ -1,17 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BattleStates/IntroBattleState.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyBattleScreenImageAnimation.cs">
     <Files>
-      <File FileName="Assets/Scripts/BattleTextBox.cs" Line="44" Column="17" />
-      <File FileName="Assets/Scripts/BattleStates/IntroBattleState.cs" Line="13" Column="5" />
-      <File FileName="Assets/Scripts/BattleStates/BattleState.cs" Line="28" Column="1" />
-      <File FileName="Assets/Scripts/PocketMonsterParty.cs" Line="16" Column="21" />
-      <File FileName="Assets/Scripts/LightMonster.cs" Line="86" Column="30" />
-      <File FileName="Assets/Scripts/IntroBattleAnimation.cs" Line="21" Column="23" />
-      <File FileName="Assets/Scripts/BattleScreenImageAnimation.cs" Line="24" Column="60" />
-      <File FileName="Assets/Scripts/EnemyBattleScreenImageAnimation.cs" Line="19" Column="71" />
-      <File FileName="Assets/Scripts/IntroBattleSequence.cs" Line="20" Column="48" />
-      <File FileName="Assets/Scripts/BattleScreenMonsterBalls.cs" Line="18" Column="57" />
+      <File FileName="Assets/Scripts/BattleScreenEnemyImage.cs" Line="10" Column="67" />
+      <File FileName="Assets/Scripts/BattleTextBox.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleStates/IntroBattleState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleStates/BattleState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PocketMonsterParty.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LightMonster.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/IntroBattleAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleScreenImageAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyBattleScreenImageAnimation.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/IntroBattleSequence.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BattleScreenMonsterBalls.cs" Line="5" Column="54" />
+      <File FileName="Assets/BattleScreenImage.cs" Line="7" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
