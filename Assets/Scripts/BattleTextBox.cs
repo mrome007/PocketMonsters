@@ -29,7 +29,9 @@ public class BattleTextBox : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     private Dictionary<BattleTextType, string> battleTexts = new Dictionary<BattleTextType, string>()
     {
         { BattleTextType.WILDENCOUNTER, "Wild {0} appeared!" },
-        { BattleTextType.GOPOKEMON, "Go {0}! {1}!" }
+        { BattleTextType.GOPOKEMON, "Go {0}! {1}!" },
+        { BattleTextType.TRAINERWANTSFIGHT, "{0} wants to fight!" },
+        { BattleTextType.TRAINERGOPOKEMON, "{0} sent out {1}!" },
     };
 
     private StringBuilder textContainer;
@@ -119,6 +121,8 @@ public enum BattleTextType
 {
     NONE,
     WILDENCOUNTER,
+    TRAINERWANTSFIGHT,
     GOPOKEMON,
+    TRAINERGOPOKEMON,
     MOVEUSED,
 }
