@@ -2719,7 +2719,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &157838592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9389,8 +9389,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320d53be96eb24a49a43d9164425847b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyAnimation: {fileID: 807560006}
+  playerMonsterAnimation: {fileID: 2088979945}
+  enemyMonsterAnimation: {fileID: 1006391956}
   trainerAnimation: {fileID: 378288298}
+  enemyTrainerAnimation: {fileID: 807560006}
 --- !u!1 &426898812
 GameObject:
   m_ObjectHideFlags: 0
@@ -17221,7 +17223,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 807560001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a8933818f6845d4bfc6dbf8cc7938b, type: 3}
+  m_Script: {fileID: 11500000, guid: ebec49e344f1d4f36b02a55b2f8c8c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &810633681
@@ -19127,6 +19129,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   introBattleAnimation: {fileID: 424614670}
+  battleMenu: {fileID: 1862817040}
+  textBox: {fileID: 1973063280}
   playerMonsterBalls: {fileID: 1038265829}
   enemyMonsterBalls: {fileID: 1859513749}
 --- !u!114 &923414686
@@ -19142,8 +19146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultNextState: {fileID: 0}
   introBattleSequence: {fileID: 923414685}
-  battleMenu: {fileID: 1862817040}
-  textBox: {fileID: 1973063280}
 --- !u!1 &924794041
 GameObject:
   m_ObjectHideFlags: 0
@@ -20314,7 +20316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &991876448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20656,7 +20658,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1006391954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3db3b28e013334ab59bf85a81975ce2b, type: 3}
+  m_Script: {fileID: 11500000, guid: ebec49e344f1d4f36b02a55b2f8c8c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1006391958
@@ -27554,7 +27556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1343134608
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39045,7 +39047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1862817040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40757,7 +40759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1936158176
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44812,7 +44814,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2088979942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3db3b28e013334ab59bf85a81975ce2b, type: 3}
+  m_Script: {fileID: 11500000, guid: ebec49e344f1d4f36b02a55b2f8c8c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &2088979947

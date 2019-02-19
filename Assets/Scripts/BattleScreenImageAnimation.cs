@@ -16,7 +16,7 @@ public class BattleScreenImageAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public virtual void PlayIdle()
+    public virtual void PlayIdle(PocketMonsterParty party)
     {
         animator.Play("Idle", -1, 0f);
     }
@@ -26,7 +26,7 @@ public class BattleScreenImageAnimation : MonoBehaviour
         animator.Play("Battle", -1, 0f);
     }
 
-    public virtual void PlayToView(PocketMonsterParty party)
+    public virtual void PlayToView()
     {
         animator.Play("View", -1, 0f);
     }

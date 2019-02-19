@@ -61,9 +61,9 @@
      <Compile Include="Assets\Scripts\BattleStates\BattleState.cs" />
      <Compile Include="Assets\Scripts\BattleStates\IntroBattleState.cs" />
      <Compile Include="Assets\Scripts\BattleTextBox.cs" />
-     <Compile Include="Assets\Scripts\EnemyBattleScreenImageAnimation.cs" />
      <Compile Include="Assets\Scripts\Gap.cs" />
      <Compile Include="Assets\Scripts\HeavyMonsters.cs" />
+     <Compile Include="Assets\Scripts\ImageChangeBattleScreenImageAnimation.cs" />
      <Compile Include="Assets\Scripts\IntroBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\IntroBattleSequence.cs" />
      <Compile Include="Assets\Scripts\LightMonster.cs" />
