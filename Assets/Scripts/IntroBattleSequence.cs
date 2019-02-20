@@ -6,7 +6,9 @@ using UnityEngine;
 public class IntroBattleSequence : MonoBehaviour
 {
     [SerializeField]
-    private IntroBattleAnimation introBattleAnimation;
+    private BattleIntroAnimation wildEncounterAnimation;
+    [SerializeField]
+    private BattleIntroAnimation trainerEncounterAnimation;
     [SerializeField]
     private BattleMenu battleMenu;
     [SerializeField]
@@ -16,48 +18,61 @@ public class IntroBattleSequence : MonoBehaviour
     [SerializeField]
     private BattleScreenMonsterBalls enemyMonsterBalls;
 
+    private BattleIntroAnimation currentIntroAnimation;
+
     public Action IntroBattleEnded;
 
+    private PocketMonsterParty player;
+    private PocketMonsterParty enemy;
     public void StartIntro(PocketMonsterParty player, PocketMonsterParty enemy)
     {
+        this.player = player;
+        this.enemy = enemy;
+        
         battleMenu.ShowMenuOption(BattleMenuOptions.TEXT, true);
         textBox.PopulateText(enemy.WildEncounter ? BattleTextType.WILDENCOUNTER : BattleTextType.TRAINERWANTSFIGHT,
             enemy.WildEncounter ? enemy.First.MonsterName : enemy.PartyTrainer.ToString() );
          
-        if(enemy.WildEncounter)
-        {
-            introBattleAnimation.IntroAnimationEnded += HandleIntroWildEncounterAnimationEnded;
-        }
-        introBattleAnimation.PlayIntro(player, enemy);
+        currentIntroAnimation = enemy.WildEncounter ? wildEncounterAnimation : trainerEncounterAnimation;
+
+        currentIntroAnimation.IntroAnimationEnded += HandleEncounterIntroAnimationEnded;
+        currentIntroAnimation.PlayIntro(player, enemy);
         playerMonsterBalls.gameObject.SetActive(false);
         enemyMonsterBalls.gameObject.SetActive(false);
         playerMonsterBalls.ShowMonsterBalls(player);
         enemyMonsterBalls.ShowMonsterBalls(enemy);
     }
 
-    private void HandleIntroWildEncounterAnimationEnded()
+    private void HandleEncounterIntroAnimationEnded()
     {
-        introBattleAnimation.IntroAnimationEnded -= HandleIntroWildEncounterAnimationEnded;
+        currentIntroAnimation.IntroAnimationEnded -= HandleEncounterIntroAnimationEnded;
         playerMonsterBalls.gameObject.SetActive(true);
         enemyMonsterBalls.gameObject.SetActive(true);
 
-        textBox.TextActionComplete += HandleIntroWildEncounterTextBoxActionComplete;
+        textBox.TextActionComplete += HandleIntroTextBoxActionComplete;
         textBox.ShowText();
     }
 
-    private void HandleIntroWildEncounterTextBoxActionComplete()
+    private void HandleIntroTextBoxActionComplete()
     {
-        textBox.TextActionComplete -= HandleIntroWildEncounterTextBoxActionComplete;
+        textBox.TextActionComplete -= HandleIntroTextBoxActionComplete;
         textBox.HideText();
 
-        introBattleAnimation.GoWildEncounterEnded += HandleGoWildEncounterEnded;
-        introBattleAnimation.GoWildEncounter();
+        currentIntroAnimation.GoPlayerAnimationEnded += HandleGoPlayerAnimationEnded;
+        currentIntroAnimation.GoEnemyAnimationEnded += HandleGoEnemyPlayerAnimationEnded;
+        currentIntroAnimation.PlayGoPlayer();
     }
 
-    private void HandleGoWildEncounterEnded()
+    private void HandleGoPlayerAnimationEnded()
     {
-        introBattleAnimation.GoWildEncounterEnded -= HandleGoWildEncounterEnded;
+        currentIntroAnimation.GoPlayerAnimationEnded -= HandleGoPlayerAnimationEnded;
+        currentIntroAnimation.PlayGoEnemy();
+    }
 
+    private void HandleGoEnemyPlayerAnimationEnded()
+    {
+        currentIntroAnimation.GoEnemyAnimationEnded -= HandleGoEnemyPlayerAnimationEnded;
+        PostIntroBattleEnded();
     }
 
     private void PostIntroBattleEnded()

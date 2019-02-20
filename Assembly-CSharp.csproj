@@ -65,7 +65,6 @@
      <Compile Include="Assets\Scripts\Gap.cs" />
      <Compile Include="Assets\Scripts\HeavyMonsters.cs" />
      <Compile Include="Assets\Scripts\ImageChangeBattleScreenImageAnimation.cs" />
-     <Compile Include="Assets\Scripts\IntroBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\IntroBattleSequence.cs" />
      <Compile Include="Assets\Scripts\LightMonster.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
@@ -89,6 +88,7 @@
      <Compile Include="Assets\Scripts\PocketMonsterStateRoot.cs" />
      <Compile Include="Assets\Scripts\PopulateMonsterMoves.cs" />
      <Compile Include="Assets\Scripts\Trainers.cs" />
+     <Compile Include="Assets\Scripts\WildEncounterBattleAnimation.cs" />
      <None Include="Assets\Resources\PokemonMoves.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

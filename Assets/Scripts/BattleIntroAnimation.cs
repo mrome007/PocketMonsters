@@ -24,6 +24,11 @@ public abstract class BattleIntroAnimation : MonoBehaviour
     public abstract void PlayGoPlayer();
     public abstract void PlayGoEnemy();
 
+    protected virtual void Awake()
+    {
+        introBattleAnimator = GetComponent<Animator>();
+    }
+
     protected void PostIntroAnimationEnded()
     {
         if(IntroAnimationEnded != null)
