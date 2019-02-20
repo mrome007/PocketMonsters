@@ -46,7 +46,7 @@ public class IntroBattleAnimation : MonoBehaviour
         trainerAnimation.PlayToView();
     }
 
-    private void GoWildEncounter(PocketMonsterParty player, PocketMonsterParty enemy)
+    public void GoWildEncounter()
     {
         trainerAnimation.ReturnComplete += HandleWildEncounterPlayerReturnComplete;
         trainerAnimation.PlayReturn();

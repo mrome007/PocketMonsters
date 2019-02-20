@@ -76,6 +76,7 @@
      <Compile Include="Assets\Scripts\MonsterMoveFetch.cs" />
      <Compile Include="Assets\Scripts\MonsterSprites.cs" />
      <Compile Include="Assets\Scripts\PlayerMonster.cs" />
+     <Compile Include="Assets\Scripts\PlayerMonsterBattleScreenImage.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterBattleScreenStatus.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterDetailedStatus.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ImageChangeBattleScreenImageAnimation : BattleScreenImageAnimation
 {
-    private SpriteRenderer battleScreenSpriteRenderer;
-    private BattleScreenImage battleScreenImage;
+    protected SpriteRenderer battleScreenSpriteRenderer;
+    protected BattleScreenImage battleScreenImage;
 
     protected override void Awake()
     {

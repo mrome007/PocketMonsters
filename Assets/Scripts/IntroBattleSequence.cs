@@ -24,7 +24,10 @@ public class IntroBattleSequence : MonoBehaviour
         textBox.PopulateText(enemy.WildEncounter ? BattleTextType.WILDENCOUNTER : BattleTextType.TRAINERWANTSFIGHT,
             enemy.WildEncounter ? enemy.First.MonsterName : enemy.PartyTrainer.ToString() );
          
-        introBattleAnimation.IntroAnimationEnded += HandleIntroAnimationEnded;
+        if(enemy.WildEncounter)
+        {
+            introBattleAnimation.IntroAnimationEnded += HandleIntroWildEncounterAnimationEnded;
+        }
         introBattleAnimation.PlayIntro(player, enemy);
         playerMonsterBalls.gameObject.SetActive(false);
         enemyMonsterBalls.gameObject.SetActive(false);
@@ -32,22 +35,29 @@ public class IntroBattleSequence : MonoBehaviour
         enemyMonsterBalls.ShowMonsterBalls(enemy);
     }
 
-    private void HandleIntroAnimationEnded()
+    private void HandleIntroWildEncounterAnimationEnded()
     {
-        introBattleAnimation.IntroAnimationEnded -= HandleIntroAnimationEnded;
+        introBattleAnimation.IntroAnimationEnded -= HandleIntroWildEncounterAnimationEnded;
         playerMonsterBalls.gameObject.SetActive(true);
         enemyMonsterBalls.gameObject.SetActive(true);
 
-        textBox.TextActionComplete += HandleTextBoxActionComplete;
+        textBox.TextActionComplete += HandleIntroWildEncounterTextBoxActionComplete;
         textBox.ShowText();
     }
 
-    private void HandleTextBoxActionComplete()
+    private void HandleIntroWildEncounterTextBoxActionComplete()
     {
-        textBox.TextActionComplete -= HandleTextBoxActionComplete;
+        textBox.TextActionComplete -= HandleIntroWildEncounterTextBoxActionComplete;
         textBox.HideText();
 
-        PostIntroBattleEnded();
+        introBattleAnimation.GoWildEncounterEnded += HandleGoWildEncounterEnded;
+        introBattleAnimation.GoWildEncounter();
+    }
+
+    private void HandleGoWildEncounterEnded()
+    {
+        introBattleAnimation.GoWildEncounterEnded -= HandleGoWildEncounterEnded;
+
     }
 
     private void PostIntroBattleEnded()

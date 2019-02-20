@@ -9389,8 +9389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320d53be96eb24a49a43d9164425847b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMonsterAnimation: {fileID: 2088979945}
-  enemyMonsterAnimation: {fileID: 1006391956}
+  playerMonsterAnimation: {fileID: 2088979946}
+  enemyMonsterAnimation: {fileID: 1006391957}
   trainerAnimation: {fileID: 378288298}
   enemyTrainerAnimation: {fileID: 807560006}
 --- !u!1 &426898812
@@ -20617,8 +20617,8 @@ GameObject:
   - component: {fileID: 1006391955}
   - component: {fileID: 1006391958}
   - component: {fileID: 1006391957}
-  - component: {fileID: 1006391956}
   - component: {fileID: 1006391959}
+  - component: {fileID: 1006391956}
   m_Layer: 8
   m_Name: EnemyMonster
   m_TagString: Untagged
@@ -20647,7 +20647,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1006391954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eed8bb3674e24bd28ec0a8df26cbd53, type: 3}
+  m_Script: {fileID: 11500000, guid: 3db3b28e013334ab59bf85a81975ce2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1006391957
@@ -44728,9 +44728,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2088979943}
   - component: {fileID: 2088979944}
-  - component: {fileID: 2088979945}
   - component: {fileID: 2088979947}
   - component: {fileID: 2088979946}
+  - component: {fileID: 2088979945}
   m_Layer: 8
   m_Name: PlayerMonster
   m_TagString: Untagged
@@ -44803,7 +44803,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2088979942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eed8bb3674e24bd28ec0a8df26cbd53, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bfd14ec29aa246059a7b96970caf7df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2088979946

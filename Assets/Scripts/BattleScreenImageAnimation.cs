@@ -9,36 +9,36 @@ public class BattleScreenImageAnimation : MonoBehaviour
     public Action GoComplete;
     public Action ReturnComplete;
     
-    protected Animator animator;
+    protected Animator screenImageAnimator;
 
     protected virtual void Awake()
     {
-        animator = GetComponent<Animator>();
+        screenImageAnimator = GetComponent<Animator>();
     }
 
     public virtual void PlayIdle(PocketMonsterParty party)
     {
-        animator.Play("Idle", -1, 0f);
+        screenImageAnimator.Play("Idle", -1, 0f);
     }
 
     public virtual void PlayBattle()
     {
-        animator.Play("Battle", -1, 0f);
+        screenImageAnimator.Play("Battle", -1, 0f);
     }
 
     public virtual void PlayToView()
     {
-        animator.Play("View", -1, 0f);
+        screenImageAnimator.Play("View", -1, 0f);
     }
 
     public virtual void PlayGo()
     {
-        animator.Play("Go", -1, 0f);
+        screenImageAnimator.Play("Go", -1, 0f);
     }
 
     public virtual void PlayReturn()
     {
-        animator.Play("Return", -1, 0f);
+        screenImageAnimator.Play("Return", -1, 0f);
     }
 
     protected void PostIntoViewComplete()
