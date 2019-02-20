@@ -66,12 +66,36 @@ public class IntroBattleSequence : MonoBehaviour
     private void HandleGoPlayerAnimationEnded()
     {
         currentIntroAnimation.GoPlayerAnimationEnded -= HandleGoPlayerAnimationEnded;
+        textBox.TextActionComplete += HandleGoPlayerTextBoxActionComplete;
+        textBox.PopulateText(BattleTextType.GOPOKEMON, player.First.MonsterName);
+        textBox.ShowText();
+    }
+
+    private void HandleGoPlayerTextBoxActionComplete()
+    {
+        textBox.TextActionComplete -= HandleGoPlayerTextBoxActionComplete;
         currentIntroAnimation.PlayGoEnemy();
     }
 
     private void HandleGoEnemyPlayerAnimationEnded()
     {
         currentIntroAnimation.GoEnemyAnimationEnded -= HandleGoEnemyPlayerAnimationEnded;
+
+        if(enemy.WildEncounter)
+        {
+            PostIntroBattleEnded();
+        }
+        else
+        {
+            textBox.TextActionComplete += HandleGoEnemyTextBoxActionComplete;
+            textBox.PopulateText(BattleTextType.TRAINERGOPOKEMON, enemy.PartyTrainer.ToString(), enemy.First.MonsterName);
+            textBox.ShowText();
+        }
+    }
+
+    private void HandleGoEnemyTextBoxActionComplete()
+    {
+        textBox.TextActionComplete -= HandleGoEnemyTextBoxActionComplete;
         PostIntroBattleEnded();
     }
 

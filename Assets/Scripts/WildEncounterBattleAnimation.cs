@@ -24,6 +24,7 @@ public class WildEncounterBattleAnimation : BattleIntroAnimation
 
     public override void PlayGoEnemy()
     {
+        PostGoEnemyAnimationEnded();
     }
 
     private void HandleWildEncounterPlayerReturnComplete()
@@ -37,6 +38,5 @@ public class WildEncounterBattleAnimation : BattleIntroAnimation
     {
         playerMonsterAnimation.GoComplete -= HandleGoWildEncounterComplete;
         PostGoPlayerAnimationEnded();
-        PostGoEnemyAnimationEnded();
     }
 }
