@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BattleScreenImage.cs" />
+     <Compile Include="Assets\Scripts\BattleIntroAnimation.cs" />
      <Compile Include="Assets\Scripts\BattleMenu.cs" />
      <Compile Include="Assets\Scripts\BattleScreenEnemyImage.cs" />
      <Compile Include="Assets\Scripts\BattleScreenImageAnimation.cs" />
