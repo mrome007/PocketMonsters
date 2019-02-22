@@ -87,6 +87,7 @@
      <Compile Include="Assets\Scripts\PocketMonstersStateManager.cs" />
      <Compile Include="Assets\Scripts\PocketMonsterStateRoot.cs" />
      <Compile Include="Assets\Scripts\PopulateMonsterMoves.cs" />
+     <Compile Include="Assets\Scripts\TrainerEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Trainers.cs" />
      <Compile Include="Assets\Scripts\WildEncounterBattleAnimation.cs" />
      <None Include="Assets\Resources\PokemonMoves.xml" />

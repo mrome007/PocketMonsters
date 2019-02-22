@@ -21,8 +21,8 @@ public abstract class BattleIntroAnimation : MonoBehaviour
     public Action GoEnemyAnimationEnded;
 
     public abstract void PlayIntro(PocketMonsterParty player, PocketMonsterParty enemy);
-    public abstract void PlayGoPlayer();
     public abstract void PlayGoEnemy();
+    public abstract void PlayGoPlayer();
 
     protected virtual void Awake()
     {

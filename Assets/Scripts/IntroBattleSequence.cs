@@ -58,9 +58,8 @@ public class IntroBattleSequence : MonoBehaviour
         textBox.TextActionComplete -= HandleIntroTextBoxActionComplete;
         textBox.HideText();
 
-        currentIntroAnimation.GoPlayerAnimationEnded += HandleGoPlayerAnimationEnded;
         currentIntroAnimation.GoEnemyAnimationEnded += HandleGoEnemyPlayerAnimationEnded;
-        currentIntroAnimation.PlayGoPlayer();
+        currentIntroAnimation.PlayGoEnemy();
     }
 
     private void HandleGoPlayerAnimationEnded()
@@ -74,7 +73,7 @@ public class IntroBattleSequence : MonoBehaviour
     private void HandleGoPlayerTextBoxActionComplete()
     {
         textBox.TextActionComplete -= HandleGoPlayerTextBoxActionComplete;
-        currentIntroAnimation.PlayGoEnemy();
+        PostIntroBattleEnded();
     }
 
     private void HandleGoEnemyPlayerAnimationEnded()
@@ -83,7 +82,8 @@ public class IntroBattleSequence : MonoBehaviour
 
         if(enemy.WildEncounter)
         {
-            PostIntroBattleEnded();
+            currentIntroAnimation.GoPlayerAnimationEnded += HandleGoPlayerAnimationEnded;
+            currentIntroAnimation.PlayGoPlayer();
         }
         else
         {
@@ -96,7 +96,9 @@ public class IntroBattleSequence : MonoBehaviour
     private void HandleGoEnemyTextBoxActionComplete()
     {
         textBox.TextActionComplete -= HandleGoEnemyTextBoxActionComplete;
-        PostIntroBattleEnded();
+
+        currentIntroAnimation.GoPlayerAnimationEnded += HandleGoPlayerAnimationEnded;
+        currentIntroAnimation.PlayGoPlayer();
     }
 
     private void PostIntroBattleEnded()
