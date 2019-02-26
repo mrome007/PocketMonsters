@@ -15,7 +15,7 @@ public class BattleScreenEnemyImage : BattleScreenImage
         }
         else
         {
-            return enemyTrainerSprites[(int)party.PartyTrainer - 1];
+            return enemyTrainerSprites[(int)party.PartyTrainer];
         }
     }
 }
