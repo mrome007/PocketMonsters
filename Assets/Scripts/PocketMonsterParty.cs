@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using UnityEngine;
 
 public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster> 
@@ -13,7 +14,7 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
 
     private List<LightMonster> party;
 
-    public int NumberOfMonsters { get { return party == null ? 0 : party.Count;  } }
+    public int NumberOfMonsters { get { return party.Count(monster => monster.MonsterName != "Missing No."); } }
     public bool WildEncounter { get { return wildEncounter; } }
     public PartyTrainer PartyTrainer { get { return partyTrainer; } }
     private const int MAX_MONSTERS_IN_PARTY = 6;
