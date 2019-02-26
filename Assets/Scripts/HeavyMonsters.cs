@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -27,6 +28,12 @@ public class HeavyMonsters : MonoBehaviour
 
     #endregion
 
+    #region Public
+
+    public static Action MonstersPopulated;
+
+    #endregion
+
     private List<Monster> heavyMonsterReferences;
 
     private void Awake()
@@ -37,6 +44,7 @@ public class HeavyMonsters : MonoBehaviour
         }
 
         PopulateMonsterReferences();
+        PostMonstersPopulated();
     }
 
     private void PopulateMonsterReferences()
@@ -67,5 +75,13 @@ public class HeavyMonsters : MonoBehaviour
         }
 
         return Instance.heavyMonsterReferences[index];
+    }
+
+    private void PostMonstersPopulated()
+    {
+        if(MonstersPopulated != null)
+        {
+            MonstersPopulated.Invoke();
+        }
     }
 }

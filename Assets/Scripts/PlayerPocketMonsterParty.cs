@@ -4,9 +4,20 @@ using UnityEngine;
 
 public class PlayerPocketMonsterParty : PocketMonsterParty
 {
-    private void Start()
+    //TEMPORARY JUST TO GRAB PLAYER'S POKEMON.
+    private TrainerEncounter playerTrainer;
+    //GRAB POKEMON MONSTER INFO FROM SAVED FILE IN THE FUTURE.
+
+    protected override void Awake()
     {
-        //Temporary just to show pikachu.
-        AddMonster(new LightMonster(HeavyMonsters.GetHeavyReference(25), 5, 0, 0, 0, 49, 81), false);
+        playerTrainer = GetComponent<TrainerEncounter>();
+        base.Awake();
     }
+
+    protected override void HandleMonstersPopulated()
+    {
+        base.HandleMonstersPopulated();
+        AddMonster(playerTrainer.MonstersInfo);
+    }
+
 }

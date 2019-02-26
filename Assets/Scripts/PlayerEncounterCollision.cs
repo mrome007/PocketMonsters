@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMonsterEncounterCollision : MonoBehaviour
+public class PlayerEncounterCollision : MonoBehaviour
 {
     [SerializeField]
     private BattleSequence battleSequence;
@@ -12,6 +12,8 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
     private PocketMonsterParty playerParty;
     [SerializeField]
     private PocketMonsterParty enemyParty;
+    [SerializeField]
+    private PocketMonsterParty enemyTrainerParty;
 
     private float encounterTimer = 0f;
     private float maximumEncounterTime = 12f;
@@ -34,11 +36,22 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        var trainerEncounter = collision.gameObject.GetComponent<TrainerEncounter>();
+        if(trainerEncounter != null)
+        {
+            //TODO: Stop movement somehow and disable collider.
+            Debug.Log("LOAD BATTLE SEQUENCE HERE!");
+            enemyTrainerParty.AddMonster(trainerEncounter.MonstersInfo);
+            enemyTrainerParty.SetPartyTrainer(trainerEncounter.Trainer);
+            StartBattleSequence(enemyTrainerParty);
+        }
+
         var encounter = collision.gameObject.GetComponent<MonsterEncounter>();
         if(encounter != null)
         {
             encounterTimer = Random.Range(0f, maximumEncounterTime);
         }
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -52,9 +65,8 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
                 //TODO: Stop movement somehow and disable collider.
                 Debug.Log("LOAD BATTLE SEQUENCE HERE!");
                 var monsterFromEncounter = encounter.GetMonsterFromEncounter();
-                var monster = new LightMonster(HeavyMonsters.GetHeavyReference(monsterFromEncounter.x), (ushort)monsterFromEncounter.y);
-                enemyParty.AddMonster(monster);
-                StartBattleSequence();
+                enemyParty.AddMonster(monsterFromEncounter);
+                StartBattleSequence(enemyParty);
             }
         }
     }
@@ -68,13 +80,13 @@ public class PlayerMonsterEncounterCollision : MonoBehaviour
         }
     }
 
-    private void StartBattleSequence()
+    private void StartBattleSequence(PocketMonsterParty party)
     {
         Debug.Log("Starting Battle Sequence.");
         battleSequence.BattleEnd += HandleBattleEnd;
         playerCollider.enabled = false;
         stateManager.ShowState(PocketMonsterState.BATTLE);
-        battleSequence.StartBattleSequence(playerParty, enemyParty);
+        battleSequence.StartBattleSequence(playerParty, party);
     }
 
     private void EndBattleSequence()

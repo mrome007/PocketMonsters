@@ -75,11 +75,12 @@
      <Compile Include="Assets\Scripts\MonsterMove.cs" />
      <Compile Include="Assets\Scripts\MonsterMoveFetch.cs" />
      <Compile Include="Assets\Scripts\MonsterSprites.cs" />
+     <Compile Include="Assets\Scripts\PartyMonsterInfo.cs" />
+     <Compile Include="Assets\Scripts\PlayerEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerMonster.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterBattleScreenImage.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterBattleScreenStatus.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterDetailedStatus.cs" />
-     <Compile Include="Assets\Scripts\PlayerMonsterEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerMonsterPKMNScreenStatus.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerPocketMonsterParty.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets\Scripts\PocketMonstersStateManager.cs" />
      <Compile Include="Assets\Scripts\PocketMonsterStateRoot.cs" />
      <Compile Include="Assets\Scripts\PopulateMonsterMoves.cs" />
+     <Compile Include="Assets\Scripts\TrainerEncounter.cs" />
      <Compile Include="Assets\Scripts\TrainerEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Trainers.cs" />
      <Compile Include="Assets\Scripts\WildEncounterBattleAnimation.cs" />
