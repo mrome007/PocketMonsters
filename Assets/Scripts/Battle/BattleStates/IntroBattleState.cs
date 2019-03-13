@@ -7,11 +7,11 @@ public class IntroBattleState : BattleState
     [SerializeField]
     private IntroBattleSequence introBattleSequence;
 
-    public override void EnterState(PocketMonsterParty player, PocketMonsterParty enemy)
+    public override void EnterState(BattleStateArgs battleArgs)
     {
-        base.EnterState(player, enemy);
+        base.EnterState(battleArgs);
 
-        introBattleSequence.StartIntro(player, enemy);
+        introBattleSequence.StartIntro(battleArgs);
     }
 
     protected override void RegisterEvents()

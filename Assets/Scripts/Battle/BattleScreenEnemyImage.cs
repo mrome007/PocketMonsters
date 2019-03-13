@@ -7,15 +7,15 @@ public class BattleScreenEnemyImage : BattleScreenImage
     [SerializeField]
     private List<Sprite> enemyTrainerSprites;
 
-    public override Sprite GetScreenImage(PocketMonsterParty party)
+    public override Sprite GetScreenImage(BattleStateArgs battleArgs)
     {
-        if(party.WildEncounter)
+        if(battleArgs.EnemyWildEncounter)
         {
-            return party.First.Front;
+            return battleArgs.GetFirstMonsterSprite(true, false);
         }
         else
         {
-            return enemyTrainerSprites[(int)party.PartyTrainer];
+            return enemyTrainerSprites[(int)battleArgs.EnemyTrainer];
         }
     }
 }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMonsterBattleScreenImage : BattleScreenImage
 {
-    public override Sprite GetScreenImage(PocketMonsterParty party)
+    public override Sprite GetScreenImage(BattleStateArgs battleArgs)
     {
-        return party.First.Back;
+        return battleArgs.GetFirstMonsterSprite(false, true);
     }
 }

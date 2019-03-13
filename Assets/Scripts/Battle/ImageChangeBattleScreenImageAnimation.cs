@@ -14,9 +14,9 @@ public class ImageChangeBattleScreenImageAnimation : BattleScreenImageAnimation
         battleScreenImage = GetComponent<BattleScreenImage>();
     }
 
-    public override void PlayIdle(PocketMonsterParty party)
+    public override void PlayIdle(BattleStateArgs battleArgs)
     {
-        battleScreenSpriteRenderer.sprite = battleScreenImage.GetScreenImage(party);
-        base.PlayIdle(party);
+        battleScreenSpriteRenderer.sprite = battleScreenImage.GetScreenImage(battleArgs);
+        base.PlayIdle(battleArgs);
     }
 }

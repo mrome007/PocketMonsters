@@ -9,13 +9,11 @@ public class BattleState : MonoBehaviour
 
     protected BattleState nextState;
 
-    protected PocketMonsterParty player;
-    protected PocketMonsterParty enemy;
+    protected BattleStateArgs battleStateArgs;
 
-    public virtual void EnterState(PocketMonsterParty player, PocketMonsterParty enemy)
+    public virtual void EnterState(BattleStateArgs battleArgs)
     {
-        this.player = player;
-        this.enemy = enemy;
+        battleStateArgs = battleArgs;
         nextState = defaultNextState;
         RegisterEvents();
     }
@@ -24,7 +22,7 @@ public class BattleState : MonoBehaviour
     {
         UnRegisterEvents();
 
-        nextState.EnterState(this.player, this.enemy);
+        nextState.EnterState(battleStateArgs);
     }
     
     protected virtual void RegisterEvents()

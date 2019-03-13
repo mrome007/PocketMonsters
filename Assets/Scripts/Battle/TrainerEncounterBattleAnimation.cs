@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class TrainerEncounterBattleAnimation : BattleIntroAnimation
 {
-    public override void PlayIntro(PocketMonsterParty player, PocketMonsterParty enemy)
+    public override void PlayIntro(BattleStateArgs battleArgs)
     {
         introBattleAnimator.Play("Play", -1, 0f);
 
-        playerMonsterAnimation.PlayIdle(player);
-        enemyMonsterAnimation.PlayIdle(enemy);
-        enemyTrainerAnimation.PlayIdle(enemy);
+        playerMonsterAnimation.PlayIdle(battleArgs);
+        enemyMonsterAnimation.PlayIdle(battleArgs);
+        enemyTrainerAnimation.PlayIdle(battleArgs);
 
         enemyTrainerAnimation.PlayToView();
         trainerAnimation.PlayToView();

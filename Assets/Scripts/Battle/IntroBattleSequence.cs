@@ -21,26 +21,23 @@ public class IntroBattleSequence : MonoBehaviour
     private BattleIntroAnimation currentIntroAnimation;
 
     public Action IntroBattleEnded;
+    private BattleStateArgs bArgs;
 
-    private PocketMonsterParty player;
-    private PocketMonsterParty enemy;
-    public void StartIntro(PocketMonsterParty player, PocketMonsterParty enemy)
-    {
-        this.player = player;
-        this.enemy = enemy;
-        
+    public void StartIntro(BattleStateArgs battleArgs)
+    {        
+        bArgs = battleArgs;
         battleMenu.ShowMenuOption(BattleMenuOptions.TEXT, true);
-        textBox.PopulateText(enemy.WildEncounter ? BattleTextType.WILDENCOUNTER : BattleTextType.TRAINERWANTSFIGHT,
-            enemy.WildEncounter ? enemy.First.MonsterName : enemy.PartyTrainer.ToString() );
+        textBox.PopulateText(bArgs.EnemyWildEncounter ? BattleTextType.WILDENCOUNTER : BattleTextType.TRAINERWANTSFIGHT,
+            bArgs.EnemyWildEncounter ? bArgs.EnemyFirstMonsterName : Trainers.GetTrainerName(bArgs.EnemyTrainer));
          
-        currentIntroAnimation = enemy.WildEncounter ? wildEncounterAnimation : trainerEncounterAnimation;
+        currentIntroAnimation = bArgs.EnemyWildEncounter ? wildEncounterAnimation : trainerEncounterAnimation;
 
         currentIntroAnimation.IntroAnimationEnded += HandleEncounterIntroAnimationEnded;
-        currentIntroAnimation.PlayIntro(player, enemy);
+        currentIntroAnimation.PlayIntro(battleArgs);
         playerMonsterBalls.gameObject.SetActive(false);
         enemyMonsterBalls.gameObject.SetActive(false);
-        playerMonsterBalls.ShowMonsterBalls(player);
-        enemyMonsterBalls.ShowMonsterBalls(enemy);
+        playerMonsterBalls.ShowMonsterBalls(bArgs.GetCurrentMonsterBallBattleInfo(true));
+        enemyMonsterBalls.ShowMonsterBalls(bArgs.GetCurrentMonsterBallBattleInfo(false));
     }
 
     private void HandleEncounterIntroAnimationEnded()
@@ -66,7 +63,7 @@ public class IntroBattleSequence : MonoBehaviour
     {
         currentIntroAnimation.GoPlayerAnimationEnded -= HandleGoPlayerAnimationEnded;
         textBox.TextActionComplete += HandleGoPlayerTextBoxActionComplete;
-        textBox.PopulateText(BattleTextType.GOPOKEMON, player.First.MonsterName);
+        textBox.PopulateText(BattleTextType.GOPOKEMON, bArgs.PlayerFirstMonsterName);
         textBox.ShowText();
     }
 
@@ -80,7 +77,7 @@ public class IntroBattleSequence : MonoBehaviour
     {
         currentIntroAnimation.GoEnemyAnimationEnded -= HandleGoEnemyPlayerAnimationEnded;
 
-        if(enemy.WildEncounter)
+        if(bArgs.EnemyWildEncounter)
         {
             currentIntroAnimation.GoPlayerAnimationEnded += HandleGoPlayerAnimationEnded;
             currentIntroAnimation.PlayGoPlayer();
@@ -88,7 +85,7 @@ public class IntroBattleSequence : MonoBehaviour
         else
         {
             textBox.TextActionComplete += HandleGoEnemyTextBoxActionComplete;
-            textBox.PopulateText(BattleTextType.TRAINERGOPOKEMON, enemy.PartyTrainer.ToString(), enemy.First.MonsterName);
+            textBox.PopulateText(BattleTextType.TRAINERGOPOKEMON, Trainers.GetTrainerName(bArgs.EnemyTrainer), bArgs.EnemyFirstMonsterName);
             textBox.ShowText();
         }
     }

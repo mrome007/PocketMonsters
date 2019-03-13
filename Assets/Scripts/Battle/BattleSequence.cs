@@ -17,7 +17,8 @@ public class BattleSequence : MonoBehaviour
     {
         PostBattleStart();
 
-        initialState.EnterState(player, enemy);
+        var battleArgs = new BattleStateArgs(player, enemy);
+        initialState.EnterState(battleArgs);
     }
 
     public void EndBattleSequence()

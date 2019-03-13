@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class WildEncounterBattleAnimation : BattleIntroAnimation
 {
-    public override void PlayIntro(PocketMonsterParty player, PocketMonsterParty enemy)
+    public override void PlayIntro(BattleStateArgs battleArgs)
     {
         introBattleAnimator.Play("Play", -1, 0f);
 
-        playerMonsterAnimation.PlayIdle(player);
-        enemyMonsterAnimation.PlayIdle(enemy);
+        playerMonsterAnimation.PlayIdle(battleArgs);
+        enemyMonsterAnimation.PlayIdle(battleArgs);
 
         enemyMonsterAnimation.PlayToView();
         trainerAnimation.PlayToView();

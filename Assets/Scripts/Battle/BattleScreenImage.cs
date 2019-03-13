@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BattleScreenImage : MonoBehaviour 
 {
-    public virtual Sprite GetScreenImage(PocketMonsterParty party)
+    public virtual Sprite GetScreenImage(BattleStateArgs battleArgs)
     {
-        return party.First.Front;
+        return battleArgs.GetFirstMonsterSprite(true, false);
     }
 }

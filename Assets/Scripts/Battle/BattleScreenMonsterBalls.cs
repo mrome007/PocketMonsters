@@ -9,10 +9,11 @@ public class BattleScreenMonsterBalls : MonoBehaviour
     [SerializeField]
     private List<BattleScreenMonsterBall> monsterBalls;
 
-    public void ShowMonsterBalls(PocketMonsterParty party)
+    //TODO monsterBallInfo will contain the number of current pokemon in the party and their alive status. Will add fainted monster balls later.
+    public void ShowMonsterBalls(MonsterBallBattleInformation monsterBallInfo)
     {
-        monsterBallsParent.gameObject.SetActive(!party.WildEncounter);
-        var count = party.NumberOfMonsters;
+        monsterBallsParent.gameObject.SetActive(!monsterBallInfo.IsWildEncounter);
+        var count = monsterBallInfo.NumberOfMonsters;
         foreach(var ball in monsterBalls)
         {
             ball.ShowBattleScreenMonsterBall(count > 0);

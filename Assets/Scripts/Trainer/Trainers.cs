@@ -49,8 +49,18 @@ public static class Trainers
         { PartyTrainer.JUGGLER, "Juggler" },
         { PartyTrainer.SWIMMER, "Swimmer" },
         { PartyTrainer.TAMER, "Tamer" },
-        { PartyTrainer.ROCKER, "Rocket" }
+        { PartyTrainer.ROCKET, "Rocket" }
     };
+
+    public static string GetTrainerName(PartyTrainer trainer)
+    {
+        if(!trainerNames.ContainsKey(trainer))
+        {
+            return "";
+        }
+
+        return trainerNames[trainer];
+    }
 }
 
 public enum PartyTrainer

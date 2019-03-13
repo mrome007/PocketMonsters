@@ -107,6 +107,14 @@ public class LightMonster
         }
     }
 
+    public ushort CurrentHP
+    {
+        get
+        {
+            return currentHitPoints;
+        }
+    }
+
     public ushort HPStat
     {
         get

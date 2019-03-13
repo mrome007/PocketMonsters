@@ -16,7 +16,7 @@ public class BattleScreenImageAnimation : MonoBehaviour
         screenImageAnimator = GetComponent<Animator>();
     }
 
-    public virtual void PlayIdle(PocketMonsterParty party)
+    public virtual void PlayIdle(BattleStateArgs battleArgs)
     {
         screenImageAnimator.Play("Idle", -1, 0f);
     }

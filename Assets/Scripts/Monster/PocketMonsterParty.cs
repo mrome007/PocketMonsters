@@ -62,6 +62,16 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
     }
 
+    public bool? IsMonsterAlive(int index)
+    {
+        if(index < 0 || index >= party.Count)
+        {
+            return null;
+        }
+
+        return party[index].CurrentHP != 0;
+    }
+
     /// <summary>
     /// Adds a monster from wild encounter.
     /// </summary>
