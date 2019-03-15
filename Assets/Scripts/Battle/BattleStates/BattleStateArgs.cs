@@ -13,14 +13,6 @@ public class BattleStateArgs
         this.enemy = enemy;
     }
 
-    public string PlayerFirstMonsterName
-    {
-        get
-        {
-            return player.First.MonsterName;
-        }
-    }
-
     public bool EnemyWildEncounter
     {
         get
@@ -37,12 +29,24 @@ public class BattleStateArgs
         }
     }
 
-    public string EnemyFirstMonsterName
+    public string GetPlayerMonsterName(int index = 0)
     {
-        get
-        {
-            return enemy.First.MonsterName;
-        }
+        return player.GetMonsterName(index);
+    }
+
+    public LightMonsterStatus GetPlayerMonsterStatus(int index = 0)
+    {
+        return player.GetMonsterStatusLight(index);
+    }
+
+    public string GetEnemyMonsterName(int index = 0)
+    {
+        return enemy.GetMonsterName(index);
+    }
+
+    public LightMonsterStatus GetEnemyMonsterStatus(int index = 0)
+    {
+        return enemy.GetMonsterStatusLight(index);
     }
 
     public Sprite GetFirstMonsterSprite(bool front, bool isPlayer)

@@ -107,6 +107,27 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         partyTrainer = trainer;
     }
 
+    public string GetMonsterName(int index)
+    {
+        if(index < 0 || index >= NumberOfMonsters)
+        {
+            return string.Empty;
+        }
+
+        return party[index].MonsterName;
+    }
+
+    public LightMonsterStatus GetMonsterStatusLight(int index)
+    {
+        if(index < 0 || index >= NumberOfMonsters)
+        {
+            return new LightMonsterStatus();
+        }
+
+        var monster = party[index];
+        return new LightMonsterStatus(monster.Level, monster.CurrentHP, monster.HPStat);
+    }
+
     #region IEnumerable Members
 
     IEnumerator IEnumerable.GetEnumerator()

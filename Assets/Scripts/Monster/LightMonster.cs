@@ -107,6 +107,14 @@ public class LightMonster
         }
     }
 
+    public ushort Level
+    {
+        get
+        {
+            return level;
+        }
+    }
+
     public ushort CurrentHP
     {
         get
@@ -222,5 +230,19 @@ public class LightMonster
         }
 
         return exp;
+    }
+}
+
+public class LightMonsterStatus
+{
+    public ushort Level { get; private set; }
+    public ushort CurrentHP { get; private set; }
+    public ushort HP { get; private set; }
+
+    public LightMonsterStatus(ushort lvl = 1, ushort curHP = 10, ushort hp = 10)
+    {
+        Level = lvl;
+        CurrentHP = curHP;
+        HP = hp;
     }
 }

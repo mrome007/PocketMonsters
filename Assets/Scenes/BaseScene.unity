@@ -465,7 +465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 1411623170}
   levelNumber: {fileID: 505402832}
   hpSlider: {fileID: 1724856855}
@@ -19182,7 +19181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 585619458}
   levelNumber: {fileID: 2083702551}
   hpSlider: {fileID: 49379043}
@@ -19534,6 +19532,8 @@ MonoBehaviour:
   textBox: {fileID: 1973063280}
   playerMonsterBalls: {fileID: 1038265829}
   enemyMonsterBalls: {fileID: 1859513749}
+  playerBattleStatus: {fileID: 1936158177}
+  enemyBattleStatus: {fileID: 1343134609}
 --- !u!114 &923414686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20257,7 +20257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 1384928707}
   levelNumber: {fileID: 1134808468}
   hpSlider: {fileID: 1952034276}
@@ -28154,7 +28153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3468b5e4ca8ff403ebccb954a89ec597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 1985422007}
   levelNumber: {fileID: 1050185846}
   hpSlider: {fileID: 457618280}
@@ -28738,7 +28736,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 1981355}
   levelNumber: {fileID: 159315705}
   hpSlider: {fileID: 1011628312}
@@ -30804,7 +30801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 1711672668}
   levelNumber: {fileID: 1760619826}
   hpSlider: {fileID: 164393525}
@@ -34212,7 +34208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7eff40336164b26811b562b06857c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 315842440}
   monsterName: {fileID: 555844484}
   levelNumber: {fileID: 2063808367}
   hpSlider: {fileID: 651732797}
@@ -41773,7 +41768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30de02085a31c4fa7808662942140f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 2146733363}
   levelNumber: {fileID: 1697031777}
   hpSlider: {fileID: 1842337850}
@@ -46370,7 +46364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8633cc2675f0f4a6bb0899b6e1b6800d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battleScreenImage: {fileID: 0}
   monsterName: {fileID: 327478626}
   levelNumber: {fileID: 1274627412}
   hpSlider: {fileID: 440318590}
