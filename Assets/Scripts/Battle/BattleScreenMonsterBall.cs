@@ -11,19 +11,19 @@ public class BattleScreenMonsterBall : MonoBehaviour
     [SerializeField]
     private GameObject faintedMonsterBall;
 
-    public void ShowBattleScreenMonsterBall(bool occupied, bool faint = false)
+    public void ShowBattleScreenMonsterBall(bool occupied, bool alive = false)
     {
-        if(faint)
-        {
-            faintedMonsterBall.SetActive(true);
-            occupiedMonsterBall.SetActive(false);
-            vacantMonsterBall.SetActive(false);
-        }
-        else
+        if(alive)
         {
             faintedMonsterBall.SetActive(false);
             occupiedMonsterBall.SetActive(occupied);
             vacantMonsterBall.SetActive(!occupied);
+        }
+        else
+        {
+            faintedMonsterBall.SetActive(true);
+            occupiedMonsterBall.SetActive(false);
+            vacantMonsterBall.SetActive(false);
         }
     }
 }
