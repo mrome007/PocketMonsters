@@ -10110,6 +10110,7 @@ GameObject:
   - component: {fileID: 452862085}
   - component: {fileID: 452862084}
   - component: {fileID: 452862083}
+  - component: {fileID: 452862086}
   m_Layer: 8
   m_Name: Move2
   m_TagString: Untagged
@@ -10212,6 +10213,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 452862081}
+--- !u!114 &452862086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452862081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc3591cc42bc4ad9a9ebd2a6a21e118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveButtonIndex: 1
 --- !u!1 &457525816
 GameObject:
   m_ObjectHideFlags: 0
@@ -32912,6 +32925,7 @@ GameObject:
   - component: {fileID: 1503950366}
   - component: {fileID: 1503950365}
   - component: {fileID: 1503950364}
+  - component: {fileID: 1503950367}
   m_Layer: 8
   m_Name: Move3
   m_TagString: Untagged
@@ -33014,6 +33028,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1503950362}
+--- !u!114 &1503950367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503950362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc3591cc42bc4ad9a9ebd2a6a21e118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveButtonIndex: 2
 --- !u!1 &1510564798
 GameObject:
   m_ObjectHideFlags: 0
@@ -37600,6 +37626,7 @@ GameObject:
   - component: {fileID: 1760172677}
   - component: {fileID: 1760172676}
   - component: {fileID: 1760172675}
+  - component: {fileID: 1760172678}
   m_Layer: 8
   m_Name: Move4
   m_TagString: Untagged
@@ -37702,6 +37729,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1760172673}
+--- !u!114 &1760172678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760172673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc3591cc42bc4ad9a9ebd2a6a21e118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveButtonIndex: 3
 --- !u!1 &1760619824
 GameObject:
   m_ObjectHideFlags: 0
@@ -38915,6 +38954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1800532080}
   - component: {fileID: 1800532081}
+  - component: {fileID: 1800532082}
   m_Layer: 8
   m_Name: Moves
   m_TagString: Untagged
@@ -38966,6 +39006,22 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
+--- !u!114 &1800532082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1800532079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1607fca22b6914dfd9663c73a40e7577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveButtons:
+  - {fileID: 1866144288}
+  - {fileID: 452862086}
+  - {fileID: 1503950367}
+  - {fileID: 1760172678}
 --- !u!1 &1802768209
 GameObject:
   m_ObjectHideFlags: 0
@@ -40219,6 +40275,7 @@ GameObject:
   - component: {fileID: 1866144287}
   - component: {fileID: 1866144286}
   - component: {fileID: 1866144285}
+  - component: {fileID: 1866144288}
   m_Layer: 8
   m_Name: Move1
   m_TagString: Untagged
@@ -40321,6 +40378,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1866144283}
+--- !u!114 &1866144288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866144283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc3591cc42bc4ad9a9ebd2a6a21e118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveButtonIndex: 0
 --- !u!1 &1870091771
 GameObject:
   m_ObjectHideFlags: 0
@@ -43438,6 +43507,7 @@ MonoBehaviour:
   defaultNextState: {fileID: 716272575}
   runNextState: {fileID: 186088630}
   menu: {fileID: 1862817040}
+  movesHandler: {fileID: 1800532082}
 --- !u!1 &2015994344
 GameObject:
   m_ObjectHideFlags: 0

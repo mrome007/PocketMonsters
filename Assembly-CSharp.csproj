@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Battle\BattleIntroAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleMenu.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleMoveButton.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleScreenEnemyImage.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleScreenImage.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleScreenImageAnimation.cs" />
@@ -67,7 +68,9 @@
      <Compile Include="Assets\Scripts\Battle\BattleStates\RunBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleTextBox.cs" />
      <Compile Include="Assets\Scripts\Battle\ImageChangeBattleScreenImageAnimation.cs" />
+     <Compile Include="Assets\Scripts\Battle\IndexEventArgs.cs" />
      <Compile Include="Assets\Scripts\Battle\IntroBattleSequence.cs" />
+     <Compile Include="Assets\Scripts\Battle\MonsterMovesHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\TrainerEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\WildEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Monster\HeavyMonsters.cs" />
