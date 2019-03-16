@@ -5,6 +5,9 @@ using UnityEngine;
 public class IdleBattleState : BattleState
 {
     [SerializeField]
+    private BattleState runNextState;
+    
+    [SerializeField]
     private BattleMenu menu;
 
     public override void EnterState(BattleStateArgs battleArgs)
