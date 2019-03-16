@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Battle\BattleSequence.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\BattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\BattleStateArgs.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleStates\IdleBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\IntroBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleTextBox.cs" />
      <Compile Include="Assets\Scripts\Battle\ImageChangeBattleScreenImageAnimation.cs" />

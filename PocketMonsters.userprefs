@@ -1,23 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PocketMonsterParty.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Monster/PlayerMonsterBattleScreenStatus.cs">
     <Files>
-      <File FileName="Assets/Scripts/TrainerEncounter.cs" Line="16" Column="5" />
-      <File FileName="Assets/Scripts/IntroBattleSequence.cs" Line="43" Column="38" />
-      <File FileName="Assets/Scripts/BattleScreenMonsterBalls.cs" Line="12" Column="48" />
-      <File FileName="Assets/Scripts/PocketMonsterParty.cs" Line="17" Column="95" />
-      <File FileName="Assets/Scripts/LightMonster.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/Battle/IntroBattleSequence.cs" Line="50" Column="38" />
+      <File FileName="Assets/Scripts/Monster/MonsterBattleScreenStatus.cs" Line="18" Column="55" />
+      <File FileName="Assets/Scripts/Monster/LightMonster.cs" Line="236" Column="32" />
+      <File FileName="Assets/Scripts/Monster/PlayerMonsterBattleScreenStatus.cs" Line="13" Column="72" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="49" Column="51" />
+      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="128" Column="89" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/TrainerEncounterBattleAnimation.cs" line="15" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/TrainerEncounterBattleAnimation.cs" line="16" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/IntroBattleSequence.cs" line="36" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/IntroBattleSequence.cs" line="38" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/TrainerEncounterBattleAnimation.cs" line="9" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/WildEncounterBattleAnimation.cs" line="10" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
