@@ -23227,19 +23227,19 @@ MonoBehaviour:
   - monsterIndex: 25
     monsterLevel: 5
     move1:
-      monsterMoveIndex: 0
-      currentPP: 0
-      pp: 0
+      monsterMoveIndex: 144
+      currentPP: 30
+      pp: 30
     move2:
-      monsterMoveIndex: 0
-      currentPP: 0
-      pp: 0
+      monsterMoveIndex: 150
+      currentPP: 30
+      pp: 30
     move3:
-      monsterMoveIndex: 0
+      monsterMoveIndex: -1
       currentPP: 0
       pp: 0
     move4:
-      monsterMoveIndex: 0
+      monsterMoveIndex: -1
       currentPP: 0
       pp: 0
 --- !u!1 &1067944447
