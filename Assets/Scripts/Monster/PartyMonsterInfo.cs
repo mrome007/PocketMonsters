@@ -8,10 +8,10 @@ public class PartyMonsterInfo
 {
     public int MonsterIndex { get { return monsterIndex; } }
     public int MonsterLevel { get { return monsterLevel; } }
-    public PartyMonsterInfo MoveOne { get { return move1; } }
+    public PartyMonsterMoveInfo MoveOne { get { return move1; } }
     public PartyMonsterMoveInfo MoveTwo { get { return move2; } }
     public PartyMonsterMoveInfo MoveThree { get { return move3; } }
-    public PartyMonsterInfo MoveFour { get { return move4; } }
+    public PartyMonsterMoveInfo MoveFour { get { return move4; } }
 
 
     [SerializeField]
@@ -19,11 +19,11 @@ public class PartyMonsterInfo
     [SerializeField]
     private int monsterLevel;
     [SerializeField]
-    private PartyMonsterInfo move1;
+    private PartyMonsterMoveInfo move1;
     [SerializeField]
     private PartyMonsterMoveInfo move2;
     [SerializeField]
     private PartyMonsterMoveInfo move3;
     [SerializeField]
-    private PartyMonsterInfo move4;
+    private PartyMonsterMoveInfo move4;
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class MonsterMove : MonoBehaviour 
 {
+    public int MonsterIndex;
     public string MoveName;
     public MonsterType MoveType;
     public MonsterMoveCategory MoveCategory;

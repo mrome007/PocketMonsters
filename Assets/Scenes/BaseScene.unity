@@ -227,6 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 45
   MoveName: Fissure
   MoveType: 5
   MoveCategory: 1
@@ -341,6 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 60
   MoveName: Horn Attack
   MoveType: 1
   MoveCategory: 1
@@ -824,6 +826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 123
   MoveName: Smog
   MoveType: 4
   MoveCategory: 2
@@ -870,6 +873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 43
   MoveName: Fire Punch
   MoveType: 9
   MoveCategory: 1
@@ -1203,6 +1207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 40
   MoveName: Ember
   MoveType: 9
   MoveCategory: 2
@@ -1865,6 +1870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 78
   MoveName: Meditate
   MoveType: 13
   MoveCategory: 3
@@ -1970,6 +1976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 146
   MoveName: Teleport
   MoveType: 13
   MoveCategory: 3
@@ -2225,6 +2232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 69
   MoveName: Karate Chop
   MoveType: 2
   MoveCategory: 1
@@ -2421,6 +2429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 17
   MoveName: Bubble Beam
   MoveType: 10
   MoveCategory: 2
@@ -2467,6 +2476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 130
   MoveName: Spore
   MoveType: 11
   MoveCategory: 3
@@ -2698,6 +2708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 70
   MoveName: Kinesis
   MoveType: 13
   MoveCategory: 3
@@ -3676,16 +3687,40 @@ MonoBehaviour:
   monstersInfo:
   - monsterIndex: 11
     monsterLevel: 5
-    move1: Harden
-    move2: 
-    move3: 
-    move4: 
+    move1:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move2:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move3:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move4:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
   - monsterIndex: 10
     monsterLevel: 3
-    move1: Tackle
-    move2: String Shot
-    move3: 
-    move4: 
+    move1:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move2:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move3:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move4:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
 --- !u!1 &185022064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,6 +3940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 128
   MoveName: Spike Cannon
   MoveType: 1
   MoveCategory: 1
@@ -3951,6 +3987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 71
   MoveName: Leech Life
   MoveType: 7
   MoveCategory: 1
@@ -4446,6 +4483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 93
   MoveName: Poison Powder
   MoveType: 4
   MoveCategory: 3
@@ -4492,6 +4530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 114
   MoveName: Self-Destruct
   MoveType: 1
   MoveCategory: 1
@@ -4931,6 +4970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 134
   MoveName: Struggle
   MoveType: 1
   MoveCategory: 1
@@ -4977,6 +5017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 65
   MoveName: Hypnosis
   MoveType: 13
   MoveCategory: 3
@@ -5396,6 +5437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 98
   MoveName: Psywave
   MoveType: 13
   MoveCategory: 2
@@ -5442,6 +5484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 47
   MoveName: Flash
   MoveType: 1
   MoveCategory: 3
@@ -5561,6 +5604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 113
   MoveName: Seismic Toss
   MoveType: 2
   MoveCategory: 1
@@ -5885,6 +5929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 26
   MoveName: Cut
   MoveType: 1
   MoveCategory: 1
@@ -6376,6 +6421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 49
   MoveName: Focus Energy
   MoveType: 2
   MoveCategory: 3
@@ -6422,6 +6468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 152
   MoveName: Thunderbolt
   MoveType: 12
   MoveCategory: 2
@@ -6468,6 +6515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 27
   MoveName: Defense Curl
   MoveType: 1
   MoveCategory: 3
@@ -6732,6 +6780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 28
   MoveName: Dig
   MoveType: 5
   MoveCategory: 1
@@ -6928,6 +6977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 94
   MoveName: Poison Sting
   MoveType: 4
   MoveCategory: 1
@@ -6974,6 +7024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 68
   MoveName: Jump Kick
   MoveType: 2
   MoveCategory: 1
@@ -7130,6 +7181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 67
   MoveName: Ice Punch
   MoveType: 14
   MoveCategory: 1
@@ -8533,6 +8585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 63
   MoveName: Hyper Beam
   MoveType: 1
   MoveCategory: 2
@@ -9071,6 +9124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 2
   MoveName: Acid
   MoveType: 4
   MoveCategory: 2
@@ -9520,6 +9574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 73
   MoveName: Leer
   MoveType: 1
   MoveCategory: 3
@@ -9566,6 +9621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 75
   MoveName: Light Screen
   MoveType: 13
   MoveCategory: 3
@@ -9900,6 +9956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 54
   MoveName: Guillotine
   MoveType: 1
   MoveCategory: 1
@@ -9946,6 +10003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 100
   MoveName: Rage
   MoveType: 1
   MoveCategory: 1
@@ -10418,6 +10476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 5
   MoveName: Amnesia
   MoveType: 13
   MoveCategory: 3
@@ -11714,6 +11773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 155
   MoveName: Tri Attack
   MoveType: 1
   MoveCategory: 2
@@ -11968,6 +12028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 19
   MoveName: Comet Punch
   MoveType: 1
   MoveCategory: 1
@@ -13374,6 +13435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 52
   MoveName: Glare
   MoveType: 1
   MoveCategory: 3
@@ -13420,6 +13482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 117
   MoveName: Skull Bash
   MoveType: 1
   MoveCategory: 1
@@ -13466,6 +13529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 15
   MoveName: Bonemerang
   MoveType: 5
   MoveCategory: 1
@@ -13512,6 +13576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 153
   MoveName: Toxic
   MoveType: 4
   MoveCategory: 3
@@ -13658,6 +13723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 136
   MoveName: Submission
   MoveType: 2
   MoveCategory: 1
@@ -13704,6 +13770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 102
   MoveName: Razor Wind
   MoveType: 1
   MoveCategory: 2
@@ -13959,6 +14026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 14
   MoveName: Bone Club
   MoveType: 5
   MoveCategory: 1
@@ -14005,6 +14073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 137
   MoveName: Submission
   MoveType: 1
   MoveCategory: 3
@@ -14154,6 +14223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 51
   MoveName: Fury Swipes
   MoveType: 1
   MoveCategory: 1
@@ -14200,6 +14270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 118
   MoveName: Sky Attack
   MoveType: 3
   MoveCategory: 1
@@ -14568,6 +14639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 18
   MoveName: Clamp
   MoveType: 10
   MoveCategory: 1
@@ -14977,6 +15049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 56
   MoveName: Harden
   MoveType: 1
   MoveCategory: 3
@@ -15023,6 +15096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 106
   MoveName: Roar
   MoveType: 1
   MoveCategory: 3
@@ -15069,6 +15143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 141
   MoveName: Swift
   MoveType: 1
   MoveCategory: 2
@@ -15254,6 +15329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 0
   MoveName: Struggle
   MoveType: 1
   MoveCategory: 1
@@ -15406,6 +15482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 119
   MoveName: Slam
   MoveType: 1
   MoveCategory: 1
@@ -15452,6 +15529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 58
   MoveName: Headbutt
   MoveType: 1
   MoveCategory: 1
@@ -15902,6 +15980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 145
   MoveName: Take Down
   MoveType: 1
   MoveCategory: 1
@@ -16386,6 +16465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 53
   MoveName: Growth
   MoveType: 1
   MoveCategory: 3
@@ -16432,6 +16512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 38
   MoveName: Earthquake
   MoveType: 5
   MoveCategory: 1
@@ -16478,6 +16559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 4
   MoveName: Agility
   MoveType: 13
   MoveCategory: 3
@@ -16799,6 +16881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 3
   MoveName: Acid Armor
   MoveType: 4
   MoveCategory: 3
@@ -16970,6 +17053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 35
   MoveName: Dragon Rage
   MoveType: 15
   MoveCategory: 2
@@ -17090,6 +17174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 144
   MoveName: Tail Whip
   MoveType: 1
   MoveCategory: 3
@@ -17136,6 +17221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 36
   MoveName: Dream Eater
   MoveType: 13
   MoveCategory: 2
@@ -17287,6 +17373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 6
   MoveName: Aurora Beam
   MoveType: 14
   MoveCategory: 2
@@ -17407,6 +17494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 160
   MoveName: Waterfall
   MoveType: 10
   MoveCategory: 1
@@ -17682,6 +17770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 103
   MoveName: Recover
   MoveType: 1
   MoveCategory: 3
@@ -18128,6 +18217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 104
   MoveName: Reflect
   MoveType: 13
   MoveCategory: 3
@@ -18390,6 +18480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 101
   MoveName: Razor Leaf
   MoveType: 11
   MoveCategory: 1
@@ -18792,6 +18883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 154
   MoveName: Transform
   MoveType: 1
   MoveCategory: 3
@@ -18912,6 +19004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 21
   MoveName: Confusion
   MoveType: 13
   MoveCategory: 2
@@ -18958,6 +19051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 90
   MoveName: Petal Dance
   MoveType: 11
   MoveCategory: 2
@@ -19212,6 +19306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 124
   MoveName: Smokescreen
   MoveType: 1
   MoveCategory: 3
@@ -19321,6 +19416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 108
   MoveName: Rock Throw
   MoveType: 6
   MoveCategory: 1
@@ -19367,6 +19463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 22
   MoveName: Constrict
   MoveType: 1
   MoveCategory: 1
@@ -19556,6 +19653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 121
   MoveName: Sleep Powder
   MoveType: 11
   MoveCategory: 3
@@ -20161,6 +20259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 147
   MoveName: Thrash
   MoveType: 1
   MoveCategory: 1
@@ -20207,6 +20306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 85
   MoveName: Mirror Move
   MoveType: 3
   MoveCategory: 3
@@ -20253,6 +20353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 24
   MoveName: Counter
   MoveType: 2
   MoveCategory: 1
@@ -20468,6 +20569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 86
   MoveName: Mist
   MoveType: 14
   MoveCategory: 3
@@ -20514,6 +20616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 149
   MoveName: Thunder Punch
   MoveType: 12
   MoveCategory: 1
@@ -20560,6 +20663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 10
   MoveName: Bind
   MoveType: 1
   MoveCategory: 1
@@ -21155,6 +21259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 46
   MoveName: Flamethrower
   MoveType: 9
   MoveCategory: 2
@@ -21316,6 +21421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 7
   MoveName: Barrage
   MoveType: 1
   MoveCategory: 1
@@ -21811,6 +21917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 81
   MoveName: Mega Punch
   MoveType: 1
   MoveCategory: 1
@@ -22046,6 +22153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 44
   MoveName: Fire Spin
   MoveType: 9
   MoveCategory: 2
@@ -22127,6 +22235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 41
   MoveName: Explosion
   MoveType: 1
   MoveCategory: 1
@@ -22283,6 +22392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 150
   MoveName: Thunder Shock
   MoveType: 12
   MoveCategory: 2
@@ -22329,6 +22439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 82
   MoveName: Metronome
   MoveType: 1
   MoveCategory: 3
@@ -22523,6 +22634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 59
   MoveName: High Jump Kick
   MoveType: 2
   MoveCategory: 1
@@ -22569,6 +22681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 9
   MoveName: Bide
   MoveType: 1
   MoveCategory: 1
@@ -22832,6 +22945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 8
   MoveName: Barrier
   MoveType: 13
   MoveCategory: 3
@@ -23112,10 +23226,22 @@ MonoBehaviour:
   monstersInfo:
   - monsterIndex: 25
     monsterLevel: 5
-    move1: Thunder Shock
-    move2: Tail Whip
-    move3: 
-    move4: 
+    move1:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move2:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move3:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
+    move4:
+      monsterMoveIndex: 0
+      currentPP: 0
+      pp: 0
 --- !u!1 &1067944447
 GameObject:
   m_ObjectHideFlags: 0
@@ -23675,6 +23801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 110
   MoveName: Sand Attack
   MoveType: 5
   MoveCategory: 3
@@ -23721,6 +23848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 92
   MoveName: Poison Gas
   MoveType: 4
   MoveCategory: 3
@@ -23803,6 +23931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 107
   MoveName: Rock Slide
   MoveType: 6
   MoveCategory: 1
@@ -23884,6 +24013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 42
   MoveName: Fire Blast
   MoveType: 9
   MoveCategory: 2
@@ -23930,6 +24060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 122
   MoveName: Sludge
   MoveType: 4
   MoveCategory: 2
@@ -24151,6 +24282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 142
   MoveName: Swords Dance
   MoveType: 1
   MoveCategory: 3
@@ -24980,6 +25112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 111
   MoveName: Scratch
   MoveType: 1
   MoveCategory: 1
@@ -25312,6 +25445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 162
   MoveName: Wing Attack
   MoveType: 3
   MoveCategory: 1
@@ -25540,6 +25674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 80
   MoveName: Mega Kick
   MoveType: 1
   MoveCategory: 1
@@ -25586,6 +25721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 96
   MoveName: Psybeam
   MoveType: 13
   MoveCategory: 2
@@ -25706,6 +25842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 30
   MoveName: Dizzy Punch
   MoveType: 1
   MoveCategory: 1
@@ -26086,6 +26223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 97
   MoveName: Psychic
   MoveType: 13
   MoveCategory: 2
@@ -26239,6 +26377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 112
   MoveName: Screech
   MoveType: 1
   MoveCategory: 3
@@ -27064,6 +27203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 48
   MoveName: Fly
   MoveType: 3
   MoveCategory: 1
@@ -27110,6 +27250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 64
   MoveName: Hyper Fang
   MoveType: 1
   MoveCategory: 1
@@ -27507,6 +27648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 11
   MoveName: Bite
   MoveType: 16
   MoveCategory: 1
@@ -27788,6 +27930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 116
   MoveName: Sing
   MoveType: 1
   MoveCategory: 3
@@ -27984,6 +28127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 132
   MoveName: Strength
   MoveType: 1
   MoveCategory: 1
@@ -28876,6 +29020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 127
   MoveName: Sonic Boom
   MoveType: 1
   MoveCategory: 2
@@ -28990,6 +29135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 95
   MoveName: Pound
   MoveType: 1
   MoveCategory: 1
@@ -29110,6 +29256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 13
   MoveName: Body Slam
   MoveType: 1
   MoveCategory: 1
@@ -29156,6 +29303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 66
   MoveName: Ice Beam
   MoveType: 14
   MoveCategory: 2
@@ -30017,6 +30165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 163
   MoveName: Wing Attack
   MoveType: 10
   MoveCategory: 3
@@ -30063,6 +30212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 126
   MoveName: Solar Beam
   MoveType: 11
   MoveCategory: 2
@@ -30832,6 +30982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 61
   MoveName: Horn Drill
   MoveType: 1
   MoveCategory: 1
@@ -31912,6 +32063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 12
   MoveName: Blizzard
   MoveType: 14
   MoveCategory: 2
@@ -32029,6 +32181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 129
   MoveName: Splash
   MoveType: 1
   MoveCategory: 1
@@ -32765,6 +32918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 37
   MoveName: Drill Peck
   MoveType: 3
   MoveCategory: 1
@@ -33080,6 +33234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 133
   MoveName: String Shot
   MoveType: 7
   MoveCategory: 3
@@ -33268,6 +33423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 34
   MoveName: Double-Edge
   MoveType: 1
   MoveCategory: 1
@@ -33380,6 +33536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 33
   MoveName: Double Team
   MoveType: 1
   MoveCategory: 3
@@ -33570,6 +33727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 31
   MoveName: Double Kick
   MoveType: 2
   MoveCategory: 1
@@ -33690,6 +33848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 87
   MoveName: Night Shade
   MoveType: 18
   MoveCategory: 2
@@ -33736,6 +33895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 89
   MoveName: Peck
   MoveType: 3
   MoveCategory: 1
@@ -34405,6 +34565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 138
   MoveName: Super Fang
   MoveType: 1
   MoveCategory: 1
@@ -34634,6 +34795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 72
   MoveName: Leech Seed
   MoveType: 11
   MoveCategory: 3
@@ -34731,6 +34893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 139
   MoveName: Supersonic
   MoveType: 1
   MoveCategory: 3
@@ -34974,6 +35137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 99
   MoveName: Quick Attack
   MoveType: 1
   MoveCategory: 1
@@ -35081,6 +35245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 1
   MoveName: Absorb
   MoveType: 11
   MoveCategory: 2
@@ -35982,6 +36147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 131
   MoveName: Stomp
   MoveType: 1
   MoveCategory: 1
@@ -36028,6 +36194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 32
   MoveName: Double Slap
   MoveType: 1
   MoveCategory: 1
@@ -36411,6 +36578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 50
   MoveName: Fury Attack
   MoveType: 1
   MoveCategory: 1
@@ -36457,6 +36625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 29
   MoveName: Disable
   MoveType: 1
   MoveCategory: 3
@@ -36857,6 +37026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 25
   MoveName: Crabhammer
   MoveType: 10
   MoveCategory: 1
@@ -36903,6 +37073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 115
   MoveName: Sharpen
   MoveType: 1
   MoveCategory: 3
@@ -37375,6 +37546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 16
   MoveName: Bubble
   MoveType: 10
   MoveCategory: 2
@@ -38462,6 +38634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 57
   MoveName: Haze
   MoveType: 14
   MoveCategory: 3
@@ -38508,6 +38681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 83
   MoveName: Mimic
   MoveType: 1
   MoveCategory: 3
@@ -38697,6 +38871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 39
   MoveName: Egg Bomb
   MoveType: 1
   MoveCategory: 1
@@ -38893,6 +39068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 88
   MoveName: Pay Day
   MoveType: 1
   MoveCategory: 1
@@ -38939,6 +39115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 120
   MoveName: Slash
   MoveType: 1
   MoveCategory: 1
@@ -39062,6 +39239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 105
   MoveName: Rest
   MoveType: 13
   MoveCategory: 3
@@ -39303,6 +39481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 23
   MoveName: Conversion
   MoveType: 1
   MoveCategory: 3
@@ -39680,6 +39859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 76
   MoveName: Lovely Kiss
   MoveType: 1
   MoveCategory: 3
@@ -39878,6 +40058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 77
   MoveName: Low Kick
   MoveType: 2
   MoveCategory: 1
@@ -39924,6 +40105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 91
   MoveName: Pin Missile
   MoveType: 7
   MoveCategory: 1
@@ -39970,6 +40152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 158
   MoveName: Vine Whip
   MoveType: 11
   MoveCategory: 1
@@ -40258,6 +40441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 159
   MoveName: Water Gun
   MoveType: 10
   MoveCategory: 2
@@ -40503,6 +40687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 109
   MoveName: Rolling Kick
   MoveType: 2
   MoveCategory: 1
@@ -40623,6 +40808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 84
   MoveName: Minimize
   MoveType: 1
   MoveCategory: 3
@@ -41177,6 +41363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 156
   MoveName: Twineedle
   MoveType: 7
   MoveCategory: 1
@@ -41223,6 +41410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 135
   MoveName: Stun Spore
   MoveType: 11
   MoveCategory: 3
@@ -41307,6 +41495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1914060091}
   - component: {fileID: 1914060092}
+  - component: {fileID: 1914060093}
   m_Layer: 0
   m_Name: MonsterMoves
   m_TagString: Untagged
@@ -41503,6 +41692,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35db48246df544277b85c56be75de7ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1914060093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914060090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede63b6ff74994b1d8091785fafa3ed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1922844785
 GameObject:
   m_ObjectHideFlags: 0
@@ -41618,6 +41818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 55
   MoveName: Gust
   MoveType: 3
   MoveCategory: 2
@@ -41715,6 +41916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 79
   MoveName: Mega Drain
   MoveType: 11
   MoveCategory: 2
@@ -42076,6 +42278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 157
   MoveName: Vice Grip
   MoveType: 1
   MoveCategory: 1
@@ -42263,6 +42466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 143
   MoveName: Tackle
   MoveType: 1
   MoveCategory: 1
@@ -42451,6 +42655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 20
   MoveName: Confuse Ray
   MoveType: 18
   MoveCategory: 3
@@ -42901,6 +43106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 140
   MoveName: Surf
   MoveType: 10
   MoveCategory: 2
@@ -43232,6 +43438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 74
   MoveName: Lick
   MoveType: 18
   MoveCategory: 1
@@ -43548,6 +43755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 62
   MoveName: Hydro Pump
   MoveType: 10
   MoveCategory: 2
@@ -44465,6 +44673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 148
   MoveName: Thunder
   MoveType: 12
   MoveCategory: 2
@@ -44933,6 +45142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 125
   MoveName: Soft-Boiled
   MoveType: 1
   MoveCategory: 3
@@ -45484,6 +45694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 161
   MoveName: Whirlwind
   MoveType: 1
   MoveCategory: 3
@@ -46366,6 +46577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 164
   MoveName: Wrap
   MoveType: 1
   MoveCategory: 1
@@ -47191,6 +47403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6537220dd654d4c91ba923e11eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterIndex: 151
   MoveName: Thunder Wave
   MoveType: 12
   MoveCategory: 3

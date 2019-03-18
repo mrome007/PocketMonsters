@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\Monster\MonsterFetch.cs" />
      <Compile Include="Assets\Scripts\Monster\MonsterMove.cs" />
      <Compile Include="Assets\Scripts\Monster\MonsterMoveFetch.cs" />
+     <Compile Include="Assets\Scripts\Monster\MonsterMoves.cs" />
      <Compile Include="Assets\Scripts\Monster\MonsterSprites.cs" />
      <Compile Include="Assets\Scripts\Monster\PartyMonsterInfo.cs" />
      <Compile Include="Assets\Scripts\Monster\PlayerMonster.cs" />

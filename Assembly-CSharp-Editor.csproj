@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Editor\MonsterMovesEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\MonsterSpritesEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\PopulateMonsterMovesEditor.cs" />
  <Reference Include="UnityEngine.UI">

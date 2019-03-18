@@ -23,4 +23,14 @@ public class MonsterMoveFetch : MonoBehaviour
 
         return null;
     }
+
+    public MonsterMove GetMonsterMove(int index)
+    {
+        if(index < 0 || index >= transform.childCount)
+        {
+            return null;
+        }
+
+        return transform.GetChild(index).GetComponent<MonsterMove>();
+    }
 }
