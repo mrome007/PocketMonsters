@@ -233,7 +233,7 @@ public class LightMonster
     }
 }
 
-public class LightMonsterStatus
+public struct LightMonsterStatus
 {
     public ushort Level { get; private set; }
     public ushort CurrentHP { get; private set; }
