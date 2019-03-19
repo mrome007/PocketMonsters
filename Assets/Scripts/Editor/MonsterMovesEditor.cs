@@ -21,6 +21,9 @@ public class MonsterMovesEditor : Editor
             monsterMoves = target as MonsterMoves;
         }
 
+        monsterMoves.MonsterMoveFetch = EditorGUILayout.ObjectField("Fetch Moves: ", monsterMoves.MonsterMoveFetch,
+            typeof(MonsterMoveFetch), true) as MonsterMoveFetch;
+
         DrawUpdateMonsterMoves();
         if(GUI.changed)
         {
@@ -42,10 +45,10 @@ public class MonsterMovesEditor : Editor
         foreach(Transform child in monsterMoves.transform)
         {
             var monsterMove = child.GetComponent<MonsterMove>();
-            if(monsterMove.MonsterIndex != child.GetSiblingIndex())
+            if(monsterMove.MIndex != child.GetSiblingIndex())
             {
                 updated = true;
-                monsterMove.MonsterIndex = child.GetSiblingIndex();
+                monsterMove.MIndex = child.GetSiblingIndex();
             }
         }
 

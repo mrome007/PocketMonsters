@@ -88,6 +88,8 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
     }
 
+    private MonsterMoveInfo?[] partyMovesContainer = new MonsterMoveInfo?[4];
+
     /// <summary>
     /// Adds a monster from trainer encounter.
     /// </summary>
@@ -99,6 +101,30 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         {
             var monsterInfo = monstersInfo[count];
             party[count].Initialize(HeavyMonsters.GetHeavyReference(monsterInfo.MonsterIndex), (ushort)monsterInfo.MonsterLevel);
+
+            for(var index = 0; index < partyMovesContainer.Length; index++)
+            {
+                partyMovesContainer[index] = null;
+            }
+
+            //TODO clean this up.
+            if(monsterInfo.MoveOne.MonsterMoveIndex >= 0)
+            {
+                partyMovesContainer[0] = MonsterMoves.GetMonsterMove(monsterInfo.MoveOne.MonsterMoveIndex).GetMonsterMoveInfoFromMonsterMove(monsterInfo.MoveOne.CurrentPP);
+            }
+            if(monsterInfo.MoveTwo.MonsterMoveIndex >= 0)
+            {
+                partyMovesContainer[1] = MonsterMoves.GetMonsterMove(monsterInfo.MoveTwo.MonsterMoveIndex).GetMonsterMoveInfoFromMonsterMove(monsterInfo.MoveTwo.CurrentPP);
+            }
+            if(monsterInfo.MoveThree.MonsterMoveIndex >= 0)
+            {
+                partyMovesContainer[2] = MonsterMoves.GetMonsterMove(monsterInfo.MoveThree.MonsterMoveIndex).GetMonsterMoveInfoFromMonsterMove(monsterInfo.MoveThree.CurrentPP);
+            }
+            if(monsterInfo.MoveFour.MonsterMoveIndex >= 0)
+            {
+                partyMovesContainer[3] = MonsterMoves.GetMonsterMove(monsterInfo.MoveFour.MonsterMoveIndex).GetMonsterMoveInfoFromMonsterMove(monsterInfo.MoveFour.CurrentPP);
+            }
+            party[count].InitializeMoves(partyMovesContainer);
         }
     }
 

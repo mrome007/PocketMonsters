@@ -5,13 +5,27 @@ using UnityEngine;
 
 public class MonsterMove : MonoBehaviour 
 {
-    public int MonsterIndex;
-    public string MoveName;
-    public MonsterType MoveType;
-    public MonsterMoveCategory MoveCategory;
-    public byte Power;
-    public byte Accuracy;
-    public byte PP;
+    [SerializeField]
+    private int MonsterIndex;
+    [SerializeField]
+    private string MoveName;
+    [SerializeField]
+    private MonsterType MoveType;
+    [SerializeField]
+    private MonsterMoveCategory MoveCategory;
+    [SerializeField]
+    private byte Power;
+    [SerializeField]
+    private byte Accuracy;
+    [SerializeField]
+    private byte PP;
+
+    public int MIndex { get{ return MonsterIndex; } set { MonsterIndex = value; } } 
+
+    public MonsterMoveInfo GetMonsterMoveInfoFromMonsterMove(byte currentPP = 0)
+    {
+        return new MonsterMoveInfo(MonsterIndex, MoveCategory, currentPP, PP);
+    }
 }
 
 public enum MonsterMoveCategory

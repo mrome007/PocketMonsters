@@ -68,6 +68,15 @@ public class LightMonster
         currentExpPoints = 0;
     }
 
+    public void InitializeMoves(params MonsterMoveInfo?[] moves)
+    {
+        ResetMonsterMoves();
+        for(var index = 0; index < moves.Length; index++)
+        {
+            lightMoves[index] = moves[index];
+        }
+    }
+
     private ushort GetStat(ushort baseTotal, ushort iv, ushort ev)
     {
         var statTotal = baseTotal;
@@ -230,6 +239,16 @@ public class LightMonster
         }
 
         return exp;
+    }
+
+    private MonsterMoveInfo?[] lightMoves = new MonsterMoveInfo?[4];
+
+    private void ResetMonsterMoves()
+    {
+        for(var index = 0; index < lightMoves.Length; index++)
+        {
+            lightMoves[index] = null;
+        }
     }
 }
 
