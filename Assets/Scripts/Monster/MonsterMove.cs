@@ -25,7 +25,7 @@ public class MonsterMove : MonoBehaviour
 
     public MonsterMoveInfo GetMonsterMoveInfoFromMonsterMove(byte currentPP = 0)
     {
-        return new MonsterMoveInfo(MonsterIndex, MoveCategory, currentPP, PP);
+        return new MonsterMoveInfo(MonsterIndex, MoveType, currentPP, PP);
     }
 }
 
@@ -55,16 +55,16 @@ public class PartyMonsterMoveInfo
 public struct MonsterMoveInfo
 {
     public int MonsterMoveIndex { get { return monsterMoveIndex; } }
-    public MonsterMoveCategory MoveType { get { return moveType; } }
+    public MonsterType MoveType { get { return moveType; } }
     public byte CurrentPP { get { return currentPP; } }
     public byte PP { get { return pp; } }
 
     private int monsterMoveIndex;
-    private MonsterMoveCategory moveType;
+    private MonsterType moveType;
     private byte currentPP;
     private byte pp;
 
-    public MonsterMoveInfo(int index, MonsterMoveCategory category, byte cur, byte pp)
+    public MonsterMoveInfo(int index, MonsterType category, byte cur, byte pp)
     {
         monsterMoveIndex = index;
         moveType = category;
