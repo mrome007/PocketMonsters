@@ -68,13 +68,11 @@ public class LightMonster
         currentExpPoints = 0;
     }
 
-    public void InitializeMoves(params MonsterMoveInfo?[] moves)
+    private MonsterMovesBundle lightMonsterMoves;
+
+    public void InitializeMoves(MonsterMovesBundle monsterMoves)
     {
-        ResetMonsterMoves();
-        for(var index = 0; index < moves.Length; index++)
-        {
-            lightMoves[index] = moves[index];
-        }
+        lightMonsterMoves = monsterMoves;
     }
 
     private ushort GetStat(ushort baseTotal, ushort iv, ushort ev)
@@ -239,16 +237,6 @@ public class LightMonster
         }
 
         return exp;
-    }
-
-    private MonsterMoveInfo?[] lightMoves = new MonsterMoveInfo?[4];
-
-    private void ResetMonsterMoves()
-    {
-        for(var index = 0; index < lightMoves.Length; index++)
-        {
-            lightMoves[index] = null;
-        }
     }
 }
 

@@ -43,4 +43,14 @@ public class MonsterMovesHandler : MonoBehaviour
             handler(this, moveSelectedArgs);
         }
     }
+
+    public void EnableAllButtons(bool enable)
+    {
+        moveButtons.ForEach(button => button.EnableButton(enable));
+    }
+
+    public void UpdateMoveButtons()
+    {
+        EnableAllButtons(false);
+    }
 }

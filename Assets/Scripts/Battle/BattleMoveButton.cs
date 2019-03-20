@@ -11,9 +11,18 @@ public class BattleMoveButton : MonoBehaviour
     [SerializeField]
     private int moveButtonIndex;
 
+    [SerializeField]
+    private Text moveText;
+
+    [SerializeField]
+    private Text moveTypeText;
+
+    [SerializeField]
+    private Text ppText;
+
     private IndexEventArgs moveButtonArgs;
     private Button moveButton;
-
+    private const string ppFormat = "{0}/{1}";
     private void Awake()
     {
         moveButtonArgs = new IndexEventArgs(moveButtonIndex);
@@ -28,5 +37,17 @@ public class BattleMoveButton : MonoBehaviour
         {
             handler(this, moveButtonArgs);
         }
+    }
+
+    public void EnableButton(bool enable)
+    {
+        moveButton.interactable = enable;
+    }
+
+    public void UpdateText(string moveName, string moveType, byte current, byte pp)
+    {
+        moveText.text = moveName;
+        moveTypeText.text = moveType;
+        ppText.text = string.Format(ppFormat, current, pp);
     }
 }

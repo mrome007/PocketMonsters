@@ -124,7 +124,9 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
             {
                 partyMovesContainer[3] = MonsterMoves.GetMonsterMove(monsterInfo.MoveFour.MonsterMoveIndex).GetMonsterMoveInfoFromMonsterMove(monsterInfo.MoveFour.CurrentPP);
             }
-            party[count].InitializeMoves(partyMovesContainer);
+
+            var movesBundle = new MonsterMovesBundle(partyMovesContainer);
+            party[count].InitializeMoves(movesBundle);
         }
     }
 

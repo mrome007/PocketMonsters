@@ -71,3 +71,45 @@ public struct MonsterMoveInfo
         this.pp = pp;
     }
 }
+
+public struct MonsterMovesBundle
+{
+    public MonsterMoveInfo? MoveOne { get{ return moveOne; } }
+    public MonsterMoveInfo? MoveTwo { get{ return moveTwo; } }
+    public MonsterMoveInfo? MoveThree { get{ return moveThree; } }
+    public MonsterMoveInfo? MoveFour { get{ return moveFour; } }
+
+    private MonsterMoveInfo? moveOne;
+    private MonsterMoveInfo? moveTwo;
+    private MonsterMoveInfo? moveThree;
+    private MonsterMoveInfo? moveFour;
+
+    public MonsterMovesBundle(params MonsterMoveInfo?[] moves)
+    {
+        moveOne = null;
+        moveTwo = null;
+        moveThree = null;
+        moveFour = null;
+
+        for(var index = 0; index < moves.Length; index++)
+        {
+            switch(index)
+            {
+                case 0:
+                    moveOne = moves[index];
+                    break;
+                case 1:
+                    moveTwo = moves[index];
+                    break;
+                case 2:
+                    moveThree = moves[index];
+                    break;
+                case 3:
+                    moveFour = moves[index];
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+}
