@@ -18,6 +18,8 @@ public class IdleBattleState : BattleState
         base.EnterState(battleArgs);
 
         menu.ShowMenuOption(BattleMenuOptions.MAIN, true);
+
+        movesHandler.UpdateMoveButtons(battleArgs.GetPlayerMonsterMoves());
         movesHandler.RegisterMoves();
     }
 

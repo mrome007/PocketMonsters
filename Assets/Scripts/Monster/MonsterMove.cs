@@ -20,7 +20,8 @@ public class MonsterMove : MonoBehaviour
     [SerializeField]
     private byte PP;
 
-    public int MIndex { get{ return MonsterIndex; } set { MonsterIndex = value; } } 
+    public int MIndex { get{ return MonsterIndex; } set { MonsterIndex = value; } }
+    public string MonsterMoveName { get { return MoveName; } }
 
     public MonsterMoveInfo GetMonsterMoveInfoFromMonsterMove(byte currentPP = 0)
     {
@@ -70,6 +71,32 @@ public struct MonsterMoveInfo
         currentPP = cur;
         this.pp = pp;
     }
+
+    public bool CanIncrement()
+    {
+        return currentPP < pp;
+    }
+
+    public bool CanDecrement()
+    {
+        return currentPP > 0;
+    }
+
+    public void IncrementCurrentPP()
+    {
+        if(currentPP < pp)
+        {
+            currentPP++;
+        }
+    }
+
+    public void DecrementCurrentPP()
+    {
+        if(currentPP > 0)
+        {
+            currentPP--;
+        }
+    }
 }
 
 public struct MonsterMovesBundle
@@ -111,5 +138,13 @@ public struct MonsterMovesBundle
                     break;
             }
         }
+    }
+
+    public MonsterMovesBundle(MonsterMovesBundle bundle)
+    {
+        moveOne = bundle.moveOne;
+        moveTwo = bundle.moveTwo;
+        moveThree = bundle.moveThree;
+        moveFour = bundle.moveFour;
     }
 }

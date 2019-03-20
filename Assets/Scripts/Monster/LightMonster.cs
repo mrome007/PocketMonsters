@@ -75,6 +75,11 @@ public class LightMonster
         lightMonsterMoves = monsterMoves;
     }
 
+    public MonsterMovesBundle GetMoves()
+    {
+        return new MonsterMovesBundle(lightMonsterMoves);
+    }
+
     private ushort GetStat(ushort baseTotal, ushort iv, ushort ev)
     {
         var statTotal = baseTotal;

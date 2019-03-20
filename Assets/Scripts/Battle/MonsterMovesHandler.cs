@@ -44,13 +44,27 @@ public class MonsterMovesHandler : MonoBehaviour
         }
     }
 
-    public void EnableAllButtons(bool enable)
+    public void UpdateMoveButtons(MonsterMovesBundle movesBundle)
     {
-        moveButtons.ForEach(button => button.EnableButton(enable));
+        UpdateMoveButton(movesBundle.MoveOne, moveButtons[0]);
+           
+        UpdateMoveButton(movesBundle.MoveTwo, moveButtons[1]);
+
+        UpdateMoveButton(movesBundle.MoveThree, moveButtons[2]);
+
+        UpdateMoveButton(movesBundle.MoveFour, moveButtons[3]);
     }
 
-    public void UpdateMoveButtons()
+    private void UpdateMoveButton(MonsterMoveInfo? moveInfo, BattleMoveButton button)
     {
-        EnableAllButtons(false);
+        if(!moveInfo.HasValue)
+        {
+            button.UpdateText(string.Empty, string.Empty, 0, 0);
+        }
+        else
+        {
+            var name = MonsterMoves.GetMonsterMove(moveInfo.Value.MonsterMoveIndex).MonsterMoveName;
+            button.UpdateText(name, moveInfo.Value.MoveType.ToString(), moveInfo.Value.CurrentPP, moveInfo.Value.PP);
+        }
     }
 }

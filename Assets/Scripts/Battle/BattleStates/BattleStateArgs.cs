@@ -59,6 +59,16 @@ public class BattleStateArgs
     {
         return new MonsterBallBattleInformation(player ? this.player : this.enemy);
     }
+
+    public MonsterMovesBundle GetPlayerMonsterMoves(int index = 0)
+    {
+        return player.GetMoves(index);
+    }
+
+    public MonsterMovesBundle GetEnemyMonsterMoves(int index = 0)
+    {
+        return enemy.GetMoves(index);
+    }
 }
 
 public struct MonsterBallBattleInformation

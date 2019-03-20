@@ -23,11 +23,14 @@ public class BattleMoveButton : MonoBehaviour
     private IndexEventArgs moveButtonArgs;
     private Button moveButton;
     private const string ppFormat = "{0}/{1}";
+
     private void Awake()
     {
         moveButtonArgs = new IndexEventArgs(moveButtonIndex);
         moveButton = GetComponent<Button>();
         moveButton.onClick.AddListener(PostMoveButtonPressed);
+
+        EnableButton(moveText.text != string.Empty);
     }
 
     private void PostMoveButtonPressed()
@@ -45,7 +48,7 @@ public class BattleMoveButton : MonoBehaviour
     }
 
     public void UpdateText(string moveName, string moveType, byte current, byte pp)
-    {
+    {        
         moveText.text = moveName;
         moveTypeText.text = moveType;
         ppText.text = string.Format(ppFormat, current, pp);

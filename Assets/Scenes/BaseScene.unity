@@ -10209,6 +10209,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveButtonIndex: 1
+  moveText: {fileID: 1620086321}
+  moveTypeText: {fileID: 334771540}
+  ppText: {fileID: 1557304576}
 --- !u!1 &457525816
 GameObject:
   m_ObjectHideFlags: 0
@@ -33268,6 +33271,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveButtonIndex: 2
+  moveText: {fileID: 1638028991}
+  moveTypeText: {fileID: 1488120695}
+  ppText: {fileID: 186763852}
 --- !u!1 &1510564798
 GameObject:
   m_ObjectHideFlags: 0
@@ -38061,6 +38067,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveButtonIndex: 3
+  moveText: {fileID: 630429507}
+  moveTypeText: {fileID: 2047162557}
+  ppText: {fileID: 1220898213}
 --- !u!1 &1760619824
 GameObject:
   m_ObjectHideFlags: 0
@@ -40722,6 +40731,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveButtonIndex: 0
+  moveText: {fileID: 78301225}
+  moveTypeText: {fileID: 1613747197}
+  ppText: {fileID: 1380131398}
 --- !u!1 &1870091771
 GameObject:
   m_ObjectHideFlags: 0

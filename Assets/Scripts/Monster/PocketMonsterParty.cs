@@ -156,6 +156,16 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         return new LightMonsterStatus(monster.Level, monster.CurrentHP, monster.HPStat);
     }
 
+    public MonsterMovesBundle GetMoves(int index)
+    {
+        if(index < 0 || index >= NumberOfMonsters)
+        {
+            return new MonsterMovesBundle();
+        }
+
+        return party[index].GetMoves();
+    }
+
     #region IEnumerable Members
 
     IEnumerator IEnumerable.GetEnumerator()
