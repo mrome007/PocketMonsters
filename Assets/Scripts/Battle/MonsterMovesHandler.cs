@@ -47,16 +47,14 @@ public class MonsterMovesHandler : MonoBehaviour
     public void UpdateMoveButtons(MonsterMovesBundle movesBundle)
     {
         UpdateMoveButton(movesBundle.MoveOne, moveButtons[0]);
-           
         UpdateMoveButton(movesBundle.MoveTwo, moveButtons[1]);
-
         UpdateMoveButton(movesBundle.MoveThree, moveButtons[2]);
-
         UpdateMoveButton(movesBundle.MoveFour, moveButtons[3]);
     }
 
     private void UpdateMoveButton(MonsterMoveInfo? moveInfo, BattleMoveButton button)
     {
+        button.EnableButton(moveInfo.HasValue);
         if(!moveInfo.HasValue)
         {
             button.UpdateText(string.Empty, string.Empty, 0, 0);

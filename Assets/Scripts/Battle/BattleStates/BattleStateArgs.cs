@@ -29,6 +29,14 @@ public class BattleStateArgs
         }
     }
 
+    public int PlayerPartyNumber
+    {
+        get
+        {
+            return player.NumberOfMonsters;
+        }
+    }
+
     public string GetPlayerMonsterName(int index = 0)
     {
         return player.GetMonsterName(index);

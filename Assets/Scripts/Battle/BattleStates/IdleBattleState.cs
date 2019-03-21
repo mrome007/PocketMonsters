@@ -13,14 +13,14 @@ public class IdleBattleState : BattleState
     [SerializeField]
     private MonsterMovesHandler movesHandler;
 
+    [SerializeField]
+    private PlayerPKMNBattleStatusHandler pkmnBattleStatusHandler;
+
     public override void EnterState(BattleStateArgs battleArgs)
     {
         base.EnterState(battleArgs);
 
         menu.ShowMenuOption(BattleMenuOptions.MAIN, true);
-
-        movesHandler.UpdateMoveButtons(battleArgs.GetPlayerMonsterMoves());
-        movesHandler.RegisterMoves();
     }
 
     protected override void RegisterEvents()
@@ -40,5 +40,16 @@ public class IdleBattleState : BattleState
         //Will exit state in the future.
         Debug.Log(e.Index);
         movesHandler.MoveSelected -= HandleMoveSelected;
+    }
+
+    public void FightPressedHandler()
+    {
+        movesHandler.UpdateMoveButtons(battleStateArgs.GetPlayerMonsterMoves());
+        movesHandler.RegisterMoves();
+    }
+
+    public void PKMNPressedHandler()
+    {
+        pkmnBattleStatusHandler.UpdatePlayerMonsterStatus(battleStateArgs);
     }
 }
