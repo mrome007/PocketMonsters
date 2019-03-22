@@ -14,6 +14,7 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
 
     private List<LightMonster> party;
 
+    public int IdNumber { get; private set; }
     public int NumberOfMonsters { get { return party.Count(monster => monster.MonsterName != "Missing No."); } }
     public bool WildEncounter { get { return wildEncounter; } }
     public PartyTrainer PartyTrainer { get { return partyTrainer; } }
@@ -23,11 +24,22 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
     {
         party = new List<LightMonster>();
         HeavyMonsters.MonstersPopulated += HandleMonstersPopulated;
+        GenerateRandomIdNumber();
     }
 
     protected virtual void OnDestroy()
     {
         HeavyMonsters.MonstersPopulated += HandleMonstersPopulated;
+    }
+
+    private void GenerateRandomIdNumber()
+    {
+        var num = 0;
+        for(var count = 0; count < 6; count++)
+        {
+            num += Random.Range(0, 10) + (num * 10);
+        }
+        IdNumber = num;
     }
 
     protected virtual void HandleMonstersPopulated()
@@ -156,6 +168,19 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         return new LightMonsterStatus(monster.Level, monster.CurrentHP, monster.HPStat, (int)monster.BodyType);
     }
 
+    public LightMonsterStatus GetMonsterStatusLightDetailed(int index)
+    {
+        if(index < 0 || index >= NumberOfMonsters)
+        {
+            return new LightMonsterStatus();
+        }
+
+        var monster = party[index];
+        return new LightMonsterStatus(monster.Level, monster.CurrentHP, monster.HPStat, (int)monster.BodyType, 
+            monster.MonsterNumber, IdNumber, monster.Type1, monster.Type2, monster.AttackStat, monster.DefenseStat,
+            monster.SpecialStat, monster.SpeedStat);
+    }
+
     public MonsterMovesBundle GetMoves(int index)
     {
         if(index < 0 || index >= NumberOfMonsters)
@@ -164,6 +189,16 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
 
         return party[index].GetMoves();
+    }
+
+    public Sprite GetMonsterSprite(int index, bool front)
+    {
+        if(index < 0 || index >= NumberOfMonsters)
+        {
+            return null;
+        }
+        
+        return front ? party[index].Front : party[index].Back;
     }
 
     #region IEnumerable Members

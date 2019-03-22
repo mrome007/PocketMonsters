@@ -16,6 +16,9 @@ public class IdleBattleState : BattleState
     [SerializeField]
     private PlayerPKMNBattleStatusHandler pkmnBattleStatusHandler;
 
+    [SerializeField]
+    private PlayerMonsterDetailedStatus playerMonsterStatusMenu;
+
     public override void EnterState(BattleStateArgs battleArgs)
     {
         base.EnterState(battleArgs);
@@ -55,6 +58,10 @@ public class IdleBattleState : BattleState
 
     public void PokemonIconsPressedHandler(int index)
     {
-
+        var sprite = battleStateArgs.GetMonsterSprite(index);
+        var detailedStatus = battleStateArgs.GetPlayerMonsterStatusDetailed(index);
+        var trainerName = battleStateArgs.PlayerTrainer.ToString();
+        var monsterName = battleStateArgs.GetPlayerMonsterName(index);
+        playerMonsterStatusMenu.UpdateDetailedStatus(sprite, trainerName, monsterName, detailedStatus);
     }
 }

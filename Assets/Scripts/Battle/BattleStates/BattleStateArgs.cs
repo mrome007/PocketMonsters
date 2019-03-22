@@ -21,6 +21,14 @@ public class BattleStateArgs
         }
     }
 
+    public PartyTrainer PlayerTrainer
+    {
+        get
+        {
+            return player.PartyTrainer;
+        }
+    }
+
     public PartyTrainer EnemyTrainer
     {
         get
@@ -47,6 +55,11 @@ public class BattleStateArgs
         return player.GetMonsterStatusLight(index);
     }
 
+    public LightMonsterStatus GetPlayerMonsterStatusDetailed(int index = 0)
+    {
+        return player.GetMonsterStatusLightDetailed(index);
+    }
+
     public string GetEnemyMonsterName(int index = 0)
     {
         return enemy.GetMonsterName(index);
@@ -61,6 +74,11 @@ public class BattleStateArgs
     {
         return front ? isPlayer ? player.First.Front : enemy.First.Front : 
             isPlayer ? player.First.Back : enemy.First.Back;
+    }
+
+    public Sprite GetMonsterSprite(int index)
+    {
+        return player.GetMonsterSprite(index, true);
     }
 
     public MonsterBallBattleInformation GetCurrentMonsterBallBattleInfo(bool player)

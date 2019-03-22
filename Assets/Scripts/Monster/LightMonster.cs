@@ -95,6 +95,14 @@ public class LightMonster
         return statTotal;
     }
 
+    public ushort MonsterNumber
+    {
+        get
+        {
+            return heavyMonster.MonsterNumber;
+        }
+    }
+
     public string MonsterName
     {
         get
@@ -178,7 +186,7 @@ public class LightMonster
         }
     }
 
-    public ushort SpeedState
+    public ushort SpeedStat
     {
         get
         {
@@ -244,6 +252,22 @@ public class LightMonster
         return exp;
     }
 
+    public MonsterType Type1
+    {
+        get
+        {
+            return heavyMonster.PrimaryType;
+        }
+    }
+
+    public MonsterType Type2
+    {
+        get
+        {
+            return heavyMonster.SecondaryType;
+        }
+    }
+
     public BodyType BodyType
     {
         get
@@ -260,11 +284,34 @@ public struct LightMonsterStatus
     public ushort HP { get; private set; }
     public int BodyType { get; private set; }
 
-    public LightMonsterStatus(ushort lvl = 1, ushort curHP = 10, ushort hp = 10, int icon = 0)
+    public ushort MonsterNumber;
+    public int IdNumber;
+
+    public MonsterType PrimaryType;
+    public MonsterType SecondaryType;
+
+    public ushort Attack;
+    public ushort Defense;
+    public ushort Special;
+    public ushort Speed;
+
+    public LightMonsterStatus(ushort lvl = 1, ushort curHP = 10, ushort hp = 10, int icon = 0, 
+        ushort mNumber = 0, int id = 999999, MonsterType type1 = MonsterType.NONE, MonsterType type2 = MonsterType.NONE,
+        ushort atk = 5, ushort def = 5, ushort spe = 5, ushort spd = 5)
     {
         Level = lvl;
         CurrentHP = curHP;
         HP = hp;
         BodyType = icon;
+
+        //More detailed status. Needed for the stats menu.
+        MonsterNumber = mNumber;
+        IdNumber = id;
+        PrimaryType = type1;
+        SecondaryType = type2;
+        Attack = atk;
+        Defense = def;
+        Special = spe;
+        Speed = spd;
     }
 }

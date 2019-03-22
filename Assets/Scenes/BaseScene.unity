@@ -23559,7 +23559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wildEncounter: 0
-  partyTrainer: 0
+  partyTrainer: 15
 --- !u!114 &1067746618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34958,10 +34958,14 @@ MonoBehaviour:
   specialStat: {fileID: 195182992}
   type1: {fileID: 351193600}
   type2: {fileID: 1512136730}
+  type1Label: {fileID: 1168001757}
+  type2Label: {fileID: 1006113769}
   idNumber: {fileID: 265015139}
   ot: {fileID: 1090058503}
   monsterNumber: {fileID: 1626839694}
+  statusLabel: {fileID: 370606624}
   status: {fileID: 1057567389}
+  monsterImage: {fileID: 315842440}
 --- !u!1 &1593683633
 GameObject:
   m_ObjectHideFlags: 0
@@ -44398,6 +44402,7 @@ MonoBehaviour:
   menu: {fileID: 1862817040}
   movesHandler: {fileID: 1800532082}
   pkmnBattleStatusHandler: {fileID: 309696280}
+  playerMonsterStatusMenu: {fileID: 1593218551}
 --- !u!1 &2015994344
 GameObject:
   m_ObjectHideFlags: 0
