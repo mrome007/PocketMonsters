@@ -14,8 +14,9 @@ public class PlayerPKMNBattleStatusHandler : MonoBehaviour
         {
             monsterStatuses[index].gameObject.SetActive(true);
             var monsterName = battleArgs.GetPlayerMonsterName(index);
-            var monsterStatus = battleArgs.GetPlayerMonsterStatus(0);
-            monsterStatuses[index].UpdateMonsterStatus(monsterName, monsterStatus.Level, monsterStatus.CurrentHP, monsterStatus.HP);
+            var monsterStatus = battleArgs.GetPlayerMonsterStatus(index);
+            monsterStatuses[index].UpdateMonsterStatus(monsterName, monsterStatus.Level, monsterStatus.CurrentHP, 
+                monsterStatus.HP, monsterStatus.BodyType);
         }
     }
 

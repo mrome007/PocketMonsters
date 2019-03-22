@@ -153,7 +153,7 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
 
         var monster = party[index];
-        return new LightMonsterStatus(monster.Level, monster.CurrentHP, monster.HPStat);
+        return new LightMonsterStatus(monster.Level, monster.CurrentHP, monster.HPStat, (int)monster.BodyType);
     }
 
     public MonsterMovesBundle GetMoves(int index)

@@ -12,7 +12,7 @@ public class MonsterBattleScreenStatus : MonoBehaviour
     [SerializeField]
     protected Slider hpSlider;
 
-    public virtual void UpdateMonsterStatus(string monsterName, ushort levelNumber, ushort currentHP, ushort monsterHP)
+    public virtual void UpdateMonsterStatus(string monsterName, ushort levelNumber, ushort currentHP, ushort monsterHP, int icon = 0)
     {
         this.monsterName.text = monsterName;
         this.levelNumber.text = levelNumber.ToString();

@@ -10,7 +10,7 @@ public class PlayerMonsterBattleScreenStatus : MonsterBattleScreenStatus
     [SerializeField]
     protected Text monsterHP;
 
-    public override void UpdateMonsterStatus(string monsterName, ushort levelNumber, ushort currentHP, ushort monsterHP)
+    public override void UpdateMonsterStatus(string monsterName, ushort levelNumber, ushort currentHP, ushort monsterHP, int icon = 0)
     {
         base.UpdateMonsterStatus(monsterName, levelNumber, currentHP, monsterHP);
         this.currentHP.text = currentHP.ToString();

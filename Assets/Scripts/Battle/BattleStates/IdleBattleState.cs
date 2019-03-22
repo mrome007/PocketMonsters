@@ -52,4 +52,9 @@ public class IdleBattleState : BattleState
     {
         pkmnBattleStatusHandler.UpdatePlayerMonsterStatus(battleStateArgs);
     }
+
+    public void PokemonIconsPressedHandler(int index)
+    {
+
+    }
 }

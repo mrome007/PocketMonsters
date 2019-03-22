@@ -243,6 +243,14 @@ public class LightMonster
 
         return exp;
     }
+
+    public BodyType BodyType
+    {
+        get
+        {
+            return heavyMonster.BodyType;
+        }
+    }
 }
 
 public struct LightMonsterStatus
@@ -250,11 +258,13 @@ public struct LightMonsterStatus
     public ushort Level { get; private set; }
     public ushort CurrentHP { get; private set; }
     public ushort HP { get; private set; }
+    public int BodyType { get; private set; }
 
-    public LightMonsterStatus(ushort lvl = 1, ushort curHP = 10, ushort hp = 10)
+    public LightMonsterStatus(ushort lvl = 1, ushort curHP = 10, ushort hp = 10, int icon = 0)
     {
         Level = lvl;
         CurrentHP = curHP;
         HP = hp;
+        BodyType = icon;
     }
 }
