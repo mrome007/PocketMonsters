@@ -73,8 +73,10 @@
      <Compile Include="Assets\Scripts\Battle\IndexButton.cs" />
      <Compile Include="Assets\Scripts\Battle\IndexEventArgs.cs" />
      <Compile Include="Assets\Scripts\Battle\IntroBattleSequence.cs" />
+     <Compile Include="Assets\Scripts\Battle\MonsterIconsHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\MonsterMovesHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\PlayerPKMNBattleStatusHandler.cs" />
+     <Compile Include="Assets\Scripts\Battle\SwitchButton.cs" />
      <Compile Include="Assets\Scripts\Battle\TrainerEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\WildEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Monster\HeavyMonsters.cs" />

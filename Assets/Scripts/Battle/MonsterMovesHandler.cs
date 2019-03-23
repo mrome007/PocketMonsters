@@ -13,12 +13,12 @@ public class MonsterMovesHandler : BattleButtonsHandler
         moveSelectedArgs = new IndexEventArgs();
     }
 
-    protected override void HandleMoveButtonPressed(object sender, EventArgs e)
+    protected override void HandleButtonPressed(object sender, EventArgs e)
     {
         var indexArgs = e as IndexEventArgs;
         moveSelectedArgs.Index = indexArgs != null ? indexArgs.Index : 0;
         args = moveSelectedArgs;
-        base.HandleMoveButtonPressed(sender, e);
+        base.HandleButtonPressed(sender, e);
     }
 
     public void UpdateMoveButtons(MonsterMovesBundle movesBundle)

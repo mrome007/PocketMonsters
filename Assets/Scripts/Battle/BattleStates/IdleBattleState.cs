@@ -21,6 +21,9 @@ public class IdleBattleState : BattleState
     private MonsterMovesHandler movesHandler;
 
     [SerializeField]
+    private MonsterIconsHandler monsterIconsHandler;
+
+    [SerializeField]
     private PlayerPKMNBattleStatusHandler pkmnBattleStatusHandler;
 
     [SerializeField]
@@ -35,6 +38,9 @@ public class IdleBattleState : BattleState
     [SerializeField]
     private BattleButton runButton;
 
+    [SerializeField]
+    private BattleButton switchButton;
+
     public override void EnterState(BattleStateArgs battleArgs)
     {
         base.EnterState(battleArgs);
@@ -46,16 +52,22 @@ public class IdleBattleState : BattleState
     {
         base.RegisterEvents();
         movesHandler.ButtonSelected += HandleMoveSelected;
+        monsterIconsHandler.ButtonSelected += PokemonIconsPressedHandler;
         fightButton.ButtonPresssed += HandleFightButtonPressed;
         pkmnButton.ButtonPresssed += HandlePKMNButtonPressed;
+
+        switchButton.ButtonPresssed += PokemonSwitchPressedHandler;
     }
 
     protected override void UnRegisterEvents()
     {
         base.UnRegisterEvents();
         movesHandler.ButtonSelected -= HandleMoveSelected;
+        monsterIconsHandler.ButtonSelected -= PokemonIconsPressedHandler;
         fightButton.ButtonPresssed -= HandleFightButtonPressed;
         pkmnButton.ButtonPresssed -= HandlePKMNButtonPressed;
+
+        switchButton.ButtonPresssed -= PokemonSwitchPressedHandler;
     }
 
     private void HandleMoveSelected(object sender, EventArgs e)
@@ -74,10 +86,13 @@ public class IdleBattleState : BattleState
     private void HandlePKMNButtonPressed(object sender, EventArgs e)
     {
         pkmnBattleStatusHandler.UpdatePlayerMonsterStatus(battleStateArgs);
+        monsterIconsHandler.StartButtonsHandler();
     }
 
-    public void PokemonIconsPressedHandler(int index)
+    private void PokemonIconsPressedHandler(object sender, EventArgs e)
     {
+        var indexArgs = e as IndexEventArgs;
+        var index = indexArgs != null ? indexArgs.Index : 0;
         var sprite = battleStateArgs.GetMonsterSprite(index);
         var detailedStatus = battleStateArgs.GetPlayerMonsterStatusDetailed(index);
         var trainerName = battleStateArgs.PlayerTrainer.ToString();
@@ -85,8 +100,10 @@ public class IdleBattleState : BattleState
         playerMonsterStatusMenu.UpdateDetailedStatus(sprite, trainerName, monsterName, detailedStatus);
     }
 
-    public void PokemonSwitchPressedHandler(int index)
+    private void PokemonSwitchPressedHandler(object sender, EventArgs e)
     {
+        var indexArgs = e as IndexEventArgs;
+        var index = indexArgs != null ? indexArgs.Index : 0;
         if(index == 0)
         {
             menu.ShowMenuOption(BattleMenuOptions.MAIN, true);

@@ -20679,6 +20679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1094192207}
   - component: {fileID: 1094192208}
+  - component: {fileID: 1094192209}
   m_Layer: 8
   m_Name: Monsters
   m_TagString: Untagged
@@ -20732,6 +20733,25 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
+--- !u!114 &1094192209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1094192206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eedb216cfc7674c4ea6c5bd01361a080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 1991093454}
+  - {fileID: 2018423043}
+  - {fileID: 509487019}
+  - {fileID: 1243638726}
+  - {fileID: 1280791963}
+  - {fileID: 1905102226}
+  switchButton: {fileID: 1622816347}
 --- !u!1 &1096826187
 GameObject:
   m_ObjectHideFlags: 0
@@ -30854,6 +30874,7 @@ GameObject:
   - component: {fileID: 1622816345}
   - component: {fileID: 1622816344}
   - component: {fileID: 1622816343}
+  - component: {fileID: 1622816347}
   m_Layer: 8
   m_Name: SwitchButton
   m_TagString: Untagged
@@ -30981,6 +31002,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1622816341}
+--- !u!114 &1622816347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1622816341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e333e85b15ee4f8fb7ba72edec55999, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
 --- !u!1 &1626839692
 GameObject:
   m_ObjectHideFlags: 0
@@ -38434,12 +38467,14 @@ MonoBehaviour:
   performBattleState: {fileID: 0}
   menu: {fileID: 1862817040}
   movesHandler: {fileID: 1800532082}
+  monsterIconsHandler: {fileID: 1094192209}
   pkmnBattleStatusHandler: {fileID: 309696280}
   playerMonsterStatusMenu: {fileID: 1593218551}
   fightButton: {fileID: 201842355}
   pkmnButton: {fileID: 1767034383}
   itemButton: {fileID: 1190442284}
   runButton: {fileID: 1258556269}
+  switchButton: {fileID: 1622816347}
 --- !u!1 &2015994344
 GameObject:
   m_ObjectHideFlags: 0

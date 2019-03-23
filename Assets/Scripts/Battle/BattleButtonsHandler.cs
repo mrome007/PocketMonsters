@@ -25,7 +25,7 @@ public class BattleButtonsHandler : MonoBehaviour
     {
         foreach(var button in buttons)
         {
-            button.ButtonPresssed += HandleMoveButtonPressed;
+            button.ButtonPresssed += HandleButtonPressed;
         }
     }
 
@@ -33,11 +33,11 @@ public class BattleButtonsHandler : MonoBehaviour
     {
         foreach(var button in buttons)
         {
-            button.ButtonPresssed -= HandleMoveButtonPressed;
+            button.ButtonPresssed -= HandleButtonPressed;
         }
     }
 
-    protected virtual void HandleMoveButtonPressed(object sender, EventArgs e)
+    protected virtual void HandleButtonPressed(object sender, EventArgs e)
     {
         UnRegisterButtons();
         var handler = ButtonSelected;
