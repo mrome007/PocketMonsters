@@ -111,6 +111,7 @@ public class IntroBattleSequence : MonoBehaviour
     private void HandleGoEnemyTextBoxActionComplete()
     {
         textBox.TextActionComplete -= HandleGoEnemyTextBoxActionComplete;
+        textBox.HideText();
 
         currentIntroAnimation.GoPlayerAnimationEnded += HandleGoPlayerAnimationEnded;
         currentIntroAnimation.PlayGoPlayer();
