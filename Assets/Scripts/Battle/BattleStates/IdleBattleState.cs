@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,12 @@ public class IdleBattleState : BattleState
 {
     [SerializeField]
     private BattleState runNextState;
+
+    [SerializeField]
+    private BattleState switchMonsterState;
+
+    [SerializeField]
+    private BattleState performBattleState;
     
     [SerializeField]
     private BattleMenu menu;
@@ -19,6 +26,15 @@ public class IdleBattleState : BattleState
     [SerializeField]
     private PlayerMonsterDetailedStatus playerMonsterStatusMenu;
 
+    [SerializeField]
+    private BattleButton fightButton;
+    [SerializeField]
+    private BattleButton pkmnButton;
+    [SerializeField]
+    private BattleButton itemButton;
+    [SerializeField]
+    private BattleButton runButton;
+
     public override void EnterState(BattleStateArgs battleArgs)
     {
         base.EnterState(battleArgs);
@@ -29,29 +45,33 @@ public class IdleBattleState : BattleState
     protected override void RegisterEvents()
     {
         base.RegisterEvents();
-        movesHandler.MoveSelected += HandleMoveSelected;
+        movesHandler.ButtonSelected += HandleMoveSelected;
+        fightButton.ButtonPresssed += HandleFightButtonPressed;
+        pkmnButton.ButtonPresssed += HandlePKMNButtonPressed;
     }
 
     protected override void UnRegisterEvents()
     {
         base.UnRegisterEvents();
-        movesHandler.MoveSelected -= HandleMoveSelected;
+        movesHandler.ButtonSelected -= HandleMoveSelected;
+        fightButton.ButtonPresssed -= HandleFightButtonPressed;
+        pkmnButton.ButtonPresssed -= HandlePKMNButtonPressed;
     }
 
-    private void HandleMoveSelected(object sender, IndexEventArgs e)
+    private void HandleMoveSelected(object sender, EventArgs e)
     {
         //Will exit state in the future.
-        Debug.Log(e.Index);
-        movesHandler.MoveSelected -= HandleMoveSelected;
+        Debug.Log("Move Selected");
+        movesHandler.ButtonSelected -= HandleMoveSelected;
     }
 
-    public void FightPressedHandler()
+    private void HandleFightButtonPressed(object sender, EventArgs e)
     {
         movesHandler.UpdateMoveButtons(battleStateArgs.GetPlayerMonsterMoves());
-        movesHandler.RegisterMoves();
+        movesHandler.StartButtonsHandler();
     }
 
-    public void PKMNPressedHandler()
+    private void HandlePKMNButtonPressed(object sender, EventArgs e)
     {
         pkmnBattleStatusHandler.UpdatePlayerMonsterStatus(battleStateArgs);
     }
@@ -63,5 +83,19 @@ public class IdleBattleState : BattleState
         var trainerName = battleStateArgs.PlayerTrainer.ToString();
         var monsterName = battleStateArgs.GetPlayerMonsterName(index);
         playerMonsterStatusMenu.UpdateDetailedStatus(sprite, trainerName, monsterName, detailedStatus);
+    }
+
+    public void PokemonSwitchPressedHandler(int index)
+    {
+        if(index == 0)
+        {
+            menu.ShowMenuOption(BattleMenuOptions.MAIN, true);
+        }
+        else
+        {
+            menu.ShowMenuOptions(false);
+            nextState = switchMonsterState;
+            ExitState();
+        }
     }
 }

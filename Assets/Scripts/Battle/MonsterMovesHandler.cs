@@ -3,53 +3,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterMovesHandler : MonoBehaviour 
+public class MonsterMovesHandler : BattleButtonsHandler
 {
-    public event EventHandler<IndexEventArgs> MoveSelected;
-
-    [SerializeField]
-    private List<BattleMoveButton> moveButtons;
-
     private IndexEventArgs moveSelectedArgs;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         moveSelectedArgs = new IndexEventArgs();
     }
 
-    public void RegisterMoves()
+    protected override void HandleMoveButtonPressed(object sender, EventArgs e)
     {
-        foreach(var button in moveButtons)
-        {
-            button.MoveButtonPressed += HandleMoveButtonPressed;
-        }
-    }
-
-    public void UnRegisterMoves()
-    {
-        foreach(var button in moveButtons)
-        {
-            button.MoveButtonPressed -= HandleMoveButtonPressed;
-        }
-    }
-
-    private void HandleMoveButtonPressed(object sender, IndexEventArgs e)
-    {
-        UnRegisterMoves();
-        var handler = MoveSelected;
-        if(handler != null)
-        {
-            moveSelectedArgs.Index = e.Index;
-            handler(this, moveSelectedArgs);
-        }
+        var indexArgs = e as IndexEventArgs;
+        moveSelectedArgs.Index = indexArgs != null ? indexArgs.Index : 0;
+        args = moveSelectedArgs;
+        base.HandleMoveButtonPressed(sender, e);
     }
 
     public void UpdateMoveButtons(MonsterMovesBundle movesBundle)
     {
-        UpdateMoveButton(movesBundle.MoveOne, moveButtons[0]);
-        UpdateMoveButton(movesBundle.MoveTwo, moveButtons[1]);
-        UpdateMoveButton(movesBundle.MoveThree, moveButtons[2]);
-        UpdateMoveButton(movesBundle.MoveFour, moveButtons[3]);
+        UpdateMoveButton(movesBundle.MoveOne, buttons[0] as BattleMoveButton);
+        UpdateMoveButton(movesBundle.MoveTwo, buttons[1] as BattleMoveButton);
+        UpdateMoveButton(movesBundle.MoveThree, buttons[2] as BattleMoveButton);
+        UpdateMoveButton(movesBundle.MoveFour, buttons[3] as BattleMoveButton);
     }
 
     private void UpdateMoveButton(MonsterMoveInfo? moveInfo, BattleMoveButton button)

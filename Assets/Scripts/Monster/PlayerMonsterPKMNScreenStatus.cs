@@ -1,25 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMonsterPKMNScreenStatus : PlayerMonsterBattleScreenStatus
 {
     [SerializeField]
-    private List<GameObject> pkmnScreenIcons;
+    private List<Sprite> pkmnScreenIcons;
+
+    [SerializeField]
+    private Image monsterIconImage;
 
     public override void UpdateMonsterStatus(string monsterName, ushort levelNumber, ushort currentHP, ushort monsterHP, int icon = 0)
     {
         base.UpdateMonsterStatus(monsterName, levelNumber, currentHP, monsterHP, icon);
 
-        ShowPKMNScreenIcons(false);
         if(icon >= 0 && icon < pkmnScreenIcons.Count)
         {
-            pkmnScreenIcons[icon].SetActive(true);
+            monsterIconImage.sprite = pkmnScreenIcons[icon];
         }
-    }
-
-    private void ShowPKMNScreenIcons(bool show)
-    {
-        pkmnScreenIcons.ForEach(icon => icon.gameObject.SetActive(show));
     }
 }

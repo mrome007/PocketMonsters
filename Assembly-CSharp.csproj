@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Battle\BattleButton.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleButtonsHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleIntroAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleMenu.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleMoveButton.cs" />
@@ -68,6 +70,7 @@
      <Compile Include="Assets\Scripts\Battle\BattleStates\RunBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleTextBox.cs" />
      <Compile Include="Assets\Scripts\Battle\ImageChangeBattleScreenImageAnimation.cs" />
+     <Compile Include="Assets\Scripts\Battle\IndexButton.cs" />
      <Compile Include="Assets\Scripts\Battle\IndexEventArgs.cs" />
      <Compile Include="Assets\Scripts\Battle\IntroBattleSequence.cs" />
      <Compile Include="Assets\Scripts\Battle\MonsterMovesHandler.cs" />
