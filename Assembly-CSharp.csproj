@@ -74,6 +74,7 @@
      <Compile Include="Assets\Scripts\Battle\IndexEventArgs.cs" />
      <Compile Include="Assets\Scripts\Battle\IntroBattleSequence.cs" />
      <Compile Include="Assets\Scripts\Battle\MonsterIconsHandler.cs" />
+     <Compile Include="Assets\Scripts\Battle\MonsterIconSwitcher.cs" />
      <Compile Include="Assets\Scripts\Battle\MonsterMovesHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\PlayerPKMNBattleStatusHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\SwitchButton.cs" />
