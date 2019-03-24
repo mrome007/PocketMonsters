@@ -96,7 +96,15 @@ public class BattleStateArgs
         return enemy.GetMoves(index);
     }
 
+    public void SwitchPlayerMonster(int index)
+    {
+        player.SwitchMonsters(index);
+    }
 
+    public void SwitchEnemyMonster(int index)
+    {
+        enemy.SwitchMonsters(index);
+    }
 }
 
 public struct MonsterBallBattleInformation

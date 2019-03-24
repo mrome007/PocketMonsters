@@ -110,6 +110,7 @@ public class IdleBattleState : BattleState
         }
         else
         {
+            battleStateArgs.SwitchPlayerMonster(index);
             menu.ShowMenuOptions(false);
             nextState = switchMonsterState;
             ExitState();
