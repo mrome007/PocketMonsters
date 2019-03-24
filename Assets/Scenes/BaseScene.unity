@@ -472,15 +472,7 @@ MonoBehaviour:
   hpSlider: {fileID: 1724856855}
   currentHP: {fileID: 1779946459}
   monsterHP: {fileID: 1957278247}
-  pkmnScreenIcons:
-  - {fileID: 21300000, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300008, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300016, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300024, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300032, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300040, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300048, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300056, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
+  iconSwitcher: {fileID: 1243638727}
   monsterIconImage: {fileID: 1243638724}
 --- !u!1 &49021350
 GameObject:
@@ -9235,6 +9227,7 @@ GameObject:
   - component: {fileID: 509487016}
   - component: {fileID: 509487015}
   - component: {fileID: 509487019}
+  - component: {fileID: 509487020}
   m_Layer: 8
   m_Name: MonsterIconButton
   m_TagString: Untagged
@@ -9385,6 +9378,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 2
+--- !u!114 &509487020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 509487013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2322dbf2128794a078bceb6cbeb4f852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &512022073
 GameObject:
   m_ObjectHideFlags: 0
@@ -16618,15 +16622,7 @@ MonoBehaviour:
   hpSlider: {fileID: 49379043}
   currentHP: {fileID: 1430401983}
   monsterHP: {fileID: 1499150544}
-  pkmnScreenIcons:
-  - {fileID: 21300000, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300008, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300016, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300024, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300032, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300040, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300048, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300056, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
+  iconSwitcher: {fileID: 2018423044}
   monsterIconImage: {fileID: 2018423041}
 --- !u!1 &904775526
 GameObject:
@@ -17701,15 +17697,7 @@ MonoBehaviour:
   hpSlider: {fileID: 1952034276}
   currentHP: {fileID: 983033845}
   monsterHP: {fileID: 360727678}
-  pkmnScreenIcons:
-  - {fileID: 21300000, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300008, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300016, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300024, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300032, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300040, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300048, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300056, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
+  iconSwitcher: {fileID: 1905102227}
   monsterIconImage: {fileID: 1905102224}
 --- !u!1 &962449144
 GameObject:
@@ -23185,6 +23173,7 @@ GameObject:
   - component: {fileID: 1243638723}
   - component: {fileID: 1243638722}
   - component: {fileID: 1243638726}
+  - component: {fileID: 1243638727}
   m_Layer: 8
   m_Name: MonsterIconButton
   m_TagString: Untagged
@@ -23335,6 +23324,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 3
+--- !u!114 &1243638727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243638720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2322dbf2128794a078bceb6cbeb4f852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1248763488
 GameObject:
   m_ObjectHideFlags: 0
@@ -23972,6 +23972,7 @@ GameObject:
   - component: {fileID: 1280791960}
   - component: {fileID: 1280791959}
   - component: {fileID: 1280791963}
+  - component: {fileID: 1280791964}
   m_Layer: 8
   m_Name: MonsterIconButton
   m_TagString: Untagged
@@ -24122,6 +24123,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 4
+--- !u!114 &1280791964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1280791957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2322dbf2128794a078bceb6cbeb4f852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1287440412
 GameObject:
   m_ObjectHideFlags: 0
@@ -25405,15 +25417,7 @@ MonoBehaviour:
   hpSlider: {fileID: 1011628312}
   currentHP: {fileID: 2019212590}
   monsterHP: {fileID: 1093679504}
-  pkmnScreenIcons:
-  - {fileID: 21300000, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300008, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300016, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300024, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300032, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300040, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300048, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300056, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
+  iconSwitcher: {fileID: 1991093455}
   monsterIconImage: {fileID: 1991093450}
 --- !u!1 &1357500726
 GameObject:
@@ -27328,15 +27332,7 @@ MonoBehaviour:
   hpSlider: {fileID: 164393525}
   currentHP: {fileID: 1601704770}
   monsterHP: {fileID: 788253869}
-  pkmnScreenIcons:
-  - {fileID: 21300000, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300008, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300016, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300024, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300032, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300040, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300048, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300056, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
+  iconSwitcher: {fileID: 509487020}
   monsterIconImage: {fileID: 509487017}
 --- !u!1 &1425042039
 GameObject:
@@ -36059,6 +36055,7 @@ GameObject:
   - component: {fileID: 1905102223}
   - component: {fileID: 1905102222}
   - component: {fileID: 1905102226}
+  - component: {fileID: 1905102227}
   m_Layer: 8
   m_Name: MonsterIconButton
   m_TagString: Untagged
@@ -36209,6 +36206,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 5
+--- !u!114 &1905102227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1905102220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2322dbf2128794a078bceb6cbeb4f852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1907154826
 GameObject:
   m_ObjectHideFlags: 0
@@ -38195,6 +38203,7 @@ GameObject:
   - component: {fileID: 1991093452}
   - component: {fileID: 1991093453}
   - component: {fileID: 1991093454}
+  - component: {fileID: 1991093455}
   m_Layer: 8
   m_Name: MonsterIconButton
   m_TagString: Untagged
@@ -38345,6 +38354,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
+--- !u!114 &1991093455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991093448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2322dbf2128794a078bceb6cbeb4f852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2002465787
 GameObject:
   m_ObjectHideFlags: 0
@@ -38535,6 +38555,7 @@ GameObject:
   - component: {fileID: 2018423040}
   - component: {fileID: 2018423039}
   - component: {fileID: 2018423043}
+  - component: {fileID: 2018423044}
   m_Layer: 8
   m_Name: MonsterIconButton
   m_TagString: Untagged
@@ -38685,6 +38706,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 1
+--- !u!114 &2018423044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018423037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2322dbf2128794a078bceb6cbeb4f852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019212588
 GameObject:
   m_ObjectHideFlags: 0
@@ -40881,15 +40913,7 @@ MonoBehaviour:
   hpSlider: {fileID: 440318590}
   currentHP: {fileID: 1404933150}
   monsterHP: {fileID: 773072351}
-  pkmnScreenIcons:
-  - {fileID: 21300000, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300008, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300016, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300024, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300032, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300040, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300048, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
-  - {fileID: 21300056, guid: 721608b51f7d9450981daa168fbb6981, type: 3}
+  iconSwitcher: {fileID: 1280791964}
   monsterIconImage: {fileID: 1280791961}
 --- !u!1 &2124840358
 GameObject:

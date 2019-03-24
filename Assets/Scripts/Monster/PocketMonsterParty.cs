@@ -61,19 +61,6 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
     }
 
-    public LightMonster First
-    {
-        get
-        {
-            if(party == null || party.Count == 0)
-            {
-                return null;
-            }
-
-            return party[0];
-        }
-    }
-
     public bool? IsMonsterAlive(int index)
     {
         if(index < 0 || index >= party.Count)
@@ -199,6 +186,18 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         }
         
         return front ? party[index].Front : party[index].Back;
+    }
+
+    public void SwitchMonsters(int index)
+    {
+        if(index == 0 || (index < 0 || index >= NumberOfMonsters))
+        {
+            return;
+        }
+
+        var first = party[0];
+        party[0] = party[index];
+        party[index] = first;
     }
 
     #region IEnumerable Members

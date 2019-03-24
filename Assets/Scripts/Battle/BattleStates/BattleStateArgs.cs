@@ -72,8 +72,8 @@ public class BattleStateArgs
 
     public Sprite GetFirstMonsterSprite(bool front, bool isPlayer)
     {
-        return front ? isPlayer ? player.First.Front : enemy.First.Front : 
-            isPlayer ? player.First.Back : enemy.First.Back;
+        return front ? isPlayer ? player.GetMonsterSprite(0, true) : enemy.GetMonsterSprite(0, true) : 
+            isPlayer ? player.GetMonsterSprite(0, false): enemy.GetMonsterSprite(0, false);
     }
 
     public Sprite GetMonsterSprite(int index)
@@ -95,6 +95,8 @@ public class BattleStateArgs
     {
         return enemy.GetMoves(index);
     }
+
+
 }
 
 public struct MonsterBallBattleInformation
