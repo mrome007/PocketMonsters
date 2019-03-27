@@ -1,16 +1,22 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Battle/BattleIntroAnimation.cs">
     <Files>
-      <File FileName="Assets/Scripts/Battle/MonsterIconSwitcher.cs" Line="14" Column="6" />
-      <File FileName="Assets/Scripts/Monster/Monster.cs" Line="81" Column="1" />
-      <File FileName="Assets/Scripts/Monster/PlayerMonsterPKMNScreenStatus.cs" Line="17" Column="9" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="76" Column="90" />
-      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="62" Column="6" />
+      <File FileName="Assets/Scripts/Battle/BattleIntroAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Battle/MonsterIconSwitcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster/Monster.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster/PlayerMonsterPKMNScreenStatus.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Battle/SwitchButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Battle/MonsterIconsHandler.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" line="102" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

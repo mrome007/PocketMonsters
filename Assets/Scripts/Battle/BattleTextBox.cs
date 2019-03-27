@@ -32,6 +32,7 @@ public class BattleTextBox : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         { BattleTextType.GOPOKEMON, "Go! {0}!" },
         { BattleTextType.TRAINERWANTSFIGHT, "{0} wants to fight!" },
         { BattleTextType.TRAINERGOPOKEMON, "{0} sent out {1}!" },
+        { BattleTextType.SWITCH, "{0} enough! Come back!" }
     };
 
     private StringBuilder textContainer;
@@ -126,4 +127,5 @@ public enum BattleTextType
     GOPOKEMON,
     TRAINERGOPOKEMON,
     MOVEUSED,
+    SWITCH,
 }

@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\Battle\BattleStates\IdleBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\IntroBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\RunBattleState.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleStates\SwitchBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleTextBox.cs" />
      <Compile Include="Assets\Scripts\Battle\ImageChangeBattleScreenImageAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\IndexButton.cs" />
@@ -78,6 +79,8 @@
      <Compile Include="Assets\Scripts\Battle\MonsterMovesHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\PlayerPKMNBattleStatusHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\SwitchButton.cs" />
+     <Compile Include="Assets\Scripts\Battle\SwitchMonsterAnimation.cs" />
+     <Compile Include="Assets\Scripts\Battle\SwitchMonsterBattleSequence.cs" />
      <Compile Include="Assets\Scripts\Battle\TrainerEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\WildEncounterBattleAnimation.cs" />
      <Compile Include="Assets\Scripts\Monster\HeavyMonsters.cs" />

@@ -10,9 +10,6 @@ public class IdleBattleState : BattleState
 
     [SerializeField]
     private BattleState switchMonsterState;
-
-    [SerializeField]
-    private BattleState performBattleState;
     
     [SerializeField]
     private BattleMenu menu;

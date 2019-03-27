@@ -7915,8 +7915,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 424614668}
-  - component: {fileID: 424614669}
   - component: {fileID: 424614670}
+  - component: {fileID: 424614669}
   m_Layer: 8
   m_Name: WildEncounterIntroBattleAnimation
   m_TagString: Untagged
@@ -11326,6 +11326,67 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.65, y: 0.65}
   m_EdgeRadius: 0
+--- !u!1 &597629684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 597629685}
+  - component: {fileID: 597629687}
+  - component: {fileID: 597629686}
+  m_Layer: 8
+  m_Name: SwitchBattleSequence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &597629685
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597629684}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1591833990}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &597629686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597629684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f0ae07512524040bfce03f4ab7362c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterAnimation: {fileID: 2088979946}
+--- !u!114 &597629687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597629684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688608ae0b7934e9fa4737955e1f2e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switchAnimation: {fileID: 597629686}
+  battleMenu: {fileID: 1862817040}
+  textBox: {fileID: 1973063280}
 --- !u!1 &597722177
 GameObject:
   m_ObjectHideFlags: 0
@@ -11549,6 +11610,7 @@ RectTransform:
   - {fileID: 2004184798}
   - {fileID: 186088629}
   - {fileID: 716272574}
+  - {fileID: 1591833990}
   m_Father: {fileID: 358720418}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29919,6 +29981,54 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1591833989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1591833990}
+  - component: {fileID: 1591833991}
+  m_Layer: 8
+  m_Name: SwitchBattleState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1591833990
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1591833989}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 597629685}
+  m_Father: {fileID: 606160059}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1591833991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1591833989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18874093d02e48119c069d8db014441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultNextState: {fileID: 0}
+  switchMonsterSequence: {fileID: 597629687}
 --- !u!1 &1593218549
 GameObject:
   m_ObjectHideFlags: 0
@@ -32304,8 +32414,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1716130841}
-  - component: {fileID: 1716130842}
   - component: {fileID: 1716130843}
+  - component: {fileID: 1716130842}
   m_Layer: 8
   m_Name: TrainerEncounterIntroBattleAnimation
   m_TagString: Untagged
@@ -38481,10 +38591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63aaaf7be42647ba84e14b52639ab69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultNextState: {fileID: 716272575}
+  defaultNextState: {fileID: 0}
   runNextState: {fileID: 186088630}
-  switchMonsterState: {fileID: 0}
-  performBattleState: {fileID: 0}
+  switchMonsterState: {fileID: 1591833991}
   menu: {fileID: 1862817040}
   movesHandler: {fileID: 1800532082}
   monsterIconsHandler: {fileID: 1094192209}
