@@ -14,9 +14,7 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
     [SerializeField]
     private BattleTextBox textBox;
     [SerializeField]
-    private MonsterBattleScreenStatus playerBattleStatus;
-    [SerializeField]
-    private MonsterBattleScreenStatus enemyBattleStatus;
+    private MonsterBattleScreenStatus battleStatus;
 
     private BattleStateArgs bArgs;
 
@@ -57,18 +55,11 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
         switchAnimation.NewMonsterAnimationEnded += HandleNewMonsterAnimationEnded;
         switchAnimation.StartEndOfSwitchMonster();
 
-        var playerMonsterStatus = bArgs.GetPlayerMonsterStatus();
-        var enemyMonsterStatus = bArgs.GetEnemyMonsterStatus();
-        if(playerBattleStatus != null)
-        {
-            playerBattleStatus.UpdateMonsterStatus(bArgs.GetPlayerMonsterName(), playerMonsterStatus.Level, 
-                playerMonsterStatus.CurrentHP, playerMonsterStatus.HP);
-        }
-        else
-        {
-            enemyBattleStatus.UpdateMonsterStatus(bArgs.GetEnemyMonsterName(), enemyMonsterStatus.Level, 
-                enemyMonsterStatus.CurrentHP, enemyMonsterStatus.HP);
-        }
+        var playerBattleStatus = battleStatus.GetComponent<PlayerMonsterBattleScreenStatus>();
+        var status = playerBattleStatus != null ? bArgs.GetPlayerMonsterStatus(): bArgs.GetEnemyMonsterStatus();
+        var name = playerBattleStatus != null ? bArgs.GetPlayerMonsterName() : bArgs.GetEnemyMonsterName();
+        battleStatus.UpdateMonsterStatus(name, status.Level, 
+                status.CurrentHP, status.HP);
     }
 
     private void HandleNewMonsterAnimationEnded()

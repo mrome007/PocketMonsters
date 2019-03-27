@@ -11387,8 +11387,7 @@ MonoBehaviour:
   switchAnimation: {fileID: 597629686}
   battleMenu: {fileID: 1862817040}
   textBox: {fileID: 1973063280}
-  playerBattleStatus: {fileID: 1936158177}
-  enemyBattleStatus: {fileID: 0}
+  battleStatus: {fileID: 1936158177}
 --- !u!1 &597722177
 GameObject:
   m_ObjectHideFlags: 0
