@@ -13,6 +13,10 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
     private BattleMenu battleMenu;
     [SerializeField]
     private BattleTextBox textBox;
+    [SerializeField]
+    private MonsterBattleScreenStatus playerBattleStatus;
+    [SerializeField]
+    private MonsterBattleScreenStatus enemyBattleStatus;
 
     private BattleStateArgs bArgs;
 
@@ -52,6 +56,19 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
 
         switchAnimation.NewMonsterAnimationEnded += HandleNewMonsterAnimationEnded;
         switchAnimation.StartEndOfSwitchMonster();
+
+        var playerMonsterStatus = bArgs.GetPlayerMonsterStatus();
+        var enemyMonsterStatus = bArgs.GetEnemyMonsterStatus();
+        if(playerBattleStatus != null)
+        {
+            playerBattleStatus.UpdateMonsterStatus(bArgs.GetPlayerMonsterName(), playerMonsterStatus.Level, 
+                playerMonsterStatus.CurrentHP, playerMonsterStatus.HP);
+        }
+        else
+        {
+            enemyBattleStatus.UpdateMonsterStatus(bArgs.GetEnemyMonsterName(), enemyMonsterStatus.Level, 
+                enemyMonsterStatus.CurrentHP, enemyMonsterStatus.HP);
+        }
     }
 
     private void HandleNewMonsterAnimationEnded()
