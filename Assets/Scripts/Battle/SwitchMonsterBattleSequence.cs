@@ -8,17 +8,17 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
     public Action SwitchMonsterComplete;
     
     [SerializeField]
-    private SwitchMonsterAnimation switchAnimation;
+    protected SwitchMonsterAnimation switchAnimation;
     [SerializeField]
-    private BattleMenu battleMenu;
+    protected BattleMenu battleMenu;
     [SerializeField]
-    private BattleTextBox textBox;
+    protected BattleTextBox textBox;
     [SerializeField]
-    private MonsterBattleScreenStatus battleStatus;
+    protected MonsterBattleScreenStatus battleStatus;
 
-    private BattleStateArgs bArgs;
+    protected BattleStateArgs bArgs;
 
-    public void StartSwitchMonster(BattleStateArgs battleArgs)
+    public virtual void StartSwitchMonster(BattleStateArgs battleArgs)
     {
         bArgs = battleArgs;
         battleMenu.ShowMenuOption(BattleMenuOptions.TEXT, true);
@@ -29,7 +29,7 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
         textBox.ShowText();
     }
 
-    private void HandleCurrentSwitchActionComplete()
+    protected virtual void HandleCurrentSwitchActionComplete()
     {
         textBox.TextActionComplete -= HandleCurrentSwitchActionComplete;
         
@@ -37,39 +37,31 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
         switchAnimation.StartSwitchMonster(bArgs);
     }
 
-    private void HandleCurrentMonsterAnimationEnded()
+    protected virtual void HandleCurrentMonsterAnimationEnded()
     {
         switchAnimation.CurrentMonsterAnimationEnded -= HandleCurrentMonsterAnimationEnded;
 
         textBox.HideText();
         textBox.TextActionComplete += HandleNewSwitchActionComplete;
-        var playerBattleStatus = battleStatus.GetComponent<PlayerMonsterBattleScreenStatus>();
-        var name = playerBattleStatus != null ? bArgs.GetPlayerMonsterName() : bArgs.GetEnemyMonsterName();
-        textBox.PopulateText(BattleTextType.GOPOKEMON, name);
         textBox.ShowText();
     }
 
-    private void HandleNewSwitchActionComplete()
+    protected virtual void HandleNewSwitchActionComplete()
     {
         textBox.TextActionComplete -= HandleNewSwitchActionComplete;
 
         textBox.HideText();
         switchAnimation.NewMonsterAnimationEnded += HandleNewMonsterAnimationEnded;
         switchAnimation.StartEndOfSwitchMonster();
-
-        var playerBattleStatus = battleStatus.GetComponent<PlayerMonsterBattleScreenStatus>();
-        var status = playerBattleStatus != null ? bArgs.GetPlayerMonsterStatus(): bArgs.GetEnemyMonsterStatus();
-        var name = playerBattleStatus != null ? bArgs.GetPlayerMonsterName() : bArgs.GetEnemyMonsterName();
-        battleStatus.UpdateMonsterStatus(name, status.Level, status.CurrentHP, status.HP);
     }
 
-    private void HandleNewMonsterAnimationEnded()
+    protected virtual void HandleNewMonsterAnimationEnded()
     {
         switchAnimation.NewMonsterAnimationEnded -= HandleNewMonsterAnimationEnded;
         PostSwitchMonsterComplete();
     }
 
-    private void PostSwitchMonsterComplete()
+    protected void PostSwitchMonsterComplete()
     {
         if(SwitchMonsterComplete != null)
         {

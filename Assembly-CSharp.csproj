@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\Battle\BattleStates\RunBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\SwitchBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleTextBox.cs" />
+     <Compile Include="Assets\Scripts\Battle\EnemySwitchMonsterBattleSequence.cs" />
      <Compile Include="Assets\Scripts\Battle\ImageChangeBattleScreenImageAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\IndexButton.cs" />
      <Compile Include="Assets\Scripts\Battle\IndexEventArgs.cs" />
@@ -78,6 +79,7 @@
      <Compile Include="Assets\Scripts\Battle\MonsterIconSwitcher.cs" />
      <Compile Include="Assets\Scripts\Battle\MonsterMovesHandler.cs" />
      <Compile Include="Assets\Scripts\Battle\PlayerPKMNBattleStatusHandler.cs" />
+     <Compile Include="Assets\Scripts\Battle\PlayerSwitchMonsterBattleSequence.cs" />
      <Compile Include="Assets\Scripts\Battle\SwitchButton.cs" />
      <Compile Include="Assets\Scripts\Battle\SwitchMonsterAnimation.cs" />
      <Compile Include="Assets\Scripts\Battle\SwitchMonsterBattleSequence.cs" />

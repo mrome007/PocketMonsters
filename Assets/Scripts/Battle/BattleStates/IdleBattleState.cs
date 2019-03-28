@@ -110,6 +110,7 @@ public class IdleBattleState : BattleState
         }
         else
         {
+            //TODO IN ENEMY STATE, USE BattleTextType.SWITCHENEMY to populate text box
             textBox.PopulateText(BattleTextType.SWITCH, battleStateArgs.GetPlayerMonsterName(0));
             battleStateArgs.SwitchPlayerMonster(index);
             menu.ShowMenuOptions(false);
