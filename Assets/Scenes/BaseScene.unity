@@ -38605,6 +38605,7 @@ MonoBehaviour:
   itemButton: {fileID: 1190442284}
   runButton: {fileID: 1258556269}
   switchButton: {fileID: 1622816347}
+  textBox: {fileID: 1973063280}
 --- !u!1 &2015994344
 GameObject:
   m_ObjectHideFlags: 0

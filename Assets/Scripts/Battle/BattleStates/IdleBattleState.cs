@@ -38,6 +38,9 @@ public class IdleBattleState : BattleState
     [SerializeField]
     private BattleButton switchButton;
 
+    [SerializeField]
+    private BattleTextBox textBox;
+
     public override void EnterState(BattleStateArgs battleArgs)
     {
         base.EnterState(battleArgs);
@@ -107,6 +110,7 @@ public class IdleBattleState : BattleState
         }
         else
         {
+            textBox.PopulateText(BattleTextType.SWITCH, battleStateArgs.GetPlayerMonsterName(0));
             battleStateArgs.SwitchPlayerMonster(index);
             menu.ShowMenuOptions(false);
             nextState = switchMonsterState;

@@ -1,16 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Battle/BattleIntroAnimation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Battle/SwitchMonsterBattleSequence.cs">
     <Files>
-      <File FileName="Assets/Scripts/Battle/BattleIntroAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="98" Column="1" />
+      <File FileName="Assets/Scripts/Battle/BattleIntroAnimation.cs" Line="32" Column="35" />
       <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Battle/MonsterIconSwitcher.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Monster/Monster.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Monster/PlayerMonsterPKMNScreenStatus.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Battle/SwitchButton.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Battle/MonsterIconsHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Battle/SwitchMonsterBattleSequence.cs" Line="61" Column="46" />
+      <File FileName="Assets/Scripts/Battle/SwitchMonsterAnimation.cs" Line="42" Column="45" />
+      <File FileName="Assets/Scripts/Battle/TrainerEncounterBattleAnimation.cs" Line="5" Column="58" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/SwitchBattleState.cs" Line="14" Column="62" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/BattleState.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/Monster/PlayerMonsterBattleScreenImage.cs" Line="7" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

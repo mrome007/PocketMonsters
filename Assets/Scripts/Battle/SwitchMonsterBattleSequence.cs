@@ -26,7 +26,6 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
         //TODO find a way to grab previous pokemon since the switch would have already happened.
         textBox.HideText();
         textBox.TextActionComplete += HandleCurrentSwitchActionComplete;
-        textBox.PopulateText(BattleTextType.SWITCH, "Current");
         textBox.ShowText();
     }
 
@@ -44,7 +43,9 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
 
         textBox.HideText();
         textBox.TextActionComplete += HandleNewSwitchActionComplete;
-        textBox.PopulateText(BattleTextType.GOPOKEMON, bArgs.GetPlayerMonsterName());
+        var playerBattleStatus = battleStatus.GetComponent<PlayerMonsterBattleScreenStatus>();
+        var name = playerBattleStatus != null ? bArgs.GetPlayerMonsterName() : bArgs.GetEnemyMonsterName();
+        textBox.PopulateText(BattleTextType.GOPOKEMON, name);
         textBox.ShowText();
     }
 
@@ -52,19 +53,20 @@ public class SwitchMonsterBattleSequence : MonoBehaviour
     {
         textBox.TextActionComplete -= HandleNewSwitchActionComplete;
 
+        textBox.HideText();
         switchAnimation.NewMonsterAnimationEnded += HandleNewMonsterAnimationEnded;
         switchAnimation.StartEndOfSwitchMonster();
 
         var playerBattleStatus = battleStatus.GetComponent<PlayerMonsterBattleScreenStatus>();
         var status = playerBattleStatus != null ? bArgs.GetPlayerMonsterStatus(): bArgs.GetEnemyMonsterStatus();
         var name = playerBattleStatus != null ? bArgs.GetPlayerMonsterName() : bArgs.GetEnemyMonsterName();
-        battleStatus.UpdateMonsterStatus(name, status.Level, 
-                status.CurrentHP, status.HP);
+        battleStatus.UpdateMonsterStatus(name, status.Level, status.CurrentHP, status.HP);
     }
 
     private void HandleNewMonsterAnimationEnded()
     {
         switchAnimation.NewMonsterAnimationEnded -= HandleNewMonsterAnimationEnded;
+        PostSwitchMonsterComplete();
     }
 
     private void PostSwitchMonsterComplete()
