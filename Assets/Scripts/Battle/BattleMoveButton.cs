@@ -15,7 +15,6 @@ public class BattleMoveButton : IndexButton
     [SerializeField]
     private Text ppText;
 
-    private IndexEventArgs moveButtonArgs;
     private const string ppFormat = "{0}/{1}";
     private const string moveTypeFormat = "TYPE/{0}";
 

@@ -30028,7 +30028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18874093d02e48119c069d8db014441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultNextState: {fileID: 0}
+  defaultNextState: {fileID: 716272575}
   switchMonsterSequence: {fileID: 597629687}
 --- !u!1 &1593218549
 GameObject:

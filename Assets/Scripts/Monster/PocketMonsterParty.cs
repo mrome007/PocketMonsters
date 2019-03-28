@@ -200,6 +200,28 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
         party[index] = first;
     }
 
+    public MonsterMoveInfo GetMonsterMoveInfo(int monsterIndex, int moveIndex)
+    {
+        var monster = party[monsterIndex];
+        var monsterMoves = monster.GetMoves();
+        if(moveIndex == 0)
+        {
+            return monsterMoves.MoveOne.Value;
+        }
+        else if(moveIndex == 1)
+        {
+            return monsterMoves.MoveTwo.Value;
+        }
+        else if(moveIndex == 2)
+        {
+            return monsterMoves.MoveThree.Value;
+        }
+        else
+        {
+            return monsterMoves.MoveFour.Value;
+        }
+    }
+
     #region IEnumerable Members
 
     IEnumerator IEnumerable.GetEnumerator()

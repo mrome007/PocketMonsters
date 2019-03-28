@@ -72,9 +72,17 @@ public class IdleBattleState : BattleState
 
     private void HandleMoveSelected(object sender, EventArgs e)
     {
-        //Will exit state in the future.
-        Debug.Log("Move Selected");
         movesHandler.ButtonSelected -= HandleMoveSelected;
+
+        var indexArgs = e as IndexEventArgs;
+        if(indexArgs != null)
+        {
+            var move = MonsterMoves.GetMonsterMove(battleStateArgs.GetPlayerMonsterMove(0, indexArgs.Index).MonsterMoveIndex);
+            textBox.PopulateText(BattleTextType.PLAYERFIGHT, battleStateArgs.GetPlayerMonsterName(), move.MonsterMoveName);
+            menu.ShowMenuOption(BattleMenuOptions.TEXT, true);
+            textBox.ShowText();
+        }
+
     }
 
     private void HandleFightButtonPressed(object sender, EventArgs e)
@@ -111,7 +119,7 @@ public class IdleBattleState : BattleState
         else
         {
             //TODO IN ENEMY STATE, USE BattleTextType.SWITCHENEMY to populate text box
-            textBox.PopulateText(BattleTextType.SWITCH, battleStateArgs.GetPlayerMonsterName(0));
+            textBox.PopulateText(BattleTextType.SWITCH, battleStateArgs.GetPlayerMonsterName());
             battleStateArgs.SwitchPlayerMonster(index);
             menu.ShowMenuOptions(false);
             nextState = switchMonsterState;
