@@ -27,6 +27,11 @@ public class MonsterMove : MonoBehaviour
     {
         return new MonsterMoveInfo(MonsterIndex, MoveType, currentPP, PP);
     }
+
+    public virtual IEnumerable<MonsterMoveAction> GetMonsterMoveActions()
+    {
+        yield return null;
+    }
 }
 
 public enum MonsterMoveCategory
