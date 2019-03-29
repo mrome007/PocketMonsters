@@ -91,9 +91,6 @@
      <Compile Include="Assets\Scripts\Monster\MonsterBattleMatchup.cs" />
      <Compile Include="Assets\Scripts\Monster\MonsterBattleScreenStatus.cs" />
      <Compile Include="Assets\Scripts\Monster\MonsterFetch.cs" />
-     <Compile Include="Assets\Scripts\Monster\MonsterMove.cs" />
-     <Compile Include="Assets\Scripts\Monster\MonsterMoveFetch.cs" />
-     <Compile Include="Assets\Scripts\Monster\MonsterMoves.cs" />
      <Compile Include="Assets\Scripts\Monster\MonsterSprites.cs" />
      <Compile Include="Assets\Scripts\Monster\PartyMonsterInfo.cs" />
      <Compile Include="Assets\Scripts\Monster\PlayerMonster.cs" />
@@ -106,6 +103,9 @@
      <Compile Include="Assets\Scripts\Monster\PocketMonstersStateManager.cs" />
      <Compile Include="Assets\Scripts\Monster\PocketMonsterStateRoot.cs" />
      <Compile Include="Assets\Scripts\Monster\PopulateMonsterMoves.cs" />
+     <Compile Include="Assets\Scripts\MonsterMoves\MonsterMove.cs" />
+     <Compile Include="Assets\Scripts\MonsterMoves\MonsterMoveFetch.cs" />
+     <Compile Include="Assets\Scripts\MonsterMoves\MonsterMoves.cs" />
      <Compile Include="Assets\Scripts\Trainer\Gap.cs" />
      <Compile Include="Assets\Scripts\Trainer\MonsterEncounter.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerEncounterCollision.cs" />
