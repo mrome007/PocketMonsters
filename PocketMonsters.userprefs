@@ -1,22 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Monster/PocketMonsterParty.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMoves/MonsterMove.cs">
     <Files>
-      <File FileName="Assets/Scripts/Battle/BattleStates/SwitchBattleState.cs" Line="14" Column="44" />
-      <File FileName="Assets/Scripts/Battle/SwitchMonsterBattleSequence.cs" Line="55" Column="51" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="111" Column="32" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="80" Column="80" />
-      <File FileName="Assets/Scripts/Battle/PlayerSwitchMonsterBattleSequence.cs" Line="7" Column="5" />
-      <File FileName="Assets/Scripts/Battle/BattleTextBox.cs" Line="38" Column="58" />
-      <File FileName="Assets/Scripts/Battle/EnemySwitchMonsterBattleSequence.cs" Line="19" Column="34" />
-      <File FileName="Assets/Scripts/Battle/IntroBattleSequence.cs" Line="106" Column="81" />
-      <File FileName="Assets/Scripts/Battle/BattleMoveButton.cs" Line="7" Column="37" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/BattleState.cs" Line="12" Column="22" />
-      <File FileName="Assets/Scripts/Monster/LightMonster.cs" Line="78" Column="22" />
-      <File FileName="Assets/Scripts/Monster/MonsterMove.cs" Line="6" Column="21" />
-      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="215" Column="31" />
-      <File FileName="Assets/Scripts/Monster/MonsterMoveFetch.cs" Line="7" Column="12" />
-      <File FileName="Assets/Scripts/Monster/MonsterMoves.cs" Line="31" Column="5" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="57" Column="21" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveAction.cs" Line="7" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
