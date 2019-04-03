@@ -33,9 +33,9 @@ public class MonsterMove : MonoBehaviour
         return new MonsterMoveCalculationInfo(MoveType, MoveCategory, Power, Accuracy);
     }
 
-    public virtual IEnumerable<MonsterMoveAction> GetMonsterMoveActions()
+    public virtual List<MonsterMoveAction> GetMonsterMoveActions()
     {
-        yield return null;
+        return null;
     }
 }
 
@@ -64,10 +64,10 @@ public class PartyMonsterMoveInfo
 
 public struct MonsterMoveCalculationInfo
 {
-    private MonsterType MoveType { get { return moveType; } }
-    private MonsterMoveCategory MoveCategory { get { return moveCategory; } }
-    private byte Power { get{ return power; } }
-    private byte Accuracy { get { return accuracy; } } 
+    public MonsterType MoveType { get { return moveType; } }
+    public MonsterMoveCategory MoveCategory { get { return moveCategory; } }
+    public byte Power { get{ return power; } }
+    public byte Accuracy { get { return accuracy; } } 
     
     private MonsterType moveType;
     private MonsterMoveCategory moveCategory;

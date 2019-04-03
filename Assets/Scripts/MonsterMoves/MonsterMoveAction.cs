@@ -18,6 +18,9 @@ public class MonsterMoveAction
 
     public virtual void ApplyMoveEffect(LightMonster target)
     {
+        var monsterMoveCalcInfo = MonsterMoves.GetMonsterMove(moveIndex).GetMonsterMoveCalculationInfo();
+        Debug.Log(monsterMoveCalcInfo.MoveType + " " + monsterMoveCalcInfo.MoveCategory + " " + monsterMoveCalcInfo.Power + " " +
+        monsterMoveCalcInfo.Accuracy);
     }
 }
 
