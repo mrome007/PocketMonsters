@@ -28,6 +28,11 @@ public class MonsterMove : MonoBehaviour
         return new MonsterMoveInfo(MonsterIndex, MoveType, currentPP, PP);
     }
 
+    public MonsterMoveCalculationInfo GetMonsterMoveCalculationInfo()
+    {
+        return new MonsterMoveCalculationInfo(MoveType, MoveCategory, Power, Accuracy);
+    }
+
     public virtual IEnumerable<MonsterMoveAction> GetMonsterMoveActions()
     {
         yield return null;
@@ -55,6 +60,27 @@ public class PartyMonsterMoveInfo
     private byte currentPP;
     [SerializeField]
     private byte pp;
+}
+
+public struct MonsterMoveCalculationInfo
+{
+    private MonsterType MoveType { get { return moveType; } }
+    private MonsterMoveCategory MoveCategory { get { return moveCategory; } }
+    private byte Power { get{ return power; } }
+    private byte Accuracy { get { return accuracy; } } 
+    
+    private MonsterType moveType;
+    private MonsterMoveCategory moveCategory;
+    private byte power;
+    private byte accuracy;
+
+    public MonsterMoveCalculationInfo(MonsterType type, MonsterMoveCategory cat, byte pow, byte accu)
+    {
+        moveType = type;
+        moveCategory = cat;
+        power = pow;
+        accuracy = accu;
+    }
 }
 
 public struct MonsterMoveInfo

@@ -15,8 +15,4 @@ public class BattleMonsterMove
         moveActions = new List<MonsterMoveAction>();
         currentMoveActionIndex = 0;
     }
-
-    public virtual void PerformBattleMonsterMove()
-    {
-    }
 }
