@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class NormalAttackMonsterMove : MonsterMove
 {
-    public override List<MonsterMoveAction> GetMonsterMoveActions()
+    public override IEnumerable<MonsterMoveAction> GetMonsterMoveActions()
     {
-        var moveActions = new List<MonsterMoveAction>();
-
-        var attackAction = new MonsterMoveAction(null, MonsterTarget.ENEMY, MIndex);
-        moveActions.Add(attackAction);
-
-        return moveActions;
+        yield return null;
     }
 }

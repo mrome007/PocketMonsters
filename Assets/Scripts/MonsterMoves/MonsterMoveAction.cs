@@ -2,26 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterMoveAction
+public abstract class MonsterMoveAction
 {
-    public MonsterTarget Target { get; private set; }
+    public MonsterTarget Target { get; protected set; }
     public MonsterMoveAction NextMoveAction { get; set; }
 
-    private int moveIndex;
+    protected int moveIndex;
     
     public MonsterMoveAction(MonsterMoveAction next, MonsterTarget target, int index)
+    {
+        Initialize(next, target, index);
+    }
+
+    public virtual void Initialize(MonsterMoveAction next, MonsterTarget target, int index)
     {
         NextMoveAction = next;
         Target = target;
         moveIndex = index;
     }
 
-    public virtual void ApplyMoveEffect(LightMonster target)
+    public virtual void Reset()
     {
-        var monsterMoveCalcInfo = MonsterMoves.GetMonsterMove(moveIndex).GetMonsterMoveCalculationInfo();
-        Debug.Log(monsterMoveCalcInfo.MoveType + " " + monsterMoveCalcInfo.MoveCategory + " " + monsterMoveCalcInfo.Power + " " +
-        monsterMoveCalcInfo.Accuracy);
+        NextMoveAction = null;
+        Target = MonsterTarget.ENEMY;
+        moveIndex = 0;
     }
+
+    public abstract void ApplyMoveEffect(LightMonster target);
 }
 
 public enum MoveActionType

@@ -2,18 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMoves/MonsterMove.cs">
     <Files>
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="57" Column="21" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveAction.cs" Line="7" Column="59" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="57" Column="5" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveAction.cs" Line="23" Column="39" />
+      <File FileName="Assets/Scripts/MonsterMoves/BattleMonsterMove.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="12" Column="30" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="55" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/NormalAttackMonsterMove.cs" Line="12" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" line="78" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" line="80" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" line="81" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/Monster/MonsterMoves.cs" line="33" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" line="111" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
