@@ -9,9 +9,9 @@ public class MonsterMoveActions : MonoBehaviour
 {
     #region Instance
 
-    private MonsterMoveActions instance = null;
+    private static MonsterMoveActions instance = null;
 
-    private MonsterMoveActions Instance
+    private static MonsterMoveActions Instance
     {
         get
         {
@@ -35,6 +35,7 @@ public class MonsterMoveActions : MonoBehaviour
     #region Private Fields
 
     private Dictionary<string, List<MonsterMoveAction>> monsterMoveActionsPool;
+    private Dictionary<string, int> monsterMoveActionsPoolIndexes;
 
     #endregion
    
@@ -55,6 +56,7 @@ public class MonsterMoveActions : MonoBehaviour
         }
 
         monsterMoveActionsPool = new Dictionary<string, List<MonsterMoveAction>>();
+        monsterMoveActionsPoolIndexes = new Dictionary<string, int>();
         
         Type[] types = Assembly.GetExecutingAssembly().GetTypes();
         Type[] moveActionTypes = (from Type type in types where type.IsSubclassOf(typeof(MonsterMoveAction)) select type).ToArray();
@@ -71,6 +73,43 @@ public class MonsterMoveActions : MonoBehaviour
                     moveActions.Add((MonsterMoveAction)moveAction);
                 }
                 monsterMoveActionsPool.Add(typeName, moveActions);
+                monsterMoveActionsPoolIndexes.Add(typeName, numberOfActionsPerPool - 1);
+            }
+        }
+    }
+
+    public static MonsterMoveAction GetMonsterMoveAction(Type type)
+    {
+        MonsterMoveAction moveAction = null;
+        var typeName = type.ToString();
+
+        if(Instance.monsterMoveActionsPool.ContainsKey(typeName) && Instance.monsterMoveActionsPoolIndexes.ContainsKey(typeName))
+        {
+            var currentIndex = Instance.monsterMoveActionsPoolIndexes[typeName];
+            var pool = Instance.monsterMoveActionsPool[typeName];
+
+            if(currentIndex >= 0)
+            {
+                moveAction = pool[currentIndex];
+                Instance.monsterMoveActionsPoolIndexes[typeName]--;
+            }
+        }
+
+        return moveAction;
+    }
+
+    public static void ReturnMonsterMoveAction(Type type, MonsterMoveAction move)
+    {
+        var typeName = type.ToString();
+        if(Instance.monsterMoveActionsPool.ContainsKey(typeName) && Instance.monsterMoveActionsPoolIndexes.ContainsKey(typeName))
+        {
+            var currentIndex = Instance.monsterMoveActionsPoolIndexes[typeName];
+            var pool = Instance.monsterMoveActionsPool[typeName];
+
+            if(currentIndex < pool.Count)
+            {
+                move.Reset();
+                Instance.monsterMoveActionsPoolIndexes[typeName]++;
             }
         }
     }

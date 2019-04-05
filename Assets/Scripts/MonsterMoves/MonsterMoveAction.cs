@@ -29,6 +29,11 @@ public abstract class MonsterMoveAction
     }
 
     public abstract void ApplyMoveEffect(LightMonster target);
+
+    public virtual void ReturnMonsterMoveAction()
+    {
+
+    }
 }
 
 public enum MoveActionType

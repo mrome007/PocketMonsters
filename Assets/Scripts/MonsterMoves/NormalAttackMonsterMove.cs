@@ -6,6 +6,8 @@ public class NormalAttackMonsterMove : MonsterMove
 {
     public override IEnumerable<MonsterMoveAction> GetMonsterMoveActions()
     {
-        yield return null;
+        var normalAttackAction = MonsterMoveActions.GetMonsterMoveAction(this.GetType());
+        normalAttackAction.Initialize(null, MonsterTarget.ENEMY, MIndex);
+        yield return normalAttackAction;
     }
 }
