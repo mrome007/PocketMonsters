@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DamageMonsterMoveAction : MonsterMoveAction
 {
-    public DamageMonsterMoveAction(MonsterMoveAction next, MonsterTarget target, int index) : base(next, target, index)
+    public DamageMonsterMoveAction(MonsterMoveAction next, MonsterMoveAction after, MonsterTarget target, int index) 
+        : base(next, after, target, index)
     {
     }
 

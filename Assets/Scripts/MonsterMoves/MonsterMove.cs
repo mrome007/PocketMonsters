@@ -33,9 +33,9 @@ public class MonsterMove : MonoBehaviour
         return new MonsterMoveCalculationInfo(MoveType, MoveCategory, Power, Accuracy);
     }
 
-    public virtual IEnumerable<MonsterMoveAction> GetMonsterMoveActions()
+    public virtual MonsterMoveAction GetMonsterMoveActions()
     {
-        yield return null;
+        return null;
     }
 }
 

@@ -7,6 +7,8 @@ public class BattleStateArgs
     private PocketMonsterParty player;
     private PocketMonsterParty enemy;
 
+
+
     public BattleStateArgs(PocketMonsterParty player, PocketMonsterParty enemy)
     {
         this.player = player;

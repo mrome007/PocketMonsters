@@ -10,6 +10,9 @@ public class IdleBattleState : BattleState
 
     [SerializeField]
     private BattleState switchMonsterState;
+
+    [SerializeField]
+    private BattleState useItemState;
     
     [SerializeField]
     private BattleMenu menu;
@@ -77,12 +80,21 @@ public class IdleBattleState : BattleState
         var indexArgs = e as IndexEventArgs;
         if(indexArgs != null)
         {
+            UnRegisterEvents();
             var move = MonsterMoves.GetMonsterMove(battleStateArgs.GetPlayerMonsterMove(0, indexArgs.Index).MonsterMoveIndex);
             textBox.PopulateText(BattleTextType.PLAYERFIGHT, battleStateArgs.GetPlayerMonsterName(), move.MonsterMoveName);
             menu.ShowMenuOption(BattleMenuOptions.TEXT, true);
             textBox.ShowText();
+            textBox.TextActionComplete += HandleMoveSelectedTextBoxActionComplete;
+            nextState = defaultNextState;
         }
+    }
 
+    private void HandleMoveSelectedTextBoxActionComplete()
+    {
+        textBox.TextActionComplete -= HandleMoveSelectedTextBoxActionComplete;
+
+        ExitState();
     }
 
     private void HandleFightButtonPressed(object sender, EventArgs e)

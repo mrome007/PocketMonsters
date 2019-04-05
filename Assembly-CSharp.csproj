@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\Battle\BattleStates\EnemyTurnBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\IdleBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\IntroBattleState.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleStates\ResolveMonsterMoveBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\RunBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleStates\SwitchBattleState.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleTextBox.cs" />

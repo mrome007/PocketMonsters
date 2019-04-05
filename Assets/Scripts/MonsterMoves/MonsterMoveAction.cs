@@ -5,25 +5,28 @@ using UnityEngine;
 public abstract class MonsterMoveAction
 {
     public MonsterTarget Target { get; protected set; }
-    public MonsterMoveAction NextMoveAction { get; set; }
+    public MonsterMoveAction ImmediateMoveAction { get; set; }
+    public MonsterMoveAction UpcomingMoveAction { get; set; }
 
     protected int moveIndex;
     
-    public MonsterMoveAction(MonsterMoveAction next, MonsterTarget target, int index)
+    public MonsterMoveAction(MonsterMoveAction next, MonsterMoveAction after, MonsterTarget target, int index)
     {
-        Initialize(next, target, index);
+        Initialize(next, after, target, index);
     }
 
-    public virtual void Initialize(MonsterMoveAction next, MonsterTarget target, int index)
+    public virtual void Initialize(MonsterMoveAction next, MonsterMoveAction after, MonsterTarget target, int index)
     {
-        NextMoveAction = next;
+        ImmediateMoveAction = next;
+        UpcomingMoveAction = after;
         Target = target;
         moveIndex = index;
     }
 
     public virtual void Reset()
     {
-        NextMoveAction = null;
+        ImmediateMoveAction = null;
+        UpcomingMoveAction = null;
         Target = MonsterTarget.ENEMY;
         moveIndex = 0;
     }
