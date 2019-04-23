@@ -112,6 +112,7 @@
      <Compile Include="Assets\Scripts\MonsterMoves\MonsterMoveFetch.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\MonsterMoves.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\NormalAttackMonsterMove.cs" />
+     <Compile Include="Assets\Scripts\MonsterMoves\PerformMonsterMoveAction.cs" />
      <Compile Include="Assets\Scripts\Trainer\Gap.cs" />
      <Compile Include="Assets\Scripts\Trainer\MonsterEncounter.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerEncounterCollision.cs" />
