@@ -1,24 +1,22 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMoves/MonsterMoveActions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Monster/PocketMonsterParty.cs">
     <Files>
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveAction.cs" Line="14" Column="41" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="38" Column="15" />
-      <File FileName="Assets/Scripts/MonsterMoves/BattleMonsterMove.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster/PlayerPocketMonsterParty.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/NormalAttackMonsterMove.cs" Line="7" Column="32" />
-      <File FileName="Assets/Scripts/MonsterMoves/DamageMonsterMoveAction.cs" Line="9" Column="6" />
-      <File FileName="Assets/Scripts/Monster/HeavyMonsters.cs" Line="13" Column="88" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" Line="50" Column="50" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/ResolveMonsterMoveBattleState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/BattleMonsterMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/NormalAttackMonsterMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveAction.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/DamageMonsterMoveAction.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="21" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" line="48" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" line="65" column="1" />
-      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" line="73" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
