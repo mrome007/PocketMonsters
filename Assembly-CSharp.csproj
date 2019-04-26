@@ -105,6 +105,7 @@
      <Compile Include="Assets\Scripts\Monster\PocketMonsterStateRoot.cs" />
      <Compile Include="Assets\Scripts\Monster\PopulateMonsterMoves.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\BattleMonsterMove.cs" />
+     <Compile Include="Assets\Scripts\MonsterMoves\BattleMonsterMoveAnimation.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\DamageMonsterMoveAction.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\MonsterMove.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\MonsterMoveAction.cs" />
