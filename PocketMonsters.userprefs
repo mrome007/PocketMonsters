@@ -1,18 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Monster/PocketMonsterParty.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMoves/PerformMonsterMoveAction.cs">
     <Files>
-      <File FileName="Assets/Scripts/Monster/PlayerPocketMonsterParty.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/ResolveMonsterMoveBattleState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/BattleMonsterMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/NormalAttackMonsterMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveAction.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/DamageMonsterMoveAction.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Monster/PocketMonsterParty.cs" Line="21" Column="49" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" Line="81" Column="30" />
+      <File FileName="Assets/Scripts/MonsterMoves/NormalAttackMonsterMove.cs" Line="9" Column="66" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="8" Column="38" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveAction.cs" Line="48" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMoves/PerformMonsterMoveAction.cs" Line="44" Column="62" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="49" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

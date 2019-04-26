@@ -2955,26 +2955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainer: 32
   monstersInfo:
-  - monsterIndex: 11
+  - monsterIndex: 19
     monsterLevel: 5
-    move1:
-      monsterMoveIndex: 0
-      currentPP: 0
-      pp: 0
-    move2:
-      monsterMoveIndex: 0
-      currentPP: 0
-      pp: 0
-    move3:
-      monsterMoveIndex: 0
-      currentPP: 0
-      pp: 0
-    move4:
-      monsterMoveIndex: 0
-      currentPP: 0
-      pp: 0
-  - monsterIndex: 10
-    monsterLevel: 3
     move1:
       monsterMoveIndex: 0
       currentPP: 0
