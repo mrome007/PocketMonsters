@@ -25,4 +25,19 @@ Thunder Shock\
 	-Big\
 	-Big\
 	-Big\
--Shake Screen}
+-Shake Screen\
+\
+\
+Common Battle Movement from monster sprites and UI.\
+-Screen Shake - Right Left Right Left\
+-Blink Six Time (After being attacked)\
+-Black and White screen for moves like Blizzard - Cycle 4 times each\
+-Slow move from original position to right(or left), see moves like Body Slam\
+-Quick move from original position to right(or left), see moves like Tackle\
+-Move down then Move up, see moves like Dig\
+-Move left to right a total of 30 times, see moves like Double Team\
+-Shake Screen left to right a total of 30 times, see moves like Earthquake\
+-Quick move right(or left), then disappear, see moves like Explosion\
+\
+*Note\
+Several moves invert the color of the screen. To achieve this, create a render texture seeing the entire screen. During the move output the render texture on a quad and use an invert shader to invert the quad\'92s colors.}
