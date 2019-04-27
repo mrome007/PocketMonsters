@@ -21,6 +21,11 @@ public class BattleButtonsHandler : MonoBehaviour
         RegisterButtons();
     }
 
+    public void StopButtonsHandler()
+    {
+        UnRegisterButtons();
+    }
+
     protected virtual void RegisterButtons()
     {
         foreach(var button in buttons)
@@ -39,7 +44,6 @@ public class BattleButtonsHandler : MonoBehaviour
 
     protected virtual void HandleButtonPressed(object sender, EventArgs e)
     {
-        UnRegisterButtons();
         var handler = ButtonSelected;
         if(handler != null)
         {

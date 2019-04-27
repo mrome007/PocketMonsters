@@ -35,7 +35,7 @@ public class PlayerMonsterDetailedStatus : PlayerMonsterBattleScreenStatus
     [SerializeField]
     private Text status;
     [SerializeField]
-    private SpriteRenderer monsterImage;
+    private Image monsterImage;
 
     public void UpdateDetailedStatus(Sprite monsterSprite, string trainer, string mName, LightMonsterStatus monsterStatus)
     {

@@ -54,6 +54,9 @@ public class IdleBattleState : BattleState
     protected override void RegisterEvents()
     {
         base.RegisterEvents();
+        movesHandler.StartButtonsHandler();
+        monsterIconsHandler.StartButtonsHandler();
+
         movesHandler.ButtonSelected += HandleMoveSelected;
         monsterIconsHandler.ButtonSelected += PokemonIconsPressedHandler;
         fightButton.ButtonPresssed += HandleFightButtonPressed;
@@ -65,6 +68,9 @@ public class IdleBattleState : BattleState
     protected override void UnRegisterEvents()
     {
         base.UnRegisterEvents();
+        movesHandler.StopButtonsHandler();
+        monsterIconsHandler.StopButtonsHandler();
+
         movesHandler.ButtonSelected -= HandleMoveSelected;
         monsterIconsHandler.ButtonSelected -= PokemonIconsPressedHandler;
         fightButton.ButtonPresssed -= HandleFightButtonPressed;
@@ -100,13 +106,11 @@ public class IdleBattleState : BattleState
     private void HandleFightButtonPressed(object sender, EventArgs e)
     {
         movesHandler.UpdateMoveButtons(battleStateArgs.GetPlayerMonsterMoves());
-        movesHandler.StartButtonsHandler();
     }
 
     private void HandlePKMNButtonPressed(object sender, EventArgs e)
     {
         pkmnBattleStatusHandler.UpdatePlayerMonsterStatus(battleStateArgs);
-        monsterIconsHandler.StartButtonsHandler();
     }
 
     private void PokemonIconsPressedHandler(object sender, EventArgs e)
