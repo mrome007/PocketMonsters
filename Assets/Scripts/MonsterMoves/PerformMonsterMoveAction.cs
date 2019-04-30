@@ -7,11 +7,11 @@ public class PerformMonsterMoveAction
 {
     #region Perform Actions
 
-    public Action ImmediateActionsStarted;
-    public Action ImmediateActionsEnded;
+    public event  EventHandler<PerformMoveArgs> ImmediateActionsStarted;
+    public event  EventHandler<PerformMoveArgs> ImmediateActionsEnded;
 
-    public Action UpcomingActionsStarted;
-    public Action UpcomingActionsEnded;
+    public event  EventHandler<PerformMoveArgs> UpcomingActionsStarted;
+    public event  EventHandler<PerformMoveArgs> UpcomingActionsEnded;
 
     #endregion
 
@@ -20,17 +20,23 @@ public class PerformMonsterMoveAction
     private LightMonster attacker;
     private LightMonster defender;
 
+    private PerformMoveArgs immediateActionsArgs;
+    private PerformMoveArgs upcomingActionsArgs;
+
     public PerformMonsterMoveAction(MonsterMoveAction move, LightMonster source, LightMonster target)
     {
         Initialize(move, source, target);
+
+        immediateActionsArgs = new PerformMoveArgs(move.MoveActionAnimation);
+        upcomingActionsArgs = new PerformMoveArgs(move.MoveActionAnimation);
     }
 
     public void Initialize(MonsterMoveAction move, LightMonster source, LightMonster target)
     {
-        currentMove = move;
+        currentMove = null;
         attacker = source;
         defender = target;
-        upcomingMove = null;
+        upcomingMove = currentMove;
     }
 
     public bool CanPerformMoves()
@@ -38,10 +44,16 @@ public class PerformMonsterMoveAction
         return currentMove != null && upcomingMove != null;
     }
 
-    public IEnumerable<string> PerformMoves()
+    public IEnumerable<string> SequenceMoves()
     {
-        //TODO will step through each move action and returning the generic/specific move animation name.
-        //Will use a coroutine to better time the animations.
-        yield return "";
+        currentMove = upcomingMove;
+        while(currentMove != null)
+        {
+            yield return currentMove.MoveActionAnimation;
+            currentMove = currentMove.ImmediateMoveAction;
+        }
+
+        upcomingMove = upcomingMove.UpcomingMoveAction;
+        yield break;
     }
 }
