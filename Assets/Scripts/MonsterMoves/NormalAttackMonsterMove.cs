@@ -7,7 +7,7 @@ public class NormalAttackMonsterMove : MonsterMove
     public override MonsterMoveAction GetMonsterMoveActions()
     {
         var normalAttackAction = MonsterMoveActions.GetMonsterMoveAction(this.GetType());
-        normalAttackAction.Initialize(null, null, MonsterTarget.ENEMY, MIndex);
+        normalAttackAction.Initialize(null, null, MonsterTarget.ENEMY, MIndex, MonsterMoveName);
         return normalAttackAction;
     }
 }

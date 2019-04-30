@@ -2,11 +2,23 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMoves/BattleMonsterMoveAnimation.cs">
     <Files>
+      <File FileName="Assets/Scripts/Monster/PlayerMonsterDetailedStatus.cs" Line="40" Column="24" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="58" Column="29" />
+      <File FileName="Assets/Scripts/Battle/BattleButtonsHandler.cs" Line="6" Column="30" />
+      <File FileName="Assets/Scripts/Battle/MonsterIconsHandler.cs" Line="6" Column="1" />
+      <File FileName="Assets/Scripts/Battle/MonsterMovesHandler.cs" Line="6" Column="36" />
+      <File FileName="Assets/Scripts/Battle/BattleScreenEnemyImage.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/Battle/ImageChangeBattleScreenImageAnimation.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/Battle/BattleScreenImage.cs" Line="5" Column="14" />
+      <File FileName="Assets/Scripts/Monster/PlayerMonsterBattleScreenImage.cs" Line="5" Column="14" />
+      <File FileName="Assets/Scripts/Battle/BattleScreenImageAnimation.cs" Line="6" Column="14" />
       <File FileName="Assets/Scripts/MonsterMoves/BattleMonsterMoveAnimation.cs" Line="23" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mrome007unity/PocketMonsters/Assets/Scripts/Battle/BattleButtonsHandler.cs" line="47" column="23" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
