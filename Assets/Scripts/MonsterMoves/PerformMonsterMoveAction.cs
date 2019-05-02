@@ -3,57 +3,79 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PerformMonsterMoveAction
+public class PerformMonsterMoveAction : MonoBehaviour 
 {
-    #region Perform Actions
+    #region Public members
 
-    public event  EventHandler<PerformMoveArgs> ImmediateActionsStarted;
-    public event  EventHandler<PerformMoveArgs> ImmediateActionsEnded;
-
-    public event  EventHandler<PerformMoveArgs> UpcomingActionsStarted;
-    public event  EventHandler<PerformMoveArgs> UpcomingActionsEnded;
+    public event EventHandler<PerformMoveArgs> ImmediateActionStarted;
+    public event EventHandler<PerformMoveArgs> ImmediateActionEnded;
 
     #endregion
 
-    private MonsterMoveAction currentMove;
-    private MonsterMoveAction upcomingMove;
-    private LightMonster attacker;
-    private LightMonster defender;
+    #region Inspector Data
+    
+    [SerializeField]
+    private Animator playerMonsterAnimator;
 
-    private PerformMoveArgs immediateActionsArgs;
-    private PerformMoveArgs upcomingActionsArgs;
+    [SerializeField]
+    private Animator enemyMonsterAnimator;
 
-    public PerformMonsterMoveAction(MonsterMoveAction move, LightMonster source, LightMonster target)
+    [SerializeField]
+    private Animator movePresentationAnimator;
+
+    private PerformMoveArgs immediateStartedArgs;
+    private PerformMoveArgs immediateEndedArgs;
+
+    #endregion
+
+    private void Awake()
     {
-        Initialize(move, source, target);
-
-        immediateActionsArgs = new PerformMoveArgs(move.MoveActionAnimation);
-        upcomingActionsArgs = new PerformMoveArgs(move.MoveActionAnimation);
+        InitializePerformArgs();
     }
 
-    public void Initialize(MonsterMoveAction move, LightMonster source, LightMonster target)
+    public void PerformMove(IEnumerable<string> moveSequences)
     {
-        currentMove = null;
-        attacker = source;
-        defender = target;
-        upcomingMove = currentMove;
+        StartCoroutine(PerformMoveRoutine(moveSequences));
     }
 
-    public bool CanPerformMoves()
+    private IEnumerator PerformMoveRoutine(IEnumerable<string> moveSequences)
     {
-        return currentMove != null && upcomingMove != null;
-    }
-
-    public IEnumerable<string> SequenceMoves()
-    {
-        currentMove = upcomingMove;
-        while(currentMove != null)
+        foreach(var move in moveSequences)
         {
-            yield return currentMove.MoveActionAnimation;
-            currentMove = currentMove.ImmediateMoveAction;
+            PostImmediateActionStarted(move);
+            Debug.Log(move);
+            yield return null;
+            PostImmediateActionEnded(move);
         }
-
-        upcomingMove = upcomingMove.UpcomingMoveAction;
-        yield break;
     }
+
+    #region Post Events
+
+    private void InitializePerformArgs()
+    {
+        immediateStartedArgs = new PerformMoveArgs("");
+        immediateEndedArgs = new PerformMoveArgs("");
+    }
+
+    private void PostImmediateActionStarted(string move)
+    {
+        immediateStartedArgs.MoveAnimationName = move;
+        var handler = ImmediateActionStarted;
+        if(handler != null)
+        {
+            handler(this, immediateStartedArgs);
+        }
+    }
+
+    private void PostImmediateActionEnded(string move)
+    {
+        immediateEndedArgs.MoveAnimationName = move;
+        var handler = ImmediateActionEnded;
+        if(handler != null)
+        {
+            handler(this, immediateEndedArgs);
+        }
+    }
+
+    #endregion
 }

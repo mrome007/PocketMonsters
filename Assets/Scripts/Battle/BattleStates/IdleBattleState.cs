@@ -93,6 +93,8 @@ public class IdleBattleState : BattleState
             textBox.ShowText();
             textBox.TextActionComplete += HandleMoveSelectedTextBoxActionComplete;
             nextState = defaultNextState;
+
+            battleStateArgs.SelectMove(move.GetMonsterMoveActions());
         }
     }
 

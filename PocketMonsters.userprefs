@@ -1,8 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMoves/MonsterMoves.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Monster/LightMonster.cs">
     <Files>
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoves.cs" Line="18" Column="10" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="90" Column="15" />
+      <File FileName="Assets/Scripts/MonsterMoves/SequenceMonsterMoveAction.cs" Line="34" Column="5" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="86" Column="1" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/ResolveMonsterMoveBattleState.cs" Line="12" Column="37" />
+      <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="97" Column="70" />
+      <File FileName="Assets/Scripts/MonsterMoves/PerformMonsterMoveAction.cs" Line="84" Column="35" />
+      <File FileName="Assets/Scripts/Monster/LightMonster.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

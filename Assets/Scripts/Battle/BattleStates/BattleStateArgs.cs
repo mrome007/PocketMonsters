@@ -7,10 +7,14 @@ public class BattleStateArgs
     private PocketMonsterParty player;
     private PocketMonsterParty enemy;
 
+    private SequenceMonsterMoveAction monsterMoveSequence;
+
     public BattleStateArgs(PocketMonsterParty player, PocketMonsterParty enemy)
     {
         this.player = player;
         this.enemy = enemy;
+
+        monsterMoveSequence = new SequenceMonsterMoveAction();
     }
 
     public bool EnemyWildEncounter
@@ -44,6 +48,8 @@ public class BattleStateArgs
             return player.NumberOfMonsters;
         }
     }
+
+    #region Monster Info
 
     public string GetPlayerMonsterName(int index = 0)
     {
@@ -81,10 +87,14 @@ public class BattleStateArgs
         return player.GetMonsterSprite(index, true);
     }
 
+    #endregion
+
     public MonsterBallBattleInformation GetCurrentMonsterBallBattleInfo(bool player)
     {
         return new MonsterBallBattleInformation(player ? this.player : this.enemy);
     }
+
+    #region Monster Move Info
 
     public MonsterMovesBundle GetPlayerMonsterMoves(int index = 0)
     {
@@ -96,6 +106,15 @@ public class BattleStateArgs
         return enemy.GetMoves(index);
     }
 
+    public MonsterMoveInfo GetPlayerMonsterMove(int monsterIndex, int moveIndex)
+    {
+        return player.GetMonsterMoveInfo(monsterIndex, moveIndex);
+    }
+
+    #endregion
+
+    #region Switch Monsters
+
     public void SwitchPlayerMonster(int index)
     {
         player.SwitchMonsters(index);
@@ -106,10 +125,31 @@ public class BattleStateArgs
         enemy.SwitchMonsters(index);
     }
 
-    public MonsterMoveInfo GetPlayerMonsterMove(int monsterIndex, int moveIndex)
+    #endregion
+
+    #region Sequence Moves
+
+    /// <summary>
+    /// Selects a move
+    /// </summary>
+    /// <returns><c>true</c>, if new move is selected <c>false</c> if last move is still being used.</returns>
+    public bool SelectMove(MonsterMoveAction moveAction)
     {
-        return player.GetMonsterMoveInfo(monsterIndex, moveIndex);
+        if(!monsterMoveSequence.CanSequenceMoves())
+        {
+            monsterMoveSequence.Initialize(moveAction);
+            return true;
+        }
+
+        return false;
     }
+
+    public IEnumerable<string> GetMoveSequence()
+    {
+        return monsterMoveSequence.SequenceMoves();
+    }
+
+    #endregion
 }
 
 public struct MonsterBallBattleInformation
