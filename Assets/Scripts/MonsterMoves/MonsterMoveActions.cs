@@ -69,7 +69,7 @@ public class MonsterMoveActions : MonoBehaviour
             {
                 for(var count = 0; count < numberOfActionsPerPool; count++)
                 {
-                    var moveAction = Activator.CreateInstance(type, null, null, MonsterTarget.ENEMY, 0);
+                    var moveAction = Activator.CreateInstance(type, null, null, MonsterTarget.ENEMY, 0, "");
                     moveActions.Add((MonsterMoveAction)moveAction);
                 }
                 monsterMoveActionsPool.Add(typeName, moveActions);
