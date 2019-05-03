@@ -23,6 +23,9 @@ public class MonsterMove : MonoBehaviour
     public int MIndex { get{ return MonsterIndex; } set { MonsterIndex = value; } }
     public string MonsterMoveName { get { return MoveName; } }
 
+    public MonsterMoveCategory Category { get{ return MoveCategory; } set { MoveCategory = value; } }
+    public MonsterType Type { get{ return MoveType; } }
+
     public MonsterMoveInfo GetMonsterMoveInfoFromMonsterMove(byte currentPP = 0)
     {
         return new MonsterMoveInfo(MonsterIndex, MoveType, currentPP, PP);

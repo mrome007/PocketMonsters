@@ -713,7 +713,7 @@ MonoBehaviour:
   MonsterIndex: 123
   MoveName: Smog
   MoveType: 4
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 30
   Accuracy: 70
   PP: 20
@@ -760,7 +760,7 @@ MonoBehaviour:
   MonsterIndex: 43
   MoveName: Fire Punch
   MoveType: 9
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 75
   Accuracy: 100
   PP: 15
@@ -5863,7 +5863,7 @@ MonoBehaviour:
   MonsterIndex: 67
   MoveName: Ice Punch
   MoveType: 14
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 75
   Accuracy: 100
   PP: 15
@@ -6967,7 +6967,7 @@ MonoBehaviour:
   MonsterIndex: 63
   MoveName: Hyper Beam
   MoveType: 1
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 150
   Accuracy: 90
   PP: 5
@@ -7403,7 +7403,7 @@ MonoBehaviour:
   MonsterIndex: 2
   MoveName: Acid
   MoveType: 4
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 40
   Accuracy: 100
   PP: 30
@@ -9741,7 +9741,7 @@ MonoBehaviour:
   MonsterIndex: 155
   MoveName: Tri Attack
   MoveType: 1
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 80
   Accuracy: 100
   PP: 10
@@ -11754,7 +11754,7 @@ MonoBehaviour:
   MonsterIndex: 102
   MoveName: Razor Wind
   MoveType: 1
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 80
   Accuracy: 100
   PP: 10
@@ -12623,7 +12623,7 @@ MonoBehaviour:
   MonsterIndex: 18
   MoveName: Clamp
   MoveType: 10
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 35
   Accuracy: 85
   PP: 10
@@ -13127,7 +13127,7 @@ MonoBehaviour:
   MonsterIndex: 141
   MoveName: Swift
   MoveType: 1
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 60
   Accuracy: 101
   PP: 20
@@ -15312,7 +15312,7 @@ MonoBehaviour:
   MonsterIndex: 160
   MoveName: Waterfall
   MoveType: 10
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 80
   Accuracy: 100
   PP: 15
@@ -16097,7 +16097,7 @@ MonoBehaviour:
   MonsterIndex: 101
   MoveName: Razor Leaf
   MoveType: 11
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 55
   Accuracy: 95
   PP: 25
@@ -18167,7 +18167,7 @@ MonoBehaviour:
   MonsterIndex: 149
   MoveName: Thunder Punch
   MoveType: 12
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 75
   Accuracy: 100
   PP: 15
@@ -21234,7 +21234,7 @@ MonoBehaviour:
   MonsterIndex: 122
   MoveName: Sludge
   MoveType: 4
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 65
   Accuracy: 100
   PP: 20
@@ -24446,7 +24446,7 @@ MonoBehaviour:
   MonsterIndex: 11
   MoveName: Bite
   MoveType: 16
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 60
   Accuracy: 100
   PP: 25
@@ -25654,7 +25654,7 @@ MonoBehaviour:
   MonsterIndex: 127
   MoveName: Sonic Boom
   MoveType: 1
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 0
   Accuracy: 90
   PP: 20
@@ -29789,7 +29789,7 @@ MonoBehaviour:
   MonsterIndex: 87
   MoveName: Night Shade
   MoveType: 18
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 0
   Accuracy: 100
   PP: 15
@@ -32823,7 +32823,7 @@ MonoBehaviour:
   MonsterIndex: 25
   MoveName: Crabhammer
   MoveType: 10
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 100
   Accuracy: 90
   PP: 10
@@ -35514,7 +35514,7 @@ MonoBehaviour:
   MonsterIndex: 158
   MoveName: Vine Whip
   MoveType: 11
-  MoveCategory: 1
+  MoveCategory: 2
   Power: 45
   Accuracy: 100
   PP: 25
@@ -37059,7 +37059,7 @@ MonoBehaviour:
   MonsterIndex: 55
   MoveName: Gust
   MoveType: 3
-  MoveCategory: 2
+  MoveCategory: 1
   Power: 40
   Accuracy: 100
   PP: 35
