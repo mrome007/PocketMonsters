@@ -284,16 +284,16 @@ public struct LightMonsterStatus
     public ushort HP { get; private set; }
     public int BodyType { get; private set; }
 
-    public ushort MonsterNumber;
-    public int IdNumber;
+    public ushort MonsterNumber { get; private set; }
+    public int IdNumber { get; private set; }
 
-    public MonsterType PrimaryType;
-    public MonsterType SecondaryType;
+    public MonsterType PrimaryType { get; private set; }
+    public MonsterType SecondaryType { get; private set; }
 
-    public ushort Attack;
-    public ushort Defense;
-    public ushort Special;
-    public ushort Speed;
+    public ushort Attack { get; private set; }
+    public ushort Defense { get; private set; }
+    public ushort Special { get; private set; }
+    public ushort Speed { get; private set; }
 
     public LightMonsterStatus(ushort lvl = 1, ushort curHP = 10, ushort hp = 10, int icon = 0, 
         ushort mNumber = 0, int id = 999999, MonsterType type1 = MonsterType.NONE, MonsterType type2 = MonsterType.NONE,

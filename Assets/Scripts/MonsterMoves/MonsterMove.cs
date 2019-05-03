@@ -20,9 +20,17 @@ public class MonsterMove : MonoBehaviour
     [SerializeField]
     private byte PP;
 
+    /// <summary>
+    /// Used only for editor purposes. TODO Remove.
+    /// </summary>
+    /// <value>The index of the M.</value>
     public int MIndex { get{ return MonsterIndex; } set { MonsterIndex = value; } }
     public string MonsterMoveName { get { return MoveName; } }
 
+    /// <summary>
+    /// Used only for editor purposes. TODO Remove.
+    /// </summary>
+    /// <value>The category.</value>
     public MonsterMoveCategory Category { get{ return MoveCategory; } set { MoveCategory = value; } }
     public MonsterType Type { get{ return MoveType; } }
 
@@ -39,6 +47,11 @@ public class MonsterMove : MonoBehaviour
     public virtual MonsterMoveAction GetMonsterMoveActions()
     {
         return null;
+    }
+
+    public virtual ushort GetDamage(LightMonsterStatus attacker, LightMonsterStatus defender)
+    {
+        return 0;
     }
 }
 

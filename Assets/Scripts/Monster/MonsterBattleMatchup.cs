@@ -31,37 +31,37 @@ public static class MonsterBattleMatchup
         new sbyte[]{ 0, 0, 1, -1, 1, 1, -1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1 }, //GHOST
     };
 
-    public static ushort GetTypeMatchupDamage(ushort damage, MonsterType attackType, MonsterType primaryTargetType, 
+    public static float GetTypeMatchupDamage(MonsterType attackType, MonsterType primaryTargetType, 
         MonsterType secondaryTargetType = MonsterType.NONE)
     {
         var firstMultiplier = monsterMatchup[(int)primaryTargetType][(int)attackType];
-        damage = ModifyDamage(damage, firstMultiplier);
+        var modifier = 1f;
+        modifier = ModifyDamage(modifier, firstMultiplier);
         if(secondaryTargetType != MonsterType.NONE)
         {
             var secondMultiplier = monsterMatchup[(int)secondaryTargetType][(int)attackType];
-            damage = ModifyDamage(damage, secondMultiplier);
+            modifier = ModifyDamage(modifier, secondMultiplier);
         }
-        return damage;
+        return modifier;
     }
 
-    private static ushort ModifyDamage(ushort damage, sbyte multiplier)
+    private static float ModifyDamage(float modifier, sbyte multiplier)
     {
-        ushort one = 1;
         switch(multiplier)
         {
             case -1:
-                damage = (ushort)(damage >> one);
+                modifier /= 2f;
                 break;
             case 0:
-                damage = 0;
+                modifier = 0;
                 break;
             case 2:
-                damage = (ushort)(damage << one);
+                modifier *= 2f;
                 break;
             default:
                 break;
         }
 
-        return damage;
+        return modifier;
     }
 }
