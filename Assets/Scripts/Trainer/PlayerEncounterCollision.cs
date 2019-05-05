@@ -37,7 +37,7 @@ public class PlayerEncounterCollision : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var trainerEncounter = collision.gameObject.GetComponent<TrainerEncounter>();
-        if(trainerEncounter != null)
+        if(trainerEncounter != null && !trainerEncounter.Encountered)
         {
             //TODO: Stop movement somehow and disable collider.
             Debug.Log("LOAD BATTLE SEQUENCE HERE!");

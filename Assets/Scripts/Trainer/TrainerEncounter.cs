@@ -13,6 +13,7 @@ public class TrainerEncounter : MonoBehaviour
 
     public ReadOnlyCollection<PartyMonsterInfo> MonstersInfo { get; private set; }
     public PartyTrainer Trainer { get { return trainer; } }
+    public bool Encountered;
 
     private void Awake()
     {
