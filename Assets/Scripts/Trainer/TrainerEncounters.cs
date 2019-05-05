@@ -5,18 +5,12 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
-public class TrainerEncounters : MonoBehaviour, IPersistentData
-{
-    public string FolderName { get { return "TrainerEncounters"; } }
-    public string FileName { get { return "TrainerEncounters.dat"; } }
-
-    public Action SaveComplete { get; }
-    public Action LoadComplete { get; }
-    
+public class TrainerEncounters : PersistentData
+{   
     public List<TrainerEncounter> trainerBattles;
     private TrainersEncounteredData encounterData =  null;
 
-    public void SaveData()
+    public override void SaveData()
     {
         PopulateEncounterData();
 
@@ -33,14 +27,10 @@ public class TrainerEncounters : MonoBehaviour, IPersistentData
             binaryFormatter.Serialize(fileStream, encounterData);
         }
 
-        var handler = SaveComplete;
-        if(handler != null)
-        {
-            handler.Invoke();
-        }
+        PostSaveComplete();
     }
 
-    public void LoadData()
+    public override void LoadData()
     {
         BinaryFormatter binaryFormatter = new BinaryFormatter();
         var folderPath = Path.Combine(Application.persistentDataPath, FolderName);
@@ -52,11 +42,7 @@ public class TrainerEncounters : MonoBehaviour, IPersistentData
 
         SetEncounteredBattles();
 
-        var handler = LoadComplete;
-        if(handler != null)
-        {
-            handler.Invoke();
-        }
+        PostLoadComplete();
     }
 
     private void PopulateEncounterData()

@@ -1,21 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMoves/PerformMonsterMoveAction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Trainer/SaveGameSystem.cs">
     <Files>
-      <File FileName="Assets/Scripts/MonsterMoves/SequenceMonsterMoveAction.cs" Line="34" Column="32" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/BattleStateArgs.cs" Line="10" Column="22" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMove.cs" Line="9" Column="12" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/ResolveMonsterMoveBattleState.cs" Line="5" Column="36" />
-      <File FileName="Assets/Scripts/Battle/BattleStates/IdleBattleState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/PerformMonsterMoveAction.cs" Line="36" Column="5" />
-      <File FileName="Assets/Scripts/Monster/LightMonster.cs" Line="291" Column="59" />
-      <File FileName="Assets/Scripts/MonsterMoves/NormalAttackMonsterMove.cs" Line="27" Column="30" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" Line="63" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/DamageMonsterMoveAction.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoves.cs" Line="11" Column="13" />
-      <File FileName="Assets/Scripts/MonsterMoves/Editor/MonsterMovesEditor.cs" Line="77" Column="30" />
-      <File FileName="Assets/Scripts/Monster/PlayerMonsterDetailedStatus.cs" Line="58" Column="49" />
-      <File FileName="Assets/Scripts/Monster/MonsterBattleMatchup.cs" Line="43" Column="32" />
+      <File FileName="Assets/Scripts/Trainer/TrainerEncounters.cs" Line="14" Column="44" />
+      <File FileName="Assets/Scripts/Trainer/Editor/TrainerEncountersEditor.cs" Line="4" Column="35" />
+      <File FileName="Assets/Scripts/MonsterMoves/Editor/PopulateMonsterMovesEditor.cs" Line="30" Column="9" />
+      <File FileName="Assets/Scripts/Monster/HeavyMonsters.cs" Line="49" Column="44" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoveActions.cs" Line="50" Column="42" />
+      <File FileName="Assets/Scripts/Trainer/SaveGameSystem.cs" Line="91" Column="9" />
+      <File FileName="Assets/Scripts/MonsterMoves/MonsterMoves.cs" Line="30" Column="44" />
+      <File FileName="Assets/Scripts/Trainer/IPersistentData.cs" Line="11" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

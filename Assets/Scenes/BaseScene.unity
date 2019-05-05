@@ -515,6 +515,48 @@ MonoBehaviour:
   monsterHP: {fileID: 1957278247}
   iconSwitcher: {fileID: 1243638727}
   monsterIconImage: {fileID: 1243638724}
+--- !u!1 &46805674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 46805676}
+  - component: {fileID: 46805675}
+  m_Layer: 0
+  m_Name: SaveGameSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &46805675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 46805674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897fc7ea13eb3419db93ac511973cdd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistentObjects:
+  - {fileID: 1825828298}
+--- !u!4 &46805676
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 46805674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49021350
 GameObject:
   m_ObjectHideFlags: 0
@@ -34980,6 +35022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3dae8a2312a543c1aa13d7eee09a2da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FolderName: TrainerEncounters
+  FileName: TrainerEncounters.dat
   trainerBattles:
   - {fileID: 183768318}
 --- !u!1 &1826367798

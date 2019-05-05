@@ -116,10 +116,11 @@
      <Compile Include="Assets\Scripts\MonsterMoves\PerformMoveArgs.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\SequenceMonsterMoveAction.cs" />
      <Compile Include="Assets\Scripts\Trainer\Gap.cs" />
-     <Compile Include="Assets\Scripts\Trainer\IPersistentData.cs" />
      <Compile Include="Assets\Scripts\Trainer\MonsterEncounter.cs" />
+     <Compile Include="Assets\Scripts\Trainer\PersistentData.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Trainer\SaveGameSystem.cs" />
      <Compile Include="Assets\Scripts\Trainer\TrainerEncounter.cs" />
      <Compile Include="Assets\Scripts\Trainer\TrainerEncounters.cs" />
      <Compile Include="Assets\Scripts\Trainer\Trainers.cs" />
