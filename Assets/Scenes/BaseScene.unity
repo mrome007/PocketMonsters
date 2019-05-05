@@ -2854,7 +2854,7 @@ GameObject:
   - component: {fileID: 183768316}
   - component: {fileID: 183768318}
   m_Layer: 0
-  m_Name: TrainerEncounter
+  m_Name: Route1Lass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
