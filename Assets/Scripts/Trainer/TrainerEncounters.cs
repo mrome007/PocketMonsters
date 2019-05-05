@@ -13,8 +13,7 @@ public class TrainerEncounters : MonoBehaviour, IPersistentData
     public Action SaveComplete { get; }
     public Action LoadComplete { get; }
     
-    [SerializeField]
-    private List<TrainerEncounter> trainerBattles;
+    public List<TrainerEncounter> trainerBattles;
     private TrainersEncounteredData encounterData =  null;
 
     public void SaveData()

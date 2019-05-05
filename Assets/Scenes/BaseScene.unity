@@ -2973,6 +2973,7 @@ MonoBehaviour:
       monsterMoveIndex: 0
       currentPP: 0
       pp: 0
+  Encountered: 0
 --- !u!1 &185022064
 GameObject:
   m_ObjectHideFlags: 0
@@ -20393,6 +20394,7 @@ MonoBehaviour:
       monsterMoveIndex: -1
       currentPP: 0
       pp: 0
+  Encountered: 0
 --- !u!1 &1067944447
 GameObject:
   m_ObjectHideFlags: 0
@@ -34929,6 +34931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1825828296}
   - component: {fileID: 1825828297}
+  - component: {fileID: 1825828298}
   m_Layer: 0
   m_Name: OverWorld
   m_TagString: Untagged
@@ -34966,6 +34969,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   State: 1
+--- !u!114 &1825828298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825828295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3dae8a2312a543c1aa13d7eee09a2da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainerBattles:
+  - {fileID: 183768318}
 --- !u!1 &1826367798
 GameObject:
   m_ObjectHideFlags: 0
