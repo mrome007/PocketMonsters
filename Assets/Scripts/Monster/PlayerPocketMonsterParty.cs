@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class PlayerPocketMonsterParty : PocketMonsterParty
 {
-    //TEMPORARY JUST TO GRAB PLAYER'S POKEMON.
     private TrainerEncounter playerTrainer;
-    //GRAB POKEMON MONSTER INFO FROM SAVED FILE IN THE FUTURE.
+    private PersistentData monstersData;
 
     protected override void Awake()
     {
-        playerTrainer = GetComponent<TrainerEncounter>();
         base.Awake();
+
+        playerTrainer = GetComponent<TrainerEncounter>();
+        monstersData = GetComponent<PersistentData>();
+        monstersData.LoadComplete += HandleLoadMonstersComplete;
     }
 
-    protected override void HandleMonstersPopulated()
+    protected override void OnDestroy()
     {
-        base.HandleMonstersPopulated();
+        base.OnDestroy();
+
+        monstersData.LoadComplete -= HandleLoadMonstersComplete;
+    }
+
+    private void HandleLoadMonstersComplete()
+    {
         AddMonster(playerTrainer.MonstersInfo);
     }
-
 }

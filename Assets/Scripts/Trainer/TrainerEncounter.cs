@@ -19,4 +19,10 @@ public class TrainerEncounter : MonoBehaviour
     {
         MonstersInfo = new ReadOnlyCollection<PartyMonsterInfo>(monstersInfo);
     }
+
+    public void SetMonstersInfo(List<PartyMonsterInfo> mInfo)
+    {
+        monstersInfo = mInfo;
+        MonstersInfo = new ReadOnlyCollection<PartyMonsterInfo>(monstersInfo);
+    }
 }

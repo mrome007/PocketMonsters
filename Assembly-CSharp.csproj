@@ -119,6 +119,7 @@
      <Compile Include="Assets\Scripts\Trainer\MonsterEncounter.cs" />
      <Compile Include="Assets\Scripts\Trainer\PersistentData.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerEncounterCollision.cs" />
+     <Compile Include="Assets\Scripts\Trainer\PlayerMonstersPersistentData.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Trainer\SaveGameSystem.cs" />
      <Compile Include="Assets\Scripts\Trainer\TrainerEncounter.cs" />
