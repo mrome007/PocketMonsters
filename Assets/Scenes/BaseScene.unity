@@ -20437,6 +20437,78 @@ MonoBehaviour:
       monsterMoveIndex: -1
       currentPP: 0
       pp: 0
+  - monsterIndex: -1
+    monsterLevel: -1
+    move1:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move2:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move3:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move4:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+  - monsterIndex: -1
+    monsterLevel: -1
+    move1:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move2:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move3:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move4:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+  - monsterIndex: -1
+    monsterLevel: -1
+    move1:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move2:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move3:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move4:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+  - monsterIndex: -1
+    monsterLevel: -1
+    move1:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move2:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move3:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
+    move4:
+      monsterMoveIndex: -1
+      currentPP: 0
+      pp: 0
   Encountered: 0
 --- !u!114 &1067746619
 MonoBehaviour:

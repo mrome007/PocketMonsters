@@ -9,20 +9,14 @@ public class TrainerEncounter : MonoBehaviour
     private PartyTrainer trainer;
 
     [SerializeField]
-    private List<PartyMonsterInfo> monstersInfo;
+    protected List<PartyMonsterInfo> monstersInfo;
 
-    public ReadOnlyCollection<PartyMonsterInfo> MonstersInfo { get; private set; }
+    public ReadOnlyCollection<PartyMonsterInfo> MonstersInfo { get; protected set; }
     public PartyTrainer Trainer { get { return trainer; } }
     public bool Encountered;
 
-    private void Awake()
+    protected virtual void Awake()
     {
-        MonstersInfo = new ReadOnlyCollection<PartyMonsterInfo>(monstersInfo);
-    }
-
-    public void SetMonstersInfo(List<PartyMonsterInfo> mInfo)
-    {
-        monstersInfo = mInfo;
         MonstersInfo = new ReadOnlyCollection<PartyMonsterInfo>(monstersInfo);
     }
 }
