@@ -18,7 +18,7 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
     public int NumberOfMonsters { get { return party.Count(monster => monster.MonsterName != "Missing No."); } }
     public bool WildEncounter { get { return wildEncounter; } }
     public PartyTrainer PartyTrainer { get { return partyTrainer; } }
-    private const int MAX_MONSTERS_IN_PARTY = 6;
+    public const int MAX_MONSTERS_IN_PARTY = 6;
 
     protected virtual void Awake()
     {
@@ -35,7 +35,7 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
     private void GenerateRandomIdNumber()
     {
         var num = 0;
-        for(var count = 0; count < 6; count++)
+        for(var count = 0; count < MAX_MONSTERS_IN_PARTY; count++)
         {
             num += Random.Range(0, 10) + (num * 10);
         }

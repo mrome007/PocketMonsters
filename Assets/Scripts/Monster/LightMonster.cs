@@ -45,6 +45,12 @@ public class LightMonster
         Initialize(hvy, lvl, hpEV, atkEV, defEV, splEV, speEV, hpIV, atkIV, defIV, splIV, speIV);
     }
 
+    public LightMonster(ushort curHp, Monster hvy , ushort lvl = 1, ushort hpEV = 0, ushort atkEV = 0, ushort defEV = 0, ushort splEV = 0, ushort speEV = 0,
+        ushort hpIV = 15, ushort atkIV = 15, ushort defIV = 15, ushort splIV = 15, ushort speIV = 15)
+    {
+        Initialize(curHp, hvy, lvl, hpEV, atkEV, defEV, splEV, speEV, hpIV, atkIV, defIV, splIV, speIV);
+    }
+
     public void Initialize(Monster hvy, ushort lvl = 1, ushort hpEV = 0, ushort atkEV = 0, ushort defEV = 0, ushort splEV = 0, ushort speEV = 0,
         ushort hpIV = 15, ushort atkIV = 15, ushort defIV = 15, ushort splIV = 15, ushort speIV = 15)
     {
@@ -65,6 +71,29 @@ public class LightMonster
         speedIV = speIV;
 
         currentHitPoints = HPStat;
+        currentExpPoints = 0;
+    }
+
+    public void Initialize(ushort curHp, Monster hvy, ushort lvl = 1, ushort hpEV = 0, ushort atkEV = 0, ushort defEV = 0, ushort splEV = 0, ushort speEV = 0,
+        ushort hpIV = 15, ushort atkIV = 15, ushort defIV = 15, ushort splIV = 15, ushort speIV = 15)
+    {
+        level = lvl;
+
+        heavyMonster = hvy;
+
+        hitPointsEV = hpEV;
+        attackEV = atkEV;
+        defenseEV = defEV;
+        specialEV = splEV;
+        speedEV = speEV;
+
+        hitPointsIV = hpIV;
+        attackIV = atkIV;
+        defenseIV = defIV;
+        specialIV = splIV;
+        speedIV = speIV;
+
+        currentHitPoints = curHp > HPStat ? HPStat : curHp;
         currentExpPoints = 0;
     }
 

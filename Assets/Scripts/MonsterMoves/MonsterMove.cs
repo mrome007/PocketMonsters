@@ -76,6 +76,13 @@ public class PartyMonsterMoveInfo
     private byte currentPP;
     [SerializeField]
     private byte pp;
+
+    public void Initialize(PartyMonsterMoveInfo info)
+    {
+        this.monsterMoveIndex = info.monsterMoveIndex;
+        this.currentPP = info.currentPP;
+        this.pp = info.pp;
+    }
 }
 
 public struct MonsterMoveCalculationInfo

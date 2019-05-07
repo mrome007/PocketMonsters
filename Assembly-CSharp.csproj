@@ -117,6 +117,7 @@
      <Compile Include="Assets\Scripts\MonsterMoves\SequenceMonsterMoveAction.cs" />
      <Compile Include="Assets\Scripts\Trainer\Gap.cs" />
      <Compile Include="Assets\Scripts\Trainer\MonsterEncounter.cs" />
+     <Compile Include="Assets\Scripts\Trainer\MonsterParty.cs" />
      <Compile Include="Assets\Scripts\Trainer\PersistentData.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerMonstersPersistentData.cs" />

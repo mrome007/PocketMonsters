@@ -26,7 +26,7 @@ public class PlayerTrainerEncounter : TrainerEncounter
 
         currentIndex++;
 
-        if(last || currentIndex == 6)
+        if(last || currentIndex == PocketMonsterParty.MAX_MONSTERS_IN_PARTY)
         {
             MonstersInfo = new ReadOnlyCollection<PartyMonsterInfo>(monstersInfo);
             currentIndex = 0;
