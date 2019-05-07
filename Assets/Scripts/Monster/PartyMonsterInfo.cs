@@ -63,6 +63,29 @@ public class PartyMonsterInfo
     [SerializeField]
     private PartyMonsterMoveInfo move4;
 
+    public PartyMonsterInfo()
+    {
+        this.monsterIndex = -1;
+        this.monsterLevel = 1;
+
+        this.hitPointsEV = 0;
+        this.attackEV = 0;
+        this.defenseEV = 0;
+        this.specialEV = 0;
+        this.speedEV = 0;
+
+        this.hitPointsIV = 15;
+        this.attackIV = 15;
+        this.defenseIV = 15;
+        this.specialIV = 15;
+        this.speedIV = 15;
+
+        this.move1 = new PartyMonsterMoveInfo();
+        this.move2 = new PartyMonsterMoveInfo();
+        this.move3 = new PartyMonsterMoveInfo();
+        this.move4 = new PartyMonsterMoveInfo();
+    }
+
     public void Initialize(PartyMonsterInfo info)
     {
         this.monsterIndex = info.monsterIndex;

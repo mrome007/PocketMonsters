@@ -77,6 +77,13 @@ public class PartyMonsterMoveInfo
     [SerializeField]
     private byte pp;
 
+    public PartyMonsterMoveInfo()
+    {
+        this.monsterMoveIndex = -1;
+        this.currentPP = 0;
+        this.pp = 0;
+    }
+
     public void Initialize(PartyMonsterMoveInfo info)
     {
         this.monsterMoveIndex = info.monsterMoveIndex;

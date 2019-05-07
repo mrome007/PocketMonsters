@@ -25,6 +25,10 @@ public class PlayerMonstersPersistentData : PersistentData
         BinaryFormatter binaryFormatter = new BinaryFormatter();
         using(FileStream fileStream = File.Open(path, FileMode.OpenOrCreate))
         {
+            for(var count = 0; count < PocketMonsterParty.MAX_MONSTERS_IN_PARTY; count++)
+            {
+                binaryFormatter.Serialize(fileStream, trainerEncounter.MonstersParty[count]);
+            }
         }
 
         PostSaveComplete();
@@ -37,6 +41,11 @@ public class PlayerMonstersPersistentData : PersistentData
         var path = Path.Combine(folderPath, FileName);
         using(FileStream fileStream = File.Open(path, FileMode.Open))
         {
+            for(var count = 0; count < PocketMonsterParty.MAX_MONSTERS_IN_PARTY; count++)
+            {
+                var monsterInfo = (PartyMonsterInfo)binaryFormatter.Deserialize(fileStream);
+                trainerEncounter.MonstersParty.AddMonsterToParty(count, monsterInfo);
+            }
         }
         PostLoadComplete();
     }

@@ -93,10 +93,9 @@ public class PocketMonsterParty : MonoBehaviour, IEnumerable<LightMonster>
     /// Adds a monster from trainer encounter.
     /// </summary>
     /// <param name="monsterInfo">Monster info.</param>
-    public void AddMonster(ReadOnlyCollection<PartyMonsterInfo> monstersInfo)
+    public void AddMonster(MonsterParty monstersInfo)
     {
-        var maxMonsters = monstersInfo.Count > MAX_MONSTERS_IN_PARTY ? MAX_MONSTERS_IN_PARTY : monstersInfo.Count;
-        for(var count = 0; count < maxMonsters; count++)
+        for(var count = 0; count < MAX_MONSTERS_IN_PARTY; count++)
         {
             var monsterInfo = monstersInfo[count];
             party[count].Initialize(HeavyMonsters.GetHeavyReference(monsterInfo.MonsterIndex), (ushort)monsterInfo.MonsterLevel);

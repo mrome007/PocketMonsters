@@ -11,12 +11,16 @@ public class TrainerEncounter : MonoBehaviour
     [SerializeField]
     protected List<PartyMonsterInfo> monstersInfo;
 
-    public ReadOnlyCollection<PartyMonsterInfo> MonstersInfo { get; protected set; }
+    public MonsterParty MonstersParty { get; protected set; }
     public PartyTrainer Trainer { get { return trainer; } }
     public bool Encountered;
 
     protected virtual void Awake()
     {
-        MonstersInfo = new ReadOnlyCollection<PartyMonsterInfo>(monstersInfo);
+        MonstersParty = new MonsterParty();
+        for(var index = 0; index < monstersInfo.Count; index++)
+        {
+            MonstersParty.AddMonsterToParty(index, monstersInfo[index]);
+        }
     }
 }

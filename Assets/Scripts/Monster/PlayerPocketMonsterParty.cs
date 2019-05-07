@@ -25,6 +25,6 @@ public class PlayerPocketMonsterParty : PocketMonsterParty
 
     private void HandleLoadMonstersComplete()
     {
-        AddMonster(playerTrainer.MonstersInfo);
+        AddMonster(playerTrainer.MonstersParty);
     }
 }

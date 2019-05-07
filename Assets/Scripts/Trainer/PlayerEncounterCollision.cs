@@ -41,7 +41,7 @@ public class PlayerEncounterCollision : MonoBehaviour
         {
             //TODO: Stop movement somehow and disable collider.
             Debug.Log("LOAD BATTLE SEQUENCE HERE!");
-            enemyTrainerParty.AddMonster(trainerEncounter.MonstersInfo);
+            enemyTrainerParty.AddMonster(trainerEncounter.MonstersParty);
             enemyTrainerParty.SetPartyTrainer(trainerEncounter.Trainer);
             StartBattleSequence(enemyTrainerParty);
         }
