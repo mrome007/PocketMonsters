@@ -23,6 +23,13 @@ public class PlayerPocketMonsterParty : PocketMonsterParty
         monstersData.LoadComplete -= HandleLoadMonstersComplete;
     }
 
+    //TEMPORARY
+    protected override void HandleMonstersPopulated()
+    {
+        base.HandleMonstersPopulated();
+        AddMonster(playerTrainer.MonstersParty);
+    }
+
     private void HandleLoadMonstersComplete()
     {
         AddMonster(playerTrainer.MonstersParty);
