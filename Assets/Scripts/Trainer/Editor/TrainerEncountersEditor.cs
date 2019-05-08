@@ -26,6 +26,11 @@ public class TrainerEncountersEditor : Editor
 
         DrawTrainerBattleEncounters();
 
+        if(EditorApplication.isPlaying)
+        {
+            return;
+        }
+
         if(GUI.changed)
         {
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());

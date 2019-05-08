@@ -95,6 +95,7 @@ public class SaveGameSystem : MonoBehaviour
         else
         {
             UnRegisterSaveData();
+            saving = false;
             PostSaveGameComplete();
         }
     }
@@ -133,7 +134,7 @@ public class SaveGameSystem : MonoBehaviour
     {
         foreach(var persistentData in persistentObjects)
         {
-            persistentData.LoadComplete += HandleLoadComplete;
+            persistentData.LoadComplete -= HandleLoadComplete;
         }
     }
 
@@ -148,6 +149,7 @@ public class SaveGameSystem : MonoBehaviour
         else
         {
             UnRegisterLoadData();
+            loading = false;
             PostLoadGameComplete();
         }
     }

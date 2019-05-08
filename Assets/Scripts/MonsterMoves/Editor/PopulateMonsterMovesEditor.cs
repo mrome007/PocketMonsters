@@ -27,6 +27,12 @@ public class PopulateMonsterMovesEditor : Editor
         populateMonsterMoves.MonsterMoves = EditorGUILayout.ObjectField("Monster Moves Transform: ", populateMonsterMoves.MonsterMoves, typeof(MonsterMoveFetch), true) as MonsterMoveFetch;
 
         DrawPopulateMonsterMoves();
+
+        if(EditorApplication.isPlaying)
+        {
+            return;
+        }
+
         if(GUI.changed)
         {
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());

@@ -27,6 +27,12 @@ public class MonsterSpritesEditor : Editor
             monsterSprites.BackMonsterSprites, typeof(Texture2D), true) as Texture2D;
 
         DrawPopulateMonsterSprites();
+
+        if(EditorApplication.isPlaying)
+        {
+            return;
+        }
+
         if(GUI.changed)
         {
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());

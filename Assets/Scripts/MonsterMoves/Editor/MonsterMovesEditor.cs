@@ -26,6 +26,12 @@ public class MonsterMovesEditor : Editor
 
         DrawUpdateMonsterMoves();
         DrawUpdateMonsterMovesCategory();
+
+        if(EditorApplication.isPlaying)
+        {
+            return;
+        }
+
         if(GUI.changed)
         {
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
