@@ -52,6 +52,8 @@ public class SaveGameSystem : MonoBehaviour
         {
             instance = GameObject.FindObjectOfType<SaveGameSystem>();
         }
+
+        DontDestroyOnLoad(gameObject);
     }
 
     public void SaveGame()
