@@ -56,53 +56,63 @@ public class SaveGameSystem : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void SaveGame()
+    public static void AddPersistentObject(PersistentData data)
     {
-        if(loading || persistentObjects == null || persistentObjects.Count <= 0)
+        instance.persistentObjects.Add(data);
+    }
+
+    public static bool CanSaveOrLoad()
+    {
+        return instance != null;
+    }
+
+    public static void SaveGame()
+    {
+        if(instance.loading || instance.persistentObjects == null || instance.persistentObjects.Count <= 0)
         {
             return;
         }
 
-        saving = true;
-        currentIndex = 0;
+        instance.saving = true;
+        instance.currentIndex = 0;
 
         RegisterSaveData();
-        persistentObjects[currentIndex].SaveData();
+        instance.persistentObjects[instance.currentIndex].SaveData();
     }
 
-    private void RegisterSaveData()
+    private static void RegisterSaveData()
     {
-        foreach(var persistentData in persistentObjects)
+        foreach(var persistentData in instance.persistentObjects)
         {
             persistentData.SaveComplete += HandleSaveComplete;
         }
     }
 
-    private void UnRegisterSaveData()
+    private static void UnRegisterSaveData()
     {
-        foreach(var persistentData in persistentObjects)
+        foreach(var persistentData in instance.persistentObjects)
         {
             persistentData.SaveComplete -= HandleSaveComplete;
         }
     }
 
-    private void HandleSaveComplete()
+    private static void HandleSaveComplete()
     {
-        persistentObjects[currentIndex++].SaveComplete -= HandleSaveComplete;
+        instance.persistentObjects[instance.currentIndex++].SaveComplete -= HandleSaveComplete;
 
-        if(currentIndex < persistentObjects.Count)
+        if(instance.currentIndex < instance.persistentObjects.Count)
         {
-            persistentObjects[currentIndex].SaveData();
+            instance.persistentObjects[instance.currentIndex].SaveData();
         }
         else
         {
             UnRegisterSaveData();
-            saving = false;
+            instance.saving = false;
             PostSaveGameComplete();
         }
     }
 
-    private void PostSaveGameComplete()
+    private static void PostSaveGameComplete()
     {
         if(SaveGameComplete != null)
         {
@@ -110,53 +120,53 @@ public class SaveGameSystem : MonoBehaviour
         }
     }
 
-    public void LoadGame()
+    public static void LoadGame()
     {
-        if(saving || persistentObjects == null || persistentObjects.Count <= 0)
+        if(instance.saving || instance.persistentObjects == null || instance.persistentObjects.Count <= 0)
         {
             return;
         }
 
-        loading = true;
-        currentIndex = 0;
+        instance.loading = true;
+        instance.currentIndex = 0;
 
         RegisterLoadData();
-        persistentObjects[currentIndex].LoadData();
+        instance.persistentObjects[instance.currentIndex].LoadData();
     }
 
-    private void RegisterLoadData()
+    private static void RegisterLoadData()
     {
-        foreach(var persistentData in persistentObjects)
+        foreach(var persistentData in instance.persistentObjects)
         {
             persistentData.LoadComplete += HandleLoadComplete;
         }
     }
 
-    private void UnRegisterLoadData()
+    private static void UnRegisterLoadData()
     {
-        foreach(var persistentData in persistentObjects)
+        foreach(var persistentData in instance.persistentObjects)
         {
             persistentData.LoadComplete -= HandleLoadComplete;
         }
     }
 
-    private void HandleLoadComplete()
+    private static void HandleLoadComplete()
     {
-        persistentObjects[currentIndex++].LoadComplete -= HandleLoadComplete;
+        instance.persistentObjects[instance.currentIndex++].LoadComplete -= HandleLoadComplete;
 
-        if(currentIndex < persistentObjects.Count)
+        if(instance.currentIndex < instance.persistentObjects.Count)
         {
-            persistentObjects[currentIndex].LoadData();
+            instance.persistentObjects[instance.currentIndex].LoadData();
         }
         else
         {
             UnRegisterLoadData();
-            loading = false;
+            instance.loading = false;
             PostLoadGameComplete();
         }
     }
 
-    private void PostLoadGameComplete()
+    private static void PostLoadGameComplete()
     {
         if(LoadGameComplete != null)
         {

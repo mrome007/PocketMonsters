@@ -12,6 +12,14 @@ public abstract class PersistentData : MonoBehaviour
     public Action SaveComplete;
     public Action LoadComplete;
 
+    private void Awake()
+    {
+        if(SaveGameSystem.CanSaveOrLoad())
+        {
+            SaveGameSystem.AddPersistentObject(this);
+        }
+    }
+
     protected void PostSaveComplete()
     {
         if(SaveComplete != null)

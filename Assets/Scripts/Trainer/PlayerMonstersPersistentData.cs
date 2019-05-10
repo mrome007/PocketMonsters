@@ -6,12 +6,8 @@ using UnityEngine;
 
 public class PlayerMonstersPersistentData : PersistentData
 {
+    [SerializeField]
     private TrainerEncounter trainerEncounter;
-
-    private void Awake()
-    {
-        trainerEncounter = GetComponent<TrainerEncounter>();
-    }
 
     public override void SaveData()
     {
