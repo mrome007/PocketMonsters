@@ -33,6 +33,10 @@ public class SaveGameSystem : MonoBehaviour
 
     #region Inspector Data
 
+    /// <summary>
+    /// The persistent objects.
+    /// LEAVE this as a serializefield so I can see what's added in the editor.
+    /// </summary>
     [SerializeField]
     private List<PersistentData> persistentObjects;
     
