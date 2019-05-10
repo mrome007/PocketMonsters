@@ -3,7 +3,7 @@ using UnityEngine;
 
 public abstract class PersistentData : MonoBehaviour
 {
-    public string FolderName;
+    public const string FolderName = "SaveData";
     public string FileName;
 
     public abstract void SaveData();

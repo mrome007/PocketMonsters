@@ -21,7 +21,6 @@ public class TrainerEncountersEditor : Editor
             trainerEncounters = target as TrainerEncounters;
         }
 
-        trainerEncounters.FolderName = EditorGUILayout.TextField("Folder Name: ", trainerEncounters.FolderName);
         trainerEncounters.FileName = EditorGUILayout.TextField("File Name: ", trainerEncounters.FileName);
 
         DrawTrainerBattleEncounters();

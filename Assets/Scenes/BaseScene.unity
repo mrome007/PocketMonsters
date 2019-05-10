@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 1981354}
   - component: {fileID: 1981356}
   - component: {fileID: 1981355}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 24038498}
   - component: {fileID: 24038500}
   - component: {fileID: 24038499}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32165647}
   - component: {fileID: 32165648}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Monster4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -595,7 +595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49379042}
   - component: {fileID: 49379043}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 57728226}
   - component: {fileID: 57728228}
   - component: {fileID: 57728227}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 78301224}
   - component: {fileID: 78301226}
   - component: {fileID: 78301225}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MoveText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1032,7 @@ GameObject:
   - component: {fileID: 82250754}
   - component: {fileID: 82250756}
   - component: {fileID: 82250755}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1100,7 @@ GameObject:
   - component: {fileID: 82617242}
   - component: {fileID: 82617244}
   - component: {fileID: 82617243}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: AttackNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 87131514}
   - component: {fileID: 87131516}
   - component: {fileID: 87131515}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1313,7 +1313,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 88765938}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIcons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 91496442}
   - component: {fileID: 91496444}
   - component: {fileID: 91496443}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1993,7 +1993,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 150749099}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2031,7 +2031,7 @@ GameObject:
   - component: {fileID: 156089699}
   - component: {fileID: 156089701}
   - component: {fileID: 156089700}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2152,7 +2152,7 @@ GameObject:
   - component: {fileID: 157525428}
   - component: {fileID: 157525430}
   - component: {fileID: 157525429}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2218,7 +2218,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 157838592}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: InBattle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2255,7 +2255,7 @@ GameObject:
   - component: {fileID: 159315704}
   - component: {fileID: 159315706}
   - component: {fileID: 159315705}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2327,7 +2327,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 160194170}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIcons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2361,7 +2361,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 161203435}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2399,7 +2399,7 @@ GameObject:
   - component: {fileID: 163927204}
   - component: {fileID: 163927203}
   - component: {fileID: 163927206}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Save
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2518,7 +2518,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 164128503}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2555,7 +2555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 164393524}
   - component: {fileID: 164393525}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2923,7 +2923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 173313890}
   - component: {fileID: 173313891}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3175,7 +3175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 186088629}
   - component: {fileID: 186088630}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: RunBattleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3222,7 +3222,7 @@ GameObject:
   - component: {fileID: 186763851}
   - component: {fileID: 186763853}
   - component: {fileID: 186763852}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PPText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3456,7 +3456,7 @@ GameObject:
   - component: {fileID: 195182991}
   - component: {fileID: 195182993}
   - component: {fileID: 195182992}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SpecialNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3528,7 +3528,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 196043048}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3635,7 +3635,7 @@ GameObject:
   - component: {fileID: 201842353}
   - component: {fileID: 201842352}
   - component: {fileID: 201842355}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FIGHTButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3944,7 +3944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 211063268}
   - component: {fileID: 211063269}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Types
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4067,7 +4067,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 214283123}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4412,7 +4412,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 238244055}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIcons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4448,7 +4448,7 @@ GameObject:
   - component: {fileID: 243447775}
   - component: {fileID: 243447777}
   - component: {fileID: 243447776}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4516,7 +4516,7 @@ GameObject:
   - component: {fileID: 244503142}
   - component: {fileID: 244503144}
   - component: {fileID: 244503143}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OTDash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +4589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 247508774}
   - component: {fileID: 247508775}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4862,7 +4862,7 @@ GameObject:
   - component: {fileID: 263931120}
   - component: {fileID: 263931122}
   - component: {fileID: 263931121}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: StatsBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4930,7 +4930,7 @@ GameObject:
   - component: {fileID: 265015138}
   - component: {fileID: 265015140}
   - component: {fileID: 265015139}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: IDNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5003,7 +5003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 265018630}
   - component: {fileID: 265018631}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokeballsContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5178,7 +5178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 272461588}
   - component: {fileID: 272461589}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5229,7 +5229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277659923}
   - component: {fileID: 277659924}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5421,7 +5421,7 @@ GameObject:
   - component: {fileID: 284934653}
   - component: {fileID: 284934655}
   - component: {fileID: 284934654}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5699,7 +5699,7 @@ GameObject:
   - component: {fileID: 293134862}
   - component: {fileID: 293134864}
   - component: {fileID: 293134863}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5907,7 +5907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 309696279}
   - component: {fileID: 309696280}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PKMNButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6011,7 +6011,7 @@ GameObject:
   - component: {fileID: 322872378}
   - component: {fileID: 322872380}
   - component: {fileID: 322872379}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6085,7 +6085,7 @@ GameObject:
   - component: {fileID: 327478625}
   - component: {fileID: 327478627}
   - component: {fileID: 327478626}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6159,7 +6159,7 @@ GameObject:
   - component: {fileID: 334771539}
   - component: {fileID: 334771541}
   - component: {fileID: 334771540}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TypeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6231,7 +6231,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 335577200}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: DefenseStat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6268,7 +6268,7 @@ GameObject:
   - component: {fileID: 341732612}
   - component: {fileID: 341732614}
   - component: {fileID: 341732613}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6340,7 +6340,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 342789342}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6447,7 +6447,7 @@ GameObject:
   - component: {fileID: 351193599}
   - component: {fileID: 351193601}
   - component: {fileID: 351193600}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Type1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6521,7 +6521,7 @@ GameObject:
   - component: {fileID: 351844572}
   - component: {fileID: 351844574}
   - component: {fileID: 351844573}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6593,7 +6593,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 352935689}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6630,7 +6630,7 @@ GameObject:
   - component: {fileID: 358720418}
   - component: {fileID: 358720420}
   - component: {fileID: 358720419}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Battle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6688,7 +6688,7 @@ GameObject:
   - component: {fileID: 360727677}
   - component: {fileID: 360727679}
   - component: {fileID: 360727678}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6920,7 +6920,7 @@ GameObject:
   - component: {fileID: 369662248}
   - component: {fileID: 369662250}
   - component: {fileID: 369662249}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6994,7 +6994,7 @@ GameObject:
   - component: {fileID: 370606623}
   - component: {fileID: 370606625}
   - component: {fileID: 370606624}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: StatusLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7246,7 +7246,7 @@ GameObject:
   - component: {fileID: 384181387}
   - component: {fileID: 384181389}
   - component: {fileID: 384181388}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7384,7 +7384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 386464313}
   - component: {fileID: 386464314}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7436,7 +7436,7 @@ GameObject:
   - component: {fileID: 388276746}
   - component: {fileID: 388276748}
   - component: {fileID: 388276747}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7551,7 +7551,7 @@ GameObject:
   - component: {fileID: 391259400}
   - component: {fileID: 391259402}
   - component: {fileID: 391259401}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: IDDash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7625,7 +7625,7 @@ GameObject:
   - component: {fileID: 411153994}
   - component: {fileID: 411153996}
   - component: {fileID: 411153995}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7766,7 +7766,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 413342111}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7898,7 +7898,7 @@ GameObject:
   - component: {fileID: 424614668}
   - component: {fileID: 424614670}
   - component: {fileID: 424614669}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: WildEncounterIntroBattleAnimation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7965,7 +7965,7 @@ GameObject:
   - component: {fileID: 426898813}
   - component: {fileID: 426898815}
   - component: {fileID: 426898814}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8101,7 +8101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 440318589}
   - component: {fileID: 440318590}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8280,7 +8280,7 @@ GameObject:
   - component: {fileID: 450517728}
   - component: {fileID: 450517730}
   - component: {fileID: 450517729}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8429,7 +8429,7 @@ GameObject:
   - component: {fileID: 452862084}
   - component: {fileID: 452862083}
   - component: {fileID: 452862086}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Move2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8556,7 +8556,7 @@ GameObject:
   - component: {fileID: 454433617}
   - component: {fileID: 454433619}
   - component: {fileID: 454433618}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8698,7 +8698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 457618279}
   - component: {fileID: 457618280}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8830,7 +8830,7 @@ GameObject:
   - component: {fileID: 458290583}
   - component: {fileID: 458290585}
   - component: {fileID: 458290584}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: ChooseAPokemonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9034,7 +9034,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 495318060}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Type2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9134,7 +9134,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 505002398}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterBalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9171,7 +9171,7 @@ GameObject:
   - component: {fileID: 505402831}
   - component: {fileID: 505402833}
   - component: {fileID: 505402832}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9243,7 +9243,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 508349062}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9284,7 +9284,7 @@ GameObject:
   - component: {fileID: 509487015}
   - component: {fileID: 509487019}
   - component: {fileID: 509487020}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIconButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9530,7 +9530,7 @@ GameObject:
   - component: {fileID: 512773971}
   - component: {fileID: 512773973}
   - component: {fileID: 512773972}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: InfoContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9601,7 +9601,7 @@ GameObject:
   - component: {fileID: 516483400}
   - component: {fileID: 516483399}
   - component: {fileID: 516483398}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PlayerMonsterUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9781,7 +9781,7 @@ GameObject:
   - component: {fileID: 520978175}
   - component: {fileID: 520978177}
   - component: {fileID: 520978176}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9963,7 +9963,7 @@ GameObject:
   - component: {fileID: 528320502}
   - component: {fileID: 528320504}
   - component: {fileID: 528320503}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10216,7 +10216,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 537986601}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BattleParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10254,7 +10254,7 @@ GameObject:
   - component: {fileID: 542079910}
   - component: {fileID: 542079912}
   - component: {fileID: 542079911}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10466,7 +10466,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 551549575}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10502,7 +10502,7 @@ GameObject:
   - component: {fileID: 555844483}
   - component: {fileID: 555844485}
   - component: {fileID: 555844484}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokemonName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10643,7 +10643,7 @@ GameObject:
   - component: {fileID: 559399309}
   - component: {fileID: 559399311}
   - component: {fileID: 559399310}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10711,7 +10711,7 @@ GameObject:
   - component: {fileID: 566748550}
   - component: {fileID: 566748552}
   - component: {fileID: 566748551}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10909,7 +10909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570285601}
   - component: {fileID: 570285602}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BottomButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11242,7 +11242,7 @@ GameObject:
   - component: {fileID: 585619457}
   - component: {fileID: 585619459}
   - component: {fileID: 585619458}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11316,7 +11316,7 @@ GameObject:
   - component: {fileID: 591375497}
   - component: {fileID: 591375499}
   - component: {fileID: 591375498}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11538,7 +11538,7 @@ GameObject:
   - component: {fileID: 597629685}
   - component: {fileID: 597629687}
   - component: {fileID: 597629686}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PlayerSwitchBattleSequence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11789,7 +11789,7 @@ GameObject:
   - component: {fileID: 606160062}
   - component: {fileID: 606160061}
   - component: {fileID: 606160060}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12117,7 +12117,7 @@ GameObject:
   - component: {fileID: 620109957}
   - component: {fileID: 620109959}
   - component: {fileID: 620109958}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12279,7 +12279,7 @@ GameObject:
   - component: {fileID: 623617556}
   - component: {fileID: 623617558}
   - component: {fileID: 623617557}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokeballContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12345,7 +12345,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 626359530}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12476,7 +12476,7 @@ GameObject:
   - component: {fileID: 630429506}
   - component: {fileID: 630429508}
   - component: {fileID: 630429507}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MoveText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12692,7 +12692,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 641013859}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokemonInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12730,7 +12730,7 @@ GameObject:
   - component: {fileID: 641148299}
   - component: {fileID: 641148301}
   - component: {fileID: 641148300}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12914,7 +12914,7 @@ GameObject:
   - component: {fileID: 650460256}
   - component: {fileID: 650460255}
   - component: {fileID: 650460254}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12975,7 +12975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651732796}
   - component: {fileID: 651732797}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13060,7 +13060,7 @@ GameObject:
   - component: {fileID: 660252096}
   - component: {fileID: 660252098}
   - component: {fileID: 660252097}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13476,7 +13476,7 @@ GameObject:
   - component: {fileID: 685441315}
   - component: {fileID: 685441317}
   - component: {fileID: 685441316}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13550,7 +13550,7 @@ GameObject:
   - component: {fileID: 686415646}
   - component: {fileID: 686415648}
   - component: {fileID: 686415647}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: AttackLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13739,7 +13739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710982235}
   - component: {fileID: 710982236}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BattleMonsterUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13885,7 +13885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716272574}
   - component: {fileID: 716272575}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: EnemyTurnBattleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14070,7 +14070,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 733727910}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: States
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14111,7 +14111,7 @@ GameObject:
   - component: {fileID: 734745662}
   - component: {fileID: 734745664}
   - component: {fileID: 734745663}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14709,7 +14709,7 @@ GameObject:
   - component: {fileID: 762471349}
   - component: {fileID: 762471348}
   - component: {fileID: 762471352}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: EnemyTrainerUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14862,7 +14862,7 @@ GameObject:
   - component: {fileID: 763379945}
   - component: {fileID: 763379947}
   - component: {fileID: 763379946}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14983,7 +14983,7 @@ GameObject:
   - component: {fileID: 773072350}
   - component: {fileID: 773072352}
   - component: {fileID: 773072351}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15056,7 +15056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 774438745}
   - component: {fileID: 774438746}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15155,7 +15155,7 @@ GameObject:
   - component: {fileID: 788253868}
   - component: {fileID: 788253870}
   - component: {fileID: 788253869}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15321,7 +15321,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 797148803}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15475,7 +15475,7 @@ GameObject:
   - component: {fileID: 801519257}
   - component: {fileID: 801519259}
   - component: {fileID: 801519258}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15596,7 +15596,7 @@ GameObject:
   - component: {fileID: 808050390}
   - component: {fileID: 808050392}
   - component: {fileID: 808050391}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15664,7 +15664,7 @@ GameObject:
   - component: {fileID: 810567871}
   - component: {fileID: 810567873}
   - component: {fileID: 810567872}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15856,7 +15856,7 @@ GameObject:
   - component: {fileID: 822322525}
   - component: {fileID: 822322527}
   - component: {fileID: 822322526}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: DefenseNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15928,7 +15928,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 822511647}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15966,7 +15966,7 @@ GameObject:
   - component: {fileID: 827566305}
   - component: {fileID: 827566307}
   - component: {fileID: 827566306}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TextBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16156,7 +16156,7 @@ GameObject:
   - component: {fileID: 832860824}
   - component: {fileID: 832860823}
   - component: {fileID: 832860827}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: EnemyMonsterUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16263,7 +16263,7 @@ GameObject:
   - component: {fileID: 838823110}
   - component: {fileID: 838823112}
   - component: {fileID: 838823111}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16593,7 +16593,7 @@ GameObject:
   - component: {fileID: 860927184}
   - component: {fileID: 860927186}
   - component: {fileID: 860927185}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16708,7 +16708,7 @@ GameObject:
   - component: {fileID: 867915424}
   - component: {fileID: 867915426}
   - component: {fileID: 867915425}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16949,7 +16949,7 @@ GameObject:
   - component: {fileID: 887461912}
   - component: {fileID: 887461914}
   - component: {fileID: 887461913}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17130,7 +17130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904137157}
   - component: {fileID: 904137158}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Monster2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17350,7 +17350,7 @@ GameObject:
   - component: {fileID: 919190380}
   - component: {fileID: 919190382}
   - component: {fileID: 919190381}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: IDLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17473,7 +17473,7 @@ GameObject:
   - component: {fileID: 922604074}
   - component: {fileID: 922604073}
   - component: {fileID: 922604076}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PlayerTrainerUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17569,7 +17569,7 @@ GameObject:
   - component: {fileID: 923414684}
   - component: {fileID: 923414685}
   - component: {fileID: 923414686}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: IntroBattleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17640,7 +17640,7 @@ GameObject:
   - component: {fileID: 924794042}
   - component: {fileID: 924794044}
   - component: {fileID: 924794043}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17708,7 +17708,7 @@ GameObject:
   - component: {fileID: 926238777}
   - component: {fileID: 926238779}
   - component: {fileID: 926238778}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PKMNBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17847,7 +17847,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 931567867}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17956,7 +17956,7 @@ GameObject:
   - component: {fileID: 938715434}
   - component: {fileID: 938715436}
   - component: {fileID: 938715435}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18091,7 +18091,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 945095980}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SpeedStat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18267,7 +18267,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 951537733}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18303,7 +18303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 954894030}
   - component: {fileID: 954894031}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Monster6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18572,7 +18572,7 @@ GameObject:
   - component: {fileID: 972939069}
   - component: {fileID: 972939071}
   - component: {fileID: 972939070}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18646,7 +18646,7 @@ GameObject:
   - component: {fileID: 978425602}
   - component: {fileID: 978425604}
   - component: {fileID: 978425603}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18720,7 +18720,7 @@ GameObject:
   - component: {fileID: 983033844}
   - component: {fileID: 983033846}
   - component: {fileID: 983033845}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18794,7 +18794,7 @@ GameObject:
   - component: {fileID: 990031321}
   - component: {fileID: 990031323}
   - component: {fileID: 990031322}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18860,7 +18860,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 991876448}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MainButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18897,7 +18897,7 @@ GameObject:
   - component: {fileID: 1006113768}
   - component: {fileID: 1006113770}
   - component: {fileID: 1006113769}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Type2Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19133,7 +19133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011628311}
   - component: {fileID: 1011628312}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19479,7 +19479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1038265828}
   - component: {fileID: 1038265829}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PlayerPokeballs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19645,7 +19645,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1040322213}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Type1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19729,7 +19729,7 @@ GameObject:
   - component: {fileID: 1043560751}
   - component: {fileID: 1043560753}
   - component: {fileID: 1043560752}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19933,7 +19933,7 @@ GameObject:
   - component: {fileID: 1050185845}
   - component: {fileID: 1050185847}
   - component: {fileID: 1050185846}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20007,7 +20007,7 @@ GameObject:
   - component: {fileID: 1054287545}
   - component: {fileID: 1054287547}
   - component: {fileID: 1054287546}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20175,7 +20175,7 @@ GameObject:
   - component: {fileID: 1057567388}
   - component: {fileID: 1057567390}
   - component: {fileID: 1057567389}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: CurrentStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20318,7 +20318,7 @@ GameObject:
   - component: {fileID: 1059131604}
   - component: {fileID: 1059131606}
   - component: {fileID: 1059131605}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: NumberLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20508,7 +20508,7 @@ GameObject:
   - component: {fileID: 1063340573}
   - component: {fileID: 1063340575}
   - component: {fileID: 1063340574}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20882,7 +20882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cefc0f7ca7d04517b72eb19ac1842db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FolderName: PlayerMonsters
   FileName: PlayerMonsters.dat
   trainerEncounter: {fileID: 1067746618}
 --- !u!1 &1067944447
@@ -20962,7 +20961,7 @@ GameObject:
   - component: {fileID: 1068255011}
   - component: {fileID: 1068255013}
   - component: {fileID: 1068255012}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21032,7 +21031,7 @@ GameObject:
   - component: {fileID: 1073261771}
   - component: {fileID: 1073261770}
   - component: {fileID: 1073261773}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Load
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21152,7 +21151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076753754}
   - component: {fileID: 1076753755}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TopButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21253,7 +21252,7 @@ GameObject:
   - component: {fileID: 1090058502}
   - component: {fileID: 1090058504}
   - component: {fileID: 1090058503}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OTName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21327,7 +21326,7 @@ GameObject:
   - component: {fileID: 1091382570}
   - component: {fileID: 1091382572}
   - component: {fileID: 1091382571}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21401,7 +21400,7 @@ GameObject:
   - component: {fileID: 1093679503}
   - component: {fileID: 1093679505}
   - component: {fileID: 1093679504}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21475,7 +21474,7 @@ GameObject:
   - component: {fileID: 1094192207}
   - component: {fileID: 1094192208}
   - component: {fileID: 1094192209}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Monsters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21649,7 +21648,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1105441689}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21732,7 +21731,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1109663675}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21861,7 +21860,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1115329332}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21964,7 +21963,7 @@ GameObject:
   - component: {fileID: 1120127783}
   - component: {fileID: 1120127785}
   - component: {fileID: 1120127784}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22083,7 +22082,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1123490503}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22120,7 +22119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1125211691}
   - component: {fileID: 1125211692}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22172,7 +22171,7 @@ GameObject:
   - component: {fileID: 1134808467}
   - component: {fileID: 1134808469}
   - component: {fileID: 1134808468}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22246,7 +22245,7 @@ GameObject:
   - component: {fileID: 1138931733}
   - component: {fileID: 1138931735}
   - component: {fileID: 1138931734}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPStatusContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22312,7 +22311,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1153659220}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MoveButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22348,7 +22347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1153810116}
   - component: {fileID: 1153810117}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokeballsContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22411,7 +22410,7 @@ GameObject:
   - component: {fileID: 1155053912}
   - component: {fileID: 1155053914}
   - component: {fileID: 1155053913}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22477,7 +22476,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1158528595}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22512,7 +22511,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1162705812}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22617,7 +22616,7 @@ GameObject:
   - component: {fileID: 1168001756}
   - component: {fileID: 1168001758}
   - component: {fileID: 1168001757}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Type1Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22689,7 +22688,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1171363891}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22794,7 +22793,7 @@ GameObject:
   - component: {fileID: 1175351932}
   - component: {fileID: 1175351934}
   - component: {fileID: 1175351933}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22915,7 +22914,7 @@ GameObject:
   - component: {fileID: 1182920607}
   - component: {fileID: 1182920609}
   - component: {fileID: 1182920608}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22983,7 +22982,7 @@ GameObject:
   - component: {fileID: 1183113961}
   - component: {fileID: 1183113963}
   - component: {fileID: 1183113962}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23100,7 +23099,7 @@ GameObject:
   - component: {fileID: 1190442282}
   - component: {fileID: 1190442281}
   - component: {fileID: 1190442284}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: ITEMButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23386,7 +23385,7 @@ GameObject:
   - component: {fileID: 1217577988}
   - component: {fileID: 1217577990}
   - component: {fileID: 1217577989}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23507,7 +23506,7 @@ GameObject:
   - component: {fileID: 1220898212}
   - component: {fileID: 1220898214}
   - component: {fileID: 1220898213}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PPText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23579,7 +23578,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1227569022}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23617,7 +23616,7 @@ GameObject:
   - component: {fileID: 1237467680}
   - component: {fileID: 1237467682}
   - component: {fileID: 1237467681}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23805,7 +23804,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1237759379}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPAndStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23981,7 +23980,7 @@ GameObject:
   - component: {fileID: 1243638722}
   - component: {fileID: 1243638726}
   - component: {fileID: 1243638727}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIconButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24294,7 +24293,7 @@ GameObject:
   - component: {fileID: 1258556267}
   - component: {fileID: 1258556266}
   - component: {fileID: 1258556269}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: RUNButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24484,7 +24483,7 @@ GameObject:
   - component: {fileID: 1274627411}
   - component: {fileID: 1274627413}
   - component: {fileID: 1274627412}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24724,7 +24723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1280115269}
   - component: {fileID: 1280115270}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24780,7 +24779,7 @@ GameObject:
   - component: {fileID: 1280791959}
   - component: {fileID: 1280791963}
   - component: {fileID: 1280791964}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIconButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25272,7 +25271,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1302551037}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25554,7 +25553,7 @@ GameObject:
   - component: {fileID: 1332129595}
   - component: {fileID: 1332129597}
   - component: {fileID: 1332129596}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25623,7 +25622,7 @@ GameObject:
   - component: {fileID: 1337023077}
   - component: {fileID: 1337023076}
   - component: {fileID: 1337023075}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25753,7 +25752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1343134608}
   - component: {fileID: 1343134609}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: EnemyPokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25806,7 +25805,7 @@ GameObject:
   - component: {fileID: 1344397975}
   - component: {fileID: 1344397977}
   - component: {fileID: 1344397976}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25874,7 +25873,7 @@ GameObject:
   - component: {fileID: 1344475687}
   - component: {fileID: 1344475689}
   - component: {fileID: 1344475688}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25942,7 +25941,7 @@ GameObject:
   - component: {fileID: 1345372161}
   - component: {fileID: 1345372163}
   - component: {fileID: 1345372162}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26011,13 +26010,13 @@ GameObject:
   - component: {fileID: 1348283942}
   - component: {fileID: 1348283941}
   - component: {fileID: 1348283940}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: LoadSaveButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1348283940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26045,10 +26044,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 400, y: 360}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -26064,7 +26063,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1786943820}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -26088,6 +26087,7 @@ RectTransform:
   - {fileID: 163927202}
   - {fileID: 1073261769}
   - {fileID: 650460256}
+  - {fileID: 1786943823}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26240,7 +26240,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1353363806}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIcons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26275,7 +26275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1356187614}
   - component: {fileID: 1356187615}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Monster1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26379,7 +26379,7 @@ GameObject:
   - component: {fileID: 1358268983}
   - component: {fileID: 1358268985}
   - component: {fileID: 1358268984}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26494,7 +26494,7 @@ GameObject:
   - component: {fileID: 1360287625}
   - component: {fileID: 1360287627}
   - component: {fileID: 1360287626}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26660,7 +26660,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1371128197}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27185,7 +27185,7 @@ GameObject:
   - component: {fileID: 1380131397}
   - component: {fileID: 1380131399}
   - component: {fileID: 1380131398}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PPText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27259,7 +27259,7 @@ GameObject:
   - component: {fileID: 1384928706}
   - component: {fileID: 1384928708}
   - component: {fileID: 1384928707}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27642,7 +27642,7 @@ GameObject:
   - component: {fileID: 1403520395}
   - component: {fileID: 1403520394}
   - component: {fileID: 1403520393}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27779,7 +27779,7 @@ GameObject:
   - component: {fileID: 1404933149}
   - component: {fileID: 1404933151}
   - component: {fileID: 1404933150}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27889,7 +27889,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1406296509}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterBalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28070,7 +28070,7 @@ GameObject:
   - component: {fileID: 1411623169}
   - component: {fileID: 1411623171}
   - component: {fileID: 1411623170}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28190,7 +28190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1411980394}
   - component: {fileID: 1411980395}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Monster3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28322,7 +28322,7 @@ GameObject:
   - component: {fileID: 1427519108}
   - component: {fileID: 1427519110}
   - component: {fileID: 1427519109}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28459,7 +28459,7 @@ GameObject:
   - component: {fileID: 1430401982}
   - component: {fileID: 1430401984}
   - component: {fileID: 1430401983}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28533,7 +28533,7 @@ GameObject:
   - component: {fileID: 1431882187}
   - component: {fileID: 1431882189}
   - component: {fileID: 1431882188}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28599,7 +28599,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1435702070}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIcons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28635,7 +28635,7 @@ GameObject:
   - component: {fileID: 1437686552}
   - component: {fileID: 1437686554}
   - component: {fileID: 1437686553}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28703,7 +28703,7 @@ GameObject:
   - component: {fileID: 1438848321}
   - component: {fileID: 1438848323}
   - component: {fileID: 1438848322}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28771,7 +28771,7 @@ GameObject:
   - component: {fileID: 1443188813}
   - component: {fileID: 1443188815}
   - component: {fileID: 1443188814}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29074,7 +29074,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1474023558}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SpecialStat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29111,7 +29111,7 @@ GameObject:
   - component: {fileID: 1482024277}
   - component: {fileID: 1482024279}
   - component: {fileID: 1482024278}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29250,7 +29250,7 @@ GameObject:
   - component: {fileID: 1486364713}
   - component: {fileID: 1486364715}
   - component: {fileID: 1486364714}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29318,7 +29318,7 @@ GameObject:
   - component: {fileID: 1488120694}
   - component: {fileID: 1488120696}
   - component: {fileID: 1488120695}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TypeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29392,7 +29392,7 @@ GameObject:
   - component: {fileID: 1489100773}
   - component: {fileID: 1489100775}
   - component: {fileID: 1489100774}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29513,7 +29513,7 @@ GameObject:
   - component: {fileID: 1499150543}
   - component: {fileID: 1499150545}
   - component: {fileID: 1499150544}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29658,7 +29658,7 @@ GameObject:
   - component: {fileID: 1503950365}
   - component: {fileID: 1503950364}
   - component: {fileID: 1503950367}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Move3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29832,7 +29832,7 @@ GameObject:
   - component: {fileID: 1512136729}
   - component: {fileID: 1512136731}
   - component: {fileID: 1512136730}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Type2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29906,7 +29906,7 @@ GameObject:
   - component: {fileID: 1516242022}
   - component: {fileID: 1516242024}
   - component: {fileID: 1516242023}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30207,7 +30207,7 @@ GameObject:
   - component: {fileID: 1535026416}
   - component: {fileID: 1535026418}
   - component: {fileID: 1535026417}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokemonImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30393,7 +30393,7 @@ GameObject:
   - component: {fileID: 1557304575}
   - component: {fileID: 1557304577}
   - component: {fileID: 1557304576}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PPText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30561,7 +30561,7 @@ GameObject:
   - component: {fileID: 1563096685}
   - component: {fileID: 1563096687}
   - component: {fileID: 1563096686}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30828,7 +30828,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1582358063}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIcons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30862,7 +30862,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1589595612}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30899,7 +30899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1591833990}
   - component: {fileID: 1591833991}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SwitchBattleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30947,7 +30947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593218550}
   - component: {fileID: 1593218551}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: StatsMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31126,7 +31126,7 @@ GameObject:
   - component: {fileID: 1601704769}
   - component: {fileID: 1601704771}
   - component: {fileID: 1601704770}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31271,7 +31271,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1604436856}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: ID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31355,7 +31355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606563328}
   - component: {fileID: 1606563329}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31454,7 +31454,7 @@ GameObject:
   - component: {fileID: 1613747196}
   - component: {fileID: 1613747198}
   - component: {fileID: 1613747197}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TypeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31526,7 +31526,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1614126269}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31563,7 +31563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614733219}
   - component: {fileID: 1614733220}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31613,7 +31613,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1618743197}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31698,7 +31698,7 @@ GameObject:
   - component: {fileID: 1620086320}
   - component: {fileID: 1620086322}
   - component: {fileID: 1620086321}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MoveText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31819,7 +31819,7 @@ GameObject:
   - component: {fileID: 1620897031}
   - component: {fileID: 1620897033}
   - component: {fileID: 1620897032}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31890,7 +31890,7 @@ GameObject:
   - component: {fileID: 1622816344}
   - component: {fileID: 1622816343}
   - component: {fileID: 1622816347}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SwitchButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32039,7 +32039,7 @@ GameObject:
   - component: {fileID: 1626839693}
   - component: {fileID: 1626839695}
   - component: {fileID: 1626839694}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: NumberText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32113,7 +32113,7 @@ GameObject:
   - component: {fileID: 1631265020}
   - component: {fileID: 1631265022}
   - component: {fileID: 1631265021}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32187,7 +32187,7 @@ GameObject:
   - component: {fileID: 1638028990}
   - component: {fileID: 1638028992}
   - component: {fileID: 1638028991}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MoveText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32259,7 +32259,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1647300682}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32297,7 +32297,7 @@ GameObject:
   - component: {fileID: 1650584360}
   - component: {fileID: 1650584362}
   - component: {fileID: 1650584361}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32605,7 +32605,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1681292395}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Status
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32713,7 +32713,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1686590723}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32749,7 +32749,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1688950855}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32859,7 +32859,7 @@ GameObject:
   - component: {fileID: 1692332305}
   - component: {fileID: 1692332304}
   - component: {fileID: 1692332303}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TapIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32991,7 +32991,7 @@ GameObject:
   - component: {fileID: 1696323355}
   - component: {fileID: 1696323357}
   - component: {fileID: 1696323356}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33112,7 +33112,7 @@ GameObject:
   - component: {fileID: 1697031776}
   - component: {fileID: 1697031778}
   - component: {fileID: 1697031777}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33251,7 +33251,7 @@ GameObject:
   - component: {fileID: 1711672667}
   - component: {fileID: 1711672669}
   - component: {fileID: 1711672668}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33325,7 +33325,7 @@ GameObject:
   - component: {fileID: 1716130841}
   - component: {fileID: 1716130843}
   - component: {fileID: 1716130842}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TrainerEncounterIntroBattleAnimation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33392,7 +33392,7 @@ GameObject:
   - component: {fileID: 1716336804}
   - component: {fileID: 1716336806}
   - component: {fileID: 1716336805}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33464,7 +33464,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1716492710}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: InterFace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33595,7 +33595,7 @@ GameObject:
   - component: {fileID: 1723623745}
   - component: {fileID: 1723623747}
   - component: {fileID: 1723623746}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokeballContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33662,7 +33662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724856854}
   - component: {fileID: 1724856855}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33747,7 +33747,7 @@ GameObject:
   - component: {fileID: 1728119994}
   - component: {fileID: 1728119996}
   - component: {fileID: 1728119995}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33880,7 +33880,7 @@ GameObject:
   - component: {fileID: 1740422721}
   - component: {fileID: 1740422723}
   - component: {fileID: 1740422722}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34067,7 +34067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1745180431}
   - component: {fileID: 1745180432}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34119,7 +34119,7 @@ GameObject:
   - component: {fileID: 1746063462}
   - component: {fileID: 1746063464}
   - component: {fileID: 1746063463}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34193,7 +34193,7 @@ GameObject:
   - component: {fileID: 1747479529}
   - component: {fileID: 1747479531}
   - component: {fileID: 1747479530}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34265,7 +34265,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1756436683}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34304,7 +34304,7 @@ GameObject:
   - component: {fileID: 1760172676}
   - component: {fileID: 1760172675}
   - component: {fileID: 1760172678}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Move4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34431,7 +34431,7 @@ GameObject:
   - component: {fileID: 1760619825}
   - component: {fileID: 1760619827}
   - component: {fileID: 1760619826}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34505,7 +34505,7 @@ GameObject:
   - component: {fileID: 1760705552}
   - component: {fileID: 1760705554}
   - component: {fileID: 1760705553}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34571,7 +34571,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1766613811}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Stats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34613,7 +34613,7 @@ GameObject:
   - component: {fileID: 1767034381}
   - component: {fileID: 1767034380}
   - component: {fileID: 1767034383}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PKMNButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34918,7 +34918,7 @@ GameObject:
   - component: {fileID: 1779946458}
   - component: {fileID: 1779946460}
   - component: {fileID: 1779946459}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35098,6 +35098,87 @@ MonoBehaviour:
   Power: 100
   Accuracy: 75
   PP: 10
+--- !u!1 &1786943819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1786943823}
+  - component: {fileID: 1786943820}
+  - component: {fileID: 1786943822}
+  - component: {fileID: 1786943821}
+  m_Layer: 9
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1786943820
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786943819}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 512
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1786943821
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786943819}
+  m_Enabled: 1
+--- !u!124 &1786943822
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786943819}
+  m_Enabled: 1
+--- !u!4 &1786943823
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786943819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1348283943}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1797591321
 GameObject:
   m_ObjectHideFlags: 0
@@ -35202,7 +35283,7 @@ GameObject:
   - component: {fileID: 1800532080}
   - component: {fileID: 1800532081}
   - component: {fileID: 1800532082}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Moves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35385,7 +35466,7 @@ GameObject:
   - component: {fileID: 1806034186}
   - component: {fileID: 1806034188}
   - component: {fileID: 1806034187}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35447,7 +35528,7 @@ GameObject:
   - component: {fileID: 1818529626}
   - component: {fileID: 1818529628}
   - component: {fileID: 1818529627}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SpeedNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35689,7 +35770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3dae8a2312a543c1aa13d7eee09a2da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FolderName: TrainerEncounters
   FileName: TrainerEncounters.dat
   trainerBattles:
   - {fileID: 183768318}
@@ -35703,7 +35783,7 @@ GameObject:
   - component: {fileID: 1826367799}
   - component: {fileID: 1826367801}
   - component: {fileID: 1826367800}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35961,7 +36041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1842337849}
   - component: {fileID: 1842337850}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36046,7 +36126,7 @@ GameObject:
   - component: {fileID: 1846398028}
   - component: {fileID: 1846398030}
   - component: {fileID: 1846398029}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36254,7 +36334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1856684745}
   - component: {fileID: 1856684746}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: StatsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36314,7 +36394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1859513748}
   - component: {fileID: 1859513749}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: EnemyPokeballs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36368,7 +36448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1862817041}
   - component: {fileID: 1862817040}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BattleMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36546,7 +36626,7 @@ GameObject:
   - component: {fileID: 1866144286}
   - component: {fileID: 1866144285}
   - component: {fileID: 1866144288}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Move1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36673,7 +36753,7 @@ GameObject:
   - component: {fileID: 1870091772}
   - component: {fileID: 1870091774}
   - component: {fileID: 1870091773}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BattleCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36724,7 +36804,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 1024
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -36793,7 +36873,7 @@ GameObject:
   - component: {fileID: 1875802982}
   - component: {fileID: 1875802981}
   - component: {fileID: 1875802980}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36914,7 +36994,7 @@ GameObject:
   - component: {fileID: 1886818128}
   - component: {fileID: 1886818130}
   - component: {fileID: 1886818129}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OccupiedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37126,7 +37206,7 @@ GameObject:
   - component: {fileID: 1905102222}
   - component: {fileID: 1905102226}
   - component: {fileID: 1905102227}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIconButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37799,7 +37879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1929827547}
   - component: {fileID: 1929827548}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37898,7 +37978,7 @@ GameObject:
   - component: {fileID: 1935009441}
   - component: {fileID: 1935009443}
   - component: {fileID: 1935009442}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37971,7 +38051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936158176}
   - component: {fileID: 1936158177}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PlayerPokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38024,7 +38104,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1938331762}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38128,7 +38208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952034275}
   - component: {fileID: 1952034276}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38327,7 +38407,7 @@ GameObject:
   - component: {fileID: 1957278246}
   - component: {fileID: 1957278248}
   - component: {fileID: 1957278247}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38637,7 +38717,7 @@ GameObject:
   - component: {fileID: 1968377195}
   - component: {fileID: 1968377197}
   - component: {fileID: 1968377196}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SpeedLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38783,7 +38863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1973063279}
   - component: {fileID: 1973063280}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TextBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38836,7 +38916,7 @@ GameObject:
   - component: {fileID: 1975930863}
   - component: {fileID: 1975930862}
   - component: {fileID: 1975930861}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38967,7 +39047,7 @@ GameObject:
   - component: {fileID: 1985422006}
   - component: {fileID: 1985422008}
   - component: {fileID: 1985422007}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokemonName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39155,7 +39235,7 @@ GameObject:
   - component: {fileID: 1989858668}
   - component: {fileID: 1989858670}
   - component: {fileID: 1989858669}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39274,7 +39354,7 @@ GameObject:
   - component: {fileID: 1991093453}
   - component: {fileID: 1991093454}
   - component: {fileID: 1991093455}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIconButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39515,7 +39595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2004184798}
   - component: {fileID: 2004184799}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: IdleBattleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39627,7 +39707,7 @@ GameObject:
   - component: {fileID: 2018423039}
   - component: {fileID: 2018423043}
   - component: {fileID: 2018423044}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: MonsterIconButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39798,7 +39878,7 @@ GameObject:
   - component: {fileID: 2019212589}
   - component: {fileID: 2019212591}
   - component: {fileID: 2019212590}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPCurrentNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40085,7 +40165,7 @@ GameObject:
   - component: {fileID: 2032568862}
   - component: {fileID: 2032568864}
   - component: {fileID: 2032568863}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40258,7 +40338,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2034171454}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40476,7 +40556,7 @@ GameObject:
   - component: {fileID: 2044066403}
   - component: {fileID: 2044066405}
   - component: {fileID: 2044066404}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: DefenseLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40550,7 +40630,7 @@ GameObject:
   - component: {fileID: 2047162556}
   - component: {fileID: 2047162558}
   - component: {fileID: 2047162557}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: TypeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40809,7 +40889,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2054249242}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40843,7 +40923,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2057724061}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40947,7 +41027,7 @@ GameObject:
   - component: {fileID: 2063808366}
   - component: {fileID: 2063808368}
   - component: {fileID: 2063808367}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41020,7 +41100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064054835}
   - component: {fileID: 2064054836}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: ResolveMonsterMoveBattleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41188,7 +41268,7 @@ GameObject:
   - component: {fileID: 2075392112}
   - component: {fileID: 2075392111}
   - component: {fileID: 2075392110}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41319,7 +41399,7 @@ GameObject:
   - component: {fileID: 2081138209}
   - component: {fileID: 2081138211}
   - component: {fileID: 2081138210}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: OTLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41393,7 +41473,7 @@ GameObject:
   - component: {fileID: 2083702550}
   - component: {fileID: 2083702552}
   - component: {fileID: 2083702551}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41466,7 +41546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085952191}
   - component: {fileID: 2085952192}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Pokeball1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41518,7 +41598,7 @@ GameObject:
   - component: {fileID: 2097685070}
   - component: {fileID: 2097685072}
   - component: {fileID: 2097685071}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41584,7 +41664,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2098587754}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41622,7 +41702,7 @@ GameObject:
   - component: {fileID: 2110874925}
   - component: {fileID: 2110874927}
   - component: {fileID: 2110874926}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: FaintedPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41690,7 +41770,7 @@ GameObject:
   - component: {fileID: 2111132556}
   - component: {fileID: 2111132558}
   - component: {fileID: 2111132557}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41805,7 +41885,7 @@ GameObject:
   - component: {fileID: 2117273023}
   - component: {fileID: 2117273025}
   - component: {fileID: 2117273024}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41872,7 +41952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119565074}
   - component: {fileID: 2119565075}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Monster5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41929,7 +42009,7 @@ GameObject:
   - component: {fileID: 2124840359}
   - component: {fileID: 2124840361}
   - component: {fileID: 2124840360}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SpecialLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42001,7 +42081,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2126063241}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: AttackStat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42038,7 +42118,7 @@ GameObject:
   - component: {fileID: 2130561718}
   - component: {fileID: 2130561720}
   - component: {fileID: 2130561719}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: HPContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42322,7 +42402,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2136008240}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42359,7 +42439,7 @@ GameObject:
   - component: {fileID: 2136569208}
   - component: {fileID: 2136569210}
   - component: {fileID: 2136569209}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: BlankPokeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42543,7 +42623,7 @@ GameObject:
   - component: {fileID: 2146733362}
   - component: {fileID: 2146733364}
   - component: {fileID: 2146733363}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PokemonName
   m_TagString: Untagged
   m_Icon: {fileID: 0}

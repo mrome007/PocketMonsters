@@ -125,6 +125,7 @@
      <Compile Include="Assets\Scripts\Trainer\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Trainer\SaveButton.cs" />
      <Compile Include="Assets\Scripts\Trainer\SaveGameSystem.cs" />
+     <Compile Include="Assets\Scripts\Trainer\TitleScreen.cs" />
      <Compile Include="Assets\Scripts\Trainer\TrainerEncounter.cs" />
      <Compile Include="Assets\Scripts\Trainer\TrainerEncounters.cs" />
      <Compile Include="Assets\Scripts\Trainer\Trainers.cs" />
