@@ -23,4 +23,22 @@ public class TrainerEncounter : MonoBehaviour
             MonstersParty.AddMonsterToParty(index, monstersInfo[index]);
         }
     }
+
+    private void OnValidate()
+    {
+        if(MonstersParty == null)
+        {
+            return;
+        }
+        
+        for(var index = 0; index < monstersInfo.Count; index++)
+        {
+            MonstersParty.AddMonsterToParty(index, monstersInfo[index]);
+        }
+    }
+
+    public void UpdateMonsterInfoInspector()
+    {
+        MonstersParty.CopyMonsterPartyInfo(monstersInfo);
+    }
 }

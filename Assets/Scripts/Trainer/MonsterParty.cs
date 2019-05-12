@@ -30,4 +30,12 @@ public class MonsterParty
 
         party[index].Initialize(info);
     }
+
+    public void CopyMonsterPartyInfo(List<PartyMonsterInfo> to)
+    {
+        for(var count = 0; count < PocketMonsterParty.MAX_MONSTERS_IN_PARTY; count++)
+        {
+            to[count].Initialize(party[count]);
+        }
+    }
 }

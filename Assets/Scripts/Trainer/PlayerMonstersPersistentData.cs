@@ -42,6 +42,7 @@ public class PlayerMonstersPersistentData : PersistentData
                 var monsterInfo = (PartyMonsterInfo)binaryFormatter.Deserialize(fileStream);
                 trainerEncounter.MonstersParty.AddMonsterToParty(count, monsterInfo);
             }
+            trainerEncounter.UpdateMonsterInfoInspector();
         }
         PostLoadComplete();
     }
