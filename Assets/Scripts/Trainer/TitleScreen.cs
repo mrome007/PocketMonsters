@@ -24,14 +24,11 @@ public class TitleScreen : MonoBehaviour
         StartCoroutine(LoadYourAsyncScene());
     }
 
-    private void LoadButtons()
+    private void ShowButtons()
     {
         var saveDataPath = Path.Combine(Application.persistentDataPath, "SaveData");
-        if(!Directory.Exists(saveDataPath))
-        {
-            loadGameButton.gameObject.SetActive(false);
-        }
 
+        loadGameButton.gameObject.SetActive(Directory.Exists(saveDataPath));
         newGameButton.gameObject.SetActive(true);
         optionsButton.gameObject.SetActive(true);
         mysteryGiftButton.gameObject.SetActive(false);
@@ -46,6 +43,6 @@ public class TitleScreen : MonoBehaviour
             yield return null;
         }
 
-        LoadButtons();
+        ShowButtons();
     }
 }

@@ -116,12 +116,16 @@
      <Compile Include="Assets\Scripts\MonsterMoves\PerformMoveArgs.cs" />
      <Compile Include="Assets\Scripts\MonsterMoves\SequenceMonsterMoveAction.cs" />
      <Compile Include="Assets\Scripts\Trainer\Gap.cs" />
+     <Compile Include="Assets\Scripts\Trainer\LoadButton.cs" />
      <Compile Include="Assets\Scripts\Trainer\MonsterEncounter.cs" />
      <Compile Include="Assets\Scripts\Trainer\MonsterParty.cs" />
+     <Compile Include="Assets\Scripts\Trainer\NewGameButton.cs" />
      <Compile Include="Assets\Scripts\Trainer\PersistentData.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerEncounterCollision.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerMonstersPersistentData.cs" />
      <Compile Include="Assets\Scripts\Trainer\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Trainer\PocketMonsterElement.cs" />
+     <Compile Include="Assets\Scripts\Trainer\PocketMonsterElementController.cs" />
      <Compile Include="Assets\Scripts\Trainer\SaveButton.cs" />
      <Compile Include="Assets\Scripts\Trainer\SaveGameSystem.cs" />
      <Compile Include="Assets\Scripts\Trainer\TitleScreen.cs" />
